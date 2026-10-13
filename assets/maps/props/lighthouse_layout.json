@@ -1,0 +1,24 @@
+{
+  "size": [
+    3.5,
+    3.5,
+    7.2
+  ],
+  "range": 7.0,
+  "note": "꼭대기 빛이 등대 자기 거리 원의 중심.",
+  "map": "props",
+  "file": "lighthouse",
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/props/lighthouse_purified.glb",
+    "polluted": "/assets/maps/props/lighthouse_polluted.glb"
+  },
+  "previews": [
+    "lighthouse_preview_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 36
+}

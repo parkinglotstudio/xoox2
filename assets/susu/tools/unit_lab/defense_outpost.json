@@ -1,0 +1,20 @@
+{
+  "revision": "DEF15-03",
+  "facilities": [
+    { "id": "front-gun", "kind": "tower_gun", "name": "좌측 연사 포탑", "x": 59, "y": 230, "width": 3.2, "depth": 3.2 },
+    { "id": "rear-bomb", "kind": "tower_throw", "name": "후방 폭탄 투척", "x": 75, "y": 217, "width": 3.2, "depth": 3.2 },
+    { "id": "rear-cannon", "kind": "tower_cannon", "name": "후방 범위 대포", "x": 88, "y": 203, "width": 3.2, "depth": 3.2 },
+    { "id": "rear-catapult", "kind": "tower_catapult", "name": "후방 곡사 투석기", "x": 66, "y": 207, "width": 3.2, "depth": 3.2 },
+    { "id": "front-ballista", "kind": "tower_ballista", "name": "우측 관통 포탑", "x": 90, "y": 230, "width": 3.2, "depth": 3.2 },
+    { "id": "wall-left", "kind": "k_fence_fortified", "name": "좌측 방책", "x": 66, "y": 242, "width": 12, "depth": 1.8 },
+    { "id": "wall-right", "kind": "k_fence_fortified", "name": "우측 방책", "x": 94, "y": 242, "width": 14, "depth": 1.8 },
+    { "id": "supply-tent", "kind": "k_tent", "name": "보급 천막", "x": 57, "y": 194, "width": 5.5, "depth": 5.5 },
+    { "id": "ammo-depot", "kind": "k_structure", "name": "탄약 창고", "x": 89, "y": 181, "width": 5.5, "depth": 5.5 }
+  ],
+  "traps": [
+    { "id": "slow-left", "kind": "slow", "x": 58, "y": 270 },
+    { "id": "bind-center", "kind": "bind", "x": 75, "y": 269 },
+    { "id": "spikes-right", "kind": "spikes", "x": 94, "y": 270 },
+    { "id": "mine-right", "kind": "mine", "x": 92, "y": 263 }
+  ]
+}

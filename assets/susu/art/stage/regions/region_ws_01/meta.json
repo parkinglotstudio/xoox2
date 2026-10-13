@@ -1,0 +1,15 @@
+{
+  "region_id": "region_ws_01",
+  "note": "플레이스홀더 샘플 — 진짜 아트 아님. 루프/속도 검수용.",
+  "placeholder": true,
+  "speed_far": 0.3,
+  "speed_near": 1.0,
+  "speed_obj": 1.0,
+  "loop_far": true,
+  "loop_near": true,
+  "sizes": {
+    "far": [2048, 512],
+    "near": [2048, 512],
+    "obj": [1024, 512]
+  }
+}

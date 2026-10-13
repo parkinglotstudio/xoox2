@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 2,
+  "capturedAt": "2026-10-11T10:10:50+09:00",
+  "purpose": "read-only-implementation-review-after-user-handoff",
+  "files": [
+    {
+      "path": "src/maps/blockMap/BlockMap.ts",
+      "sha256": "0150b4950f38a5466315a4faa4b3a9a69e612f99f18aa26dcdcdcea8c3b49058",
+      "bytes": 4399,
+      "mtimeNs": 1790462390056389500
+    },
+    {
+      "path": "src/maps/blockMap/BlockMapView.ts",
+      "sha256": "ece19b76a833e201ff93d5bdee27749b19406a54262c378244a0c0ce1eead088",
+      "bytes": 16552,
+      "mtimeNs": 1790471035579466100
+    },
+    {
+      "path": "src/maps/forest150/ForestDefense.ts",
+      "sha256": "da1c1d1c82a4aa2fc09ddffc6660a10db617ccb62fd3d20090b23ef6bd144bfc",
+      "bytes": 6503,
+      "mtimeNs": 1790467301051522200
+    },
+    {
+      "path": "src/maps/forest150/ForestNavigation.ts",
+      "sha256": "0283f26816b620ab4c1998828931b24e02c5140a5fa8df57f8dcd709fb3db405",
+      "bytes": 5714,
+      "mtimeNs": 1790463885457421700
+    },
+    {
+      "path": "src/stage/monsters/voxelMonster.ts",
+      "sha256": "3aab1eda5c4a68b691c1997dcd5e39f1e4c6db21f19cd20eb5725200b7f7bc54",
+      "bytes": 2594,
+      "mtimeNs": 1791412940173185900
+    },
+    {
+      "path": "src/stage/world3d/journey3dConfig.ts",
+      "sha256": "5611b3f5cafa872b280f6418d4f5b63f7048eb61302a881ab0c57385e220f14a",
+      "bytes": 7864,
+      "mtimeNs": 1788183010311245600
+    },
+    {
+      "path": "src/tools/combatSkill/main.ts",
+      "sha256": "76c2beadf920ca8fe5e27e64ed1b57a54ce4b43ae18af2221357172fa44e6445",
+      "bytes": 33153,
+      "mtimeNs": 1791541323998599200
+    },
+    {
+      "path": "src/tools/forestMap/ForestSky.ts",
+      "sha256": "16607bcdb44b5064f2244562b6a7f9043eae5b64d7c27b713f9503ed9ade19f6",
+      "bytes": 3605,
+      "mtimeNs": 1790500090487282900
+    },
+    {
+      "path": "src/tools/forestMap/GamePreview.ts",
+      "sha256": "661379d7323f220280686e4484f8c7219f85f40ad835a75da357c8905e131f9f",
+      "bytes": 4267,
+      "mtimeNs": 1790469579039740900
+    },
+    {
+      "path": "src/tools/forestMap/main.ts",
+      "sha256": "b78bc480cc425e376d4337a0197b499769ec5c4392ce8dc43912a50d3f0aab4e",
+      "bytes": 23867,
+      "mtimeNs": 1791555151003137300
+    },
+    {
+      "path": "src/tools/forestMap/propCatalog.ts",
+      "sha256": "263123fa8f4d1058ea3bfcb2d094370f9cf9bd6bf622ab0c093a9b6847917cee",
+      "bytes": 5006,
+      "mtimeNs": 1790474270756960600
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseBalance.ts",
+      "sha256": "8e62fa2bade764cc22dbd2cb0460d2d640f9f81114102bcf870388f0daf3122a",
+      "bytes": 1659,
+      "mtimeNs": 1791633271294335500
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseBalancePanel.ts",
+      "sha256": "a1710103fd9b5a6879a704809048dfd65a054256ac91f45b38b6716e539a54d3",
+      "bytes": 6262,
+      "mtimeNs": 1791114241081278600
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseFacilityRig.ts",
+      "sha256": "dc521cf8025bb36781348725ca2dd73be28cbe0a79c7dc539cfea9ca4588f90d",
+      "bytes": 8844,
+      "mtimeNs": 1791113802570951900
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseMonsterLibrary.ts",
+      "sha256": "83b85147087bc9a8ce845b20516b9f49fcf283be6aa0682309240cf3d5d1d54e",
+      "bytes": 3633,
+      "mtimeNs": 1791109714427004400
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseOutpost.ts",
+      "sha256": "968e1b3e9d691e0db88e96f04f8ef2aa54cc0783fbcf8c7b8f0965d315256d1e",
+      "bytes": 2443,
+      "mtimeNs": 1791633271357277400
+    },
+    {
+      "path": "src/tools/forestPlay/DefensePreview.ts",
+      "sha256": "95cfc83392e10452515e4f5928b65051e733bfe8db3e6c57936bbf8f61e125c8",
+      "bytes": 26910,
+      "mtimeNs": 1791114786746386600
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseRoutes.ts",
+      "sha256": "401facf308550bb74a02bdd1a3362b3b6c75d2b3c8af50f9fc01c93f7fbe0c58",
+      "bytes": 2950,
+      "mtimeNs": 1791110456534942100
+    },
+    {
+      "path": "src/tools/forestPlay/DefenseSession.ts",
+      "sha256": "865858730ff2ece2076e4f2e2a7806bbbc9aade0f667c1c3b8a83269528a5130",
+      "bytes": 22747,
+      "mtimeNs": 1791114423859854700
+    },
+    {
+      "path": "src/tools/forestPlay/main.ts",
+      "sha256": "7d372820e656c11dc98fad2d515a2a9c8ca21039b87694a374a2886c3f49684b",
+      "bytes": 78913,
+      "mtimeNs": 1791413470688743600
+    },
+    {
+      "path": "src/tools/forestPlay/PlayBuild.ts",
+      "sha256": "61db0f3e3b96276b79672425126a861628aa371c3bdc7fb3f8151e9f1b96ff86",
+      "bytes": 32337,
+      "mtimeNs": 1790512796975767400
+    },
+    {
+      "path": "src/tools/forestPlay/PlayCamera.ts",
+      "sha256": "8c8aadcc148879b0cb39a8a51d4a236fe0ad8e085a34dcec5acd33545a6dd609",
+      "bytes": 7601,
+      "mtimeNs": 1791068767318984900
+    },
+    {
+      "path": "src/tools/forestPlay/PlayCharacter.ts",
+      "sha256": "01c211a6a6f470e11ad7c997c7c1a80c1e3085f30a07a35de75fb2e5196b6f26",
+      "bytes": 6774,
+      "mtimeNs": 1791069412686859500
+    },
+    {
+      "path": "src/tools/forestPlay/PlayCombat.ts",
+      "sha256": "66ea76c8dcd6a58858873220336f48f8271936ecd6ab7dc03ea7b25ed4054db6",
+      "bytes": 43025,
+      "mtimeNs": 1791412977901416400
+    },
+    {
+      "path": "src/tools/forestPlay/PlayNavOverlay.ts",
+      "sha256": "dff52949c5dfea228b1cc9fbfc0549e2c1c01bb3f5f6a14a85754178a786d3d0",
+      "bytes": 4667,
+      "mtimeNs": 1790512764456962500
+    },
+    {
+      "path": "src/tools/forestPlay/PlayPet.ts",
+      "sha256": "69090b9e4fbdabcd8eeaed85e6e620b29ab2e4a8f469753b0464f592b5080070",
+      "bytes": 5087,
+      "mtimeNs": 1790504220491481900
+    },
+    {
+      "path": "src/tools/forestPlay/PlayPreview.ts",
+      "sha256": "76e8982d9db629c6dc302399ffd4e134e43bde1812230f13c1266a4d86d4a06b",
+      "bytes": 6260,
+      "mtimeNs": 1790502867286959900
+    },
+    {
+      "path": "src/tools/forestPlay/PlaySpawnFx.ts",
+      "sha256": "81a0b7de6fc1400a57a71d9def2007c88fb4e291f2de886460f67783b9046f2f",
+      "bytes": 6802,
+      "mtimeNs": 1790509360848468800
+    },
+    {
+      "path": "src/tools/forestPlay/PlayUnitCatalog.ts",
+      "sha256": "9c77cf6209aa209d171c62d930ad6397b983aff38772b790284392c6a02b951a",
+      "bytes": 11693,
+      "mtimeNs": 1791413451204589400
+    },
+    {
+      "path": "src/tools/islandCoast/main.ts",
+      "sha256": "46844d6d9be43da86500aeeffe3f50af4c04bcbd0ac1871ff8c2d9eb17265a88",
+      "bytes": 1374,
+      "mtimeNs": 1791552202313112800
+    },
+    {
+      "path": "src/tools/unitLabA/FaceShadows.ts",
+      "sha256": "1d04749ba94742f7d96a18eda827d97f24297808c87604c9da7bf402261ccb0f",
+      "bytes": 1735,
+      "mtimeNs": 1790388370297051700
+    },
+    {
+      "path": "src/tools/unitLabD/FaceAppearance.ts",
+      "sha256": "3a24fa05256a3a4c576d5554de8c41e04f0e67a58261fda24cfab47399ecea69",
+      "bytes": 2752,
+      "mtimeNs": 1790392702548684700
+    },
+    {
+      "path": "src/tools/unitLabD/NativeBlockEffects.ts",
+      "sha256": "54723c9ec10f9647252d449161b9b2a03efe2e2849c13b849523f6622670218a",
+      "bytes": 3556,
+      "mtimeNs": 1790380474301258800
+    },
+    {
+      "path": "src/tools/unitLabD/ReferenceLighting.ts",
+      "sha256": "01ada864caa0f8eb9961c3a45645396fbf0c33d4aebce125ef0936066a50ef98",
+      "bytes": 974,
+      "mtimeNs": 1790381820651530000
+    },
+    {
+      "path": "src/tools/unitLabTool/CharacterCatalog.ts",
+      "sha256": "a0a30dc9fa0e1125826fba3a07071b3dbba3eb2abe147b184c17df15cc46a2c9",
+      "bytes": 926,
+      "mtimeNs": 1790481766211057700
+    },
+    {
+      "path": "src/tools/unitLabTool/CharacterLab.ts",
+      "sha256": "4aeb923a7eaa5405dce62f74b03059cfdb2b2d96423ae9d31a4bcdc9a9b2c862",
+      "bytes": 24496,
+      "mtimeNs": 1790392471638151200
+    },
+    {
+      "path": "src/tools/unitLabTool/CombatLab.ts",
+      "sha256": "bf7ed5d3e4eed27029e633e4cad2a96a9d1abe87561854b8562370540c8be0f0",
+      "bytes": 29388,
+      "mtimeNs": 1791413512908987900
+    },
+    {
+      "path": "src/tools/unitLabTool/main.ts",
+      "sha256": "d1bb6072f3c228995ac9556285304cca5209698748e192c6e0ef22ed53a65c57",
+      "bytes": 42392,
+      "mtimeNs": 1791413468250398200
+    },
+    {
+      "path": "src/tools/unitLabTool/VoxelCloud.ts",
+      "sha256": "a1fec18882cbbedbe12735f5e1eeccab6a8a5760b71313367fefe0e5ad13b989",
+      "bytes": 8906,
+      "mtimeNs": 1790211693586666000
+    },
+    {
+      "path": "src/tools/unitLabTool/VoxelMesh.ts",
+      "sha256": "1784647134af006935374a1a190a0fca38edb11145bb2941b0a1d7561cff05bb",
+      "bytes": 19451,
+      "mtimeNs": 1790242702075161500
+    },
+    {
+      "path": "src/tools/unitLabTool/WeaponMuzzleFx.ts",
+      "sha256": "333a6b09cab7fa638d09a2c3b48a0a59292aa55e5d4664e39b585dc86675362f",
+      "bytes": 7622,
+      "mtimeNs": 1790389640652619900
+    },
+    {
+      "path": "src/tools/viewer/main.ts",
+      "sha256": "18919f09194fa9b9a1a1c2683014e97e850faf83dbf663b41f5565dc1c2a0706",
+      "bytes": 5866,
+      "mtimeNs": 1791633359819880400
+    },
+    {
+      "path": "planner/data.json",
+      "sha256": "527ec42d01e157dd1b835bc5db77693cd881552c40a94d5567397c336e46a31e",
+      "bytes": 121538,
+      "mtimeNs": 1791635730852306700
+    },
+    {
+      "path": "package.json",
+      "sha256": "564e18efcfe1d74486e2de194f53f1968bb9b85d997e93be10376fb2336b1d9f",
+      "bytes": 420,
+      "mtimeNs": 1791633135910068600
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "898a299e2d6fc769a22e469a10c8fab8d8105e1741f5cfe2ce0d2f7c683a4313",
+      "bytes": 1054,
+      "mtimeNs": 1791633686097380300
+    },
+    {
+      "path": "docs/plans/20261011_PRISM구조분석_Claude.md",
+      "sha256": "b8b754c26436344746f836835ab0e98f7c564eeda77278357f7cf05fff68f21c",
+      "bytes": 11708,
+      "mtimeNs": 1791677641915246900
+    }
+  ],
+  "resourceInventory": "resource-manifest.v2.json",
+  "notAClaimOfClaudeImplementation": true
+}

@@ -1,0 +1,52 @@
+{
+  "source": "C:\\xoox\\docs\\directives\\assets\\20260926_wanderer_A\\wanderer_A_male_no_hat.png",
+  "image_size": [
+    1280,
+    720
+  ],
+  "front_center_x": 240,
+  "crown_y": 113,
+  "sprout_y": 49,
+  "chin_y": 365,
+  "feet_y": 651,
+  "main_head_width": 274,
+  "hair_with_side_tips": [
+    75,
+    404
+  ],
+  "visible_face_x": [
+    148,
+    332
+  ],
+  "eyes_y": [
+    277,
+    328
+  ],
+  "cape_x": [
+    133,
+    355
+  ],
+  "cape_y": [
+    374,
+    449
+  ],
+  "belt_y": [
+    459,
+    475
+  ],
+  "shorts_y": [
+    478,
+    555
+  ],
+  "boot_y": [
+    578,
+    651
+  ],
+  "side_reference": "not supplied; inferred from front, threequarter and back",
+  "ratios": {
+    "main_head_width_over_crown_to_chin": 1.0873015873015872,
+    "face_over_main_head": 0.6715328467153284,
+    "cape_over_main_head": 0.8102189781021898,
+    "head_height_over_body": 0.4684014869888476
+  }
+}

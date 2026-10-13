@@ -1,0 +1,178 @@
+[
+  {
+    "source": "assets\\maps\\forest_rooms\\room_empty_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_empty_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2344168
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_empty_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_empty_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 24,
+    "bytes": 2336716
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_rock_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_rock_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2358972
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_rock_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_rock_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2350704
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_pillars_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pillars_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2354892
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_pillars_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pillars_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2346624
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_pools_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pools_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2393784
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_pools_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pools_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2385512
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_spikes_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_spikes_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2398520
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_spikes_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_spikes_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2390252
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_boss_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_boss_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2416212
+  },
+  {
+    "source": "assets\\maps\\forest_rooms\\room_boss_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_boss_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -8
+    ],
+    "removedGateFaces": 23,
+    "bytes": 2407944
+  },
+  {
+    "source": "assets\\maps\\sky_route\\sky_route_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\sky_route_polluted.glb",
+    "offsetBlender": [
+      0,
+      -61,
+      -7
+    ],
+    "removedGateFaces": 0,
+    "bytes": 7504316
+  },
+  {
+    "source": "assets\\maps\\sky_route\\sky_route_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\sky_route_purified.glb",
+    "offsetBlender": [
+      0,
+      -61,
+      -7
+    ],
+    "removedGateFaces": 0,
+    "bytes": 7495684
+  },
+  {
+    "source": "assets\\maps\\landing\\landing_polluted.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\landing_polluted.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -6
+    ],
+    "removedGateFaces": 0,
+    "bytes": 15999612
+  },
+  {
+    "source": "assets\\maps\\landing\\landing_purified.glb",
+    "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\landing_purified.glb",
+    "offsetBlender": [
+      0,
+      0,
+      -6
+    ],
+    "removedGateFaces": 0,
+    "bytes": 15991268
+  }
+]

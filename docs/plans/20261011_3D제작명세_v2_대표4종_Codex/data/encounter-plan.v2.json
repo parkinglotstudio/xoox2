@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 2,
+  "status": "required-future-authoring-not-current-runtime-coverage",
+  "count": 49,
+  "entries": [
+    {
+      "enemyId": "q_mushnub",
+      "region": 1,
+      "profileId": "p03",
+      "role": "burrow",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_pink_slime",
+      "region": 1,
+      "profileId": "p03",
+      "role": "swarm",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_green_blob",
+      "region": 1,
+      "profileId": "p03",
+      "role": "swarm",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_orc_enemy",
+      "region": 1,
+      "profileId": "p01",
+      "role": "bruiser",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ninja",
+      "region": 1,
+      "profileId": "p03",
+      "role": "flanker",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cat",
+      "region": 2,
+      "profileId": "p03",
+      "role": "pouncer",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_pigeon",
+      "region": 2,
+      "profileId": "p01",
+      "role": "air",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_chicken",
+      "region": 2,
+      "profileId": "p01",
+      "role": "runner",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cactoro",
+      "region": 1,
+      "profileId": "p03",
+      "role": "charger",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alien",
+      "region": 2,
+      "profileId": "p03",
+      "role": "ranged",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_mushnub_evolved",
+      "region": 1,
+      "profileId": "p03",
+      "role": "elite",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_yeti",
+      "region": 1,
+      "profileId": "p01",
+      "role": "tank",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_wizard",
+      "region": 1,
+      "profileId": "p03",
+      "role": "ranged",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_fish",
+      "region": 2,
+      "profileId": "p03",
+      "role": "water",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_birb",
+      "region": 1,
+      "profileId": "p01",
+      "role": "air",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_green_spiky_blob",
+      "region": 1,
+      "profileId": "p03",
+      "role": "tank",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_glub",
+      "region": 1,
+      "profileId": "p03",
+      "role": "crawler",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_armabee",
+      "region": 1,
+      "profileId": "p03",
+      "role": "air-charge",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alpaking",
+      "region": 3,
+      "profileId": "p01",
+      "role": "elite",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_armabee_evolved",
+      "region": 3,
+      "profileId": "p01",
+      "role": "air-charge",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_goleling_evolved",
+      "region": 1,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dragon",
+      "region": 3,
+      "profileId": "p03",
+      "role": "air-elite",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_goleling",
+      "region": 1,
+      "profileId": "p03",
+      "role": "shield",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_glub_evolved",
+      "region": 4,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alpaking_evolved",
+      "region": 5,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ghost",
+      "region": 2,
+      "profileId": "p03",
+      "role": "phaser",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ghost_skull",
+      "region": 1,
+      "profileId": "p03",
+      "role": "ranged",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_hywirl",
+      "region": 3,
+      "profileId": "p03",
+      "role": "orbit",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_tribal",
+      "region": 2,
+      "profileId": "p01",
+      "role": "support",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_demon",
+      "region": 1,
+      "profileId": "p01",
+      "role": "charger",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_squidle",
+      "region": 3,
+      "profileId": "p01",
+      "role": "lobber",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dragon_evolved",
+      "region": 2,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_frog",
+      "region": 1,
+      "profileId": "p03",
+      "role": "eater",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cactoro_2",
+      "region": 3,
+      "profileId": "p01",
+      "role": "charger",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ninja_2",
+      "region": 4,
+      "profileId": "p03",
+      "role": "flanker",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_monkroose",
+      "region": 3,
+      "profileId": "p01",
+      "role": "healer",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dino",
+      "region": 4,
+      "profileId": "p01",
+      "role": "tank",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_mushroom_king",
+      "region": 1,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alien_2",
+      "region": 4,
+      "profileId": "p01",
+      "role": "sniper",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_blue_demon",
+      "region": 4,
+      "profileId": "p03",
+      "role": "ranged",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_fish_2",
+      "region": 4,
+      "profileId": "p03",
+      "role": "water",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_yeti_2",
+      "region": 3,
+      "profileId": "p03",
+      "role": "boss",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_demon_2",
+      "region": 5,
+      "profileId": "p01",
+      "role": "elite",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_orc",
+      "region": 1,
+      "profileId": "p01",
+      "role": "bruiser",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_bunny",
+      "region": 1,
+      "profileId": "p01",
+      "role": "runner",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_a",
+      "region": 2,
+      "profileId": "p01",
+      "role": "air",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_b",
+      "region": 3,
+      "profileId": "p01",
+      "role": "air",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_c",
+      "region": 4,
+      "profileId": "p01",
+      "role": "air-charge",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_d",
+      "region": 5,
+      "profileId": "p01",
+      "role": "air-support",
+      "requiredMapTag": "ground-or-supported-air",
+      "budgetPolicy": "replace-compatible-existing-quota",
+      "completionEvidence": "runlog.encounterIds"
+    }
+  ]
+}

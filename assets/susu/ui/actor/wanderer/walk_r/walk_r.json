@@ -1,0 +1,61 @@
+{
+  "id": "walk_r",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 5,
+  "rows": 1,
+  "frame_count": 5,
+  "sheet": "walk_r_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "walk_r_00.png",
+      "src": "00.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_r\\gif_clean\\00.png",
+      "duration_ms": 60,
+      "file": "frames/walk_r_00.png"
+    },
+    {
+      "index": 1,
+      "name": "walk_r_01.png",
+      "src": "01.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_r\\gif_clean\\01.png",
+      "duration_ms": 60,
+      "file": "frames/walk_r_01.png"
+    },
+    {
+      "index": 2,
+      "name": "walk_r_02.png",
+      "src": "02.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_r\\gif_clean\\02.png",
+      "duration_ms": 140,
+      "file": "frames/walk_r_02.png"
+    },
+    {
+      "index": 3,
+      "name": "walk_r_03.png",
+      "src": "03.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_r\\gif_clean\\03.png",
+      "duration_ms": 90,
+      "file": "frames/walk_r_03.png"
+    },
+    {
+      "index": 4,
+      "name": "walk_r_04.png",
+      "src": "04.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_r\\gif_clean\\04.png",
+      "duration_ms": 90,
+      "file": "frames/walk_r_04.png"
+    }
+  ],
+  "loop": true,
+  "source_gif": "0824 우측 이동.gif",
+  "source_frame_count": 5
+}

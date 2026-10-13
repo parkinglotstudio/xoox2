@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "keyboard": {
+    "held": false,
+    "frames": [
+      {
+        "tick": 69,
+        "moveX": 0,
+        "moveZ": 0,
+        "fire": true,
+        "autoFire": false,
+        "yaw": 2.461592653589793
+      },
+      {
+        "tick": 70,
+        "moveX": 0,
+        "moveZ": 0,
+        "fire": true,
+        "autoFire": false,
+        "yaw": 2.461592653589793
+      },
+      {
+        "tick": 71,
+        "moveX": 0,
+        "moveZ": 0,
+        "fire": true,
+        "autoFire": false,
+        "yaw": 2.461592653589793
+      },
+      {
+        "tick": 72,
+        "moveX": 0,
+        "moveZ": 0,
+        "fire": true,
+        "autoFire": false,
+        "yaw": 2.461592653589793
+      },
+      {
+        "tick": 73,
+        "moveX": 0,
+        "moveZ": 0,
+        "fire": true,
+        "autoFire": false,
+        "yaw": 2.461592653589793
+      }
+    ]
+  },
+  "tickContract": {
+    "idle": 0,
+    "held": 8,
+    "yaw": 0,
+    "auto": false
+  },
+  "finished": "2026-10-13T13:58:14.723Z"
+}

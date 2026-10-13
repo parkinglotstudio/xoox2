@@ -1,0 +1,21 @@
+{
+  "max": 3,
+  "active": "Tobby",
+  "pets": [
+    {
+      "id": "Tobby",
+      "name": "Tobby",
+      "image": "/art/culprit/Tobby_keyvisual_v1.png"
+    },
+    {
+      "id": "Bolinha",
+      "name": "Bolinha",
+      "image": "/art/culprit/Bolinha_keyvisual_v1.png"
+    },
+    {
+      "id": "Vrum",
+      "name": "Vrum",
+      "image": "/art/culprit/Vrum_keyvisual_v1.png"
+    }
+  ]
+}

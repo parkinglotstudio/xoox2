@@ -1,0 +1,367 @@
+{
+  "author": "Codex",
+  "generator": "Blender 5.2 / original dense voxel resources",
+  "icons": [
+    {
+      "id": "fireSeat",
+      "sourceModel": "tower_catapult",
+      "file": "icons/fireSeat.png"
+    },
+    {
+      "id": "iceTower",
+      "sourceModel": "tower_crystal",
+      "file": "icons/iceTower.png"
+    },
+    {
+      "id": "boltTower",
+      "sourceModel": "tower_gun",
+      "file": "icons/boltTower.png"
+    },
+    {
+      "id": "wall",
+      "sourceModel": "k_fence_fortified",
+      "file": "icons/wall.png"
+    },
+    {
+      "id": "hp",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/hp.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "speed",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/speed.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "cooldown",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/cooldown.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "reload",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/reload.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "area",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/area.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "duration",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/duration.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "xp",
+      "sourceModel": "k_detail_crystal",
+      "file": "icons/xp.png"
+    },
+    {
+      "id": "repair",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/repair.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "points",
+      "sourceModel": "k_detail_crystal",
+      "file": "icons/points.png"
+    },
+    {
+      "id": "discount",
+      "sourceModel": "k_chest",
+      "file": "icons/discount.png"
+    },
+    {
+      "id": "upgrade",
+      "sourceModel": "tower_gun",
+      "file": "icons/upgrade.png"
+    },
+    {
+      "id": "pellets",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/pellets.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "burst",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/burst.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "rate",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/rate.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "damage",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/damage.png",
+      "meaning": "passive or projectile modifier"
+    },
+    {
+      "id": "chain-bomb",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/chain-bomb.png",
+      "meaning": "parabola"
+    },
+    {
+      "id": "dual-stream",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/dual-stream.png",
+      "meaning": "direct"
+    },
+    {
+      "id": "fire-rocket",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/fire-rocket.png",
+      "meaning": "direct"
+    },
+    {
+      "id": "ice-rocket",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/ice-rocket.png",
+      "meaning": "direct"
+    },
+    {
+      "id": "bolt-rocket",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/bolt-rocket.png",
+      "meaning": "direct"
+    },
+    {
+      "id": "fire-home",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/fire-home.png",
+      "meaning": "homing"
+    },
+    {
+      "id": "ice-home",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/ice-home.png",
+      "meaning": "homing"
+    },
+    {
+      "id": "bolt-home",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/bolt-home.png",
+      "meaning": "homing"
+    },
+    {
+      "id": "bomb",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/bomb.png",
+      "meaning": "parabola"
+    },
+    {
+      "id": "chain-primary",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/chain-primary.png",
+      "meaning": "spread"
+    },
+    {
+      "id": "return-crystal",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/return-crystal.png",
+      "meaning": "boomerang"
+    },
+    {
+      "id": "orbit-shards",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/orbit-shards.png",
+      "meaning": "orbit"
+    },
+    {
+      "id": "bounce-block",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/bounce-block.png",
+      "meaning": "bounce"
+    },
+    {
+      "id": "pierce-drill",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/pierce-drill.png",
+      "meaning": "directional"
+    },
+    {
+      "id": "fan-slash",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/fan-slash.png",
+      "meaning": "blade"
+    },
+    {
+      "id": "slow-aura",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/slow-aura.png",
+      "meaning": "aura"
+    },
+    {
+      "id": "lightning-chain",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/lightning-chain.png",
+      "meaning": "chain"
+    },
+    {
+      "id": "ground-mine",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/ground-mine.png",
+      "meaning": "ground_self"
+    },
+    {
+      "id": "spread-stream",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/spread-stream.png",
+      "meaning": "spread"
+    },
+    {
+      "id": "pet-drone-a",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/pet-drone-a.png",
+      "meaning": "drone"
+    },
+    {
+      "id": "pet-drone-b",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/pet-drone-b.png",
+      "meaning": "drone"
+    },
+    {
+      "id": "flame-field",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/flame-field.png",
+      "meaning": "parabola"
+    },
+    {
+      "id": "fire-pillar",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/fire-pillar.png",
+      "meaning": "direct-plus-field"
+    },
+    {
+      "id": "chain-three",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/chain-three.png",
+      "meaning": "homing-chain"
+    },
+    {
+      "id": "orbit-four",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/orbit-four.png",
+      "meaning": "orbit"
+    },
+    {
+      "id": "carpet-three",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "file": "icons/carpet-three.png",
+      "meaning": "parabola"
+    },
+    {
+      "id": "q_goleling_evolved",
+      "sourceModel": "q_goleling_evolved",
+      "file": "icons/q_goleling_evolved.png"
+    },
+    {
+      "id": "q_green_blob",
+      "sourceModel": "q_green_blob",
+      "file": "icons/q_green_blob.png"
+    },
+    {
+      "id": "q_glub_evolved",
+      "sourceModel": "q_glub_evolved",
+      "file": "icons/q_glub_evolved.png"
+    },
+    {
+      "id": "q_mushnub_evolved",
+      "sourceModel": "q_mushnub_evolved",
+      "file": "icons/q_mushnub_evolved.png"
+    },
+    {
+      "id": "core",
+      "sourceModel": "tower_crystal",
+      "file": "icons/core.png"
+    },
+    {
+      "id": "chain-needle",
+      "file": "icons/chain-needle.png",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "meaning": "direct"
+    },
+    {
+      "id": "pierce",
+      "file": "icons/pierce.png",
+      "sourceModel": "D_35 authored props / skill block effect",
+      "meaning": "passive or projectile modifier"
+    }
+  ],
+  "missionArt": {
+    "count": 20,
+    "method": "Blender map previews + existing voxel asset renders, composed with region palette",
+    "files": [
+      "r01-p03.png",
+      "r01-p01.png",
+      "r01-p02.png",
+      "r01-p04.png",
+      "r02-p03.png",
+      "r02-p01.png",
+      "r02-p02.png",
+      "r02-p04.png",
+      "r03-p03.png",
+      "r03-p01.png",
+      "r03-p02.png",
+      "r03-p04.png",
+      "r04-p03.png",
+      "r04-p01.png",
+      "r04-p02.png",
+      "r04-p04.png",
+      "r05-p03.png",
+      "r05-p01.png",
+      "r05-p02.png",
+      "r05-p04.png"
+    ]
+  },
+  "characterPetPortraits": [
+    {
+      "id": "ruon",
+      "source": "character/Ruon_35/ruon_35.glb"
+    },
+    {
+      "id": "ria",
+      "source": "character/D_35/wanderer_D_35.glb"
+    },
+    {
+      "id": "nofilter",
+      "source": "pets/nofilter/nofilter.glb"
+    },
+    {
+      "id": "block_cat",
+      "source": "pets/block_cat/block_cat.glb"
+    },
+    {
+      "id": "flux",
+      "source": "pets/flux/flux.glb"
+    },
+    {
+      "id": "lumos",
+      "source": "pets/lumos/lumos.glb"
+    },
+    {
+      "id": "gizmo",
+      "source": "pets/gizmo/gizmo.glb"
+    }
+  ],
+  "semanticIcons": {
+    "generator": "render_skill_art.py / Blender 5.2",
+    "count": 39,
+    "sourceWeapon": "assets/susu/tools/unit_lab/character/D_35/wanderer_D_35.glb",
+    "note": "Existing gun/bomb palette preserved; block effects show real runtime skill patterns."
+  }
+}

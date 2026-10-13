@@ -1,0 +1,42 @@
+{
+  "lobby": {
+    "residents": 2,
+    "pets": 0,
+    "rescued": []
+  },
+  "cardsUrl": "http://127.0.0.1:5190/arcade-cards.html",
+  "game": {
+    "url": "http://127.0.0.1:5190/arcade-game1.html?mission=r01-p01&return=arcade-cards.html%3Fregion%3D1",
+    "mode": "campaign",
+    "profile": "p01",
+    "mission": "r01-p01",
+    "hash": "dd4b3823edec8d0a"
+  },
+  "pauseAfterClick": [
+    14,
+    14
+  ],
+  "returnUrl": "http://127.0.0.1:5190/arcade-cards.html?region=1",
+  "fixture": {
+    "firstEvolutionOwned": [
+      "fire-pillar"
+    ],
+    "eligibleSecond": "chain-three (bolt-home Lv5 + cooldown Lv1)",
+    "offered": [
+      {
+        "kind": "passive",
+        "id": "p:cooldown:2"
+      },
+      {
+        "kind": "passive",
+        "id": "p:xp:1"
+      },
+      {
+        "kind": "weapon",
+        "id": "w:bomb:1"
+      }
+    ]
+  },
+  "errors": [],
+  "failed": []
+}

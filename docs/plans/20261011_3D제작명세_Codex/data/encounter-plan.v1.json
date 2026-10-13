@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "status": "required-campaign-authoring-tasks-not-current-runtime-coverage",
+  "mustInclude49UniqueSpecies": true,
+  "entries": [
+    {
+      "enemyId": "q_mushnub",
+      "round": 1,
+      "gameId": "g06",
+      "role": "burrow",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_pink_slime",
+      "round": 1,
+      "gameId": "g01",
+      "role": "swarm",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_green_blob",
+      "round": 1,
+      "gameId": "g01",
+      "role": "swarm",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_orc_enemy",
+      "round": 1,
+      "gameId": "g05",
+      "role": "bruiser",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ninja",
+      "round": 1,
+      "gameId": "g02",
+      "role": "flanker",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cat",
+      "round": 2,
+      "gameId": "g01",
+      "role": "pouncer",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_pigeon",
+      "round": 2,
+      "gameId": "g07",
+      "role": "air",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_chicken",
+      "round": 2,
+      "gameId": "g07",
+      "role": "runner",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cactoro",
+      "round": 1,
+      "gameId": "g01",
+      "role": "charger",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alien",
+      "round": 2,
+      "gameId": "g02",
+      "role": "ranged",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_mushnub_evolved",
+      "round": 1,
+      "gameId": "g01",
+      "role": "elite",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_yeti",
+      "round": 1,
+      "gameId": "g04",
+      "role": "tank",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_wizard",
+      "round": 1,
+      "gameId": "g02",
+      "role": "ranged",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_fish",
+      "round": 2,
+      "gameId": "g02",
+      "role": "water",
+      "requiresWaterRoute": true,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_birb",
+      "round": 1,
+      "gameId": "g07",
+      "role": "air",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_green_spiky_blob",
+      "round": 1,
+      "gameId": "g01",
+      "role": "tank",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_glub",
+      "round": 1,
+      "gameId": "g06",
+      "role": "crawler",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_armabee",
+      "round": 1,
+      "gameId": "g02",
+      "role": "air-charge",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alpaking",
+      "round": 3,
+      "gameId": "g07",
+      "role": "elite",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_armabee_evolved",
+      "round": 3,
+      "gameId": "g07",
+      "role": "air-charge",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_goleling_evolved",
+      "round": 1,
+      "gameId": "g01",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dragon",
+      "round": 3,
+      "gameId": "g01",
+      "role": "air-elite",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_goleling",
+      "round": 1,
+      "gameId": "g02",
+      "role": "shield",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_glub_evolved",
+      "round": 4,
+      "gameId": "g08",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alpaking_evolved",
+      "round": 5,
+      "gameId": "g08",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ghost",
+      "round": 2,
+      "gameId": "g01",
+      "role": "phaser",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ghost_skull",
+      "round": 1,
+      "gameId": "g02",
+      "role": "ranged",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_hywirl",
+      "round": 3,
+      "gameId": "g01",
+      "role": "orbit",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_tribal",
+      "round": 2,
+      "gameId": "g05",
+      "role": "support",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_demon",
+      "round": 1,
+      "gameId": "g05",
+      "role": "charger",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_squidle",
+      "round": 3,
+      "gameId": "g04",
+      "role": "lobber",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dragon_evolved",
+      "round": 2,
+      "gameId": "g08",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_frog",
+      "round": 1,
+      "gameId": "g03",
+      "role": "eater",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_cactoro_2",
+      "round": 3,
+      "gameId": "g05",
+      "role": "charger",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_ninja_2",
+      "round": 4,
+      "gameId": "g02",
+      "role": "flanker",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_monkroose",
+      "round": 3,
+      "gameId": "g07",
+      "role": "healer",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_dino",
+      "round": 4,
+      "gameId": "g07",
+      "role": "tank",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_mushroom_king",
+      "round": 1,
+      "gameId": "g08",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_alien_2",
+      "round": 4,
+      "gameId": "g04",
+      "role": "sniper",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_blue_demon",
+      "round": 4,
+      "gameId": "g01",
+      "role": "ranged",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_fish_2",
+      "round": 4,
+      "gameId": "g02",
+      "role": "water",
+      "requiresWaterRoute": true,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_yeti_2",
+      "round": 3,
+      "gameId": "g08",
+      "role": "boss",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_demon_2",
+      "round": 5,
+      "gameId": "g05",
+      "role": "elite",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_orc",
+      "round": 1,
+      "gameId": "g07",
+      "role": "bruiser",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "q_bunny",
+      "round": 1,
+      "gameId": "g07",
+      "role": "runner",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_a",
+      "round": 2,
+      "gameId": "g07",
+      "role": "air",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_b",
+      "round": 3,
+      "gameId": "g07",
+      "role": "air",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_c",
+      "round": 4,
+      "gameId": "g07",
+      "role": "air-charge",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    },
+    {
+      "enemyId": "k_enemy_ufo_d",
+      "round": 5,
+      "gameId": "g07",
+      "role": "air-support",
+      "requiresWaterRoute": false,
+      "budgetPolicy": "replace-compatible-existing-quota-not-unbounded-add",
+      "completionEvidence": "runlog.encounterIds"
+    }
+  ]
+}

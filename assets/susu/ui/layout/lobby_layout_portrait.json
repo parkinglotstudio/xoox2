@@ -1,0 +1,92 @@
+{
+  "id": "lobby",
+  "label": "무지개섬 로비",
+  "aspect": "9:16",
+  "anchor": "bottom-left",
+  "world_w_pct": 155,
+  "note": "세로 셸 · 팬 월드(world_w_pct). 지면·캐릭·배는 하단 기준. 에디터: /layout-editor.html 보드=세로",
+  "bg": "/ui/lobby/lobby_hub_before.png",
+  "items": [
+    {
+      "id": "title",
+      "kind": "decor",
+      "label": "무지개섬",
+      "art": "/ui/lobby/lobby_title_sign.png",
+      "x_pct": 11.8,
+      "y_bottom_pct": 0,
+      "w_pct": 22,
+      "action": "NONE",
+      "v_anchor": "top"
+    },
+    {
+      "id": "boat",
+      "kind": "prop",
+      "label": "배",
+      "art": "/ui/lobby/lobby_boat_sian1.png",
+      "x_pct": 3.8,
+      "y_bottom_pct": 19.8,
+      "w_pct": 52.9,
+      "action": "DEPART"
+    },
+    {
+      "id": "actor",
+      "kind": "actor",
+      "label": "방랑자",
+      "art": "/ui/lobby/lobby_actor_front_mongchi.png",
+      "x_pct": 32.4,
+      "y_bottom_pct": 7.4,
+      "w_pct": 26,
+      "action": "NONE"
+    },
+    {
+      "id": "sign_depart",
+      "kind": "sign",
+      "label": "외출",
+      "art": "/ui/lobby/lobby_sign_depart.png",
+      "x_pct": 48.6,
+      "y_bottom_pct": 59.3,
+      "w_pct": 28.6,
+      "action": "DEPART"
+    },
+    {
+      "id": "sign_dispatch",
+      "kind": "sign",
+      "label": "파견",
+      "art": "/ui/lobby/lobby_sign_dispatch.png",
+      "x_pct": 76.6,
+      "y_bottom_pct": 37.4,
+      "w_pct": 14,
+      "action": "DISPATCH"
+    },
+    {
+      "id": "sign_record",
+      "kind": "sign",
+      "label": "기록",
+      "art": "/ui/lobby/lobby_sign_record.png",
+      "x_pct": 64.5,
+      "y_bottom_pct": 38.1,
+      "w_pct": 14,
+      "action": "TERMINAL"
+    },
+    {
+      "id": "sign_coop",
+      "kind": "sign",
+      "label": "협동",
+      "art": "/ui/lobby/lobby_sign_coop.png",
+      "x_pct": 89.3,
+      "y_bottom_pct": 27.6,
+      "w_pct": 14,
+      "action": "PARTY"
+    },
+    {
+      "id": "sign_adventure",
+      "kind": "sign",
+      "label": "모험",
+      "art": "/ui/lobby/lobby_sign_adventure.png",
+      "x_pct": 89.7,
+      "y_bottom_pct": 36.1,
+      "w_pct": 16,
+      "action": "ADVENTURE"
+    }
+  ]
+}

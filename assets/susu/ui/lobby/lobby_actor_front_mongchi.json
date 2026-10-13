@@ -1,0 +1,45 @@
+{
+  "id": "lobby_actor_idle",
+  "sheet": "lobby_actor_front_mongchi_sheet.png",
+  "cell_w": 482,
+  "cell_h": 1020,
+  "cols": 8,
+  "rows": 1,
+  "frame_count": 8,
+  "loop": true,
+  "pivot": "bottom-center",
+  "frames": [
+    {
+      "index": 0,
+      "duration_ms": 480
+    },
+    {
+      "index": 1,
+      "duration_ms": 460
+    },
+    {
+      "index": 2,
+      "duration_ms": 500
+    },
+    {
+      "index": 3,
+      "duration_ms": 140
+    },
+    {
+      "index": 4,
+      "duration_ms": 280
+    },
+    {
+      "index": 5,
+      "duration_ms": 420
+    },
+    {
+      "index": 6,
+      "duration_ms": 480
+    },
+    {
+      "index": 7,
+      "duration_ms": 480
+    }
+  ]
+}

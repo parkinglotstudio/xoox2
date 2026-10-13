@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-11T07:03:17.654Z",
+  "art": {
+    "semantic": {
+      "generator": "render_skill_art.py / Blender 5.2",
+      "count": 39,
+      "sourceWeapon": "assets/susu/tools/unit_lab/character/D_35/wanderer_D_35.glb",
+      "note": "Existing gun/bomb palette preserved; block effects show real runtime skill patterns."
+    },
+    "dimensions": [
+      {
+        "file": "icons/fireSeat.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/iceTower.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/boltTower.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/wall.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/hp.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/speed.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/cooldown.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/reload.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/area.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/duration.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/xp.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/repair.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/points.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/discount.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/upgrade.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/pellets.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/burst.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/rate.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/damage.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/chain-bomb.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/dual-stream.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/fire-rocket.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/ice-rocket.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/bolt-rocket.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/fire-home.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/ice-home.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/bolt-home.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/bomb.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/chain-primary.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/return-crystal.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/orbit-shards.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/bounce-block.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/pierce-drill.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/fan-slash.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/slow-aura.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/lightning-chain.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/ground-mine.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/spread-stream.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/pet-drone-a.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/pet-drone-b.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/flame-field.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/fire-pillar.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/chain-three.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/orbit-four.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/carpet-three.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/q_goleling_evolved.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/q_green_blob.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/q_glub_evolved.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/q_mushnub_evolved.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/core.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/chain-needle.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/pierce.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/ruon.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/ria.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/nofilter.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/block_cat.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/flux.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/lumos.png",
+        "width": 384,
+        "height": 384
+      },
+      {
+        "file": "icons/gizmo.png",
+        "width": 384,
+        "height": 384
+      }
+    ]
+  },
+  "growth": {
+    "time": 42.5333333333322,
+    "cards": [
+      {
+        "title": "관통 드릴 획득",
+        "target": "pierce-drill"
+      },
+      {
+        "title": "넓은 폭발",
+        "target": "area"
+      },
+      {
+        "title": "튼튼한 몸",
+        "target": "hp"
+      }
+    ]
+  },
+  "errors": []
+}

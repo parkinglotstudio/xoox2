@@ -1,0 +1,94 @@
+{
+  "id": "draw_holster",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 3,
+  "rows": 1,
+  "frame_count": 3,
+  "sheet": "draw_holster_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "draw_holster_00.png",
+      "src": "00.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\draw_holster\\gif_clean\\00.png",
+      "duration_ms": 80,
+      "file": "frames/draw_holster_00.png",
+      "char_size": [
+        179,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 1,
+      "name": "draw_holster_01.png",
+      "src": "01.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\draw_holster\\gif_clean\\01.png",
+      "duration_ms": 90,
+      "file": "frames/draw_holster_01.png",
+      "char_size": [
+        152,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 2,
+      "name": "draw_holster_02.png",
+      "src": "02.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\draw_holster\\gif_clean\\02.png",
+      "duration_ms": 90,
+      "file": "frames/draw_holster_02.png",
+      "char_size": [
+        154,
+        445
+      ],
+      "applied_scale": 1.0
+    }
+  ],
+  "loop": false,
+  "pad_bottom": 12,
+  "applied_frame_scales": {
+    "anim_id": "draw_holster",
+    "cell": 512,
+    "pivot": "bottom-center",
+    "pad_bottom": 12,
+    "type": "frame_scales",
+    "baseline": "_pre_scale_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "scales": {}
+  },
+  "applied_body_offsets": {
+    "anim_id": "draw_holster",
+    "cell": 512,
+    "pivot": {
+      "x": 256,
+      "y": 500
+    },
+    "type": "body_offsets",
+    "baseline": "_pre_offset_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "offsets": {
+      "0": {
+        "dx": 0,
+        "dy": 0
+      },
+      "1": {
+        "dx": 0,
+        "dy": 0
+      },
+      "2": {
+        "dx": -5,
+        "dy": 0
+      }
+    }
+  }
+}

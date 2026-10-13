@@ -1,0 +1,37 @@
+# 수스 아케이드 대표 4종 제작 인계
+## 현재 실행본 · 2026-10-11 Codex
+
+대표4종 실제 플레이 구현은 `src/arcadeComplete/`와 `assets/arcade/config-codex/`입니다. 아래 문서는 초기 설계 기준이며, 변경된 구현/밸런스/맵/검수는 [구현 인수인계](../../implementation/20261011_대표4종_실제플레이_구현인수인계_Codex.md)와 [작업 보고서](../../reports/20261011_작업보고서_대표4종완성_맵개선_Codex.md)를 확인하세요. 실제 실행: http://localhost:4174/planner/#play
+
+
+작성: Codex · 2026-10-11
+
+## 시작 문서
+
+1. [00 제작기획서](00_제작기획서_Codex.md): 컨셉·대표4종·공통3규칙·기존10종 정리
+2. [02 게임 상세](02_대표4종_상세제작명세_Codex.md): 상태·조작·승패·시설·적·대열·초기 균형
+3. [04 모듈과 데이터](04_초기구조_데이터계약_Codex.md): 다른 AI가 구현할 서비스/API/초기 파일 구조
+4. [11 성장과 연출](11_스킬성장_전투연출_Codex.md): PRISM 대응·패턴·슬롯·진화·피해 원장·FX/오디오
+5. [05 제작·검수](05_제작순서_검수_벤치마크_Codex.md): M0~M6와 실제 완료 증거
+6. [06 전달 프롬프트](06_제작AI_인수인계프롬프트_Codex.md): 제작 AI에게 그대로 전달
+
+로비/UI UX는 [01](01_공통런타임_로비_기획툴_Codex.md), 실제 리소스 경로/보완은 [03](03_리소스활용_맵_아트_Codex.md)·[07](07_실제리소스_적설정목록_Codex.md), 종별 AI는 [08](08_역할AI_상태_서비스계약_Codex.md), 영상/변경 근거는 [09](09_CellSurvivor_영상분석_Codex.md)·[10](10_기존10종정리_PRISM반영_Codex.md)·[12](12_추가영상_분석_Codex.md)에 있다. [13](13_Blender준비자산_검수_Codex.md)은 새 Blender 사격 보드의 원본/GLB/배치/렌더다.
+
+## 데이터와 증거
+
+`data/`의 v2 JSON은 제작 초기값이다. `bundle.v2.json`은 프로필/규칙/캠페인 구조 검사용이고 각 표의 대체 정본이 아니다. 공통 combat 값·스킬·원소·스폰은 개별 표를 조합한다. source alias `source:combat_skill/skills.json#ID`는 `C:\soos-arcade\assets\susu\tools\combat_skill\skills.json`의 skills[].id를 가리킨다. `unit:ID`는 units_free.json의 실제 ID다.
+
+- [검증 결과](data/validation.json): 파일/참조/합성/스폰수/예산 등 사용자 정의 구조·의미 검사. 실행형 본 게임 검수와 완전한 JSON Schema 검증은 아직 하지 않았다.
+- [실제 자산 목록](data/resource-manifest.v2.json): 기존 조사 시각/해시와 새 준비 자산을 구분.
+- [PRISM 표 인덱스](data/prism-source-index.v2.json): 실제47CSV 해시·열·행 수.
+- `evidence/`: 첨부3영상의 시각별 캡처/추출 스크립트와 Blender 렌더.
+- `prepared/CHAIN01/`: 이번 보드 GLB·Blend·생성 스크립트·layout·통계 사본.
+- `authoring/`: 문서/데이터 생성 및 최종 검수 재현 스크립트. 별도 Python/Blender 환경과 원본 자산이 필요.
+
+## 완료와 다음 단계
+
+완료: 대표4종 컨셉/기본 구조·세부 계약·초기 표·자료 분석·필요한 환경 준비 자산·인수인계 문서.
+
+다음: 다른 AI가 M0→p01 실제 완주→로비 연결→p03/FPS/p04 순으로 구현하고 무적 없는 승리/실패/재도전·모바일 성능을 검수한다. 숫자는 초기 균형값이며 실제 플레이 검증 후 조정한다.
+
+기존 planner 메뉴/게임 코드는 이번 문서 작업에서 바꾸지 않았다. v1 10게임 설계는 보관 자료다. 최신 범위는 **대표4프로필/3규칙**, 새 캠페인은 **5지역×4카드=20미션 제안**이다. 같은 엔진을 기획툴과 최종 게임 셸에서 사용한다.

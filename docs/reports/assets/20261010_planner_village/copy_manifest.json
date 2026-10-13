@@ -1,0 +1,269 @@
+{
+  "copiedAt": "2026-10-10T21:00:37.153060+09:00",
+  "files": [
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\layout.json",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\layout.json",
+      "bytes": 54736,
+      "sha256": "bdfae3bca6bd5109cc47d5599a810b54d703a6cc2b0647e58688ee3730509cbf"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\navigation.json",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\navigation.json",
+      "bytes": 651762,
+      "sha256": "b318b21bde9e75e738d194e240782629eeede07835e3e42211cb2040e8c9b52b"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\village_bird.glb",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\village_bird.glb",
+      "bytes": 18348,
+      "sha256": "0ab4dbd29754da618b6d3b35a125d1f41181c1961866acd96539f05237436dff"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\village_environment.glb",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\village_environment.glb",
+      "bytes": 7493284,
+      "sha256": "61aa14a8b1f2345a658d82c53d77badd23011905911e62fe3d19287aa5208b4a"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\village_navmesh.glb",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\village_navmesh.glb",
+      "bytes": 435188,
+      "sha256": "c8158304638a246fc7db6a5bf5458666045a6947385744b7090cb10532da914c"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\data\\village\\releases\\VILLAGE03\\village_settings.json",
+      "destination": "C:\\soos-arcade\\assets\\village\\releases\\VILLAGE03\\village_settings.json",
+      "bytes": 4647,
+      "sha256": "41007c5bd58291490461a53d4a0e751f553d96cc4ba62e6c36292903ef40ac75"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\bake_navigation02.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\bake_navigation02.py",
+      "bytes": 11441,
+      "sha256": "36dbe910bc73f61221cd3d37242c7cf7c730cf399197d488437cd8aaa0484d24"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\build_bird03.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\build_bird03.py",
+      "bytes": 1761,
+      "sha256": "5fffe7621bfc768bfe4837e766f709fc8334db4f9bba1cf42da5c09a5b93ba97"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\build_living03.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\build_living03.py",
+      "bytes": 15290,
+      "sha256": "89e19c6b3a0f815914521e437c87c36e16d8046d2787e1ee052a435933dab422"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\build_village01.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\build_village01.py",
+      "bytes": 29541,
+      "sha256": "4edd5ceaf0c0e46da5cf540ae0a2a6b1467b69917f9532529c596e4603fc7ca7"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\debug_traffic03.cjs",
+      "destination": "C:\\soos-arcade\\art-source\\village\\debug_traffic03.cjs",
+      "bytes": 3669,
+      "sha256": "cbc58a09d68850588d3705026e8b6b84ffedc367cb14a74fe7810f64957c8f98"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\finalize_camera01.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\finalize_camera01.py",
+      "bytes": 3350,
+      "sha256": "d4511c3b0f4f5b55bdef7a43c16b1c1e4b27d49124dcc0f8da6b51fa8b3fcf0f"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\README.md",
+      "destination": "C:\\soos-arcade\\art-source\\village\\README.md",
+      "bytes": 12926,
+      "sha256": "a9eb62b87850f26f0ffbd13eb2c81c2c9efd42c12faa4c834476ba76c2f20df6"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\review_living03.cjs",
+      "destination": "C:\\soos-arcade\\art-source\\village\\review_living03.cjs",
+      "bytes": 2427,
+      "sha256": "37c204bdd4dba159ec6cbcd360809c1734b5f5779379e31aaeb77369f9d89fcb"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\review_village01.py",
+      "destination": "C:\\soos-arcade\\art-source\\village\\review_village01.py",
+      "bytes": 3327,
+      "sha256": "95d50594c09e3297fc025ea73f62a0aa21b22f0fd5c2f824b8301d16c2e00078"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\verify_runtime02.cjs",
+      "destination": "C:\\soos-arcade\\art-source\\village\\verify_runtime02.cjs",
+      "bytes": 7380,
+      "sha256": "8a5c4975757fb7b27ebc6b7f948826ec5f8a6e6ed236d08cfe3ed8b8464531e3"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\verify_runtime03.cjs",
+      "destination": "C:\\soos-arcade\\art-source\\village\\verify_runtime03.cjs",
+      "bytes": 11097,
+      "sha256": "8bfc4875a7061cd7f0f01d2cc1a3e2d6d4a3129d267847a8c6a4dbf68f92fa27"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\VILLAGE01\\village01_layout.blend",
+      "destination": "C:\\soos-arcade\\art-source\\village\\VILLAGE01\\village01_layout.blend",
+      "bytes": 16489105,
+      "sha256": "138269a957c106960d9eb3d22720ed96527902149fe9dcf11f5860df213b7d30"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\VILLAGE02\\village02_navigation.blend",
+      "destination": "C:\\soos-arcade\\art-source\\village\\VILLAGE02\\village02_navigation.blend",
+      "bytes": 16740670,
+      "sha256": "a5c139ec9400f2bdc7191d3849000de3b10ac0442494fffb40f75bbdbc4bad66"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\VILLAGE03\\village03_living_airship.blend",
+      "destination": "C:\\soos-arcade\\art-source\\village\\VILLAGE03\\village03_living_airship.blend",
+      "bytes": 16822495,
+      "sha256": "84ef2a3122d286f56ae7857ebd72aa6f019020b186fd52dcc2db14e8721494df"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\art-source\\village\\VILLAGE03\\village03_sea_bird.blend",
+      "destination": "C:\\soos-arcade\\art-source\\village\\VILLAGE03\\village03_sea_bird.blend",
+      "bytes": 101148,
+      "sha256": "1ada1cae6e033792447a5fada51b0ab67f0b5c75a54a82d822f12a3ea6206cd1"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\Airship.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\Airship.ts",
+      "bytes": 3880,
+      "sha256": "4a4303bbfc85aefbdb9157a6dc0aac8a5a93db0d55a11cce7bddc13dd48f2179"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\BirdFlock.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\BirdFlock.ts",
+      "bytes": 2622,
+      "sha256": "1cfb279fd667fed7ea93a24695da41f107c9c6025e3e278ae2b1f4b8cea6750b"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\DayNight.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\DayNight.ts",
+      "bytes": 6243,
+      "sha256": "d6f6725a00ff98af496de404519d48a5c902f78a9bddf4862dd5b9127c20e297"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\IslandEffects.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\IslandEffects.ts",
+      "bytes": 6752,
+      "sha256": "4960b50aaea3c7619c0b0505f411c425db8fef6727a5efcce1fcedc83206d458"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\main.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\main.ts",
+      "bytes": 16642,
+      "sha256": "29b5facc1ad0edcc1f8750208b908fc2d2fb37e9c84c30f2a466a484267c8d7d"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\Navigation.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\Navigation.ts",
+      "bytes": 2539,
+      "sha256": "beef4c8015bbe0839b317e0cd8ea98399303ae95bd3f9067cac596e876726163"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\PetLife.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\PetLife.ts",
+      "bytes": 7982,
+      "sha256": "1bcf852a3f0e3a08e5132de6531eb4321981f7c0e2ad5b2d86343f1065d6c34a"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\VillageResidents.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\VillageResidents.ts",
+      "bytes": 4089,
+      "sha256": "97e33c59efd453260a7a07273793f31e0c147fa9d302fdbc2e3d3b15b4325abe"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\src\\tools\\villageLobby\\VoxelOcean.ts",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\src\\tools\\villageLobby\\VoxelOcean.ts",
+      "bytes": 4179,
+      "sha256": "c312802a1a23ba7564d373d3e34134d3b3ac8221f3d9103fccf518f38e705c71"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\village-lobby-tool.html",
+      "destination": "C:\\soos-arcade\\art-source\\village\\runtime-snapshot\\village-lobby-tool.html",
+      "bytes": 5653,
+      "sha256": "79c3b6351b81713def6f234707927347d8a2aae902b4cbe655cb7c8bffd1aa1f"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\browser_validation.json",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\browser_validation.json",
+      "bytes": 8050,
+      "sha256": "8924822bde3acc7794aa500576549c9ef82fddf53164bfc9f2b12340daab799c"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\simulation.json",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\simulation.json",
+      "bytes": 3768,
+      "sha256": "51af8e31f95bfca79ea1e0a713d377a95122bc9c160862f07835131d40706961"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_airship_dock.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_airship_dock.png",
+      "bytes": 373720,
+      "sha256": "3adebe7780e905cb8df657242e6940f0371351016a6c5edf18843876f3f60ae9"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_airship_flight.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_airship_flight.png",
+      "bytes": 620431,
+      "sha256": "4f2bd9bf32924049902b107e3e8170a04079b9614784187afa5d18e39d3b716f"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_day.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_day.png",
+      "bytes": 574870,
+      "sha256": "bb1ee6648e40220b6cf08bb2a0f187df0d258ff60d51b823c2292daa2e08c702"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_garden.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_garden.png",
+      "bytes": 454733,
+      "sha256": "ddedee773905a8e66688b9463e9dbdfba6c3cfc87c6c2716b26668bf48cb36a6"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_main_details.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_main_details.png",
+      "bytes": 421026,
+      "sha256": "93bf1569ee1541b2a0c01570c6053fe89b1e601eef50efffc773406de25b1349"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_navigation.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_navigation.png",
+      "bytes": 592641,
+      "sha256": "5e40cf845f573672959e46f81f4a0b3da856c590fc3133e7d3b61e20a07bd2ce"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_night.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_night.png",
+      "bytes": 276068,
+      "sha256": "cae99e092d652eca3f68f7b802d4916546e18a05e0093888b8e3b219c765d93d"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_sunset.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_sunset.png",
+      "bytes": 489333,
+      "sha256": "2f7f012ce1e5aee9cc97f55c4ab328037f716d60232ffe1d07c51e4f23ff4547"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\assets\\20261010_village03\\village03_workshop.png",
+      "destination": "C:\\soos-arcade\\docs\\reports\\assets\\20261010_village03\\village03_workshop.png",
+      "bytes": 463468,
+      "sha256": "322af557bf4ff273c6af6fdededafa99afcef6f9ce4952be1f050121e6cdc8be"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\reports\\20261010_작업보고서_마을생활_부유폭포_비행선_Codex.md",
+      "destination": "C:\\soos-arcade\\docs\\reports\\20261010_작업보고서_마을생활_부유폭포_비행선_Codex.md",
+      "bytes": 9342,
+      "sha256": "e4639bbe9031473d540ed6e55fcfa66f049a063bb551011f6bf824b3dd6fd94b"
+    },
+    {
+      "source": "C:\\Users\\dmaxd\\Downloads\\xoox-master\\xoox-master\\docs\\plans\\20261010_공중섬마을_제작계획_Codex.md",
+      "destination": "C:\\soos-arcade\\docs\\plans\\20261010_공중섬마을_제작계획_Codex.md",
+      "bytes": 11110,
+      "sha256": "ee06a3fa662c205c06fc6f9c52c0cb46626ae0430f0147f9f26df1d3d78c8bd5"
+    }
+  ]
+}

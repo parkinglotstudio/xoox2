@@ -1,0 +1,356 @@
+{
+  "at": "2026-10-13T13:38:17.043Z",
+  "errors": [],
+  "http": [],
+  "games": [
+    {
+      "n": 2,
+      "start": {
+        "equipment": [
+          [
+            "bolt-rocket",
+            2
+          ],
+          [
+            "bomb",
+            1
+          ]
+        ],
+        "color": {
+          "x": 14.4375,
+          "y": 105,
+          "width": 401.109375,
+          "height": 71.6875,
+          "top": 105,
+          "right": 415.546875,
+          "bottom": 176.6875,
+          "left": 14.4375
+        },
+        "purified": 6,
+        "pos": {
+          "x": 0,
+          "z": 3.2
+        },
+        "styles": {
+          "stick": "block",
+          "goal": "105px"
+        }
+      },
+      "move": {
+        "pos": {
+          "x": 2.79475874997679,
+          "z": 3.814267057320694
+        },
+        "purified": 30,
+        "tiles": [
+          {
+            "count": 500,
+            "type": "Mesh"
+          },
+          {
+            "count": 8,
+            "type": "Mesh"
+          }
+        ],
+        "analog": [
+          {
+            "tick": 307,
+            "moveX": 0.9554730769151418,
+            "moveZ": 0.2100058315626292,
+            "yaw": 2.461592653589793
+          },
+          {
+            "tick": 308,
+            "moveX": 0.9554730769151418,
+            "moveZ": 0.2100058315626292,
+            "yaw": 2.461592653589793
+          },
+          {
+            "tick": 309,
+            "moveX": 0.9554730769151418,
+            "moveZ": 0.2100058315626292,
+            "yaw": 2.461592653589793
+          },
+          {
+            "tick": 310,
+            "moveX": 0.9554730769151418,
+            "moveZ": 0.2100058315626292,
+            "yaw": 2.461592653589793
+          }
+        ]
+      },
+      "manual": {
+        "auto": false,
+        "held": false,
+        "shots": 10,
+        "yaw": 2.320220984178252
+      },
+      "equipmentOpen": true
+    },
+    {
+      "n": 3,
+      "start": {
+        "equipment": [
+          [
+            "orbit-shards",
+            2
+          ],
+          [
+            "bolt-home",
+            1
+          ]
+        ],
+        "color": {
+          "x": 14.4375,
+          "y": 105,
+          "width": 401.109375,
+          "height": 71.6875,
+          "top": 105,
+          "right": 415.546875,
+          "bottom": 176.6875,
+          "left": 14.4375
+        },
+        "purified": 9,
+        "pos": {
+          "x": 0,
+          "z": 3.2
+        },
+        "styles": {
+          "stick": "block",
+          "goal": "105px"
+        }
+      },
+      "move": {
+        "pos": {
+          "x": 2.624999999999999,
+          "z": 1.8875000000000037
+        },
+        "purified": 43,
+        "tiles": [
+          {
+            "count": 547,
+            "type": "Mesh"
+          },
+          {
+            "count": 9,
+            "type": "Mesh"
+          }
+        ],
+        "analog": [
+          {
+            "tick": 284,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 285,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 286,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 287,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          }
+        ]
+      },
+      "equipmentOpen": true
+    },
+    {
+      "n": 5,
+      "start": {
+        "equipment": [
+          [
+            "lightning-chain",
+            2
+          ],
+          [
+            "bolt-home",
+            1
+          ]
+        ],
+        "color": {
+          "x": 14.4375,
+          "y": 105,
+          "width": 401.109375,
+          "height": 71.6875,
+          "top": 105,
+          "right": 415.546875,
+          "bottom": 176.6875,
+          "left": 14.4375
+        },
+        "purified": 6,
+        "pos": {
+          "x": 0,
+          "z": 7
+        },
+        "styles": {
+          "stick": "block",
+          "goal": "105px"
+        }
+      },
+      "move": {
+        "pos": {
+          "x": 3.412499999999998,
+          "z": 5.293749999999993
+        },
+        "purified": 43,
+        "tiles": [
+          {
+            "count": 77,
+            "type": "Mesh"
+          },
+          {
+            "count": 7,
+            "type": "Mesh"
+          }
+        ],
+        "analog": [
+          {
+            "tick": 291,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 292,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 293,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 294,
+            "moveX": 0,
+            "moveZ": 0
+          }
+        ]
+      },
+      "equipmentOpen": true
+    },
+    {
+      "n": 7,
+      "start": {
+        "equipment": [
+          [
+            "slow-aura",
+            2
+          ],
+          [
+            "bolt-home",
+            1
+          ]
+        ],
+        "color": {
+          "x": 14.4375,
+          "y": 105,
+          "width": 401.109375,
+          "height": 71.6875,
+          "top": 105,
+          "right": 415.546875,
+          "bottom": 176.6875,
+          "left": 14.4375
+        },
+        "purified": 0,
+        "pos": {
+          "x": 0,
+          "z": 20
+        },
+        "styles": {
+          "stick": "block",
+          "goal": "105px"
+        }
+      },
+      "move": {
+        "pos": {
+          "x": 3.5874999999999977,
+          "z": 18.20625000000003
+        },
+        "purified": 0,
+        "tiles": [],
+        "analog": [
+          {
+            "tick": 283,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 284,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 285,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          },
+          {
+            "tick": 286,
+            "moveX": 0.875,
+            "moveZ": -0.4375
+          }
+        ]
+      },
+      "equipmentOpen": true
+    }
+  ],
+  "small": {
+    ".exp-objective": {
+      "x": 44.125,
+      "y": 105,
+      "width": 271.734375,
+      "height": 71.6875,
+      "top": 105,
+      "right": 315.859375,
+      "bottom": 176.6875,
+      "left": 44.125
+    },
+    ".combat-stick": {
+      "x": 46.125,
+      "y": 538,
+      "width": 82,
+      "height": 82,
+      "top": 538,
+      "right": 128.125,
+      "bottom": 620,
+      "left": 46.125
+    },
+    ".combat-look": {
+      "x": 219.859375,
+      "y": 376,
+      "width": 94,
+      "height": 52,
+      "top": 376,
+      "right": 313.859375,
+      "bottom": 428,
+      "left": 219.859375
+    },
+    ".combat-fire": {
+      "x": 237.859375,
+      "y": 544,
+      "width": 76,
+      "height": 76,
+      "top": 544,
+      "right": 313.859375,
+      "bottom": 620,
+      "left": 237.859375
+    },
+    ".arc-ult": {
+      "x": 207.5,
+      "y": 475,
+      "width": 104.359375,
+      "height": 40,
+      "top": 475,
+      "right": 311.859375,
+      "bottom": 515,
+      "left": 207.5
+    }
+  }
+}

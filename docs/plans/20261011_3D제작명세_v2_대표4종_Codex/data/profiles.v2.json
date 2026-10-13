@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "profiles": [
+    {
+      "id": "p01",
+      "title": "정화 코어 방어",
+      "reference": "Duck Survival",
+      "rulesetId": "base-defense",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p02",
+      "title": "정화 코어 방어 · FPS",
+      "reference": "user-requested-FPS-mode-no-specific-game-supplied",
+      "inheritsProfileId": "p01",
+      "rulesetId": "base-defense",
+      "viewPolicy": "firstPerson",
+      "controlPolicy": "joystick-look-auto",
+      "targetingPolicy": "view-cone-los",
+      "enabled": true,
+      "overrides": {
+        "view": {
+          "verticalFovDeg": 60,
+          "eyeHeightM": 1.2,
+          "nearM": 0.05,
+          "headBobEnabled": false,
+          "visualRecoilDegMax": 1
+        },
+        "input": {
+          "lookDegreesPerCssPx": 0.18,
+          "pitchLimitDeg": [
+            -35,
+            45
+          ],
+          "deadzonePx": 2
+        },
+        "targeting": {
+          "coneHalfAngleDeg": 18,
+          "assistMaxDegPerSec": 90
+        }
+      }
+    },
+    {
+      "id": "p03",
+      "title": "정화숲 떼 생존",
+      "reference": "Survivor.io / Vampire Survivors",
+      "rulesetId": "horde-survival",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p04",
+      "title": "오염 대열 차단",
+      "reference": "Cell Survivor supplied video",
+      "rulesetId": "chain-defense",
+      "viewPolicy": "chainBoard",
+      "controlPolicy": "horizontal-target",
+      "targetingPolicy": "fixed-forward",
+      "enabled": true,
+      "overrides": {}
+    }
+  ]
+}

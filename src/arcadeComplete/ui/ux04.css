@@ -1,0 +1,71 @@
+/* UX04: one objective at the top, two thumbs at the bottom, equipment on demand. */
+[data-experience="UX04"] .arc-top{left:12px;right:12px;top:12px;min-height:42px;padding:0;background:none;border:0;align-items:flex-start}
+[data-experience="UX04"] .arc-wave{max-width:calc(100% - 120px);padding:0;text-shadow:0 1px 4px #001019}
+[data-experience="UX04"] .arc-wave b{font-size:16px;line-height:1.25}
+[data-experience="UX04"] .arc-wave span{font-size:11px;color:#e4f4f1;margin-top:5px}
+[data-experience="UX04"] .arc-pause{position:absolute;right:0;top:0;width:38px;height:38px;border-radius:12px;background:#102a3de8;font-size:19px}
+[data-experience="UX04"] .exp-help{position:absolute;right:58px;top:12px;width:38px;height:38px;border-radius:12px;z-index:12}
+[data-experience="UX04"] .arc-points{position:absolute;right:0;top:91px;max-width:105px;font-size:11px;border:none;background:none;color:#ffe0a7;padding:0}
+[data-experience="UX04"] .arc-bars{left:12px;right:12px;top:65px;display:flex;flex-wrap:wrap;gap:6px;padding:0;background:none}
+[data-experience="UX04"] .arc-bar{height:15px;border:1px solid #abc8d34d;background:#102537dd;border-radius:5px;flex:1;min-width:90px;overflow:hidden}
+[data-experience="UX04"] .arc-bar-text{font-size:9px;line-height:13px;text-shadow:0 1px 2px #001b2b;color:#fff}
+[data-experience="UX04"] .arc-bar-xp{height:3px;min-width:100%;flex-basis:100%;border:0;margin-top:-3px}
+[data-experience="UX04"] .arc-bar-xp .arc-bar-text{display:none}
+[data-experience="UX04"] .arc-bar-boss{position:absolute;top:112px;left:12%;width:76%;height:14px;background:#2b1226d9}
+[data-experience="UX04"] .exp-objective{left:12px;right:12px;top:105px;bottom:auto;border-radius:12px;padding:10px 12px;background:#081e2be6;border-color:#78c1b54d;box-shadow:none;max-height:90px}
+[data-experience="UX04"] .exp-objective small{display:none}
+[data-experience="UX04"] .exp-objective b{font-size:13px;color:#fff0d2;line-height:1.4}
+[data-experience="UX04"] .exp-objective span{font-size:11px;line-height:1.5;margin-top:3px;color:#c7e0df}
+[data-experience="UX04"] .exp-progress{height:3px;margin-top:7px}
+[data-experience="UX04"] .exp-banner{top:225px;left:24px;right:24px;padding:13px 15px;border-radius:14px;background:#072330ed}
+[data-experience="UX04"] .exp-banner small{display:none}
+[data-experience="UX04"] .exp-banner b{font-size:17px}
+[data-experience="UX04"] .exp-banner span{font-size:12px;line-height:1.6}
+[data-experience="UX04"] .arc-forecast{display:none!important}
+[data-experience="UX04"] .arc-loadout{display:none;left:auto;right:12px;top:auto;bottom:180px;max-width:calc(100% - 24px);padding:10px;border:1px solid #65c5bc66;border-radius:12px;flex-wrap:wrap;background:#092334ed;pointer-events:auto;gap:6px;z-index:14}
+[data-experience="UX04"] .arc-loadout.open{display:flex}
+[data-experience="UX04"] .arc-loadout span{display:block;position:relative}
+[data-experience="UX04"] .arc-loadout img{width:34px;height:34px}
+[data-experience="UX04"] .arc-equipment{position:absolute;bottom:145px;right:12px;min-height:30px;padding:5px 11px;border-radius:10px;border:1px solid #93c5b64d;color:#d5e6df;background:#0a2434cb;font-size:11px;pointer-events:auto}
+[data-experience="UX04"] .arc-bottom{left:12px;right:12px;bottom:14px;min-height:54px;padding:0;background:none;border:0;align-items:center}
+[data-experience="UX04"][data-phase="battle"] .arc-bottom{left:auto;bottom:20px;right:16px}
+[data-experience="UX04"] .arc-ult{border-radius:18px;min-width:84px;font-size:12px;min-height:60px;padding:10px 13px;background:linear-gradient(145deg,#27c8be,#106b88);border:1px solid #97eee0;color:#fff}
+[data-experience="UX04"][data-profile="p02"] .arc-ult{min-height:40px;position:absolute;right:0;bottom:105px;font-size:11px;white-space:nowrap}
+[data-experience="UX04"] .arc-toast{top:auto;bottom:227px;max-width:calc(100% - 32px);font-size:12px;box-shadow:none}
+[data-experience="UX04"] .exp-brief{padding:18px;overflow:auto}
+[data-experience="UX04"] .exp-starter{display:flex;align-items:center;gap:10px;padding:11px;background:#27e0bd12;border:1px solid #47dcba42;border-radius:10px;margin:12px 0;color:#d1eadf;font-size:11px;line-height:1.6}
+.exp-starter img{width:38px;height:38px;object-fit:contain}.exp-starter b{display:block;color:#99f6d8;font-size:12px}
+.combat-controls{position:absolute;inset:0;pointer-events:none;z-index:13}
+.combat-controls button,.combat-look{pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none}
+.combat-stick{position:absolute;left:20px;bottom:26px;width:100px;height:100px;border:1px solid #bde3e666;border-radius:50%;background:radial-gradient(circle,#12354788,#0a263855);color:#d7eff3;padding:0;box-shadow:inset 0 0 0 12px #d0f6ed0a}
+.combat-stick>span{position:absolute;left:0;right:0;top:-23px;text-align:center;font-size:11px;color:#f1f4e7;text-shadow:0 1px 3px #002132}
+.combat-knob{position:absolute;left:33px;top:33px;width:32px;height:32px;border:1px solid #c4f4e688;border-radius:50%;background:#65d9ca88;pointer-events:none}
+.combat-look{position:absolute;right:20px;bottom:177px;border:1px dashed #e4f6ef88;border-radius:14px;width:94px;height:66px;font-size:11px;text-align:center;line-height:64px;color:#e3fff5;background:#122d3940}
+.combat-fire{position:absolute;right:20px;bottom:27px;width:88px;height:88px;border-radius:50%;background:radial-gradient(circle,#46d9bf,#147789);border:2px solid #c2fbedcc;box-shadow:0 4px 16px #00192566;color:#f2fff8;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px}
+.combat-fire b{font-size:29px;line-height:32px}.combat-fire span{font-size:12px}.combat-fire.held{background:#80f6c4;transform:scale(.96);color:#083d45}
+.combat-assist{position:absolute;bottom:23px;left:50%;transform:translateX(-50%);padding:7px 9px;min-height:36px;border:1px solid #8fc6bb66;border-radius:10px;background:#092739cf;color:#cce4de;font-size:10px}
+.combat-assist[aria-pressed="false"]{color:#ffdc96}
+.combat-compass{position:absolute;top:179px;left:12px;right:12px;font-size:10px;line-height:24px;text-align:center;color:#d3eeea;text-shadow:0 1px 3px #002833;pointer-events:none}
+[data-experience="UX04"] .arc-rear-warning{top:208px;bottom:auto;font-size:11px;z-index:12;background:#513047cc}
+[data-experience="UX04"] .arc-joy{display:none!important}
+[data-experience="UX04"] .arc-work{bottom:25px!important;left:auto!important;right:20px!important;min-width:90px;min-height:63px;font-size:12px;border-radius:18px;z-index:16}
+[data-experience="UX04"] .arc-route{bottom:100px!important;right:20px!important;font-size:11px;min-height:32px;z-index:16}
+[data-experience="UX04"][data-overlay="true"] .exp-objective,[data-experience="UX04"][data-overlay="true"] .arc-equipment{visibility:hidden}
+@media(max-height:680px){[data-experience="UX04"] .exp-banner{top:190px}.exp-starter{margin:7px 0;padding:7px}.exp-starter img{width:30px;height:30px}.combat-stick{width:82px;height:82px;left:14px;bottom:20px}.combat-knob{left:24px;top:24px}.combat-fire{width:76px;height:76px;right:14px;bottom:20px}.combat-look{bottom:155px;right:14px;height:52px;line-height:50px}[data-experience="UX04"] .arc-equipment{bottom:132px}[data-experience="UX04"] .arc-loadout{bottom:169px}}
+
+[data-experience="UX04"] .arc-equipment{left:12px;right:auto}[data-experience="UX04"] .arc-loadout{left:12px;right:auto}
+[data-experience="UX04"][data-phase="battle"] .arc-points{display:none}.combat-look{bottom:224px}@media(max-height:680px){.combat-look{bottom:212px}}
+
+[data-experience="UX04"] .arc-hud:before{content:'';position:absolute;left:0;right:0;top:0;height:101px;background:linear-gradient(#071c30c9,#0b243b88 65%,transparent);pointer-events:none}
+[data-experience="UX04"][data-boss="true"] .combat-compass{top:200px}
+[data-experience="UX04"][data-boss="true"] .arc-rear-warning{top:224px}
+
+/* Override the preceding legacy !important rules explicitly. */
+[data-experience="UX04"] .arc-bars{top:65px!important;left:12px!important;right:12px!important}
+[data-experience="UX04"] .arc-bar{height:15px!important}
+[data-experience="UX04"] .arc-bar-xp{height:3px!important}
+[data-experience="UX04"] .arc-bar-text{line-height:13px!important}
+[data-experience="UX04"] .arc-loadout{top:auto!important;bottom:180px!important;max-height:none;height:auto;left:12px!important;right:auto!important}
+[data-experience="UX04"][data-overlay="true"] .exp-banner,[data-experience="UX04"][data-overlay="true"] .exp-help,[data-experience="UX04"][data-overlay="true"] .combat-controls{display:none!important}
+
+[data-experience="UX04"] .exp-banner:not(.on){visibility:hidden}

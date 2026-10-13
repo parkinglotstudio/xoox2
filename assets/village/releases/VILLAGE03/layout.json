@@ -1,0 +1,2234 @@
+{
+  "schemaVersion": 1,
+  "revision": "VILLAGE03",
+  "stage": "composition study, not final detailed buildings",
+  "author": "Codex",
+  "houses": [
+    {
+      "id": "house_main",
+      "name": "메인 주거집",
+      "position": [
+        10,
+        6.65,
+        -4.7
+      ],
+      "islandId": "island_main",
+      "screenCenter": [
+        0.6208,
+        0.4633
+      ],
+      "framed": true
+    },
+    {
+      "id": "house_pet",
+      "name": "펫 주거집",
+      "position": [
+        -19,
+        8.5,
+        -9
+      ],
+      "islandId": "island_pet",
+      "screenCenter": [
+        0.3251,
+        0.4174
+      ],
+      "framed": true
+    },
+    {
+      "id": "house_garden",
+      "name": "정원 주거집",
+      "position": [
+        -19.0,
+        13.15,
+        -27
+      ],
+      "islandId": "island_garden",
+      "screenCenter": [
+        0.4003,
+        0.3049
+      ],
+      "framed": true
+    },
+    {
+      "id": "house_workshop",
+      "name": "공방 주거집",
+      "position": [
+        1.0,
+        13.75,
+        -30
+      ],
+      "islandId": "island_workshop",
+      "screenCenter": [
+        0.5688,
+        0.3014
+      ],
+      "framed": true
+    },
+    {
+      "id": "house_lookout",
+      "name": "전망 주거집",
+      "position": [
+        28.0,
+        17.1,
+        -24.0
+      ],
+      "islandId": "island_lookout",
+      "screenCenter": [
+        0.8303,
+        0.2196
+      ],
+      "framed": true
+    }
+  ],
+  "residentialIslands": 5,
+  "bridges": 5,
+  "importedAssets": 106,
+  "authoredBoxes": 7209,
+  "authoredTriangles": 86508,
+  "residentIds": [
+    "resident_ruon",
+    "resident_ria",
+    "pet_nofilter",
+    "pet_flux",
+    "pet_lumos",
+    "pet_gizmo"
+  ],
+  "camera": {
+    "positionBlender": [
+      19.56999969482422,
+      -57.44499969482422,
+      21.415000915527344
+    ],
+    "targetBlender": [
+      -1.0,
+      8.5,
+      7.5
+    ],
+    "position": [
+      19.56999969482422,
+      21.415000915527344,
+      57.44499969482422
+    ],
+    "target": [
+      -1.0,
+      7.5,
+      -8.5
+    ],
+    "type": "perspective",
+    "lensMillimeters": 27.0,
+    "sensorWidthMillimeters": 36.0,
+    "verticalFovRadians": 0.7175413405411444,
+    "aspect": 1.7777777777777777,
+    "fitDistanceMultiplier": 1.21
+  },
+  "sources": [
+    "copied forest v7",
+    "copied original residents and pets",
+    "new village architecture"
+  ],
+  "allHouseCentersFramed": true,
+  "assetPlacements": [
+    {
+      "id": "resident_ruon",
+      "url": "/tools/unit_lab/character/A/wanderer_A.glb",
+      "locationBlender": [
+        1.0,
+        -18.0,
+        1.8785454034805298
+      ],
+      "scale": 1.5668792727103769,
+      "rotationZDegrees": 22,
+      "clip": "idle",
+      "kind": "resident",
+      "position": [
+        1.0,
+        1.87855,
+        18.0
+      ],
+      "rotationYRadians": 0.383972
+    },
+    {
+      "id": "resident_ria",
+      "url": "/tools/unit_lab/character/D/wanderer_D.glb",
+      "locationBlender": [
+        10.800000190734863,
+        -1.7999999523162842,
+        6.618575572967529
+      ],
+      "scale": 1.42432911160229,
+      "rotationZDegrees": 16,
+      "clip": "idle",
+      "kind": "resident",
+      "position": [
+        10.8,
+        6.61858,
+        1.8
+      ],
+      "rotationYRadians": 0.279253
+    },
+    {
+      "id": "pet_nofilter",
+      "url": "/tools/unit_lab/pets/nofilter/nofilter.glb",
+      "locationBlender": [
+        2.0,
+        -5.599999904632568,
+        6.619999885559082
+      ],
+      "scale": 1.3473594682291388,
+      "rotationZDegrees": 25,
+      "clip": "idle_sit",
+      "kind": "resident",
+      "position": [
+        2.0,
+        6.62,
+        5.6
+      ],
+      "rotationYRadians": 0.436332
+    },
+    {
+      "id": "pet_flux",
+      "url": "/tools/unit_lab/pets/flux/flux.glb",
+      "locationBlender": [
+        7.0,
+        -5.5,
+        6.619999885559082
+      ],
+      "scale": 1.1616026754470734,
+      "rotationZDegrees": 20,
+      "clip": "idle_stand",
+      "kind": "resident",
+      "position": [
+        7.0,
+        6.62,
+        5.5
+      ],
+      "rotationYRadians": 0.349066
+    },
+    {
+      "id": "pet_lumos",
+      "url": "/tools/unit_lab/pets/lumos/lumos.glb",
+      "locationBlender": [
+        11.199999809265137,
+        -5.800000190734863,
+        6.619999885559082
+      ],
+      "scale": 1.2413873752223523,
+      "rotationZDegrees": 17,
+      "clip": "idle_stand",
+      "kind": "resident",
+      "position": [
+        11.2,
+        6.62,
+        5.8
+      ],
+      "rotationYRadians": 0.296706
+    },
+    {
+      "id": "pet_gizmo",
+      "url": "/tools/unit_lab/pets/gizmo/gizmo.glb",
+      "locationBlender": [
+        16.200000762939453,
+        -4.800000190734863,
+        6.619999885559082
+      ],
+      "scale": 1.245948708504685,
+      "rotationZDegrees": 10,
+      "clip": "idle_sit",
+      "kind": "resident",
+      "position": [
+        16.2,
+        6.62,
+        4.8
+      ],
+      "rotationYRadians": 0.174533
+    },
+    {
+      "id": "prop_tree0_6",
+      "url": "/maps/forest150/releases/v7/catalog/tree0_purified.glb",
+      "locationBlender": [
+        19.200000762939453,
+        5.800000190734863,
+        6.579999923706055
+      ],
+      "scale": 1.0425716534437097,
+      "rotationZDegrees": 79,
+      "kind": "forest_prop",
+      "position": [
+        19.2,
+        6.58,
+        -5.8
+      ],
+      "rotationYRadians": 1.37881
+    },
+    {
+      "id": "prop_tree2_7",
+      "url": "/maps/forest150/releases/v7/catalog/tree2_purified.glb",
+      "locationBlender": [
+        18.700000762939453,
+        -1.399999976158142,
+        6.579999923706055
+      ],
+      "scale": 0.8287293061157278,
+      "rotationZDegrees": 48,
+      "kind": "forest_prop",
+      "position": [
+        18.7,
+        6.58,
+        1.4
+      ],
+      "rotationYRadians": 0.837758
+    },
+    {
+      "id": "prop_tree4_8",
+      "url": "/maps/forest150/releases/v7/catalog/tree4_purified.glb",
+      "locationBlender": [
+        -2.0999999046325684,
+        7.599999904632568,
+        6.579999923706055
+      ],
+      "scale": 0.7754800728492377,
+      "rotationZDegrees": 333,
+      "kind": "forest_prop",
+      "position": [
+        -2.1,
+        6.58,
+        -7.6
+      ],
+      "rotationYRadians": 5.811946
+    },
+    {
+      "id": "prop_tree0_9",
+      "url": "/maps/forest150/releases/v7/catalog/tree0_purified.glb",
+      "locationBlender": [
+        -23.899999618530273,
+        8.5,
+        8.369999885559082
+      ],
+      "scale": 0.903562099651215,
+      "rotationZDegrees": 218,
+      "kind": "forest_prop",
+      "position": [
+        -23.9,
+        8.37,
+        -8.5
+      ],
+      "rotationYRadians": 3.804818
+    },
+    {
+      "id": "prop_tree2_10",
+      "url": "/maps/forest150/releases/v7/catalog/tree2_purified.glb",
+      "locationBlender": [
+        -14.399999618530273,
+        11.399999618530273,
+        8.369999885559082
+      ],
+      "scale": 0.721301433100726,
+      "rotationZDegrees": 222,
+      "kind": "forest_prop",
+      "position": [
+        -14.4,
+        8.37,
+        -11.4
+      ],
+      "rotationYRadians": 3.874631
+    },
+    {
+      "id": "prop_tree4_11",
+      "url": "/maps/forest150/releases/v7/catalog/tree4_purified.glb",
+      "locationBlender": [
+        -23.600000381469727,
+        28.5,
+        13.020000457763672
+      ],
+      "scale": 0.8862629403991287,
+      "rotationZDegrees": 123,
+      "kind": "forest_prop",
+      "position": [
+        -23.6,
+        13.02,
+        -28.5
+      ],
+      "rotationYRadians": 2.146755
+    },
+    {
+      "id": "prop_tree3_12",
+      "url": "/maps/forest150/releases/v7/catalog/tree3_purified.glb",
+      "locationBlender": [
+        -15.600000381469727,
+        30.0,
+        13.020000457763672
+      ],
+      "scale": 0.8201763594880703,
+      "rotationZDegrees": 283,
+      "kind": "forest_prop",
+      "position": [
+        -15.6,
+        13.02,
+        -30.0
+      ],
+      "rotationYRadians": 4.939282
+    },
+    {
+      "id": "prop_tree2_13",
+      "url": "/maps/forest150/releases/v7/catalog/tree2_purified.glb",
+      "locationBlender": [
+        6.300000190734863,
+        31.0,
+        13.619999885559082
+      ],
+      "scale": 0.7059545940985829,
+      "rotationZDegrees": 81,
+      "kind": "forest_prop",
+      "position": [
+        6.3,
+        13.62,
+        -31.0
+      ],
+      "rotationYRadians": 1.413717
+    },
+    {
+      "id": "prop_tree0_14",
+      "url": "/maps/forest150/releases/v7/catalog/tree0_purified.glb",
+      "locationBlender": [
+        -1.2999999523162842,
+        34.0,
+        13.619999885559082
+      ],
+      "scale": 0.7819287400827822,
+      "rotationZDegrees": 213,
+      "kind": "forest_prop",
+      "position": [
+        -1.3,
+        13.62,
+        -34.0
+      ],
+      "rotationYRadians": 3.717551
+    },
+    {
+      "id": "prop_tree3_15",
+      "url": "/maps/forest150/releases/v7/catalog/tree3_purified.glb",
+      "locationBlender": [
+        32.400001525878906,
+        24.799999237060547,
+        16.969999313354492
+      ],
+      "scale": 0.8816895864496755,
+      "rotationZDegrees": 75,
+      "kind": "forest_prop",
+      "position": [
+        32.4,
+        16.97,
+        -24.8
+      ],
+      "rotationYRadians": 1.308997
+    },
+    {
+      "id": "prop_tree4_16",
+      "url": "/maps/forest150/releases/v7/catalog/tree4_purified.glb",
+      "locationBlender": [
+        24.200000762939453,
+        26.799999237060547,
+        16.969999313354492
+      ],
+      "scale": 0.7016248278159769,
+      "rotationZDegrees": 229,
+      "kind": "forest_prop",
+      "position": [
+        24.2,
+        16.97,
+        -26.8
+      ],
+      "rotationYRadians": 3.996804
+    },
+    {
+      "id": "prop_flower_mushroom_17",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        9.258620262145996,
+        10.674749374389648,
+        6.579999923706055
+      ],
+      "scale": 1.0689691849037866,
+      "rotationZDegrees": 234,
+      "kind": "forest_prop",
+      "position": [
+        9.25862,
+        6.58,
+        -10.67475
+      ],
+      "rotationYRadians": 4.08407
+    },
+    {
+      "id": "prop_flower2_18",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -0.7128791213035583,
+        7.555787086486816,
+        6.579999923706055
+      ],
+      "scale": 1.8761814042346545,
+      "rotationZDegrees": 314,
+      "kind": "forest_prop",
+      "position": [
+        -0.71288,
+        6.58,
+        -7.55579
+      ],
+      "rotationYRadians": 5.480334
+    },
+    {
+      "id": "prop_flower_mushroom_19",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        18.289445877075195,
+        5.714292049407959,
+        6.579999923706055
+      ],
+      "scale": 0.8196190083436828,
+      "rotationZDegrees": 320,
+      "kind": "forest_prop",
+      "position": [
+        18.28945,
+        6.58,
+        -5.71429
+      ],
+      "rotationYRadians": 5.585054
+    },
+    {
+      "id": "prop_shrub_20",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        6.681235313415527,
+        -8.069324493408203,
+        6.579999923706055
+      ],
+      "scale": 0.5944660364034866,
+      "rotationZDegrees": 349,
+      "kind": "forest_prop",
+      "position": [
+        6.68124,
+        6.58,
+        8.06932
+      ],
+      "rotationYRadians": 6.091199
+    },
+    {
+      "id": "prop_flower2_21",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        12.4478759765625,
+        10.014894485473633,
+        6.579999923706055
+      ],
+      "scale": 1.7949952083424765,
+      "rotationZDegrees": 205,
+      "kind": "forest_prop",
+      "position": [
+        12.44788,
+        6.58,
+        -10.01489
+      ],
+      "rotationYRadians": 3.577925
+    },
+    {
+      "id": "prop_flower1_22",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        19.53391456604004,
+        0.006370033137500286,
+        6.579999923706055
+      ],
+      "scale": 1.0061964047423988,
+      "rotationZDegrees": 158,
+      "kind": "forest_prop",
+      "position": [
+        19.53391,
+        6.58,
+        -0.00637
+      ],
+      "rotationYRadians": 2.75762
+    },
+    {
+      "id": "prop_flower_mushroom_23",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        4.975800037384033,
+        -7.806395530700684,
+        6.579999923706055
+      ],
+      "scale": 1.1911262246674297,
+      "rotationZDegrees": 11,
+      "kind": "forest_prop",
+      "position": [
+        4.9758,
+        6.58,
+        7.8064
+      ],
+      "rotationYRadians": 0.191986
+    },
+    {
+      "id": "prop_shrub_24",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        19.26466941833496,
+        -1.0873650312423706,
+        6.579999923706055
+      ],
+      "scale": 0.8378318195440869,
+      "rotationZDegrees": 236,
+      "kind": "forest_prop",
+      "position": [
+        19.26467,
+        6.58,
+        1.08737
+      ],
+      "rotationYRadians": 4.118977
+    },
+    {
+      "id": "prop_flower0_25",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -3.3279342651367188,
+        -0.8822125792503357,
+        6.579999923706055
+      ],
+      "scale": 1.8430434687460318,
+      "rotationZDegrees": 102,
+      "kind": "forest_prop",
+      "position": [
+        -3.32793,
+        6.58,
+        0.88221
+      ],
+      "rotationYRadians": 1.780236
+    },
+    {
+      "id": "prop_flower_mushroom_26",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        1.77168869972229,
+        -6.6675848960876465,
+        6.579999923706055
+      ],
+      "scale": 1.28757960680354,
+      "rotationZDegrees": 124,
+      "kind": "forest_prop",
+      "position": [
+        1.77169,
+        6.58,
+        6.66758
+      ],
+      "rotationYRadians": 2.164208
+    },
+    {
+      "id": "prop_flower_mushroom_27",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        1.9478760957717896,
+        -6.756146430969238,
+        6.579999923706055
+      ],
+      "scale": 1.171504512393377,
+      "rotationZDegrees": 71,
+      "kind": "forest_prop",
+      "position": [
+        1.94788,
+        6.58,
+        6.75615
+      ],
+      "rotationYRadians": 1.239184
+    },
+    {
+      "id": "prop_flower0_28",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -2.7400853633880615,
+        4.942863464355469,
+        6.579999923706055
+      ],
+      "scale": 1.2905465402090097,
+      "rotationZDegrees": 308,
+      "kind": "forest_prop",
+      "position": [
+        -2.74009,
+        6.58,
+        -4.94286
+      ],
+      "rotationYRadians": 5.375614
+    },
+    {
+      "id": "prop_flower_mushroom_29",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        17.47007179260254,
+        -4.1867876052856445,
+        6.579999923706055
+      ],
+      "scale": 1.0268582283602827,
+      "rotationZDegrees": 205,
+      "kind": "forest_prop",
+      "position": [
+        17.47007,
+        6.58,
+        4.18679
+      ],
+      "rotationYRadians": 3.577925
+    },
+    {
+      "id": "prop_flower_mushroom_30",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -3.540389060974121,
+        2.5551912784576416,
+        6.579999923706055
+      ],
+      "scale": 1.4638043092097632,
+      "rotationZDegrees": 357,
+      "kind": "forest_prop",
+      "position": [
+        -3.54039,
+        6.58,
+        -2.55519
+      ],
+      "rotationYRadians": 6.230825
+    },
+    {
+      "id": "prop_flower0_31",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -3.2497148513793945,
+        3.7331724166870117,
+        6.579999923706055
+      ],
+      "scale": 1.5526245128580916,
+      "rotationZDegrees": 118,
+      "kind": "forest_prop",
+      "position": [
+        -3.24971,
+        6.58,
+        -3.73317
+      ],
+      "rotationYRadians": 2.059489
+    },
+    {
+      "id": "prop_shrub_32",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        13.680765151977539,
+        -6.931597709655762,
+        6.579999923706055
+      ],
+      "scale": 0.5439937245727156,
+      "rotationZDegrees": 228,
+      "kind": "forest_prop",
+      "position": [
+        13.68077,
+        6.58,
+        6.9316
+      ],
+      "rotationYRadians": 3.979351
+    },
+    {
+      "id": "prop_flower0_33",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        18.48711585998535,
+        -2.797849416732788,
+        6.579999923706055
+      ],
+      "scale": 1.9805904532497989,
+      "rotationZDegrees": 151,
+      "kind": "forest_prop",
+      "position": [
+        18.48712,
+        6.58,
+        2.79785
+      ],
+      "rotationYRadians": 2.635447
+    },
+    {
+      "id": "prop_flower1_34",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -25.640024185180664,
+        6.024415493011475,
+        8.380000114440918
+      ],
+      "scale": 1.9080074890432808,
+      "rotationZDegrees": 19,
+      "kind": "forest_prop",
+      "position": [
+        -25.64002,
+        8.38,
+        -6.02442
+      ],
+      "rotationYRadians": 0.331613
+    },
+    {
+      "id": "prop_flower0_35",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -16.20475959777832,
+        13.994244575500488,
+        8.380000114440918
+      ],
+      "scale": 1.8369861696894199,
+      "rotationZDegrees": 268,
+      "kind": "forest_prop",
+      "position": [
+        -16.20476,
+        8.38,
+        -13.99424
+      ],
+      "rotationYRadians": 4.677482
+    },
+    {
+      "id": "prop_flower0_36",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -25.41147804260254,
+        5.615636348724365,
+        8.380000114440918
+      ],
+      "scale": 1.0869983433222812,
+      "rotationZDegrees": 284,
+      "kind": "forest_prop",
+      "position": [
+        -25.41148,
+        8.38,
+        -5.61564
+      ],
+      "rotationYRadians": 4.956735
+    },
+    {
+      "id": "prop_flower2_37",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -12.085761070251465,
+        10.136422157287598,
+        8.380000114440918
+      ],
+      "scale": 2.065396888360693,
+      "rotationZDegrees": 159,
+      "kind": "forest_prop",
+      "position": [
+        -12.08576,
+        8.38,
+        -10.13642
+      ],
+      "rotationYRadians": 2.775074
+    },
+    {
+      "id": "prop_flower2_38",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -13.897250175476074,
+        4.109500885009766,
+        8.380000114440918
+      ],
+      "scale": 1.2525249868093051,
+      "rotationZDegrees": 314,
+      "kind": "forest_prop",
+      "position": [
+        -13.89725,
+        8.38,
+        -4.1095
+      ],
+      "rotationYRadians": 5.480334
+    },
+    {
+      "id": "prop_flower2_39",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -18.815256118774414,
+        2.333988904953003,
+        8.380000114440918
+      ],
+      "scale": 1.6068696427350138,
+      "rotationZDegrees": 222,
+      "kind": "forest_prop",
+      "position": [
+        -18.81526,
+        8.38,
+        -2.33399
+      ],
+      "rotationYRadians": 3.874631
+    },
+    {
+      "id": "prop_flower0_40",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -11.881656646728516,
+        9.39492130279541,
+        8.380000114440918
+      ],
+      "scale": 1.5000352332416196,
+      "rotationZDegrees": 306,
+      "kind": "forest_prop",
+      "position": [
+        -11.88166,
+        8.38,
+        -9.39492
+      ],
+      "rotationYRadians": 5.340708
+    },
+    {
+      "id": "prop_flower2_41",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -15.410898208618164,
+        3.135814905166626,
+        8.380000114440918
+      ],
+      "scale": 1.0119570938712916,
+      "rotationZDegrees": 112,
+      "kind": "forest_prop",
+      "position": [
+        -15.4109,
+        8.38,
+        -3.13581
+      ],
+      "rotationYRadians": 1.954769
+    },
+    {
+      "id": "prop_flower_mushroom_42",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -17.050369262695312,
+        2.5576729774475098,
+        8.380000114440918
+      ],
+      "scale": 1.0254572283023327,
+      "rotationZDegrees": 225,
+      "kind": "forest_prop",
+      "position": [
+        -17.05037,
+        8.38,
+        -2.55767
+      ],
+      "rotationYRadians": 3.926991
+    },
+    {
+      "id": "prop_shrub_43",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -13.698760986328125,
+        4.283192157745361,
+        8.380000114440918
+      ],
+      "scale": 0.5626727300564038,
+      "rotationZDegrees": 8,
+      "kind": "forest_prop",
+      "position": [
+        -13.69876,
+        8.38,
+        -4.28319
+      ],
+      "rotationYRadians": 0.139626
+    },
+    {
+      "id": "prop_flower0_44",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -24.539472579956055,
+        4.511315822601318,
+        8.380000114440918
+      ],
+      "scale": 0.8605133729656504,
+      "rotationZDegrees": 350,
+      "kind": "forest_prop",
+      "position": [
+        -24.53947,
+        8.38,
+        -4.51132
+      ],
+      "rotationYRadians": 6.108652
+    },
+    {
+      "id": "prop_flower1_45",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -25.12781524658203,
+        5.1956467628479,
+        8.380000114440918
+      ],
+      "scale": 1.5952605259114045,
+      "rotationZDegrees": 320,
+      "kind": "forest_prop",
+      "position": [
+        -25.12782,
+        8.38,
+        -5.19565
+      ],
+      "rotationYRadians": 5.585054
+    },
+    {
+      "id": "prop_flower0_46",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -14.376659393310547,
+        3.741076946258545,
+        8.380000114440918
+      ],
+      "scale": 1.0287565979526192,
+      "rotationZDegrees": 342,
+      "kind": "forest_prop",
+      "position": [
+        -14.37666,
+        8.38,
+        -3.74108
+      ],
+      "rotationYRadians": 5.969026
+    },
+    {
+      "id": "prop_flower_mushroom_47",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -22.895111083984375,
+        3.291951894760132,
+        8.380000114440918
+      ],
+      "scale": 0.9974447558514197,
+      "rotationZDegrees": 99,
+      "kind": "forest_prop",
+      "position": [
+        -22.89511,
+        8.38,
+        -3.29195
+      ],
+      "rotationYRadians": 1.727876
+    },
+    {
+      "id": "prop_flower1_48",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -15.449830055236816,
+        3.1171798706054688,
+        8.380000114440918
+      ],
+      "scale": 1.1804636260958066,
+      "rotationZDegrees": 97,
+      "kind": "forest_prop",
+      "position": [
+        -15.44983,
+        8.38,
+        -3.11718
+      ],
+      "rotationYRadians": 1.692969
+    },
+    {
+      "id": "prop_flower1_49",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -13.000514030456543,
+        11.77170181274414,
+        8.380000114440918
+      ],
+      "scale": 1.6540206555657413,
+      "rotationZDegrees": 14,
+      "kind": "forest_prop",
+      "position": [
+        -13.00051,
+        8.38,
+        -11.7717
+      ],
+      "rotationYRadians": 0.244346
+    },
+    {
+      "id": "prop_shrub_50",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -25.89586639404297,
+        10.187339782714844,
+        8.380000114440918
+      ],
+      "scale": 0.5694647355352227,
+      "rotationZDegrees": 14,
+      "kind": "forest_prop",
+      "position": [
+        -25.89587,
+        8.38,
+        -10.18734
+      ],
+      "rotationYRadians": 0.244346
+    },
+    {
+      "id": "prop_flower1_51",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -21.70992088317871,
+        21.84546661376953,
+        13.029999732971191
+      ],
+      "scale": 1.69109580996671,
+      "rotationZDegrees": 212,
+      "kind": "forest_prop",
+      "position": [
+        -21.70992,
+        13.03,
+        -21.84547
+      ],
+      "rotationYRadians": 3.700098
+    },
+    {
+      "id": "prop_flower0_52",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -17.46540069580078,
+        21.453990936279297,
+        13.029999732971191
+      ],
+      "scale": 1.3880448143056576,
+      "rotationZDegrees": 165,
+      "kind": "forest_prop",
+      "position": [
+        -17.4654,
+        13.03,
+        -21.45399
+      ],
+      "rotationYRadians": 2.879793
+    },
+    {
+      "id": "prop_flower0_53",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -17.616100311279297,
+        21.421016693115234,
+        13.029999732971191
+      ],
+      "scale": 1.0640898531872334,
+      "rotationZDegrees": 313,
+      "kind": "forest_prop",
+      "position": [
+        -17.6161,
+        13.03,
+        -21.42102
+      ],
+      "rotationYRadians": 5.462881
+    },
+    {
+      "id": "prop_flower0_54",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -15.274759292602539,
+        29.980995178222656,
+        13.029999732971191
+      ],
+      "scale": 0.8824308855354116,
+      "rotationZDegrees": 238,
+      "kind": "forest_prop",
+      "position": [
+        -15.27476,
+        13.03,
+        -29.981
+      ],
+      "rotationYRadians": 4.153884
+    },
+    {
+      "id": "prop_flower_mushroom_55",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -15.118833541870117,
+        22.53272247314453,
+        13.029999732971191
+      ],
+      "scale": 0.8498504705330957,
+      "rotationZDegrees": 50,
+      "kind": "forest_prop",
+      "position": [
+        -15.11883,
+        13.03,
+        -22.53272
+      ],
+      "rotationYRadians": 0.872665
+    },
+    {
+      "id": "prop_flower2_56",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        -24.757524490356445,
+        25.46981430053711,
+        13.029999732971191
+      ],
+      "scale": 1.4866159272162291,
+      "rotationZDegrees": 186,
+      "kind": "forest_prop",
+      "position": [
+        -24.75752,
+        13.03,
+        -25.46981
+      ],
+      "rotationYRadians": 3.246312
+    },
+    {
+      "id": "prop_flower1_57",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -13.581421852111816,
+        27.999563217163086,
+        13.029999732971191
+      ],
+      "scale": 0.8601159511680103,
+      "rotationZDegrees": 62,
+      "kind": "forest_prop",
+      "position": [
+        -13.58142,
+        13.03,
+        -27.99956
+      ],
+      "rotationYRadians": 1.082104
+    },
+    {
+      "id": "prop_shrub_58",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -24.0079345703125,
+        28.70920181274414,
+        13.029999732971191
+      ],
+      "scale": 0.9734162885178772,
+      "rotationZDegrees": 97,
+      "kind": "forest_prop",
+      "position": [
+        -24.00793,
+        13.03,
+        -28.7092
+      ],
+      "rotationYRadians": 1.692969
+    },
+    {
+      "id": "prop_flower0_59",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -22.96874237060547,
+        29.799718856811523,
+        13.029999732971191
+      ],
+      "scale": 1.8330393984349567,
+      "rotationZDegrees": 136,
+      "kind": "forest_prop",
+      "position": [
+        -22.96874,
+        13.03,
+        -29.79972
+      ],
+      "rotationYRadians": 2.373648
+    },
+    {
+      "id": "prop_flower1_60",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -24.667619705200195,
+        27.325490951538086,
+        13.029999732971191
+      ],
+      "scale": 2.039435557246241,
+      "rotationZDegrees": 56,
+      "kind": "forest_prop",
+      "position": [
+        -24.66762,
+        13.03,
+        -27.32549
+      ],
+      "rotationYRadians": 0.977384
+    },
+    {
+      "id": "prop_flower_mushroom_61",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -24.809425354003906,
+        26.5231990814209,
+        13.029999732971191
+      ],
+      "scale": 1.5700796807436022,
+      "rotationZDegrees": 239,
+      "kind": "forest_prop",
+      "position": [
+        -24.80943,
+        13.03,
+        -26.5232
+      ],
+      "rotationYRadians": 4.171337
+    },
+    {
+      "id": "prop_flower_mushroom_62",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -14.613271713256836,
+        22.965211868286133,
+        13.029999732971191
+      ],
+      "scale": 0.7201353552784324,
+      "rotationZDegrees": 308,
+      "kind": "forest_prop",
+      "position": [
+        -14.61327,
+        13.03,
+        -22.96521
+      ],
+      "rotationYRadians": 5.375614
+    },
+    {
+      "id": "prop_flower1_63",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -23.496774673461914,
+        29.32501220703125,
+        13.029999732971191
+      ],
+      "scale": 1.2746250123565876,
+      "rotationZDegrees": 235,
+      "kind": "forest_prop",
+      "position": [
+        -23.49677,
+        13.03,
+        -29.32501
+      ],
+      "rotationYRadians": 4.101524
+    },
+    {
+      "id": "prop_flower1_64",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -16.209505081176758,
+        21.881961822509766,
+        13.029999732971191
+      ],
+      "scale": 1.1705919176696542,
+      "rotationZDegrees": 260,
+      "kind": "forest_prop",
+      "position": [
+        -16.20951,
+        13.03,
+        -21.88196
+      ],
+      "rotationYRadians": 4.537856
+    },
+    {
+      "id": "prop_shrub_65",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -23.571504592895508,
+        29.246597290039062,
+        13.029999732971191
+      ],
+      "scale": 0.7682077126974469,
+      "rotationZDegrees": 183,
+      "kind": "forest_prop",
+      "position": [
+        -23.5715,
+        13.03,
+        -29.2466
+      ],
+      "rotationYRadians": 3.193953
+    },
+    {
+      "id": "prop_flower_mushroom_66",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -19.427017211914062,
+        31.106748580932617,
+        13.029999732971191
+      ],
+      "scale": 1.2449774217057599,
+      "rotationZDegrees": 26,
+      "kind": "forest_prop",
+      "position": [
+        -19.42702,
+        13.03,
+        -31.10675
+      ],
+      "rotationYRadians": 0.453786
+    },
+    {
+      "id": "prop_flower1_67",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        -13.426630973815918,
+        27.62244415283203,
+        13.029999732971191
+      ],
+      "scale": 1.2617329541555828,
+      "rotationZDegrees": 37,
+      "kind": "forest_prop",
+      "position": [
+        -13.42663,
+        13.03,
+        -27.62244
+      ],
+      "rotationYRadians": 0.645772
+    },
+    {
+      "id": "prop_shrub_68",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -3.3469223976135254,
+        25.07061195373535,
+        13.630000114440918
+      ],
+      "scale": 1.0379952121107947,
+      "rotationZDegrees": 322,
+      "kind": "forest_prop",
+      "position": [
+        -3.34692,
+        13.63,
+        -25.07061
+      ],
+      "rotationYRadians": 5.61996
+    },
+    {
+      "id": "prop_flower0_69",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -3.7524168491363525,
+        25.397489547729492,
+        13.630000114440918
+      ],
+      "scale": 1.8256415490434381,
+      "rotationZDegrees": 169,
+      "kind": "forest_prop",
+      "position": [
+        -3.75242,
+        13.63,
+        -25.39749
+      ],
+      "rotationYRadians": 2.949606
+    },
+    {
+      "id": "prop_shrub_70",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -5.133694171905518,
+        30.241024017333984,
+        13.630000114440918
+      ],
+      "scale": 0.8227550568487637,
+      "rotationZDegrees": 167,
+      "kind": "forest_prop",
+      "position": [
+        -5.13369,
+        13.63,
+        -30.24102
+      ],
+      "rotationYRadians": 2.9147
+    },
+    {
+      "id": "prop_flower1_71",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        3.478139638900757,
+        24.11311149597168,
+        13.630000114440918
+      ],
+      "scale": 2.080388474861585,
+      "rotationZDegrees": 25,
+      "kind": "forest_prop",
+      "position": [
+        3.47814,
+        13.63,
+        -24.11311
+      ],
+      "rotationYRadians": 0.436332
+    },
+    {
+      "id": "prop_flower2_72",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        7.395214557647705,
+        28.720333099365234,
+        13.630000114440918
+      ],
+      "scale": 1.0767182136441862,
+      "rotationZDegrees": 307,
+      "kind": "forest_prop",
+      "position": [
+        7.39521,
+        13.63,
+        -28.72033
+      ],
+      "rotationYRadians": 5.358161
+    },
+    {
+      "id": "prop_flower1_73",
+      "url": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+      "locationBlender": [
+        7.066664218902588,
+        30.410356521606445,
+        13.630000114440918
+      ],
+      "scale": 1.530826933127545,
+      "rotationZDegrees": 235,
+      "kind": "forest_prop",
+      "position": [
+        7.06666,
+        13.63,
+        -30.41036
+      ],
+      "rotationYRadians": 4.101524
+    },
+    {
+      "id": "prop_flower2_74",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        3.8768351078033447,
+        33.340702056884766,
+        13.630000114440918
+      ],
+      "scale": 1.3807994050704584,
+      "rotationZDegrees": 55,
+      "kind": "forest_prop",
+      "position": [
+        3.87684,
+        13.63,
+        -33.3407
+      ],
+      "rotationYRadians": 0.959931
+    },
+    {
+      "id": "prop_shrub_75",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -4.930769443511963,
+        26.896488189697266,
+        13.630000114440918
+      ],
+      "scale": 0.6412957534425069,
+      "rotationZDegrees": 358,
+      "kind": "forest_prop",
+      "position": [
+        -4.93077,
+        13.63,
+        -26.89649
+      ],
+      "rotationYRadians": 6.248279
+    },
+    {
+      "id": "prop_flower2_76",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        3.9791078567504883,
+        33.29884338378906,
+        13.630000114440918
+      ],
+      "scale": 1.4254442517896586,
+      "rotationZDegrees": 241,
+      "kind": "forest_prop",
+      "position": [
+        3.97911,
+        13.63,
+        -33.29884
+      ],
+      "rotationYRadians": 4.206243
+    },
+    {
+      "id": "prop_flower_mushroom_77",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        -5.354833126068115,
+        29.375892639160156,
+        13.630000114440918
+      ],
+      "scale": 0.6279310812519293,
+      "rotationZDegrees": 116,
+      "kind": "forest_prop",
+      "position": [
+        -5.35483,
+        13.63,
+        -29.37589
+      ],
+      "rotationYRadians": 2.024582
+    },
+    {
+      "id": "prop_flower0_78",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -2.0544323921203613,
+        33.266815185546875,
+        13.630000114440918
+      ],
+      "scale": 1.1693571121114184,
+      "rotationZDegrees": 57,
+      "kind": "forest_prop",
+      "position": [
+        -2.05443,
+        13.63,
+        -33.26682
+      ],
+      "rotationYRadians": 0.994838
+    },
+    {
+      "id": "prop_shrub_79",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        2.506117582321167,
+        23.858963012695312,
+        13.630000114440918
+      ],
+      "scale": 0.4722234133573172,
+      "rotationZDegrees": 198,
+      "kind": "forest_prop",
+      "position": [
+        2.50612,
+        13.63,
+        -23.85896
+      ],
+      "rotationYRadians": 3.455752
+    },
+    {
+      "id": "prop_flower2_80",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        6.637405872344971,
+        26.398426055908203,
+        13.630000114440918
+      ],
+      "scale": 1.2214714305980043,
+      "rotationZDegrees": 32,
+      "kind": "forest_prop",
+      "position": [
+        6.63741,
+        13.63,
+        -26.39843
+      ],
+      "rotationYRadians": 0.558505
+    },
+    {
+      "id": "prop_shrub_81",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        -3.647594928741455,
+        32.29279708862305,
+        13.630000114440918
+      ],
+      "scale": 0.5757179620361248,
+      "rotationZDegrees": 317,
+      "kind": "forest_prop",
+      "position": [
+        -3.64759,
+        13.63,
+        -32.2928
+      ],
+      "rotationYRadians": 5.532694
+    },
+    {
+      "id": "prop_flower0_82",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        -3.4602456092834473,
+        25.156137466430664,
+        13.630000114440918
+      ],
+      "scale": 1.9259745566925979,
+      "rotationZDegrees": 134,
+      "kind": "forest_prop",
+      "position": [
+        -3.46025,
+        13.63,
+        -25.15614
+      ],
+      "rotationYRadians": 2.338741
+    },
+    {
+      "id": "prop_shrub_83",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        7.1527910232543945,
+        27.411365509033203,
+        13.630000114440918
+      ],
+      "scale": 0.8825004282456512,
+      "rotationZDegrees": 145,
+      "kind": "forest_prop",
+      "position": [
+        7.15279,
+        13.63,
+        -27.41137
+      ],
+      "rotationYRadians": 2.530727
+    },
+    {
+      "id": "prop_shrub_84",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        1.7042040824890137,
+        23.74690818786621,
+        13.630000114440918
+      ],
+      "scale": 0.5022349127267587,
+      "rotationZDegrees": 170,
+      "kind": "forest_prop",
+      "position": [
+        1.7042,
+        13.63,
+        -23.74691
+      ],
+      "rotationYRadians": 2.96706
+    },
+    {
+      "id": "prop_flower_mushroom_85",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        33.471519470214844,
+        22.030784606933594,
+        16.979999542236328
+      ],
+      "scale": 0.9712420372101008,
+      "rotationZDegrees": 54,
+      "kind": "forest_prop",
+      "position": [
+        33.47152,
+        16.98,
+        -22.03078
+      ],
+      "rotationYRadians": 0.942478
+    },
+    {
+      "id": "prop_flower2_86",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        27.931968688964844,
+        27.791667938232422,
+        16.979999542236328
+      ],
+      "scale": 1.8843345884258644,
+      "rotationZDegrees": 210,
+      "kind": "forest_prop",
+      "position": [
+        27.93197,
+        16.98,
+        -27.79167
+      ],
+      "rotationYRadians": 3.665191
+    },
+    {
+      "id": "prop_flower0_87",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        28.625009536743164,
+        18.6361026763916,
+        16.979999542236328
+      ],
+      "scale": 1.5341036682057996,
+      "rotationZDegrees": 336,
+      "kind": "forest_prop",
+      "position": [
+        28.62501,
+        16.98,
+        -18.6361
+      ],
+      "rotationYRadians": 5.864306
+    },
+    {
+      "id": "prop_flower2_88",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        33.34190368652344,
+        24.713361740112305,
+        16.979999542236328
+      ],
+      "scale": 1.3160482099183817,
+      "rotationZDegrees": 113,
+      "kind": "forest_prop",
+      "position": [
+        33.3419,
+        16.98,
+        -24.71336
+      ],
+      "rotationYRadians": 1.972222
+    },
+    {
+      "id": "prop_flower_mushroom_89",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        29.543365478515625,
+        27.617860794067383,
+        16.979999542236328
+      ],
+      "scale": 0.9679601477460991,
+      "rotationZDegrees": 266,
+      "kind": "forest_prop",
+      "position": [
+        29.54337,
+        16.98,
+        -27.61786
+      ],
+      "rotationYRadians": 4.642576
+    },
+    {
+      "id": "prop_flower_mushroom_90",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        23.720136642456055,
+        26.203527450561523,
+        16.979999542236328
+      ],
+      "scale": 1.5143888954119247,
+      "rotationZDegrees": 340,
+      "kind": "forest_prop",
+      "position": [
+        23.72014,
+        16.98,
+        -26.20353
+      ],
+      "rotationYRadians": 5.934119
+    },
+    {
+      "id": "prop_flower2_91",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        25.768096923828125,
+        18.98036766052246,
+        16.979999542236328
+      ],
+      "scale": 0.8479626029109949,
+      "rotationZDegrees": 203,
+      "kind": "forest_prop",
+      "position": [
+        25.7681,
+        16.98,
+        -18.98037
+      ],
+      "rotationYRadians": 3.543018
+    },
+    {
+      "id": "prop_flower2_92",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        24.425445556640625,
+        26.7595157623291,
+        16.979999542236328
+      ],
+      "scale": 1.048202828732615,
+      "rotationZDegrees": 60,
+      "kind": "forest_prop",
+      "position": [
+        24.42545,
+        16.98,
+        -26.75952
+      ],
+      "rotationYRadians": 1.047198
+    },
+    {
+      "id": "prop_flower_mushroom_93",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        33.059608459472656,
+        21.144672393798828,
+        16.979999542236328
+      ],
+      "scale": 1.1017895934553485,
+      "rotationZDegrees": 42,
+      "kind": "forest_prop",
+      "position": [
+        33.05961,
+        16.98,
+        -21.14467
+      ],
+      "rotationYRadians": 0.733038
+    },
+    {
+      "id": "prop_flower2_94",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        29.945415496826172,
+        27.512025833129883,
+        16.979999542236328
+      ],
+      "scale": 1.4552093456827473,
+      "rotationZDegrees": 234,
+      "kind": "forest_prop",
+      "position": [
+        29.94542,
+        16.98,
+        -27.51203
+      ],
+      "rotationYRadians": 4.08407
+    },
+    {
+      "id": "prop_flower_mushroom_95",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        22.891992568969727,
+        21.2251033782959,
+        16.979999542236328
+      ],
+      "scale": 1.5792974875368218,
+      "rotationZDegrees": 91,
+      "kind": "forest_prop",
+      "position": [
+        22.89199,
+        16.98,
+        -21.2251
+      ],
+      "rotationYRadians": 1.58825
+    },
+    {
+      "id": "prop_flower0_96",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        23.160268783569336,
+        25.578672409057617,
+        16.979999542236328
+      ],
+      "scale": 1.8159818302677369,
+      "rotationZDegrees": 201,
+      "kind": "forest_prop",
+      "position": [
+        23.16027,
+        16.98,
+        -25.57867
+      ],
+      "rotationYRadians": 3.508112
+    },
+    {
+      "id": "prop_flower0_97",
+      "url": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+      "locationBlender": [
+        33.09226989746094,
+        25.201486587524414,
+        16.979999542236328
+      ],
+      "scale": 1.8589896710925462,
+      "rotationZDegrees": 225,
+      "kind": "forest_prop",
+      "position": [
+        33.09227,
+        16.98,
+        -25.20149
+      ],
+      "rotationYRadians": 3.926991
+    },
+    {
+      "id": "prop_shrub_98",
+      "url": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+      "locationBlender": [
+        23.303096771240234,
+        25.760326385498047,
+        16.979999542236328
+      ],
+      "scale": 0.4685281628907089,
+      "rotationZDegrees": 223,
+      "kind": "forest_prop",
+      "position": [
+        23.3031,
+        16.98,
+        -25.76033
+      ],
+      "rotationYRadians": 3.892084
+    },
+    {
+      "id": "prop_flower_mushroom_99",
+      "url": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+      "locationBlender": [
+        24.85190773010254,
+        27.01556968688965,
+        16.979999542236328
+      ],
+      "scale": 0.8270309230544008,
+      "rotationZDegrees": 133,
+      "kind": "forest_prop",
+      "position": [
+        24.85191,
+        16.98,
+        -27.01557
+      ],
+      "rotationYRadians": 2.321288
+    },
+    {
+      "id": "prop_flower2_100",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        32.368614196777344,
+        26.11815071105957,
+        16.979999542236328
+      ],
+      "scale": 0.904862456068853,
+      "rotationZDegrees": 83,
+      "kind": "forest_prop",
+      "position": [
+        32.36861,
+        16.98,
+        -26.11815
+      ],
+      "rotationYRadians": 1.448623
+    },
+    {
+      "id": "prop_flower2_101",
+      "url": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+      "locationBlender": [
+        29.877214431762695,
+        18.868106842041016,
+        16.979999542236328
+      ],
+      "scale": 1.1478820052919767,
+      "rotationZDegrees": 286,
+      "kind": "forest_prop",
+      "position": [
+        29.87721,
+        16.98,
+        -18.86811
+      ],
+      "rotationYRadians": 4.991642
+    },
+    {
+      "id": "prop_rock_102",
+      "url": "/maps/forest150/releases/v7/catalog/rock_purified.glb",
+      "locationBlender": [
+        -2.5999999046325684,
+        -6.5,
+        6.579999923706055
+      ],
+      "scale": 0.5384615464437398,
+      "rotationZDegrees": 178,
+      "kind": "forest_prop",
+      "position": [
+        -2.6,
+        6.58,
+        6.5
+      ],
+      "rotationYRadians": 3.106686
+    },
+    {
+      "id": "prop_rock_103",
+      "url": "/maps/forest150/releases/v7/catalog/rock_purified.glb",
+      "locationBlender": [
+        17.799999237060547,
+        -6.099999904632568,
+        6.579999923706055
+      ],
+      "scale": 0.5384615464437398,
+      "rotationZDegrees": 129,
+      "kind": "forest_prop",
+      "position": [
+        17.8,
+        6.58,
+        6.1
+      ],
+      "rotationYRadians": 2.251475
+    },
+    {
+      "id": "prop_rock_104",
+      "url": "/maps/forest150/releases/v7/catalog/rock_purified.glb",
+      "locationBlender": [
+        -25.200000762939453,
+        5.800000190734863,
+        8.369999885559082
+      ],
+      "scale": 0.5384615464437398,
+      "rotationZDegrees": 318,
+      "kind": "forest_prop",
+      "position": [
+        -25.2,
+        8.37,
+        -5.8
+      ],
+      "rotationYRadians": 5.550147
+    },
+    {
+      "id": "prop_rock_105",
+      "url": "/maps/forest150/releases/v7/catalog/rock_purified.glb",
+      "locationBlender": [
+        -3.0,
+        24.700000762939453,
+        13.619999885559082
+      ],
+      "scale": 0.5384615464437398,
+      "rotationZDegrees": 297,
+      "kind": "forest_prop",
+      "position": [
+        -3.0,
+        13.62,
+        -24.7
+      ],
+      "rotationYRadians": 5.183628
+    }
+  ],
+  "environment": "/village/releases/VILLAGE03/village_environment.glb",
+  "water": {
+    "level": 0,
+    "runtime": "GPU wave surface + 512 instanced voxel crests",
+    "drawCalls": 2
+  },
+  "majorAssetBounds": {
+    "house_main": {
+      "min": [
+        0.5123,
+        0.3473
+      ],
+      "max": [
+        0.7204,
+        0.6091
+      ],
+      "allBoundCornersFramed": true
+    },
+    "house_pet": {
+      "min": [
+        0.2477,
+        0.3502
+      ],
+      "max": [
+        0.3942,
+        0.4959
+      ],
+      "allBoundCornersFramed": true
+    },
+    "house_garden": {
+      "min": [
+        0.3481,
+        0.2465
+      ],
+      "max": [
+        0.4478,
+        0.3704
+      ],
+      "allBoundCornersFramed": true
+    },
+    "house_workshop": {
+      "min": [
+        0.5215,
+        0.2442
+      ],
+      "max": [
+        0.6133,
+        0.3658
+      ],
+      "allBoundCornersFramed": true
+    },
+    "house_lookout": {
+      "min": [
+        0.7869,
+        0.108
+      ],
+      "max": [
+        0.8819,
+        0.3258
+      ],
+      "allBoundCornersFramed": true
+    },
+    "boat_departure": {
+      "min": [
+        0.1489,
+        0.6448
+      ],
+      "max": [
+        0.3281,
+        0.8802
+      ],
+      "allBoundCornersFramed": true
+    },
+    "dock_main": {
+      "min": [
+        0.2925,
+        0.706
+      ],
+      "max": [
+        0.5072,
+        0.9656
+      ],
+      "allBoundCornersFramed": true
+    }
+  },
+  "navigation": "/village/releases/VILLAGE03/navigation.json",
+  "regions": [
+    {
+      "id": "main",
+      "name": "모두의 집",
+      "role": "공동 식사 · 식수 · 휴식",
+      "center": [
+        8,
+        1.3,
+        6.4
+      ],
+      "radii": [
+        14.2,
+        11.5
+      ],
+      "depth": 3.8,
+      "focus": [
+        11,
+        7,
+        -2
+      ]
+    },
+    {
+      "id": "pet",
+      "name": "반려동물 쉼터",
+      "role": "물그릇 · 작은 보금자리 · 놀이터",
+      "center": [
+        -19,
+        8.4,
+        8.2
+      ],
+      "radii": [
+        8.8,
+        7.4
+      ],
+      "depth": 4.3,
+      "focus": [
+        -19,
+        9,
+        -7
+      ]
+    },
+    {
+      "id": "garden",
+      "name": "정화 물빛 정원",
+      "role": "빗물 저장 · 채소밭 · 씨앗 보관",
+      "center": [
+        -19,
+        26.2,
+        12.85
+      ],
+      "radii": [
+        7.1,
+        6
+      ],
+      "depth": 5,
+      "focus": [
+        -19,
+        13.7,
+        -23
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "바람 정비소",
+      "role": "비행선 부품 · 작업대 · 화물",
+      "center": [
+        1,
+        28.8,
+        13.45
+      ],
+      "radii": [
+        7.8,
+        6.2
+      ],
+      "depth": 5.3,
+      "focus": [
+        1,
+        14.3,
+        -26
+      ]
+    },
+    {
+      "id": "lookout",
+      "name": "등불 전망대",
+      "role": "항로 안내 · 망원경 · 쉼터",
+      "center": [
+        28,
+        23.2,
+        16.8
+      ],
+      "radii": [
+        6.9,
+        5.6
+      ],
+      "depth": 5,
+      "focus": [
+        28,
+        17.6,
+        -21
+      ]
+    }
+  ]
+}

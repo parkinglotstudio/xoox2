@@ -1,0 +1,35 @@
+{
+  "id": "walk_gun",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 2,
+  "rows": 1,
+  "frame_count": 2,
+  "sheet": "walk_gun_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "walk_gun_00.png",
+      "src": "00_walk_a.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_gun\\frames_ai\\00_walk_a.png",
+      "duration_ms": 180,
+      "file": "frames/walk_gun_00.png"
+    },
+    {
+      "index": 1,
+      "name": "walk_gun_01.png",
+      "src": "01_walk_b.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\walk_gun\\frames_ai\\01_walk_b.png",
+      "duration_ms": 180,
+      "file": "frames/walk_gun_01.png"
+    }
+  ],
+  "loop": true
+}

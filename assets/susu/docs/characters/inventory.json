@@ -1,0 +1,4885 @@
+{
+  "generated_at": "2026-09-27T13:17:33",
+  "scope": "Characters, unit resource experiments and preview tools in this conversation; historical instructions are not executed; Grok monitoring stopped.",
+  "files": [
+    {
+      "path": "block-cat-tool.html",
+      "bytes": 6042,
+      "sha256": "2a10371ac7deb9430ccaf810ec96b33939a7787eb2ea163e21f0f12d35aa0b1c"
+    },
+    {
+      "path": "character-compare-tool.html",
+      "bytes": 2956,
+      "sha256": "b1ce03070103fe54d0578741e71c3fdca63b67896832e52eaa29f25123d2a6a7"
+    },
+    {
+      "path": "data/tools/unit_lab/character/_backup_C_pre_grok/wanderer_C.glb",
+      "bytes": 2182740,
+      "sha256": "e3dce44e3ae09efce79198c5d3be5869382af45383065ea7f4232d6ce8c514ac"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/metrics.json",
+      "bytes": 5007,
+      "sha256": "94fb236703ca1c54c4d7f2f6a275b60f897ec34a7a59d7a710c33de4db517981"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_back.png",
+      "bytes": 244318,
+      "sha256": "73efaee9003d02dab251ea15026eae4f3349ad63e6cdb4f71d1fa44480ada48d"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_costume.png",
+      "bytes": 99836,
+      "sha256": "cf6424c7d2b7bb8c4049827fbb7dbd26408ef7f1f352fe847a27d6528539dedc"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_face.png",
+      "bytes": 131299,
+      "sha256": "dd49b7b9045444f1e8e5e148966df05f656c44e8bb6431f815db790b823d2c5c"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_front.png",
+      "bytes": 271361,
+      "sha256": "9c03a5aebef7c7bf09eddf54d24fe09062f1e391294c16a2aad60603066c59e3"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_measurements.json",
+      "bytes": 927,
+      "sha256": "975dbc5e1a2d5379cfb21014454867e0bb021cb1a61b2b5d2fb141c227dcb90f"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/reference_threequarter.png",
+      "bytes": 263537,
+      "sha256": "e45ed7ed994e8afc48b1153726a70662d92c2d2ce3c79df90fc5a2451fcb001c"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/source/wanderer_A.blend",
+      "bytes": 3966118,
+      "sha256": "37ffee4d351ae862e74dde6ee6cfe0381f40a5a2edaf88b0db1951a8563c3bad"
+    },
+    {
+      "path": "data/tools/unit_lab/character/A/wanderer_A.glb",
+      "bytes": 9913824,
+      "sha256": "3cf30378e14869b6f924efbef788d36563126ccbc2ae7662a460eaaa679655f8"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/metrics.json",
+      "bytes": 4979,
+      "sha256": "de3b1692a73ab7597084dd265e3b00465529fbbe5da741840f490afc28fe59c1"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_back.png",
+      "bytes": 176728,
+      "sha256": "4e01a72ed31a895ab6102b5c287b6a6e68879cd638d6dbe2d1f84e79d16fa69e"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_costume.png",
+      "bytes": 394426,
+      "sha256": "08507c311638a631666dd3f3b81feed19f751e47015179ea75f2a85964d9dc6e"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_face.png",
+      "bytes": 427091,
+      "sha256": "e4e04a7bf0c9f64c1e0a6696aa5514ce7a175057c7d868385696b1adc5aca29c"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_front.png",
+      "bytes": 213596,
+      "sha256": "39ed7f70e1203056ec2c643f2071cece982a4888e675bc9272d9c458eabff132"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_full.png",
+      "bytes": 594627,
+      "sha256": "8ce04c6ba4cb02bb35ef483a560f6b08aaa1e4c1bd6c00243c4470714aa29721"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/reference_threequarter.png",
+      "bytes": 211691,
+      "sha256": "ae432293693913feade6ac821ac3b878a04c81c1155381aeb5d3aebc737e0760"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/source/wanderer_D.blend",
+      "bytes": 4129049,
+      "sha256": "b66652c7e6a05cc4e7b0232ff7600bae15f99b007df229b29f67f01a729faef1"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D/wanderer_D.glb",
+      "bytes": 10240516,
+      "sha256": "a1c4dbb4dc97f1a194297c3cdb24ce15c214653b9eeb0d0cd7682bd45415bfe0"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_35/metrics.json",
+      "bytes": 5448,
+      "sha256": "0d83b885affc6704372f28945046069be019635b7a3a60a6a003797092161f2e"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_35/wanderer_D_35.blend",
+      "bytes": 6170789,
+      "sha256": "2a8ce05555dea6dabe40a61cd0726fe1e67d10b38181e8299fb3f2e7f2224f71"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_35/wanderer_D_35.glb",
+      "bytes": 10230564,
+      "sha256": "99fa30f7e995435dc01f56bbc100910a0a7aa939947547e12b3760acdb005c71"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_sprite/metrics.json",
+      "bytes": 5260,
+      "sha256": "c5d947d1ddd43a4efac78391ca3b77602caf52674a70f0b99346037504906142"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_sprite/reference_idle.png",
+      "bytes": 119789,
+      "sha256": "a40193fde0cf188372caffed548d070f12534412fae7cba146a6824a58bc0d09"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_sprite/wanderer_D_sprite.blend",
+      "bytes": 6156016,
+      "sha256": "de91785641a78da87a835ffa3777775c7c02af83e7bf9b39192f586850145c53"
+    },
+    {
+      "path": "data/tools/unit_lab/character/D_sprite/wanderer_D_sprite.glb",
+      "bytes": 10234048,
+      "sha256": "a8d358ad7232806aa6c42fbad8475e748d650f2bdd654ef728ff6474e5c7a11c"
+    },
+    {
+      "path": "data/tools/unit_lab/character/Ruon_35/metrics.json",
+      "bytes": 5445,
+      "sha256": "c462c1c37e78fd53c7cf86e31275a3a9412248ac28676634abee1a8c49b8ebaa"
+    },
+    {
+      "path": "data/tools/unit_lab/character/Ruon_35/ruon_35.blend",
+      "bytes": 5993754,
+      "sha256": "d58e12f3ec9ea7aa3f4858c74daa95ead2e87f5b22caac81dee0cccbb2128441"
+    },
+    {
+      "path": "data/tools/unit_lab/character/Ruon_35/ruon_35.glb",
+      "bytes": 9917772,
+      "sha256": "3269c2b5b83ef5739a6dfc797fc712757a3007315db30ad03f1fc0141e86178b"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer.glb",
+      "bytes": 2444256,
+      "sha256": "bcb86cc326cfc15410e44fefaa74103bbb9bf28ed26552d09b79bdd6b4aae42d"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_A.glb",
+      "bytes": 2001416,
+      "sha256": "d68ab76dd1e4bf8bc6c1be78c47e65ee3fb9728a196f95a30e4b4be0c5df91c1"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_A_eye.glb",
+      "bytes": 2227928,
+      "sha256": "025ad56787d8e1fe950f866c42db86cc8c953b96199b880b787fed7c11684d4e"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_B.glb",
+      "bytes": 1927048,
+      "sha256": "4818dfaeac935d64f742000797f2cc4c331019bad4ef0cd6ff4064ea9871a72c"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_B2.glb",
+      "bytes": 3163828,
+      "sha256": "ff89551e0d2352db5cd92cda5962c0db100802a4146f964d0befe2cc4e3783b9"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_B_eye.glb",
+      "bytes": 2169884,
+      "sha256": "4a3bffc2f3bee9b5c6c3649e40fddc4c67edf54ef99ef455aa441c0085aa8468"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_C.glb",
+      "bytes": 3163828,
+      "sha256": "ff89551e0d2352db5cd92cda5962c0db100802a4146f964d0befe2cc4e3783b9"
+    },
+    {
+      "path": "data/tools/unit_lab/character/wanderer_Kay_crossbow.glb",
+      "bytes": 309888,
+      "sha256": "6bd9d0a102e8deb561e05b1653dec04109de5752c9196f8471717f6fa0e4f302"
+    },
+    {
+      "path": "data/tools/unit_lab/combat_kinds.json",
+      "bytes": 2092,
+      "sha256": "c9f627db80cb28ffa7514ebea9cb6585e157dd31e2a8f49049ba1e2a86213de4"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/Textures/colormap.png",
+      "bytes": 11787,
+      "sha256": "cbd2f95976ed3f18070769ce32a819527d9bc00d74253844e3882f747b5d76b6"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-round-bottom-b.glb",
+      "bytes": 33088,
+      "sha256": "e9a52b567072e5fcbce0a1fcb2b0ed9ae104ac11679d72ad1c331e6dcd681224"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-round-middle-b.glb",
+      "bytes": 58896,
+      "sha256": "a6f89329ef9652d215ac35ba308531bfdd8cdfa9cc5277c6a03a465e8b150c2a"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-round-top-a.glb",
+      "bytes": 44552,
+      "sha256": "111e8c7e67807649bcce313a8d45a0d2a137b92d97303bd9b9ea6761b1160b85"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-square-bottom-a.glb",
+      "bytes": 12936,
+      "sha256": "1912cb5537c81be0dac32bc7cea26fe0c507a65cf7178f82c78f8fd53fa74ca0"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-square-middle-a.glb",
+      "bytes": 45332,
+      "sha256": "edcc9be92cb8382daa6a7a1ffce1f056b23735ec0d24535b9fc6b491f6202bab"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/tower-square-top-a.glb",
+      "bytes": 66184,
+      "sha256": "754b60ae4beb4fbeeb599ed6be9686cbddf46b5c566b89752c96a2b4347c6ff2"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-ammo-arrow.glb",
+      "bytes": 9040,
+      "sha256": "a09f256df1c01a68eb7012619c754f0a841fb66d438fee4274c53a643496a6dd"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-ammo-boulder.glb",
+      "bytes": 10192,
+      "sha256": "6ce30160577b0f2af17d34ae39d39f2cc81a02cf6570427f3036f3de0d2aaed9"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-ammo-bullet.glb",
+      "bytes": 16640,
+      "sha256": "ef128e48f9f6f7b99863cf7a1e3244e3f155bfe0062be91e34b91cb1e1037ed6"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-ammo-cannonball.glb",
+      "bytes": 19688,
+      "sha256": "4391846f4e906e985979ee12dd82085118690762c0119bedc48ff027ac2865c4"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-ballista.glb",
+      "bytes": 58676,
+      "sha256": "0eea8913a488fb4255dd496951cac1f9de3cd6c28dd817c7307d812de7dac630"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-cannon.glb",
+      "bytes": 58876,
+      "sha256": "bf28e5593118cc27ebc45788e586c3bfcfbfb1686a86eb1a3cefd5c9edd6ae5f"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-catapult.glb",
+      "bytes": 57880,
+      "sha256": "fdc0d340bf8920b13238b0172727a524b2d433ddd3536a9fbd9b67e370310404"
+    },
+    {
+      "path": "data/tools/unit_lab/kenney_parts/weapon-turret.glb",
+      "bytes": 59996,
+      "sha256": "a8687fd1386295bd2f13dd9c0a6f9efd600f296aea438aed30faa380e0a2d256"
+    },
+    {
+      "path": "data/tools/unit_lab/monsters_anim/cactoro.glb",
+      "bytes": 140668,
+      "sha256": "2291a31287306ab430ad4c001dff5fbedba5c79854ad19ddc1c64d5fffc506ab"
+    },
+    {
+      "path": "data/tools/unit_lab/monsters_anim/green_blob.glb",
+      "bytes": 74812,
+      "sha256": "31c46edd6306e4ab21bec4608b41003baa74f430f27d357b90c9b6401d88a584"
+    },
+    {
+      "path": "data/tools/unit_lab/monsters_anim/green_spiky_blob.glb",
+      "bytes": 185820,
+      "sha256": "ad5e8b1cdf8c0d328b4b44537d3da8fa98119a9a99fb6163e2f325dbb8bbecc1"
+    },
+    {
+      "path": "data/tools/unit_lab/monsters_anim/mushnub.glb",
+      "bytes": 67900,
+      "sha256": "04614a9d0db2a00d17cd85f4ef9c54e19cd3692530c0724b46809aa928e161e9"
+    },
+    {
+      "path": "data/tools/unit_lab/monsters_anim/pink_slime.glb",
+      "bytes": 62652,
+      "sha256": "34bb111a7931bb957f992e127d71fac321aaeea1bdcc7da56fa5aba55c83d783"
+    },
+    {
+      "path": "data/tools/unit_lab/palette_cyber.json",
+      "bytes": 2984,
+      "sha256": "353b301a27755c8743e9b6863b9d5c76e6ded192e3b3050aecbc28e784dd2b34"
+    },
+    {
+      "path": "data/tools/unit_lab/palette_lego.json",
+      "bytes": 3003,
+      "sha256": "d63b20e43ed7bb823c013e13b8b5fd8f8a4ff35fd02eb95931a29cb846e116ef"
+    },
+    {
+      "path": "data/tools/unit_lab/pets/block_cat/block_cat.glb",
+      "bytes": 1100944,
+      "sha256": "4ae38ab3106e85ae48cf146e439bde56ff61aef9aba3ee6c275fa552cf224b66"
+    },
+    {
+      "path": "data/tools/unit_lab/pets/block_cat/manifest.json",
+      "bytes": 669,
+      "sha256": "b37ce6817ec42a919f1ccd1a262bab84082abb4e61dc28efa9cd3f66034bdf23"
+    },
+    {
+      "path": "data/tools/unit_lab/pets/block_cat/reference.png",
+      "bytes": 211847,
+      "sha256": "1f19b121f962b2743a74527d24e1d4680e3d7e4de21105720ad943731db3558d"
+    },
+    {
+      "path": "data/tools/unit_lab/pets/block_cat/source/block_cat.blend",
+      "bytes": 902469,
+      "sha256": "2db62e4c9e474e6d5073583d303828e4a4fd9babd12e3db00da914a2c2ed942d"
+    },
+    {
+      "path": "data/tools/unit_lab/pets/block_cat/textures/cat_surface.png",
+      "bytes": 11073,
+      "sha256": "7b390ab7fa7fdb80db2b5862632d900ae52e8d739f538a9764890cfc5255b1b1"
+    },
+    {
+      "path": "data/tools/unit_lab/units/block_gun.glb",
+      "bytes": 3440,
+      "sha256": "54e20ed1a220b10645c305b4ee8ea17e420ba719d7ff5d1a4fd92d5e82749eaf"
+    },
+    {
+      "path": "data/tools/unit_lab/units/block_gun.json",
+      "bytes": 70170,
+      "sha256": "5188c2c15f0836e08d65da1e774a16f3ad92ff424e3a59971c89f02692be599e"
+    },
+    {
+      "path": "data/tools/unit_lab/units/block_throw.glb",
+      "bytes": 8152,
+      "sha256": "5b8bde31b4c7502934be5579ae5979802d024a53037b027c9a3b2f247ef1a709"
+    },
+    {
+      "path": "data/tools/unit_lab/units/block_throw.json",
+      "bytes": 70295,
+      "sha256": "7d500d4d6d1ee56f0b20d2b5cc9f401ed2b58788305187316bfc07b0f6dd6607"
+    },
+    {
+      "path": "data/tools/unit_lab/units/bomb.glb",
+      "bytes": 8664,
+      "sha256": "508c3a3e1bd8e4ded972c6f6e8017047011cdd7f9f7acd82b4a3c0a9ef2edcbc"
+    },
+    {
+      "path": "data/tools/unit_lab/units/bomb.json",
+      "bytes": 4915,
+      "sha256": "f8b5f800b1f96c14e8825ea9547098aa2d8e0c927dd0fabb7761b8cc084d2bdb"
+    },
+    {
+      "path": "data/tools/unit_lab/units/enemy_orb.glb",
+      "bytes": 106964,
+      "sha256": "2e4b241e60fd14e1e2af64f2ae20c8df3c4f1c7490ba8ef931d64a57ded7e662"
+    },
+    {
+      "path": "data/tools/unit_lab/units/enemy_orb.json",
+      "bytes": 35588,
+      "sha256": "23984276f8b777af3327d0b72f3a035c8b31fe4625fbfaf536004400ed94e3d3"
+    },
+    {
+      "path": "data/tools/unit_lab/units/floor_tile.glb",
+      "bytes": 4096,
+      "sha256": "1a8ab9f5bc0574f8fbd24054f2b408afdebf350f6247e231eedc41c0caf78e17"
+    },
+    {
+      "path": "data/tools/unit_lab/units/floor_tile.json",
+      "bytes": 38036,
+      "sha256": "e9bbec4fd1d13481ce1550720a5bd8bf91fffd66dfa31e4ce4fcd857a4246585"
+    },
+    {
+      "path": "data/tools/unit_lab/units/rescue_mark.glb",
+      "bytes": 22284,
+      "sha256": "0b4248d367b92e5bfd976091158e506d7de4ad336e749e4b47cf9afb271e87d7"
+    },
+    {
+      "path": "data/tools/unit_lab/units/rescue_mark.json",
+      "bytes": 19469,
+      "sha256": "71c2673e90e69a062f996f7063d74e085648e26e0719f8f28b761e774480601f"
+    },
+    {
+      "path": "data/tools/unit_lab/units/shot_gun.glb",
+      "bytes": 1512,
+      "sha256": "7967dc17417d1ddbb90b8ce81e2a88447981791f85f90bc214ed9f0a3665f105"
+    },
+    {
+      "path": "data/tools/unit_lab/units/shot_gun.json",
+      "bytes": 1845,
+      "sha256": "f9a1125b37ae8cd742dc8e54ba07dd90872a8fb4ca32e9b5df364e4b60e67284"
+    },
+    {
+      "path": "data/tools/unit_lab/units/wanderer_ref.glb",
+      "bytes": 4100,
+      "sha256": "e9b93f13eafb834af0e07e597994b2991ec06e099168e1e5b5b10e88b6172041"
+    },
+    {
+      "path": "data/tools/unit_lab/units/wanderer_ref.json",
+      "bytes": 50146,
+      "sha256": "73dc1ba12d279cd3750b45f5c04144660f2700a8f7cb5291f46af16762b10234"
+    },
+    {
+      "path": "data/tools/unit_lab/units.json",
+      "bytes": 1197,
+      "sha256": "3936e22d051a2e5b58b652452fae0f245e93e5193a17a47fb10a9b97dceb2bd1"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/_LICENSE_kenney.txt",
+      "bytes": 720,
+      "sha256": "9f08295a8b8245eb9b82ace4226176a9bddb677638cdd564d21c554c4651720a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/_LICENSE_kenney_factory.txt",
+      "bytes": 700,
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/_LICENSE_kenney_survival.txt",
+      "bytes": 715,
+      "sha256": "62c8356876481204fa4d40dc59183dfed777adf987d7f2a1390fffe8a699f3ff"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/_sources_quaternius.json",
+      "bytes": 8075,
+      "sha256": "6cba12ebb5ebf3557dbd453b261b736688ec8238b0712a6286953bf0c913aa55"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_barrel.dense.bin",
+      "bytes": 270000,
+      "sha256": "c9e99752dc0c67cc509b1b5956397d37701f096a3fd74299c38a19e8da2236a8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_barrel.glb",
+      "bytes": 31232,
+      "sha256": "221f2d7b8586e30722144d250026d3e02a23b4000358babd172ce8992f33cf8b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_barrel.json",
+      "bytes": 131032,
+      "sha256": "3a063d19abdf6e96b96db06e54b5290e90736d3e4359b56db43e3f4c62c1e270"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_pit.dense.bin",
+      "bytes": 270000,
+      "sha256": "e56f78b781b4408b33856b449eb2a426bbdf77e36eb8b0ae623edfd8b1b34899"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_pit.glb",
+      "bytes": 25188,
+      "sha256": "3e6857b5e61fdb01a2426f860e1ebebb7b0505408bcb1948bec7fa110d1447f3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_pit.json",
+      "bytes": 134189,
+      "sha256": "dbfa12f5f40fe3ebecb99cf2afb16323b5406601da55ba08520b8caabdcc0f57"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_stand.dense.bin",
+      "bytes": 270000,
+      "sha256": "6e4f3ec864ceca6878f9b35ea43d2acc31d151a85585467b6a308fddd3f8ea52"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_stand.glb",
+      "bytes": 13480,
+      "sha256": "0fd919e166b24f5f4a2560b11cb20f464554ebc901905a6f948c2e175c5caf69"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_campfire_stand.json",
+      "bytes": 131811,
+      "sha256": "bc89fecd3dd3e2f93889a6b0e665b5b9ac046dfba503f45ff930bcad440886b7"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_chest.dense.bin",
+      "bytes": 270000,
+      "sha256": "3ac8b98a1faa9611de74e351e0d08408f1e1fd1d01f9903f322d5e2f7257eaea"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_chest.glb",
+      "bytes": 28768,
+      "sha256": "29003a0d797d9c94e491b2d70ffaf4bad5ac88915506a296a301dd1fbbdde666"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_chest.json",
+      "bytes": 131069,
+      "sha256": "5ef054778caa19aee4f8c926fdc06c7bfb5e9e531c50d57281fdad8da08dc996"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_crane.dense.bin",
+      "bytes": 270000,
+      "sha256": "632d8ae1b6809ef3743ddb46345115c5b1fee77520e9a3e0b4016e960674b05b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_crane.glb",
+      "bytes": 47904,
+      "sha256": "f37cb0e1eed9ef4c1a084c83fd6a3dd317915f2be756850b621d4d26df546308"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_crane.json",
+      "bytes": 133305,
+      "sha256": "f0747dfeeec8ef8d2ea316249cd83a78b106cbe36b29efe31032d763e8ed6659"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_crystal.dense.bin",
+      "bytes": 270000,
+      "sha256": "1a2a0fb4c06b4c444498b651dd1b0f6c1d9f1d8ed367d09a873c5ebeb5c373bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_crystal.glb",
+      "bytes": 18148,
+      "sha256": "f50b7e9f577723abd3c80fd1b99fec6adead0200eb9781297cc953460ac05d44"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_crystal.json",
+      "bytes": 53721,
+      "sha256": "c1ccdb0476b158561774d3952261f18365572eb0466a5377cb994bee5a7ddde8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_rocks.dense.bin",
+      "bytes": 270000,
+      "sha256": "d96293d5781e83c91f854f53bcb140cfaa2f6231a93fa08194a996a10ac905bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_rocks.glb",
+      "bytes": 24588,
+      "sha256": "a68d81adc1dff19823208ece7fec067cc5d793c653676fc16544c28f8adecadd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_rocks.json",
+      "bytes": 51701,
+      "sha256": "01a4425ecf4da1eda0b4581443aa502f8203d5728ecdde76926eb605ec39280f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_tree.dense.bin",
+      "bytes": 270000,
+      "sha256": "3bbf3db28d7fed9c5021d48bd49e9d12de4e14892ecd6c0b70d7d922dfb2d923"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_tree.glb",
+      "bytes": 24904,
+      "sha256": "f3ccd2fe8c5b64da3a02706309988bd2eac7460911a1342adfb06edb3782058e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_detail_tree.json",
+      "bytes": 73559,
+      "sha256": "bcea753b4da95ac8dd548f4582e90431b2c3280aadb841f1b3302f94b74f9396"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_a.dense.bin",
+      "bytes": 270000,
+      "sha256": "cbe4035c6bf1dda207dfbad65ed0ea501328ad11275aed4e2edb56842add469e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_a.glb",
+      "bytes": 41360,
+      "sha256": "a140729320628e94055311678752bab41e1215f8ff340f7ef98918de4e583209"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_a.json",
+      "bytes": 71702,
+      "sha256": "a96395e1f25cba2b6c3987e36c3d2e96e3de4ff9cf902cb79ae97ad35f439b6c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_b.dense.bin",
+      "bytes": 270000,
+      "sha256": "ceaf830059d6cfb6bd820136e8354d16662cebf52bc9a3fa204ac87882dff4ab"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_b.glb",
+      "bytes": 38028,
+      "sha256": "f199a48300cc8b2913fa906606f43cfa7646aaa520f2ce373367666095a5415e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_b.json",
+      "bytes": 72753,
+      "sha256": "43085a65c9204a1c606ba94aabd6e9bdc471d526a5c9ee7075cc18cb289027fe"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_c.dense.bin",
+      "bytes": 270000,
+      "sha256": "5e7c081a7e690bff3ad7fc048f14db8616be11d8b938d059c3baec8de16a9983"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_c.glb",
+      "bytes": 36304,
+      "sha256": "e112d379e66b81b82c66d683185695c5854ff0fd4c9ae5d1d3d0fb1d994b04d4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_c.json",
+      "bytes": 73775,
+      "sha256": "6741927519e7285f34c260e89665bc5a9deb9029211284f8efcacacca7d4efd0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_d.dense.bin",
+      "bytes": 270000,
+      "sha256": "753a4c72c197b0af8bc01b3a78548559a3d4d97ac390f0266f4a0100ae742480"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_d.glb",
+      "bytes": 43312,
+      "sha256": "3f68822e734cb7b492968dc25ffa29cf58e5fd9423dd2bef7bf7e56403692b4a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_enemy_ufo_d.json",
+      "bytes": 73090,
+      "sha256": "b005364a01e483e1c83fc0bfbfd58045338f4211b0b78abeadef596e55ccc31b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_fence_fortified.dense.bin",
+      "bytes": 270000,
+      "sha256": "47d1d15cd429581f1e4c35dea60c8f66f3500994ceec05ab42d5516885772568"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_fence_fortified.glb",
+      "bytes": 17200,
+      "sha256": "d180ab1b4ed47b80f698c0aa33c8d32ab64251befd9c9daa0f90729a199a91c5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_fence_fortified.json",
+      "bytes": 130570,
+      "sha256": "c8fed856051fd11bf0378ccd49a24431b0847b2245e6b8636a71b599f20f51a4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_hopper_high_round.dense.bin",
+      "bytes": 270000,
+      "sha256": "e3d58c734091aa4e451d142c97c1ec94f2a4e24b67c6bbd34cd272ea8b25bc0f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_hopper_high_round.glb",
+      "bytes": 23440,
+      "sha256": "29faf2759e55b1931563f13624587ed0e47715686376642fb431ab964077409c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_hopper_high_round.json",
+      "bytes": 134935,
+      "sha256": "35d483cae6a3875919ab1e92914de43f4c0943aea716a792c2e42c1609d615ec"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine.dense.bin",
+      "bytes": 270000,
+      "sha256": "ed865927a0fdb2eeea297cf7885a14958b83fdb4e2c989a433797d301698c696"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine.glb",
+      "bytes": 29620,
+      "sha256": "5337795bc5221451767e65070a9fd2c55d229720960f6bed5036c7fafaaea035"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine.json",
+      "bytes": 130986,
+      "sha256": "3c9ec563006f40855d617ed34c9a70d1a5cab7a4d6323aca839c83e6e6b8aead"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_fortified.dense.bin",
+      "bytes": 270000,
+      "sha256": "0208f287b77f20199ce7ab9ceb620a849836d478f2b0e22216544ba5ba874bde"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_fortified.glb",
+      "bytes": 32512,
+      "sha256": "3a4f0a85da9c2824451126f6835f69fb400d74d5625fd30fa93f0f2b792764dc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_fortified.json",
+      "bytes": 131007,
+      "sha256": "24c8fe32d76009c8cc72b292ded7cd70089a0397e8cf60767541ba1709e309f9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_window.dense.bin",
+      "bytes": 270000,
+      "sha256": "a37c796505bfb80f3c2e498e2bb1cd3e48be966ab5784f06d64fdb6484667edb"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_window.glb",
+      "bytes": 39448,
+      "sha256": "ee28e6f62b1103fa64891d5946c7de941fabb513dbf67506fc2f4e383413ae95"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_machine_window.json",
+      "bytes": 130563,
+      "sha256": "cc6105fa438b8289d8ca9fca54f13813e9bf23727c8fdc3e2ee650a8a569b831"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_pipe_glass_large_valve.dense.bin",
+      "bytes": 270000,
+      "sha256": "88db8ea1d7c938e9b7882cf5e4c307ec37b33538a824a552d4ecdc34b300aba5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_pipe_glass_large_valve.glb",
+      "bytes": 39904,
+      "sha256": "53ddd77f59af99269ce93e0a54163a2c0d9f4d6a4248a6bdb0eddc68b78b9009"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_pipe_glass_large_valve.json",
+      "bytes": 136722,
+      "sha256": "4454a976aeb589d8afe235481db9301c7691bf3ff57aa8217114025febd5d90e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_piston_round.dense.bin",
+      "bytes": 270000,
+      "sha256": "5550271025a64aa2f66eea923a69e8cf4d10af747fba13611be434bc0ee5dd5d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_piston_round.glb",
+      "bytes": 30940,
+      "sha256": "df5f3045b5b03cf76a7b7cbf2c1d7347bb24754acbb2276929b4b5d8190f0ac4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_piston_round.json",
+      "bytes": 134072,
+      "sha256": "9882df9d2c6d47efdcf045ac5cb8ef9d0527264bfdfba9848526ef3da026acb8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_a.dense.bin",
+      "bytes": 270000,
+      "sha256": "ec89f1b8a34870bc54ac214471b52ac3bf6211327651889ed5ea57df20d488b7"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_a.glb",
+      "bytes": 41148,
+      "sha256": "37602908407509c28267c672869710ec284bd44028ba0cb6bbb0914be11d6949"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_a.json",
+      "bytes": 133377,
+      "sha256": "13fbaf2fc75a1541343a2faee5c64f59b2a7085d097d4f9016a016da0217d097"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_b.dense.bin",
+      "bytes": 270000,
+      "sha256": "f40cc1e68f4991f81a01eb5c86e613d70e8db60491030729d8fbc66f25b6d17a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_b.glb",
+      "bytes": 38576,
+      "sha256": "2a28c4ba372e470ebf8f06219ef2fbfa6aca0f3fa7d7c7801025e14e3ea1a639"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_robot_arm_b.json",
+      "bytes": 130099,
+      "sha256": "7f1eea7e78537fb93b14da1b18b5b1d7231c1d08d760440e94ab91d8f6f0a162"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_scanner_high.dense.bin",
+      "bytes": 270000,
+      "sha256": "3e66cff4cf3c2786204c75133396fc079cdcfb85d1670fd1964599ec6785d43f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_scanner_high.glb",
+      "bytes": 27076,
+      "sha256": "d881ce3928ced651a6801569e747312f034ef55219e3c30dbefdcc1f2910e11e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_scanner_high.json",
+      "bytes": 133006,
+      "sha256": "48843ffb5077098c7a20e0bf307794489dad255aaff2c31893f712c5bda2fe3f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_screen_wide.dense.bin",
+      "bytes": 270000,
+      "sha256": "0ec678a6bdda9073a858eb0974696066f920a694aeb1075ea0d102ef145c73bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_screen_wide.glb",
+      "bytes": 21936,
+      "sha256": "accc107e85fb35fe6e21f4d32a32e70d24be148d267f529a8c7a2dcfc6ec6ff5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_screen_wide.json",
+      "bytes": 129433,
+      "sha256": "d1e00b69b2fef45faea3cbab8787a95c591ac50a618463e1feb5bd39f5df975b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_a.dense.bin",
+      "bytes": 270000,
+      "sha256": "76cefa88302fd533a6250279a6e656c8cfdd8d8a6684a82930a1059cac6ddb93"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_a.glb",
+      "bytes": 25048,
+      "sha256": "2afbf78c0e9c4cbc903084a54c5fc46d23695a327de953f1ac716f9a157bb228"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_a.json",
+      "bytes": 43296,
+      "sha256": "38457696f097e350177de4ead08d2b01a00a829c42dd813d782f00e96dd2b4ea"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_b.dense.bin",
+      "bytes": 270000,
+      "sha256": "aa27f11524e24c2b4536888026395930890da3b3f9ae4cc4f9cf5d998b1df856"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_b.glb",
+      "bytes": 15376,
+      "sha256": "bca20fdd9dda87aa5aed8233451ce07a95a85009f541e7a4df24b7ce738386b9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_selection_b.json",
+      "bytes": 43236,
+      "sha256": "b9b31349a6deb0668435fb6e6f211f77e5ed422ccc595376703e25efbcc0b629"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_signpost.dense.bin",
+      "bytes": 270000,
+      "sha256": "5561215841181e9ed93f922fecc915fdab742d75c00126cc11edff6899316374"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_signpost.glb",
+      "bytes": 11724,
+      "sha256": "60ea08abe5b659364250d2e30b17fc5dc6c4fee7f5bd9e77db95413835c498a6"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_signpost.json",
+      "bytes": 131846,
+      "sha256": "966f037549589ac0e3f97eedb3b30620ffc24d604f07fc5cd0bd19a4eba0f018"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure.dense.bin",
+      "bytes": 270000,
+      "sha256": "3b47b1682bddc04ed598ade199261647cb9d27138b5fb9086f3ba08c0a2a5541"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure.glb",
+      "bytes": 14384,
+      "sha256": "41daeddc306bd7144b9cbfd38ac5ea350418a43701117a372b09207830a88eb0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure.json",
+      "bytes": 131358,
+      "sha256": "0b06b459010cc9afed6c8dff6499b7ad7db95372452ca7cf5774bc723cf757dd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure_metal.dense.bin",
+      "bytes": 270000,
+      "sha256": "c9d975731a1ca66fee973e386af2a55f24bfb9416eab172a5875e204c3be3a33"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure_metal.glb",
+      "bytes": 20656,
+      "sha256": "da43b982f4bbb8fde10f882f6aa4f33137b5713112348dc877be54fc57ffaa04"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_structure_metal.json",
+      "bytes": 134454,
+      "sha256": "708060650745e58b8db0206800d1c0611e0d9783c31a035912e52fe39bdc75c3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent.dense.bin",
+      "bytes": 270000,
+      "sha256": "af59ded8deefda784f3b33acb2bf444006f949fc7a29d0e4a5cdbd813feb0078"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent.glb",
+      "bytes": 17456,
+      "sha256": "d0a27a427a8c950647d80e61a0f857245fc27149a6a26bf919d5b5aca919832c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent.json",
+      "bytes": 134452,
+      "sha256": "2c6971d709de19ac040410e46ef8f29e12a8f1b7edfcdd90c2e1b7377cf2eb13"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent_canvas.dense.bin",
+      "bytes": 270000,
+      "sha256": "280e4b53078f015175ab85f89b9edf485252bf5995bccf6ce74d6a7b8f465196"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent_canvas.glb",
+      "bytes": 19152,
+      "sha256": "eee415c7f5ca17e7ddd2f9411cd8ffae3945708ab1fc8d1c3861314a49ee6e66"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tent_canvas.json",
+      "bytes": 135060,
+      "sha256": "9161fbd4e749b129103151359707ae59c0854e270f046ea6cfb39ad361a17375"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile.dense.bin",
+      "bytes": 270000,
+      "sha256": "f8cf4d469e8879d16d586b482da49651581939e7e160090f11c9b789b2f11a31"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile.glb",
+      "bytes": 14800,
+      "sha256": "f4db15204b716cc920b1e0b357201830dea9a857da117534025ebfc6ac60d0bd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile.json",
+      "bytes": 95698,
+      "sha256": "c91d4e83f9cbc17e43dc6a5271542e6c7596bfff65c831a70e6ccb65adc5ea4f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crossing.dense.bin",
+      "bytes": 270000,
+      "sha256": "37ca89c49f9ff1a4aa8e5b9c0cde78294964288657289a47371c3cb43cf4ed95"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crossing.glb",
+      "bytes": 29528,
+      "sha256": "8c8ead584cc9fb204d048aea0943b4c2426415c4ace49e75d8d9671615f9a662"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crossing.json",
+      "bytes": 107145,
+      "sha256": "dcbbafaae6d49b3e66fdb353e9f9133c144bb4ed403e6ecbdc059f88104af6a1"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crystal.dense.bin",
+      "bytes": 270000,
+      "sha256": "b86b2691b51db0acb50f692f1327aa4afcb59cfd61f8bf613abfcaac5a5bfff8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crystal.glb",
+      "bytes": 44328,
+      "sha256": "8dd05a27f6545f55a00fbb65d19606f3e05297bcf2818e9f7766e1c01a1f11bf"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_crystal.json",
+      "bytes": 130117,
+      "sha256": "a345e5d4d8736d89686befe8a8b4144c0d641b8d72233a6db0cc8a21a021fe2e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_spawn.dense.bin",
+      "bytes": 270000,
+      "sha256": "413cf769fcae6996ea24f76f2420e3a92095f698dbaf0a1475f68af117dd7bb5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_spawn.glb",
+      "bytes": 29832,
+      "sha256": "56211c8ae1f7b285d34f0d133ca85287348f12cf3ba5d93651d96f7d10cc6c6d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_spawn.json",
+      "bytes": 106832,
+      "sha256": "a96bfe833d00a4795ac44f41eb353cd3d1803e724dd49d85bc3b33f5192018a0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_straight.dense.bin",
+      "bytes": 270000,
+      "sha256": "2010663f3aa20cf9e28e6143dcae5db8a77dc8484bf25f28dd8df75acd3ff0a5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_straight.glb",
+      "bytes": 22892,
+      "sha256": "3042fe3ac80d9dfcafad9ee29dcab69ca8a0f2e0edfc253b9fa39f7ba0ddc4f3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_straight.json",
+      "bytes": 104973,
+      "sha256": "d50ac8f775e40e57910da3ff3558a90abd82031dcdef8cb6168ac952c3168279"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_tree.dense.bin",
+      "bytes": 270000,
+      "sha256": "ed45cb9ab13f4d685f9798f3f05d1ff5f6f3d36837e3b3eb2604f11d98811292"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_tree.glb",
+      "bytes": 34212,
+      "sha256": "7028228647913a459f885f0780bdc0925098b92e2e84963ee6c7a983569d1818"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_tile_tree.json",
+      "bytes": 127506,
+      "sha256": "f1293e97cb67e6ebe29630a812681c962a3005924bba40465e656b5b3ff58ae4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_boulder.dense.bin",
+      "bytes": 270000,
+      "sha256": "f447a66a1db03d8b0cdd915afb83395f99e32e3f4e49f2fffce9f13417debd77"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_boulder.glb",
+      "bytes": 19064,
+      "sha256": "e012b36a83b2d2d1c21033adfd1897c61c7d9370436b36b41093e95a8540ec51"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_boulder.json",
+      "bytes": 10554,
+      "sha256": "87972c646c4724fe845f0eb105753bc712fdd7bbd31c308714f3ef9653ea119d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_bullet.dense.bin",
+      "bytes": 270000,
+      "sha256": "f3c88b8c1f055e039e8a71bd4d85a90dc23c605e0ecd627ee61fca925ec9916b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_bullet.glb",
+      "bytes": 23256,
+      "sha256": "4381c9966a40079bc051686797c0c63f84053ec51bf59e140f030faf20f8a68d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_bullet.json",
+      "bytes": 6540,
+      "sha256": "96a94ca94354dc008095636afc224f395e641c367306943a56a50dcc155c3d4d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_cannonball.dense.bin",
+      "bytes": 270000,
+      "sha256": "09012da02f5bbba9af5c024c3133bbce7be4a9fbfc48759370023dbc6d255bc8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_cannonball.glb",
+      "bytes": 25396,
+      "sha256": "e32122ac269e81b34f5d051cc2dfa88888fc5d5840fddc3a459f233655ba3301"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ammo_cannonball.json",
+      "bytes": 8638,
+      "sha256": "836b4facaeb5c9f3f61d2be810f75f05c1f8bbcbe38be06daa7428e027b4cba1"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ballista.dense.bin",
+      "bytes": 270000,
+      "sha256": "4f0870f3ed5638994ab85a30a4baf3f1f63b35c9f68ce9d1e739ebc8a619637a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ballista.glb",
+      "bytes": 51420,
+      "sha256": "d8d544e76b754d417a1012a35008cf02c9894ce0c3815d1f23970d40f01ad6b9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_ballista.json",
+      "bytes": 124401,
+      "sha256": "d6ecb58ecf4f08dea8af5487a1556bc6e590b60b3ead8ed62cff5639167eb3d3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_cannon.dense.bin",
+      "bytes": 270000,
+      "sha256": "b3383fe3906190d24b4154df7570610623a1636f6ffe4a0c461d5d1d74ef8687"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_cannon.glb",
+      "bytes": 51564,
+      "sha256": "10def35432caa0d7465c7173c20bfb5a77bbbf68d82a42431437b763811274b7"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_cannon.json",
+      "bytes": 112262,
+      "sha256": "6115a6e7532b860638dd12c7eab04319f4119bd6467e00681da000c1170c2651"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_catapult.dense.bin",
+      "bytes": 270000,
+      "sha256": "35a26ae3f85fb7a1435f2c39cb702b2f46ffac2178394915dab890313af01640"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_catapult.glb",
+      "bytes": 50964,
+      "sha256": "50dd724c513639efb43ff91a9b81cde8821595885c520260b14dc0b76d3fa5b3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_catapult.json",
+      "bytes": 123942,
+      "sha256": "c71e1cb97346adf61e03a5029a77397216f264ad017941521b18f42efb612fd1"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_turret.dense.bin",
+      "bytes": 270000,
+      "sha256": "3d0baa9591902f5db7585c9eb69e8d6dd2d415bc6f134467dba1460cb526ec18"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_turret.glb",
+      "bytes": 52320,
+      "sha256": "de226ccab82667d1287b4749110c5699e1f3280cdd2c73ac673738dfdcebfe0b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_weapon_turret.json",
+      "bytes": 111668,
+      "sha256": "c827ee715be167d42b64d2a8bf440849f500733a3ae641c599e75d68d0fa0490"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench.dense.bin",
+      "bytes": 270000,
+      "sha256": "883280432a94784252d6dbc50a93abc863d90b66a21399dc00e23b0b4b75b08e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench.glb",
+      "bytes": 23868,
+      "sha256": "b52363fdd2b6afb4c207f90ee7445a2523dd0b22f3a67b03d253c0f34980df48"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench.json",
+      "bytes": 131719,
+      "sha256": "c8deae156a8d76b65d5a5215d35d104d1c92144e94c81cf7c9674d98e96f37d6"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_anvil.dense.bin",
+      "bytes": 270000,
+      "sha256": "e8b1fe25bf2ec3a601936d0c796b6a656099c8a3b4d9eaa944abd9f836372aef"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_anvil.glb",
+      "bytes": 27440,
+      "sha256": "dcd92021636be80b82d6127c688a509d0a75884fdc7ce09c9675393ff377a023"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_anvil.json",
+      "bytes": 134357,
+      "sha256": "7f024f1773e9b1786cf47ceaf1116719899cfe935fb612c8c67b748bc6becfb5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_grind.dense.bin",
+      "bytes": 270000,
+      "sha256": "37be7a744811eb5275e2800ea2498880d7f26cd56a18fd3621961e86dc0b7305"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_grind.glb",
+      "bytes": 23872,
+      "sha256": "7d28fce25d44afe954aa0487e59c3cd9d35fff7a5ad43ac29e278cbb2b1dba1b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/k_workbench_grind.json",
+      "bytes": 133323,
+      "sha256": "e65014bd1f053694c2a84b2e6b0f97895f0dd1af4d6e1a99e68795004bcf7c01"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien.dense.bin",
+      "bytes": 270000,
+      "sha256": "e03321a063a4e6c6ffc3a2f90f67221018d08bb80942819abc5d694525ba129e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien.glb",
+      "bytes": 65500,
+      "sha256": "d19784c427239476f395fbfcef5560b325aeddb4b3208b428e5429d313522cd2"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien.json",
+      "bytes": 82194,
+      "sha256": "720499ea4c64d01771b33ffdedd4a0e3c565dbf326b151b6d6431649d737afbd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "61c2da6c715824b7be3d12bc958bb5bd11bd40a98bc43bb15954ff07960c2bb8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien_2.glb",
+      "bytes": 187820,
+      "sha256": "38c7fb4372dd2fef6a5cf5a59970b1c2bbbbe97cd724cde6464bda418564fc1a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alien_2.json",
+      "bytes": 82532,
+      "sha256": "a86d6469cf0efda139d8f27b5d2e52755d98f255607906e6a828aeb559a8dcfa"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking.dense.bin",
+      "bytes": 270000,
+      "sha256": "a4155cae30fc3012394fe9608b26de1045396ab06b17cd05e994524ae19f6d2a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking.glb",
+      "bytes": 50692,
+      "sha256": "7a290588469fb5ba2fd3c10ef4226d099275a5a6ed7b8d020655ab9ca99c2bcd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking.json",
+      "bytes": 83657,
+      "sha256": "568b56dfd4d2469b6a3ed298593307db4371924184d56bb537903cadcdd9fa31"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "6b5418b54f4242614043e0dd13c56ebf426d7d095e10a162302624ffa95d2858"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking_evolved.glb",
+      "bytes": 107448,
+      "sha256": "75178f2f6f9fed9d5f143a353ed46268646177c4029f0d8720e6bf750179dbf0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_alpaking_evolved.json",
+      "bytes": 83579,
+      "sha256": "5a49575c593f7ecd8123bd1a31b8be3c24163d0ab266b1f335f3f5298cb8d247"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee.dense.bin",
+      "bytes": 270000,
+      "sha256": "e8a1333eded1204b620b5e7621181725dd590349367922fff43c12ea5b6ca5ba"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee.glb",
+      "bytes": 48076,
+      "sha256": "43b690f2670cbd969b40430f360c0b16faff4b3b9c68f53ca3693df6389793b4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee.json",
+      "bytes": 83928,
+      "sha256": "80539d6b7944b3f330ed6d33f33a6ea06f5c60f8e23886dc7a5b58f843f788f3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "8d34f32cb6f99e4493e76e68efe0a647e6afd5d369b031aaf91816ef881b0d3e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee_evolved.glb",
+      "bytes": 71040,
+      "sha256": "6bf82f1de13fd3b4ac2506573184b5f5ed6e524be93fb1bf96a28d5a4d03bfd4"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_armabee_evolved.json",
+      "bytes": 83617,
+      "sha256": "007ef639ae79e469b51f87c68959088293ebbc8cabce53932fc61b0ca9cc9ea7"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_birb.dense.bin",
+      "bytes": 270000,
+      "sha256": "46f18f477feb0438e00c924bd267b9b73f4c502eef94341968885d16d22ce15a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_birb.glb",
+      "bytes": 93508,
+      "sha256": "1b007e64f5f591b7d380fae89bbb81ae98fbdc874c237e4776785187fc7701fa"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_birb.json",
+      "bytes": 83962,
+      "sha256": "a026bf0b91157293dc55f76f4db599d78137a0fa88f66f1f1537a619c1b4cf8e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_blue_demon.dense.bin",
+      "bytes": 270000,
+      "sha256": "66f8a81ea5f23f57c78011bc7b261d4f6e9e662c5acda52eeece5703f2dbbdf3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_blue_demon.glb",
+      "bytes": 145284,
+      "sha256": "7be6c0bccdd46a03009e70a63a3ffe931f5b1c203d8bee89268ab74866e9800b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_blue_demon.json",
+      "bytes": 83696,
+      "sha256": "91759d53883e803793b0ef3cc0c497c93be6a320b66eee6ef954e3cd4af6765a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_bunny.dense.bin",
+      "bytes": 270000,
+      "sha256": "a7abaa99affc43fc1fcce305edeb6750282e848bd3e8ea67cefaf3d53dbaa19e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_bunny.glb",
+      "bytes": 203620,
+      "sha256": "9e9bb2f7cbbdaf227c3a81407d78a4ff8910cbfe004afa7b5afc982b85c5cfef"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_bunny.json",
+      "bytes": 86408,
+      "sha256": "9279d20915098e07e183db6d6af2dc3b12eeda32cf6adde37572e47ebf464432"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro.dense.bin",
+      "bytes": 270000,
+      "sha256": "a7d80db099413cde858fcedb4bff4b859118fa72750f658f7a26e8e21ac0d0ba"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro.glb",
+      "bytes": 73148,
+      "sha256": "3cbf2223792400ecf0d05fdfc973f59b185994f241a7c774936fb4f54b99f659"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro.json",
+      "bytes": 83334,
+      "sha256": "23eec25927b941a347b98d3937d8b16caac5ff56ae836ab78b0d705766c8e7cd"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "de98f9016e387ca2c358e6956f0c97e2534327a6c0c0f9dced481cc46a1da451"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro_2.glb",
+      "bytes": 168904,
+      "sha256": "cf1cffaafe126c535ac522d854a605a46def6d61a858daa3d5cd8389252c70e8"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cactoro_2.json",
+      "bytes": 83433,
+      "sha256": "37cea92fb3a5a6786e9b8111d0c830d2df0fd88532344599d40b848777a1094f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cat.dense.bin",
+      "bytes": 270000,
+      "sha256": "1d685dccc85259f99adebd4bedb3a1409e6306ea887ed6e3547eeb558b46fb50"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cat.glb",
+      "bytes": 56216,
+      "sha256": "a9b4d59d22595ba1a5efecfa14a790775fdd2ef32603a691f174c0af57e52111"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_cat.json",
+      "bytes": 84727,
+      "sha256": "2d99603fa7486ef885fee72a5773930bfa96b3db857f3fb0947c1447e5622ddc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_chicken.dense.bin",
+      "bytes": 270000,
+      "sha256": "03aafb778fa96c5d92f0cc02d596dc7ba230ae8fb6189764a12011db9f82a1f5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_chicken.glb",
+      "bytes": 75244,
+      "sha256": "2c9ea6ebee47c9475f1d18cb84709963c879ceb814c3b41ac70ef5251689eab3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_chicken.json",
+      "bytes": 85628,
+      "sha256": "10461e9172ea3ac1e30b0cf66f16a0d073e35f66716218796ea23d81d5fb337e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon.dense.bin",
+      "bytes": 270000,
+      "sha256": "7d2be47820079b05c636724fbe4c1210766bfb42efd24227cb148e627ae47f0f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon.glb",
+      "bytes": 125168,
+      "sha256": "6818c28d4ddfd25e11c7f4d6bf691ae90501ae7809b703488c011a19c81bcd31"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon.json",
+      "bytes": 83003,
+      "sha256": "c35fb84e1381c4a613d6a88c8216c4b23d98fe7c93a57b252540fa3bc0d4d960"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "fad16e86f0689868b639e2e6bbc9b27e77cfdfc4d45a0db44f11a5482b5fdc27"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon_2.glb",
+      "bytes": 179044,
+      "sha256": "822afa6643f3c8edadbd72b9f5decc3e1541d261b2298e6ebd664349db23f119"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_demon_2.json",
+      "bytes": 83299,
+      "sha256": "a94fb929cde117ad579de1901e48983785f767e3291e41afc01f662716e9347e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dino.dense.bin",
+      "bytes": 270000,
+      "sha256": "c84972799f6798a448b1648f8683644dd9a696ab44b8bfe88a8c9261cae1afdb"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dino.glb",
+      "bytes": 138032,
+      "sha256": "d2d197a58cd60c11e41b683a0040161f2e89c4e0671ceb50cb4ddc42b6b2dbdb"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dino.json",
+      "bytes": 83807,
+      "sha256": "11ef118415644c375d307181c728df8befdbbafa92d343246a3512078aaeb3c5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon.dense.bin",
+      "bytes": 270000,
+      "sha256": "7888f8b509715d078085290430b17366545425766f071a2621b987e156750640"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon.glb",
+      "bytes": 120112,
+      "sha256": "397bd40994008884d878b230b5a98eec2a0812c1303ae1b3f95b129bb088d4b9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon.json",
+      "bytes": 83252,
+      "sha256": "7da08031942b83562d072db62d4e23cfa1d3ac5d9de01e4fcb817ae1bad9a7ae"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "3bf1abb1cbfc2c9ca6dd4f09c1a22fb94124c07fcb72c32d40fcea49ad2ecf62"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon_evolved.glb",
+      "bytes": 188960,
+      "sha256": "e2e9421f6169104c68ed9ff7fd6be80a7e7b98792079e1cde08ef622ef16d16c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_dragon_evolved.json",
+      "bytes": 83345,
+      "sha256": "70bbc37c1bcaed30e73aeecea7163460cc3a3a2290b141f3734f74f0d806fd42"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish.dense.bin",
+      "bytes": 270000,
+      "sha256": "82744e5f2fd8afeca7950030c19c48a96555e3fbda38d265a014b288e0836fdc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish.glb",
+      "bytes": 84428,
+      "sha256": "0ac1624e9818c819f975fb5cfe9220c2d6ccc0b2fbbd1b72a92894667b654709"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish.json",
+      "bytes": 83078,
+      "sha256": "fe0272fe5943db98c1616797059bbddc6cdd2f74b161078f57b2075b85775b9d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "0d87d6f8a20794e5a18ec07b2bc3c3ae6c38ff1e39fc1e544782c5b6c8b00d77"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish_2.glb",
+      "bytes": 165784,
+      "sha256": "58da6f82c4831ceac2b299b1bfff51abb2c31df4a4ed6a57114c20c134d7f993"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_fish_2.json",
+      "bytes": 83351,
+      "sha256": "0e1d5c37475bddc0edaef26d7fc38eb405cfa6b94ee25acae814cbe72c53c4f0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_frog.dense.bin",
+      "bytes": 270000,
+      "sha256": "b7723874cc2632300cbdc50e7262f8429fa50346e68b0831b97e33e67c12cd78"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_frog.glb",
+      "bytes": 123096,
+      "sha256": "6836ee4f4bbfa5b6878df949c1168d0f4150a0b229affd2695c7e305bf342b84"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_frog.json",
+      "bytes": 84745,
+      "sha256": "b288cdcab8fd0c193856cf74af6de6dbdc00131b84d173829063956b557749c3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost.dense.bin",
+      "bytes": 270000,
+      "sha256": "05a30548ae6299ba81ace46b20a1b1436dd80f1e6bef6596094dcd16da76b07c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost.glb",
+      "bytes": 64252,
+      "sha256": "6c95ab4b1002676f8880cf7c2030e70b43f89e47617b5f539e31e9fac558d2ad"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost.json",
+      "bytes": 82528,
+      "sha256": "079d708e5247d368ea05d3361d10e9ea243e590c7ea633b100616d6e550fa6e3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost_skull.dense.bin",
+      "bytes": 270000,
+      "sha256": "bd0af7315a8fd0ddc466c77a1114a98bb7ae626f6f941640f2543a152cd2b8f2"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost_skull.glb",
+      "bytes": 78620,
+      "sha256": "b70f3ef2f150d8ba2a1fddcb9125d5715eafb4ac022775235148df46420ff364"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ghost_skull.json",
+      "bytes": 83312,
+      "sha256": "86891b5bb388a909e06adb544c154e0d852af6772cc50ac9f1aa697963bdfec1"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub.dense.bin",
+      "bytes": 270000,
+      "sha256": "aabde2ffdf8cedaa8614b43afefadfba60ece9c60b13da5ccea5fffdb33015d0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub.glb",
+      "bytes": 51012,
+      "sha256": "ff1f06309137801590447390dbff178a104c881fc489544cce32964d1d967188"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub.json",
+      "bytes": 83343,
+      "sha256": "ecc48f9085d2319b49fdfd36a763dbc15cb4d16992927afa1a7d365bba19bb98"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "c94de9d7eeb82b2ca28f75ab5bb4a1e007c9e585ded1ac959ede222d539339df"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub_evolved.glb",
+      "bytes": 88412,
+      "sha256": "d62b4a700e292c8657e67a5083924ed13d45d2253a8d2cceb13cc61d3fb0d335"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_glub_evolved.json",
+      "bytes": 83161,
+      "sha256": "624c24eb49f909ca65e993d9792008ee3c5b701c4473f1c9004e4d5217d50a29"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling.dense.bin",
+      "bytes": 270000,
+      "sha256": "18e9a178d4018b11a4f32bf3f38c9082752eb34faea2000f966c199d7871d8bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling.glb",
+      "bytes": 98288,
+      "sha256": "7354536ebc7cab946f89c3dcd726c71e86be878e6675cf981b32b35890cddf36"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling.json",
+      "bytes": 83951,
+      "sha256": "4e29be52044a1e403f2f5d9d23a294cfb85ef6e9768637445ac5458f22193d83"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "20cc87968c513ee66bcabf458e3a3dbdaa99d04208861be9e650ae025bc55448"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling_evolved.glb",
+      "bytes": 157348,
+      "sha256": "f99f734333602c99c307915a871d9f44a2ec6a1f3cbf2eeff223d716858380d5"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_goleling_evolved.json",
+      "bytes": 83915,
+      "sha256": "b0b5fb45f62c2f930b648cbceecaef2ea705f79c14f1c403762b89365e1ce8be"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_blob.dense.bin",
+      "bytes": 270000,
+      "sha256": "9d72f1a0c5394821f4d41240ecc9488f70d7cdc65e2596f2723b67dbba498d3c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_blob.glb",
+      "bytes": 31044,
+      "sha256": "cff4c3557f40a72784a58e51a1dc9555a77350302e114563d463c967cae3bf14"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_blob.json",
+      "bytes": 82132,
+      "sha256": "a3d0e30fd236f610e1d1f9e14de76c8274b0ede219d04d4bc78f0fdbf62eb47a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_spiky_blob.dense.bin",
+      "bytes": 270000,
+      "sha256": "644cb29a43e452d85188bf5e8895da2483943dec0244b642d9a3ca9d0b15d9b3"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_spiky_blob.glb",
+      "bytes": 96104,
+      "sha256": "9b94144958be7d387593b555a7ae7d0dcbbc238bdce5ca8db850cace91c0d004"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_green_spiky_blob.json",
+      "bytes": 84078,
+      "sha256": "5c1693b1e7447f2d9d880012f1f99985db48020978c799f9ecdb9478d45c7c8e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_hywirl.dense.bin",
+      "bytes": 270000,
+      "sha256": "ccf92c6b093edcbee8d6ad14445d146f2e0aeaca18af889adb8dc341cde433a6"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_hywirl.glb",
+      "bytes": 63336,
+      "sha256": "88aceb0b284dbd355ed9b733d3b221590f48abeed3a11fdd80e1a61fd9d8585f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_hywirl.json",
+      "bytes": 85236,
+      "sha256": "d81ce13931788da0c4872eed6d1ee4993ff101b9b0a48ccf77348b6c5133413c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_monkroose.dense.bin",
+      "bytes": 270000,
+      "sha256": "8d82a345ab6e048e2cf859b3885fc00ff7eca8991a6f5490c5f4744090cc6691"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_monkroose.glb",
+      "bytes": 148856,
+      "sha256": "575c58cc4cb97cc4e81220199516c21589debc13436754abce271a266de1dd7e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_monkroose.json",
+      "bytes": 84224,
+      "sha256": "e0fdb669ae845f9059fc99b59a8aa9ef977772932150aa442c572d61b059615a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub.dense.bin",
+      "bytes": 270000,
+      "sha256": "ef6d2f3696d14c6c061aca0f4be99aede90a1f9260dcf09ca3849750b0c3af54"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub.glb",
+      "bytes": 27228,
+      "sha256": "10ae657c8ae551fa6d665a512e43d818d533804bf1cd7fa02fd7e19768cc71bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub.json",
+      "bytes": 84976,
+      "sha256": "af4fc06fac07bc18ec047711153937c42c4ff5af15cbe7e0e07220d4c0819160"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub_evolved.dense.bin",
+      "bytes": 270000,
+      "sha256": "d06c922ec8f979f2bea3f204c66ebb5b648023ee26a3068a17a470cd7e44e80c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub_evolved.glb",
+      "bytes": 72488,
+      "sha256": "37d73be8d27270ac60790ac6f745ea76c3ae9494c444c9eea02a31ea9e965826"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushnub_evolved.json",
+      "bytes": 84706,
+      "sha256": "2ec52e083af8095f0a66cc8685c3ebefd920c34127839cb496d9b2e57f1f7a3a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushroom_king.dense.bin",
+      "bytes": 270000,
+      "sha256": "3762e6711c09ae7787f803608c126779460c42930bab81f6d476acf159a2acf9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushroom_king.glb",
+      "bytes": 150556,
+      "sha256": "ce2cfcafc4bff0360ddfb16b4c901e3f71e0105c89b7f92d7aae9a5e1ce740e9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_mushroom_king.json",
+      "bytes": 85766,
+      "sha256": "cc7afece84ac1e129824c66c38b572f71adf058b39b96675b533bb40349d7a2d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja.dense.bin",
+      "bytes": 270000,
+      "sha256": "ca6c277599dd51b69b50d1402a194f37ddcc369ea56130e439d4d7994f918a26"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja.glb",
+      "bytes": 60560,
+      "sha256": "0f720a2edf871409f7126e4257bf95fbf7a927cd123be6982e1bd8b17d68a2ed"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja.json",
+      "bytes": 82924,
+      "sha256": "ae893e72d16faeb4ec2392cca1cd9cfc51dc3f8a73681376d58ee8eca1e631c2"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "63ceccb78950b5fc944a601cd37ba0efee49909ef39fc7d0cf35fb908de4b219"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja_2.glb",
+      "bytes": 164832,
+      "sha256": "6e9d38cb7e8fc0daaf2ab7223f5a8c4ace540d8e1fef82ecc6fcdce39227d333"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_ninja_2.json",
+      "bytes": 83610,
+      "sha256": "3c3b02e1785e5d9c4052f505430e211c23c1a83a2681c0faf49c129cc4a492c0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc.dense.bin",
+      "bytes": 270000,
+      "sha256": "aa1e85b3d81c99c9d2b87170e284df39d10b82c9d4b90ec879f2f8730ad0885b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc.glb",
+      "bytes": 195012,
+      "sha256": "66857dbe97556d03704d02d1383b01604e42d6909a487034cef6908d3d84f59a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc.json",
+      "bytes": 84309,
+      "sha256": "1cb0aa90243c915cf7c11b448cbe5fecad5ae6edcd64a0369beb672f6408d54b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc_enemy.dense.bin",
+      "bytes": 270000,
+      "sha256": "28d265acd4a8cb3cfcb699a6d601acfc17ee718b0e2ecadc971ad3769717cc17"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc_enemy.glb",
+      "bytes": 77288,
+      "sha256": "b6458f0399b0f08ababb130379d425af0c93dd0976b010227cca0b3c755ce61b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_orc_enemy.json",
+      "bytes": 84174,
+      "sha256": "9ec4a876787287b4008796c0703bb4e0e291b658cdcb4b506ea002370408ecd2"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pigeon.dense.bin",
+      "bytes": 270000,
+      "sha256": "765fd6867359e01f466ea743ab7c4262c26385eed7ebef070488c19721f84c69"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pigeon.glb",
+      "bytes": 56476,
+      "sha256": "8111ee9981024af4b71d718a77c1b0898d8b0118d4a4684abc5dbbac860c150d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pigeon.json",
+      "bytes": 83777,
+      "sha256": "f7df3361b6b2247d57acc618176be5961410a5dd49c45792680a0fd763af553d"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pink_slime.dense.bin",
+      "bytes": 270000,
+      "sha256": "51a80ebe0e5f6105e929c2bdbefbf882cff1a51bc82770b8567d84c71d63a713"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pink_slime.glb",
+      "bytes": 23564,
+      "sha256": "e98cb0b7806ab251d7e1bd136ff89e13823f8f17a3ced5448620198fe9e7d621"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_pink_slime.json",
+      "bytes": 83364,
+      "sha256": "7325d6d5dff3343cdf46178566b60ffd51736cd812c92e4ab82d0102ab3b1822"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_squidle.dense.bin",
+      "bytes": 270000,
+      "sha256": "8803234b7ffca9d68b90cb364e1a72ff534bb693d260190f1ccf1cab7bc6962f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_squidle.glb",
+      "bytes": 124496,
+      "sha256": "77cb9941ecf2e3cbc7198054a17c632445238064e8d703acd95d49fd76b1ea0f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_squidle.json",
+      "bytes": 83470,
+      "sha256": "2ce3fc003a165ebae356dab2cb816f7bec4fe0795c211599e96b329ce12347af"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_tribal.dense.bin",
+      "bytes": 270000,
+      "sha256": "4187b22fe429ea91feb6181c9e17193b37b13f0f219e2a85df8c43317fd9bf9a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_tribal.glb",
+      "bytes": 148448,
+      "sha256": "dbf1215cada5e70c71071cfe798c52a96c0a99f4a2c5a3a6b75d64ee22a32e76"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_tribal.json",
+      "bytes": 84078,
+      "sha256": "5db24e3c3d9ce5af3b161f30fd0f359ee8700a36f167a445a42ac29bc4435c3c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_wizard.dense.bin",
+      "bytes": 270000,
+      "sha256": "e664f857a40b5a5d17234f5e81056c447605a644a2513f3fdc417ba0f9fdfbe9"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_wizard.glb",
+      "bytes": 38712,
+      "sha256": "257d456b99f603f8d218521091de3b1d8b6eae305e98b3242a15464b03233f45"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_wizard.json",
+      "bytes": 82096,
+      "sha256": "a00108eb257c19f2e024300bdcc205bc8f53f5a95120bf66192de5c62a4f8b58"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti.dense.bin",
+      "bytes": 270000,
+      "sha256": "e59b42ad625f6b1e19fa33dcfc141f3fde9d9b7603485a97449fa80595857b81"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti.glb",
+      "bytes": 51700,
+      "sha256": "1f604befa8ed3fe92b0946c7bfa025958ecc06a5ae92c416f226382d497b6b35"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti.json",
+      "bytes": 84973,
+      "sha256": "8ece094545d90d7eea223b002e96be0e24e81dd2d4b1b8090d24faba8a261f12"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti_2.dense.bin",
+      "bytes": 270000,
+      "sha256": "1e1e3696603914452a8a7bd65951a9c522d1a61134b6cc902151fdaaf60866a2"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti_2.glb",
+      "bytes": 150632,
+      "sha256": "a98d945d6956fbb38e1092d3a0cc006b97192b5a5462d64e21bf2d97a243609b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/q_yeti_2.json",
+      "bytes": 86188,
+      "sha256": "ef3bf603cda968ed6dabc08b8a72d57edd52bf69ebedccf627faa3c65af29512"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_ballista.dense.bin",
+      "bytes": 270000,
+      "sha256": "f1f7307272dbcb28eb2633efeaf91d8b2fe802180c870589823ff97f12076513"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_ballista.glb",
+      "bytes": 117132,
+      "sha256": "596ba250f23518b971293a7a751e698a77770ed0b37464ccbfbddbd22ecebe14"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_ballista.json",
+      "bytes": 179164,
+      "sha256": "d217aabd44a09ec8d2a7dc1e363f964cf88a3b67b8ad37e31c41468100bb090e"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_cannon.dense.bin",
+      "bytes": 270000,
+      "sha256": "80a5f95ef1cacb3005af329caf4ad71a7472d00f4afeb85cb442bd3dff08523b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_cannon.glb",
+      "bytes": 124176,
+      "sha256": "9b8ff6ae40132962e49e18fbfe4fe454e432490bcbacbccc5c3dce092c145caa"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_cannon.json",
+      "bytes": 183678,
+      "sha256": "016fdbd83219444ab743bf9badbc059c85ea18c972edf0a4bed1bec04dcd8a6f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_catapult.dense.bin",
+      "bytes": 270000,
+      "sha256": "568d89df383ac4cade5e4fee349c00629fdee0f3d51d2cc72cb6fdc274c27a64"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_catapult.glb",
+      "bytes": 76972,
+      "sha256": "f41d517ebc808f7d713a0339b0c93153facc618e2832374c6a0066137b5a6afa"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_catapult.json",
+      "bytes": 183548,
+      "sha256": "8fc9aac3243d36169f170586fc814edae56672f0bc5991d881c2ada37c619e71"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_crystal.dense.bin",
+      "bytes": 270000,
+      "sha256": "1a404b5e8eae704b4d33a93e2750aeb2ac9aac48cf4127690de02aa185542e34"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_crystal.glb",
+      "bytes": 117656,
+      "sha256": "54a1ab4ec7a2845eef7214d260408a4e2d4f2d2564956fefb032be8f38533227"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_crystal.json",
+      "bytes": 184497,
+      "sha256": "22e0dd1879c85242f33e6a0d6428272bb4acb85d463b1e0dc048294d1f5ab97a"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_gun.dense.bin",
+      "bytes": 270000,
+      "sha256": "aef115cd651ef698d432e28b175faa0b841723838a60f433621a4dd1721175e6"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_gun.glb",
+      "bytes": 137160,
+      "sha256": "84565c260d7c1c7ef9202b8230815ff73c2fe94c2f8270bf99f1c5e679dd3454"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_gun.json",
+      "bytes": 183312,
+      "sha256": "59361ac138a4c7012778c1ed567e0e169669e4a826f750db2f28c28fd3939ee0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_roof.dense.bin",
+      "bytes": 270000,
+      "sha256": "bea71e5d691324d9cb8e850edc6cec51acbb49405497afc4f7fed172088d8d57"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_roof.glb",
+      "bytes": 155708,
+      "sha256": "ac5343c8ba7518de82445c44f1727be775755dc6659cf08b48a5bf3c8d7ce92c"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_roof.json",
+      "bytes": 185836,
+      "sha256": "77920c367d5a9e7679bfbdca13ff4fce9f36183b87a4eab91d71061553cb58bc"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_throw.dense.bin",
+      "bytes": 270000,
+      "sha256": "8132bca9a5f8fad63198ff21d0e1ced20117e99a9af5d0b0e9f9e50e85b528e0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_throw.glb",
+      "bytes": 147468,
+      "sha256": "b8cb95cee2f4b8878eee434217639181df66383f0e7d9417d27408d3485b3c7b"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_throw.json",
+      "bytes": 186169,
+      "sha256": "79b74bcbb80bc554fede0b3c6f852472125742f001d8a5873239a523655f90b0"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_wood.dense.bin",
+      "bytes": 270000,
+      "sha256": "221121f5d9f96c6e44462d07085b882141ad756a4f457988c7f40320b8e6f92f"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_wood.glb",
+      "bytes": 68880,
+      "sha256": "0fa2f91664efe31941087bb043218f365369a6cece7f5b19e1b5f8b0cb92d176"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free/tower_wood.json",
+      "bytes": 182028,
+      "sha256": "24dd6a27da12d43fa323f4c23e6947be172534aa31c97d0036b0fd43c371f388"
+    },
+    {
+      "path": "data/tools/unit_lab/units_free.json",
+      "bytes": 31335,
+      "sha256": "24bb880fab0e612abb8f2a7694a88eba2613ee44f9a2a28e21b692e243050362"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_fire/aim_fire.json",
+      "bytes": 834,
+      "sha256": "ec2cd6396769eab9e85b1e07109d3723c04760a37686cbfff6b9dbca51eea86b"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_fire/aim_fire_sheet.png",
+      "bytes": 210528,
+      "sha256": "29ba910bfd45739bb56805b45dc43783448f2073b6dc58cd0d5fdd946e36dfb7"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_b/aim_walk_b.json",
+      "bytes": 850,
+      "sha256": "e569a289cfba338f9e12126c41769a41d679983a60deb2d3884a6744d48c24db"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_b/aim_walk_b_sheet.png",
+      "bytes": 229151,
+      "sha256": "a7841a7d690e8b95f3235922e34e068aab90c89c332bdae61ce80d4adae03d9c"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_f/aim_walk_f.json",
+      "bytes": 850,
+      "sha256": "93db03a8bc65e2fdc847c274b79b9b8de1e178d8b79281497ba28ce7f04457b9"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_f/aim_walk_f_sheet.png",
+      "bytes": 200274,
+      "sha256": "776f5868a21054eb9e97675a101f780a897ba4550f42c7d5d2c2136201b40a8c"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_l/aim_walk_l.json",
+      "bytes": 850,
+      "sha256": "f3b4f18c1c916f3f8d255a3f386099248d65c680035d8d1565e606f16d2ebdc0"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_l/aim_walk_l_sheet.png",
+      "bytes": 212485,
+      "sha256": "e617f4bc50c1694bc1283f8679623288237058304f49ede21bef2bdb3b488938"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_r/aim_walk_r.json",
+      "bytes": 850,
+      "sha256": "3333d6c0691f6f3887465dbfa9265983dcde75c175c2af46d290078f1fa2b387"
+    },
+    {
+      "path": "data/ui/actor/wanderer/aim_walk_r/aim_walk_r_sheet.png",
+      "bytes": 217495,
+      "sha256": "230d159348a3efc1f698ecedf209d897525147653a51344539610505c2f2541f"
+    },
+    {
+      "path": "data/ui/actor/wanderer/draw_holster/draw_holster.json",
+      "bytes": 2095,
+      "sha256": "97ab1ee98918eef447632edf10576a61ecbe4adca9941217220d0ceed9fcd4fe"
+    },
+    {
+      "path": "data/ui/actor/wanderer/draw_holster/draw_holster_sheet.png",
+      "bytes": 320698,
+      "sha256": "73c6aa6a2f641cf99024d695cc0c49123db77ce38dc3e281c2068bcdc1e3fe7c"
+    },
+    {
+      "path": "data/ui/actor/wanderer/holster/holster.json",
+      "bytes": 2030,
+      "sha256": "15b6b9681ea3a0b963cbd6343ada9ee1dff59c9dce12769508d927afec09c9b8"
+    },
+    {
+      "path": "data/ui/actor/wanderer/holster/holster_sheet.png",
+      "bytes": 332660,
+      "sha256": "7737a170e5080cb0f69b276f0a28d035ab9046bed58d91e70be2b6e47ef50cf4"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle.json",
+      "bytes": 6123,
+      "sha256": "4b752a3a8675dc3008598e967ba2ef656455c66a3409adea6dec7d7a1a12d97f"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle_back.png",
+      "bytes": 594800,
+      "sha256": "47d05bbd28473fc89538ca1ee5639b6b2b80c4e4b8f0f69c277ea9081ef9debd"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle_gun.png",
+      "bytes": 676794,
+      "sha256": "4cfbc876c3fba0eef1fd64b6eeeaa0050a48193c2a30ddc505d5c81cf83d84f2"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle_sheet.png",
+      "bytes": 1406641,
+      "sha256": "fe4fbc47516d7522ad73339f627214d3a0a944a285d2b460a89c0c39d4b0b297"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle_sheet.tmp.png",
+      "bytes": 2542103,
+      "sha256": "0994d3ad081f4f6fd233b244f7271aab50668e18f71f8feb9bb37589424aa020"
+    },
+    {
+      "path": "data/ui/actor/wanderer/ingame_idle/ingame_idle_sheet_3q.png",
+      "bytes": 299807,
+      "sha256": "d936e6154694088f3dc0250ecdca00c3fe51b225786cd642f55db2a640c1d95e"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move/move.json",
+      "bytes": 5366,
+      "sha256": "04864044b24955f3e7fc2c1cad1773a2f95e410f912f9e352643336a88daa914"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move/move_sheet.png",
+      "bytes": 1101250,
+      "sha256": "004a704617ca3b2593a85f1f950fb43c38699e3fe35e8b8d5aeb947aa3252af6"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move/run_left_fwd.png",
+      "bytes": 612455,
+      "sha256": "49d068cd80f8420a722817f60b7975e01f4204f33858918708938ded1bf1ef6d"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move/run_right_fwd.png",
+      "bytes": 640352,
+      "sha256": "21fc4aa62a998f74c826b25e7c31d9234407758b423d463c80ee99019722c1f8"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move_back/move_back.json",
+      "bytes": 7202,
+      "sha256": "fd334c9e786cc014945b00930a065c1dc26d54b78d7e5a325ad827366b60b61d"
+    },
+    {
+      "path": "data/ui/actor/wanderer/move_back/move_back_sheet.png",
+      "bytes": 904777,
+      "sha256": "227da94980a2fda6a7a7233092c38c6072438cde4e3baaf99a803c156dfd016e"
+    },
+    {
+      "path": "data/ui/actor/wanderer/throw/throw.json",
+      "bytes": 6261,
+      "sha256": "de78417b16bc7b68d455a15e5d436557e730cb4515d2eb5f751c379f94cba08c"
+    },
+    {
+      "path": "data/ui/actor/wanderer/throw/throw_sheet.png",
+      "bytes": 1428433,
+      "sha256": "aa3dcd1d287c2a1d09960ecafd41ae2b36237188af859166536cdc1f85b81c96"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_gun/walk_gun.json",
+      "bytes": 824,
+      "sha256": "dce64b8b23ac5243cd044aa7a26c8fc1ef1c90a6b6404ff9e3433d1fff558db4"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_gun/walk_gun_sheet.png",
+      "bytes": 206722,
+      "sha256": "2a62fdec222c74d6590b4e5b62264ff8df458b14466e1b9548e01e1ee9ce4a42"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_l/walk_l.json",
+      "bytes": 2541,
+      "sha256": "5af246be9f7a6a7c8d11c304c9d0d25da585c766566bd1a5eb79ce776b1e88a8"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_l/walk_l_sheet.png",
+      "bytes": 897830,
+      "sha256": "db8a850028a81a4e303da2bd9651e408cf82af5cd57bd7b000db7a56a28f8725"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_r/walk_r.json",
+      "bytes": 1574,
+      "sha256": "83642ae7e2eb92d33c2715fffd832b21d7b6e074eeb39156a01b115acea9d0d0"
+    },
+    {
+      "path": "data/ui/actor/wanderer/walk_r/walk_r_sheet.png",
+      "bytes": 452258,
+      "sha256": "5dd6925f233aefbb45b66c9b66e791c172984f5c7c1d4983abebdfb666ec7b39"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_00.png",
+      "bytes": 112537,
+      "sha256": "01ed06f972c1f14ce994e7562420f07388b20ea139ce013629f86e40c3b8c572"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_01.png",
+      "bytes": 120505,
+      "sha256": "b12ee4eaee508d024e702d4c3230a2158bf4b452b30e4e5cefd695f2d31c8d1a"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_02.png",
+      "bytes": 126830,
+      "sha256": "2b9521a2eacdd8c446ee43d60088bdf6947644c9d6e39f36347db34f4f8b5df5"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_03.png",
+      "bytes": 123262,
+      "sha256": "c74403e69cc3f46a3a9afe8e3f6ff544cd1a3e557ba8ceef7dc1d7303e67499d"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_04.png",
+      "bytes": 122286,
+      "sha256": "570560d9376f47f8c2647dc9e0f0e81d4dd8eb9e959a2be8fa5648b3e59cd06e"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/frames/shoot_05.png",
+      "bytes": 121050,
+      "sha256": "a74ec14adba2de7e2d818607a9052383d656d5c736afbdb5f2f688e826414adf"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/shoot.json",
+      "bytes": 995,
+      "sha256": "7e8cc363bf4d253494cafa94be6735bb8696bbcc1cd20a0ecd531ba49d01a9c4"
+    },
+    {
+      "path": "data/ui/wanderer/test_clips/shoot/shoot_sheet.png",
+      "bytes": 691035,
+      "sha256": "5a79c4576188ed64181fdfdd7d58de4799417f5d334075e460eb9d54bcf8e836"
+    },
+    {
+      "path": "docs/asset_backups/20260927_characters_Codex/manifest.json",
+      "bytes": 3816,
+      "sha256": "e2c6d176ecc50cb1d5076c24f2fd9134032f2dc5273474bdd4932e28ba6d6e70"
+    },
+    {
+      "path": "docs/asset_backups/20260927_characters_Codex/unused_variants_and_previous_tool.zip",
+      "bytes": 22182736,
+      "sha256": "ea42dcd14a1a849dca4a2f4e54c2ad375a53dde3b93ff5d840f10ad60b49df4b"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/build_a_before.py",
+      "bytes": 28988,
+      "sha256": "88e30cdde064c8d49c6d58787faefe8c483778fe6fb2be765ad38ac6294c6eb6"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/preservation_check.json",
+      "bytes": 2200,
+      "sha256": "ec4ecd63e5f2fc1b3abea8b488a57a7699fe410d1cbff979afe07ec598b9f10c"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON.blend",
+      "bytes": 3717802,
+      "sha256": "b700c2d324ac5eb47d19f2ff2830be7c5ba15a6029ceec056637970fb6670ff3"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON.glb",
+      "bytes": 8546824,
+      "sha256": "926e63ac54cb7fa68e052be2ba11560b5060da08097c706252e241acfaf73b1b"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON35_metrics.json",
+      "bytes": 5407,
+      "sha256": "ef484c88e3ec7b5ca669e169e4136de79ef5d8300626845570f41f2bb9ce23bb"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON_35.blend",
+      "bytes": 5662557,
+      "sha256": "4a3e2a3e201a0efb5b2ff41453a36fa47634d73c12376dea92a21970f122fd27"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON_35.glb",
+      "bytes": 8550804,
+      "sha256": "14ed11a244f703ae5b9788839ed2a9e25c0d0070bc77b3b73d04512ac21938ba"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/RUON_metrics.json",
+      "bytes": 4969,
+      "sha256": "abbc05b242ade8afb96c3648b2ec0eaea407d526b499ef56472c3aa986c47bf8"
+    },
+    {
+      "path": "docs/asset_backups/20260927_RuonCrown_Codex/sha256.json",
+      "bytes": 1451,
+      "sha256": "2ec4a48f9342a871e9d4b10a0ece267d4dfaaa0fcf719e70dfa70e492c136b33"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/_inspect.py",
+      "bytes": 903,
+      "sha256": "ef5b60bdaa292a47559ab7f961e6e7091a8c0aaf61de5287626530904e7a1a17"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/_inspect2.py",
+      "bytes": 516,
+      "sha256": "415b658acc731c6a837bc527a453623877342396d6720400c74bc713c7d1e7ce"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/build_buildings.py",
+      "bytes": 4713,
+      "sha256": "90f747a88cbdc9cfa61055a4e8f6188c7bd2e6a0cef10290d2a7ceb829a3ad6d"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/build_free.py",
+      "bytes": 13001,
+      "sha256": "4a7321dfb1772c246b8afbcc4eeb8e7a7ceaf5f613fe2d25817173df48021814"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/build_units.py",
+      "bytes": 13851,
+      "sha256": "b57ed7d53d369ef8eb0c4e77919c03eb2e5548cd080d5c9c9b5462eccad2ee0c"
+    },
+    {
+      "path": "docs/characters/legacy_sources/unit_lab/render_grid.py",
+      "bytes": 2203,
+      "sha256": "b800fa77563f708001cb8e706daae68129527eeac8d5474f19096fd6ac84e7fe"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_arms.py",
+      "bytes": 370,
+      "sha256": "7aa1236be5d38005f190520536e33da2b67fe8e8e4641b2d4e0a4b809dc4e880"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_axis.py",
+      "bytes": 955,
+      "sha256": "dbc6f05f7275044e67674519a2f5c59bf59ae028f9142c9ac36d460e8ef6052d"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_headbox.py",
+      "bytes": 641,
+      "sha256": "d32ee1608084056aff2ae8341a2b169fb22a822ec88b3035f5db1527b462ae4e"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_ik.py",
+      "bytes": 4267,
+      "sha256": "4e02e4c6023d1010fa81090e12bcd9a0b10b785c44c0ab8dc31cf026609e2191"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_knee.py",
+      "bytes": 1176,
+      "sha256": "8288a2a012478ad889b37bb2e7597c250e7aadc876f777fd7fbe7461a04c93d2"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_knee2.py",
+      "bytes": 829,
+      "sha256": "d02f94a0d20cc1ae92dee374f3c1c3dedd19ff23bd3f05e901fe34db28feb6f3"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_probe.py",
+      "bytes": 2837,
+      "sha256": "75130d298e95134959adcafee1bcebd63b58f6ab583d625b71b2964eebafcecb"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_side_act.py",
+      "bytes": 1675,
+      "sha256": "a9c9a987ed7a8d52e330b9c6216e7ed255f24332669724ac69445834ce7949b4"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_solve.py",
+      "bytes": 3700,
+      "sha256": "dc2f711340abd4b045cf4162007379cbd50bba677a0444e322c3010971fef60f"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_twist.py",
+      "bytes": 858,
+      "sha256": "370d3fbcce76d146ea45c7b1d618775a88c38a973a02ea181ba8f8be1bf0ca4a"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/_verify.py",
+      "bytes": 1365,
+      "sha256": "ab43ce5c532f29a6fda8e54303e632ae21255f656eb44264c6d9fbca24b7d76e"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/actions.py",
+      "bytes": 11010,
+      "sha256": "1272d068362adf2578a2ae5c8ee2cb4dc02565ed2328c024726eb54310e74421"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/body_front.py",
+      "bytes": 11894,
+      "sha256": "e73efa00f542f07f28c6909f947056551cb37a85927a760ae0b7fc04b9c1dbfd"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/body_front_ab.py",
+      "bytes": 16262,
+      "sha256": "d003c2aee10f35c384a588e331ffea891e48d5eb61347fbb0e46786107431aff"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/build_wanderer.py",
+      "bytes": 26341,
+      "sha256": "92f4f2d8fd6683cb996a64ca3af18bfa3619574a9ef8e086b761add1c8117ac3"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/build_wanderer_ab.py",
+      "bytes": 26826,
+      "sha256": "0b557eb39e6ba4bdb244271fdeb826d1422e26889493fa7e4cf197a4e57b3c44"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/capture_ab.py",
+      "bytes": 5145,
+      "sha256": "6dd999837e272aa5ca502f4bd0d6593cbc1abf161095ca7a3dcd64399345c916"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/capture_b2.py",
+      "bytes": 4296,
+      "sha256": "7c556179c8fb26d95211b6fd3f80e2c510665a9459fbd089c148bb963a7c5dd6"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/compare.py",
+      "bytes": 1676,
+      "sha256": "63624d93671603883212799662e463bb3f6bad82a15de4e2c926cdbd27edceea"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/eye_shape.py",
+      "bytes": 2272,
+      "sha256": "ab9ea78750ba00238f4c311b9bb98465807f514895658eeec97bd338625ef270"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/eye_shape_b2.py",
+      "bytes": 2308,
+      "sha256": "380f68613cd38cc570315cf339afac17edb6764c458c67b823edb6a8120808c8"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/eyes_3d.py",
+      "bytes": 11414,
+      "sha256": "fd7cc84d1790dd8cd1fe61e79e1fcfe31dfba60288a063beca96c9238a596515"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/head_b2.py",
+      "bytes": 23636,
+      "sha256": "d9efa8ff016884c1fdf8b56571f896966976ca6888e174877cbdc4a4d3af0ea3"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/head_block.py",
+      "bytes": 12094,
+      "sha256": "b9feab826f8b6f625110abf2c1e3f61fb9a9c7570b2fefd842aa241ec66ef701"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/head_cartoon.py",
+      "bytes": 8166,
+      "sha256": "ea100c4429c81a52c1a7ec59ec365e3a9e7ef245f51669019cfc62d5d10f5480"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/measure_outline.py",
+      "bytes": 1695,
+      "sha256": "7a2f757a5c80ee19d206407ea883213f8de58b14e8d009d1865392a3ac82f72e"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/paint_face.py",
+      "bytes": 9994,
+      "sha256": "f27660d169dd42853fa18d0b6483aaf28fe6dfe6e95e49cb94c454504dd90486"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/paint_face_b2.py",
+      "bytes": 4542,
+      "sha256": "9a70fbf0501c46d9e47761bf5a0de459cf50e7b281f3d608ab84af8104757af5"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/props_guns.py",
+      "bytes": 4621,
+      "sha256": "99a52a3b95605dc104a8194aaa887d95421bd8c75c529254b4493701b115a57e"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/render_face.py",
+      "bytes": 2541,
+      "sha256": "649787c7f2dd36bc916aa08044c6c61246a73b634d99f6e0d72611021d5006bd"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/render_ref.py",
+      "bytes": 2514,
+      "sha256": "f56f7a12ab8b05a19a08a99942d86b345c41df3f9129815b1cee758df4fe92a2"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/render_views.py",
+      "bytes": 2235,
+      "sha256": "d814bf8608b9992b6b68b24f1e40183c2a3cf61927b63bf8491365226092a47f"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/rig_ik.py",
+      "bytes": 6088,
+      "sha256": "fbc71fadf041f68c95dd58b64877f4064e9fcd4f40e510b4e725e8e20622a7b5"
+    },
+    {
+      "path": "docs/characters/legacy_sources/wanderer/view_acts.py",
+      "bytes": 2092,
+      "sha256": "72ce06ce37b56f9433aa0be878c31059c51dcdc6722f69c318ad0ea94c8ce882"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_건물공격.md",
+      "bytes": 629,
+      "sha256": "bbedf52f5b9fd9ba92f8f58c84ff6d14dd05ac6fbfc14808b9fae86919e1d227"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자3D.md",
+      "bytes": 1986,
+      "sha256": "d86bbde5cee33ec1b2c6c4d173556736716f6ca9d36dbce2a2d17aa3f0d43186"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_AB재디자인.md",
+      "bytes": 5129,
+      "sha256": "763c59ca0a766d533085b9e14d3f39ece6d3f2828bb5ed4a17bcc3317aa51a90"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_던지기IK_사격반동.md",
+      "bytes": 2968,
+      "sha256": "d012938e42fb7eb23d906cb385579f5b81922c1da9be26083fdcb5aa20658e8d"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_총던지기.md",
+      "bytes": 2305,
+      "sha256": "fb65d768d151dd6949c1f6c41b9aaa469014170ce60647778d298cb513f58d5e"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_총쏘기2_던지기.md",
+      "bytes": 2602,
+      "sha256": "826a4f6215d8f301fb0de7746207809a71de6cc1e99cffddce7a9fe0a28f45b2"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_카툰머리.md",
+      "bytes": 2725,
+      "sha256": "089d987c5d21471c7389afe1f95422e6184374e819fd0e1b885961b2aa508339"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자블록깨짐.md",
+      "bytes": 1585,
+      "sha256": "c09ad54468b0d7b6012f0afed89d4529d3e5122d3943dddf1067a86666e9106d"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_블록부하.md",
+      "bytes": 1410,
+      "sha256": "8aa9fb51f8a79bb474ba5ae3b5ee4bcdbd0182a165ac9bdd873f4e81e6bb64d6"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_설치건물.md",
+      "bytes": 2180,
+      "sha256": "9fb955e3885b8d40e3840fd31ebe7beae1d9db532a30be2bfedb99bd89ceb8b5"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_스킬포탑분리.md",
+      "bytes": 988,
+      "sha256": "b667081c60434ee2b8d3693c185dcd3a445c1e6803b3fdc87e733aa1889344df"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_나란히비교.md",
+      "bytes": 1538,
+      "sha256": "63353d184883e64422e8412ef7782df8365cc8b0e31cc1bf1a23be99b0f25d20"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_레고색.md",
+      "bytes": 1593,
+      "sha256": "4564cfb21c5dbf87894873f001723b8aeb66bbb36e8a7b3d52b01933b6bf1c5f"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_무료모델.md",
+      "bytes": 2020,
+      "sha256": "3ee368295eccc786da2c2774913e40efc99c9b0a2a0cdfb39928610a630deb76"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_블록.md",
+      "bytes": 1999,
+      "sha256": "549571cc664a2f2984996214e71e8d28a07b8d64c2e35550f880ad1c67d185ce"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_점구름.md",
+      "bytes": 2552,
+      "sha256": "8d3ae8d6e046ec9776ab5219f285ad6f2a0263f8821522983ad692f865ac39c6"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_총구5도.md",
+      "bytes": 566,
+      "sha256": "b2db1cac08c1fe82aee0dbc524e54abec324a13f79e3b7bea6271fde6b77379d"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터디테일.md",
+      "bytes": 644,
+      "sha256": "5e22c66ef8eee0e03ec30c98b8b38bc69a73503cdcb7d3182caa52006c41d708"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터디테일_고급조명.md",
+      "bytes": 1986,
+      "sha256": "0672647a7f391d4fa38f32b6ee863309d4666d976c27c13f1ef12c665cecf2fb"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터크기.md",
+      "bytes": 698,
+      "sha256": "81ce8a86d23d779cf488af3c73ff1742a22052bde5d7febc7613d0cc1df19a3f"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터화면크기.md",
+      "bytes": 713,
+      "sha256": "09689272a7d09e066da4103db77caf051c92968ddb9b486af9c0915ff812a31c"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_클로즈업최적화.md",
+      "bytes": 1899,
+      "sha256": "a288ee384a5742cafece11775736bdb2475ba4336e103e84e9bed5424d22416c"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑등장.md",
+      "bytes": 635,
+      "sha256": "701ab373dd5cc1efaab961d5b29ddaca8c4c81235809b46a25ef2ac31823991b"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑사격_적근접.md",
+      "bytes": 2336,
+      "sha256": "d8ba35cdab906b216bbf67b6e0d4db1b6ac835405fa82aef30b11220b3c50df5"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑앞클리어.md",
+      "bytes": 869,
+      "sha256": "810e251d38e18ab8b19796fca50789c7fa6ad489b7242f80c1cef224e21359ef"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑쿼터뷰.md",
+      "bytes": 705,
+      "sha256": "191c1a69c674f2424de1b5be3d9ffd40a9284725b493a7d07e86824beefc6b3d"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑키.md",
+      "bytes": 545,
+      "sha256": "cb7086aa43c78db1d59dc21a4ebb3f9876f3238d18afe1d61b10013869a3d93a"
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_피격연출.md",
+      "bytes": 945,
+      "sha256": "2f1a8b8011c7136590776984517dad13d53c32f272dba324c408b5cae6779d07"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_D안_얼굴정합_턱목옷깃_Codex.md",
+      "bytes": 6064,
+      "sha256": "94b43d48be602a0b008d2708768030129db131f786749c8276189cc0f92a8bf7"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2그록블렌더수정.md",
+      "bytes": 3611,
+      "sha256": "a4f57628a2e1e6593cc9d407d52b2264c2ecf7b5d499782764f12ddb9b69c6d4"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2문어형머리.md",
+      "bytes": 4903,
+      "sha256": "5ca878cea70436adee595d518e4a14b3f948f494cafeb3ec1be41c8b1feec42c"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2보완_볼륨_입체눈_갈기.md",
+      "bytes": 3137,
+      "sha256": "a07e1b021722838940385d52b2a69da80918cbb8b1288e86c7b86e5ac553a4b1"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2샘플시안.md",
+      "bytes": 3157,
+      "sha256": "efb37066e705c6eebc7cc60b0bcde472eb46b2cc336c2daf3fff5405c576abb0"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2실루엣맞춤.md",
+      "bytes": 5939,
+      "sha256": "174f3f28cbb92889a4dd347c9d9900a1c165187d7abe65d43c757837c960707a"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_시안C등록.md",
+      "bytes": 2728,
+      "sha256": "a8d9fc584b6361693e4bbadf8ba883c69e7964f7bc57b522c47eb11f0565db97"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_입체눈.md",
+      "bytes": 3887,
+      "sha256": "b55b8f9e5785d58eb22a8436f65f73ec5cd6e8eccf7ea1053004b694f0634b64"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_총재제작.md",
+      "bytes": 2950,
+      "sha256": "cb9e2fc10204a450d2c47b15c3f08df517842f234dc6567336daf30f077509d5"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_시안A.md",
+      "bytes": 680,
+      "sha256": "9bdd88777d29c52a3dce12942d3a58060f0e8efc4710e20def21189d388d7dae"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_시안A디테일.md",
+      "bytes": 744,
+      "sha256": "6b266b999e253b0f8b4d188824db25792d857afc4928b21e8b5acc1c1d7fe943"
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_총구방향.md",
+      "bytes": 945,
+      "sha256": "3fde97dc04b52a35c67638f07228b277700d11159f21413fd935dc5aa4aff128"
+    },
+    {
+      "path": "docs/reports/20260926_작업계획_블록고양이펫_Astra.md",
+      "bytes": 22433,
+      "sha256": "5992d0bba78be028bd9aa873cb31df25d5a99d1e991d1c305c7a9e1df04fdeb8"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_A얼굴그림자완화_Codex.md",
+      "bytes": 2716,
+      "sha256": "980be17d9824dce97738a031f5c5d2f6c2fa6ee18f184598ee052d64b900ade6"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D안_등거치_표정인사승리_Codex.md",
+      "bytes": 6892,
+      "sha256": "798c794cd5d82da2183aec0141637660f3d4b39600f0937c9c1d62429a47d7b7"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D안_무기애니조명_Codex.md",
+      "bytes": 9718,
+      "sha256": "bdeaf90611782ce904a8c2ce8b7a1fe4ba16359aac6c907c896c8e226f694df6"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D얼굴색_그림자보정_Codex.md",
+      "bytes": 3745,
+      "sha256": "9a1127627860a35900f03fdc98d9fa09b0c6be63c8a0e8ec3d2fd0ec439ff389"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_블록고양이펫계획_Codex.md",
+      "bytes": 3153,
+      "sha256": "70221a8e9670e5342b11a4a2a8cb8ad38e43fccebe3c783256eced1c71dd2461"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_시안A_D수준제작.md",
+      "bytes": 9672,
+      "sha256": "1f66edde1096b255c9a6a755dafa41456db3b17095c1019361a2085500b8b75c"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_시안D발도.md",
+      "bytes": 806,
+      "sha256": "501af3672bc291742c3bc724ea85035f97878727cc645922e0aab5ea005538d1"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_쌍권총두발.md",
+      "bytes": 480,
+      "sha256": "525651dbd9f7a9a32fbf09ff187a6172239783047c1417c962a8763ca47bfdff"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_총구FX_후면가시성_Codex.md",
+      "bytes": 6542,
+      "sha256": "aae018c34866001c1f25706577ecc653d00002a9875d8fee6a4c604734fb9596"
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_캐릭터30.md",
+      "bytes": 333,
+      "sha256": "c71614a64c0dad839d1ff51210315d26db8cb3b7db61b95b87d3a40fda880700"
+    },
+    {
+      "path": "docs/reports/20260927_작업계획_D스프라이트비율_Codex.md",
+      "bytes": 1245,
+      "sha256": "a342975913ee1f3dabf0465eae95e047557c7dbea4554f1b1637f9df58b4efba"
+    },
+    {
+      "path": "docs/reports/20260927_작업계획_루온리아_유닛랩정리_Codex.md",
+      "bytes": 1058,
+      "sha256": "458fbb083e9f992b8a3ec64ca90dcfa31acce5253315bc495cc0475cb8695329"
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_D비율추가_Codex.md",
+      "bytes": 4941,
+      "sha256": "dd4e23c346f2ca8d91e8dfc7b05085fdce4c09326c356b743da4951787a258f3"
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_루온리아_유닛랩정리_Codex.md",
+      "bytes": 7012,
+      "sha256": "b1fb492e86663e1a60ef18cd3260248e89a2727fa3e643cb941d8ea769c58646"
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_루온정수리_캐릭터제작문서_Codex.md",
+      "bytes": 7258,
+      "sha256": "2c26b97ed9a08159e7a4543b63e7317cac16786fea9f9c0b7f1306161ba028d9"
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_블록고양이_얼굴전환_Codex.md",
+      "bytes": 10438,
+      "sha256": "81e1862ef5bd1b4baa04102c4449a01d64e668c1bab65812d5ad0e058b9dea66"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/crown_checks.json",
+      "bytes": 249,
+      "sha256": "7f23556112d2f7741d7f4624a18997344af179128657a189aa3d2311b7c1adf2"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/handoff_checks.json",
+      "bytes": 384,
+      "sha256": "97fa7c471e6307191d9ca94eaffdb32fcf385aa5ec8ca262001d41650323f9a5"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_35_back_compare.png",
+      "bytes": 106527,
+      "sha256": "e940601082b74f7d15efce0aef0875eec4411b12e0499e17ea396a4dbb69df53"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_35_front_compare.png",
+      "bytes": 377806,
+      "sha256": "7452df6dbd609fffbfdb81ff15304ffaddc79033b806632acc3e94e13801c8a7"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_35_high_compare.png",
+      "bytes": 438388,
+      "sha256": "b25ee34c3dd4effa38893400abda465227ae87e1416ddece3504fc3ba11c6fef"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_35_unit_final.png",
+      "bytes": 275481,
+      "sha256": "0a6442b11a49aa1759d2428a821262807419a660c43c08060f4dd8231a1a5451"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_back_compare.png",
+      "bytes": 105361,
+      "sha256": "9f876b17c3dd731e552bbfb599353510a817264d6d304e64d678680bf83fa39a"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_front_compare.png",
+      "bytes": 367838,
+      "sha256": "74269df669e0a0455640100bf2d358a571b6f1a40ee9c06042c1ce9590bcda34"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_high_compare.png",
+      "bytes": 437572,
+      "sha256": "60f651c6038e22c72f3df1c39bf3a3e2770c1994871261468fd86ffa7dd2449c"
+    },
+    {
+      "path": "docs/reports/assets/20260927_루온머리_제작문서_Codex/RUON_unit_final.png",
+      "bytes": 224989,
+      "sha256": "08bf6a4966c3a179163bbe43c774f639ecd1c61c4b41fb540fa1a8dce58e5790"
+    },
+    {
+      "path": "scripts/unit_lab_a/build_a.py",
+      "bytes": 29291,
+      "sha256": "de098119ce84f01a0353fed63b3a1326c6f99942b75f81a28e39816e5bcde3a1"
+    },
+    {
+      "path": "scripts/unit_lab_a/capture_muzzle_rear.mjs",
+      "bytes": 3950,
+      "sha256": "b1d8b38fc8f4b2765f836c762a617aff0ecb65a72446a21c4860a9dea55beffb"
+    },
+    {
+      "path": "scripts/unit_lab_a/check_protection.mjs",
+      "bytes": 2931,
+      "sha256": "f490dd7c32433f8ad77ac3d1ed3d04da712679d7e39a3d09aa078988eefc1cc8"
+    },
+    {
+      "path": "scripts/unit_lab_a/crown_a.py",
+      "bytes": 2339,
+      "sha256": "c9a3362ee30715708fa57ba168cecd02b3344f223a1e79faac32f598ae4f0dbe"
+    },
+    {
+      "path": "scripts/unit_lab_a/expressions_a.py",
+      "bytes": 4624,
+      "sha256": "77ad6cac079fb20ec0f720f07049ee5d7d6abba790931c6cf3484d2abdaba005"
+    },
+    {
+      "path": "scripts/unit_lab_a/inspect_face.mjs",
+      "bytes": 1329,
+      "sha256": "ef1f55c76c20da2e4941c6bd405bdc30dd5297fc0daef78d1416d0655017114e"
+    },
+    {
+      "path": "scripts/unit_lab_a/legacy_actions.py",
+      "bytes": 11010,
+      "sha256": "cc438c6b947501f258eb515231871a0a20f67fadfdd6b016a95f576b2fe30648"
+    },
+    {
+      "path": "scripts/unit_lab_a/legacy_gait.py",
+      "bytes": 2603,
+      "sha256": "2b00e2f068b9ddd51694c6d3f2c1c8878c899192fe7e169d491d87c877da3621"
+    },
+    {
+      "path": "scripts/unit_lab_a/review_form.mjs",
+      "bytes": 1314,
+      "sha256": "ab84ba6801ebb2bb5568b5c259645fbdfd318d353b43ddae7bfcbe189be4d97f"
+    },
+    {
+      "path": "scripts/unit_lab_a/rig_a.py",
+      "bytes": 21594,
+      "sha256": "9cba51a38d9cce339076617f32a80f8622f68f1391281d144c6eeed164acad56"
+    },
+    {
+      "path": "scripts/unit_lab_a/verify_a01.mjs",
+      "bytes": 6036,
+      "sha256": "21fd0d83d6d47bd53a510e39bbf70ade309768ccf6f8982067edb20e5ba8160e"
+    },
+    {
+      "path": "scripts/unit_lab_a/verify_face_shadows.mjs",
+      "bytes": 2829,
+      "sha256": "24675d5b601f152a0b5e0b17cddcd2b73ca5062fcdec1aa57f1b971c3f42f99d"
+    },
+    {
+      "path": "scripts/unit_lab_a/verify_muzzle_fx.mjs",
+      "bytes": 5318,
+      "sha256": "fd229625a6a8b456e74e5bbfe7d4389c184acbccf683c9cd63fb4e2778871f3e"
+    },
+    {
+      "path": "scripts/unit_lab_a/weapons_a.py",
+      "bytes": 4161,
+      "sha256": "d93a1ed2fb647e406cd77b06205da359a57d77599af58a301f3d681698742330"
+    },
+    {
+      "path": "scripts/unit_lab_cat/build_cat.py",
+      "bytes": 21594,
+      "sha256": "2698744e333a8f1da0a2897ca058ddbe89857d721c024ce27b27d328509d9d49"
+    },
+    {
+      "path": "scripts/unit_lab_cat/verify_preview.mjs",
+      "bytes": 3969,
+      "sha256": "fb5dbd0524d588a58765e2c294eaf9d521486e51b4404e460fedeac74949d2a0"
+    },
+    {
+      "path": "scripts/unit_lab_cat/verify_transitions.mjs",
+      "bytes": 2591,
+      "sha256": "ebd576133a9e40d327857e2e53bb2cdca4ccae5c7bd41ba69894c43d3638238c"
+    },
+    {
+      "path": "scripts/unit_lab_characters/backup.py",
+      "bytes": 1445,
+      "sha256": "0b4716df6f51428975f2d21d695c682fe2382f07630ef02dbfd0a1a81a272e88"
+    },
+    {
+      "path": "scripts/unit_lab_characters/build_ruon.py",
+      "bytes": 8977,
+      "sha256": "c0243a57ad8824c14db67909b5c88733ba1f3e6749016b6a339c33e085bb6ee6"
+    },
+    {
+      "path": "scripts/unit_lab_characters/document_inventory.py",
+      "bytes": 6422,
+      "sha256": "12fe40025d2fa9b7cb6b16a4c20a66c538b0b153283685899fea31ecdc2a5fdb"
+    },
+    {
+      "path": "scripts/unit_lab_characters/organize_tool.py",
+      "bytes": 13752,
+      "sha256": "31a7d36e53850f0038228d194f061b6f03937eb2a00a10986d394733da388166"
+    },
+    {
+      "path": "scripts/unit_lab_characters/rebuild.py",
+      "bytes": 1306,
+      "sha256": "5093f806ba3b09be38093d2350ecccea5aa6695682d28cb23a757e967eb851da"
+    },
+    {
+      "path": "scripts/unit_lab_characters/refine_ruon_crown.py",
+      "bytes": 4425,
+      "sha256": "f6efb0af619fe6bb4896b129d85494448eca8086e439b8153e4bcf8fe8c6b985"
+    },
+    {
+      "path": "scripts/unit_lab_characters/verify.mjs",
+      "bytes": 7519,
+      "sha256": "72523c027f145ca24f496f5d54979c0f87b21c8c55e29e24f62cd2c88544ce42"
+    },
+    {
+      "path": "scripts/unit_lab_characters/verify_crown.mjs",
+      "bytes": 3768,
+      "sha256": "c52fc02a2dae5fe204762c65ce501783005d2a46cb8e6f44cef3acc44782090b"
+    },
+    {
+      "path": "scripts/unit_lab_characters/verify_handoff.mjs",
+      "bytes": 2752,
+      "sha256": "9de43d3b9164627027befc54b66e420c40c1519c14ece3175c01224b1978d37a"
+    },
+    {
+      "path": "scripts/unit_lab_d/build_d.py",
+      "bytes": 34796,
+      "sha256": "57d173703e3ff23d135fca9d771cdbb4ccccdffd6bc379aa83e0684954db6da6"
+    },
+    {
+      "path": "scripts/unit_lab_d/capture_face_before.mjs",
+      "bytes": 1059,
+      "sha256": "e923c15f0df5f67905a13bf3db198c60d4cd1541210bc3c13a6e0bc9c67c7282"
+    },
+    {
+      "path": "scripts/unit_lab_d/check_geometry.mjs",
+      "bytes": 953,
+      "sha256": "3b79ad08bec40182cb590a35990cdf09017e6f1e9bccb6cd64afffc296008bd9"
+    },
+    {
+      "path": "scripts/unit_lab_d/check_oneshot.mjs",
+      "bytes": 1156,
+      "sha256": "10dc3ab2a048ff1adba77750a1188189ea127efb3f985d8a8a837d99fbd80d67"
+    },
+    {
+      "path": "scripts/unit_lab_d/check_shading.mjs",
+      "bytes": 1019,
+      "sha256": "2c51b18fdba0ce19f6a9e694d93ee31f77f1a72508081fc9762e625594754697"
+    },
+    {
+      "path": "scripts/unit_lab_d/check_weapon_views.mjs",
+      "bytes": 1130,
+      "sha256": "6b0c93363e9d096dc30f997440bbd272e9a0fd8e7324ed007de160ab7245896a"
+    },
+    {
+      "path": "scripts/unit_lab_d/expressions_d.py",
+      "bytes": 4624,
+      "sha256": "6eabfd4885b4203f50754db53b30b0b11bb37d6935137d251c949e60bce01813"
+    },
+    {
+      "path": "scripts/unit_lab_d/legacy_actions.py",
+      "bytes": 11010,
+      "sha256": "1272d068362adf2578a2ae5c8ee2cb4dc02565ed2328c024726eb54310e74421"
+    },
+    {
+      "path": "scripts/unit_lab_d/legacy_gait.py",
+      "bytes": 2603,
+      "sha256": "2b00e2f068b9ddd51694c6d3f2c1c8878c899192fe7e169d491d87c877da3621"
+    },
+    {
+      "path": "scripts/unit_lab_d/prepare_review.py",
+      "bytes": 876,
+      "sha256": "30b185be88dbc5492ac9b7f8a220bf24cb865d483a0d364841b5a03bff6445b1"
+    },
+    {
+      "path": "scripts/unit_lab_d/reference_eye_left_zoom.png",
+      "bytes": 19746,
+      "sha256": "808b84ce8ed45e84f38a063fee6411bc764c07180af7406ab7a08a3b3fcb0dd4"
+    },
+    {
+      "path": "scripts/unit_lab_d/reference_eye_right_zoom.png",
+      "bytes": 18449,
+      "sha256": "9271dc9800e693c8e68e1998131672d7e9d512ba549b87b8de5efba9e2c108da"
+    },
+    {
+      "path": "scripts/unit_lab_d/refine_d08.py",
+      "bytes": 1464,
+      "sha256": "65ceafa2223e48cb5add4c81c056ba6a44c1530cbc726348cf095610de658cee"
+    },
+    {
+      "path": "scripts/unit_lab_d/review_face_tone.mjs",
+      "bytes": 1303,
+      "sha256": "a096a83e479f9d51cfefee1401406588f8182d713802ba8c6d4707daf0cf7e82"
+    },
+    {
+      "path": "scripts/unit_lab_d/rig_d.py",
+      "bytes": 21329,
+      "sha256": "c791e60f383739eee21b40cc658b77f6e3a321f22ed27f943f0c159159cf6014"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_d.mjs",
+      "bytes": 2383,
+      "sha256": "17a04c54a58e683821942509aaa6f4ea4090e9afd6d33d2ec8a0b04b94807ae9"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_d05.mjs",
+      "bytes": 5786,
+      "sha256": "0606b09d7c1ea128c33c1dd772451cd83067397345e823186f9abaf9130e6ad5"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_d06.mjs",
+      "bytes": 6067,
+      "sha256": "3c81eddf39a21f231033d8d8dfbf93f2a4906b81b1ce03ef34ae85e8c515cb19"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_d07.mjs",
+      "bytes": 4301,
+      "sha256": "ce155f1fb23317b3495f775d77330fc27a51f0424b2c362653e2915874535e5a"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_d08.mjs",
+      "bytes": 5774,
+      "sha256": "a3ac89420d6d22af80c9f44723ef48e6643283756549c615ef904c72d05e51b2"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_face_appearance.mjs",
+      "bytes": 2985,
+      "sha256": "7d7f4ecf5d1f49f374bc7c42f9438dd9e3fbbf8ec8b8ccd2a047fcf395895db4"
+    },
+    {
+      "path": "scripts/unit_lab_d/verify_lighting.mjs",
+      "bytes": 2476,
+      "sha256": "ac15e2a60b5004e1952d9a803d8bd51a320091a116c97c42ac352cf6d3e8d2c7"
+    },
+    {
+      "path": "scripts/unit_lab_d/weapons_d.py",
+      "bytes": 4161,
+      "sha256": "0a6541ed63836fc359d3a6b5fde0fabbb6b30d42de5a4af73c34ca62eb6e290b"
+    },
+    {
+      "path": "scripts/unit_lab_d_sprite/build_sprite.py",
+      "bytes": 8079,
+      "sha256": "d466582593ef586de99a13c7a68ec144e8daf19fc7031020ea27d4eee45b2823"
+    },
+    {
+      "path": "scripts/unit_lab_d_sprite/verify.mjs",
+      "bytes": 3996,
+      "sha256": "b768b8c9aa36c4d24c548b34f0273b1291e1beeafe014906ec3b8c8378391150"
+    },
+    {
+      "path": "src/tools/characterCompare/main.ts",
+      "bytes": 6426,
+      "sha256": "1921ac482a7e24bee13dcfddcf45015ef2a57473aaf289201420120654ceba0f"
+    },
+    {
+      "path": "src/tools/unitLabA/FaceShadows.ts",
+      "bytes": 1735,
+      "sha256": "1d04749ba94742f7d96a18eda827d97f24297808c87604c9da7bf402261ccb0f"
+    },
+    {
+      "path": "src/tools/unitLabA/main.ts",
+      "bytes": 7883,
+      "sha256": "cad2ec6dea8882edbc3e036bdcea1e8387e81bd0f1cde8aa984c5416d4cce196"
+    },
+    {
+      "path": "src/tools/unitLabA/ReferenceLighting.ts",
+      "bytes": 143,
+      "sha256": "99953988198554c33b71ccfa9cb2cda93acc527b759a12e0e535e15891294eff"
+    },
+    {
+      "path": "src/tools/unitLabD/FaceAppearance.ts",
+      "bytes": 2752,
+      "sha256": "3a24fa05256a3a4c576d5554de8c41e04f0e67a58261fda24cfab47399ecea69"
+    },
+    {
+      "path": "src/tools/unitLabD/main.ts",
+      "bytes": 7812,
+      "sha256": "c31b0b308ec0bdd886edc06b9af73f9a662007a1ee700c87e375322a89cefca4"
+    },
+    {
+      "path": "src/tools/unitLabD/NativeBlockEffects.ts",
+      "bytes": 3556,
+      "sha256": "54723c9ec10f9647252d449161b9b2a03efe2e2849c13b849523f6622670218a"
+    },
+    {
+      "path": "src/tools/unitLabD/ReferenceLighting.ts",
+      "bytes": 974,
+      "sha256": "01ada864caa0f8eb9961c3a45645396fbf0c33d4aebce125ef0936066a50ef98"
+    },
+    {
+      "path": "src/tools/unitLabDSprite/main.ts",
+      "bytes": 5423,
+      "sha256": "efa384515b6ad91a59f2f3cdcf570b2749a58d0ed230e3d498d2972daef2d4fb"
+    },
+    {
+      "path": "src/tools/unitLabPet/main.ts",
+      "bytes": 10592,
+      "sha256": "55674b429ce37837a0ce4fe4a04436835b7ee83b4aac4adc9aa26e587ca3107c"
+    },
+    {
+      "path": "src/tools/unitLabTool/CharacterCatalog.ts",
+      "bytes": 926,
+      "sha256": "a0a30dc9fa0e1125826fba3a07071b3dbba3eb2abe147b184c17df15cc46a2c9"
+    },
+    {
+      "path": "src/tools/unitLabTool/CharacterLab.ts",
+      "bytes": 24496,
+      "sha256": "4aeb923a7eaa5405dce62f74b03059cfdb2b2d96423ae9d31a4bcdc9a9b2c862"
+    },
+    {
+      "path": "src/tools/unitLabTool/CombatLab.ts",
+      "bytes": 30270,
+      "sha256": "6b488d7542e8b10e77c509016cf0272aa947a1b3baa200ae0497275dbb926f21"
+    },
+    {
+      "path": "src/tools/unitLabTool/GpuCloud.ts",
+      "bytes": 9948,
+      "sha256": "0c8980053fc2aadb4850b24a0b0e98050652ed0a5685417b516eaafa8bcff3e3"
+    },
+    {
+      "path": "src/tools/unitLabTool/main.ts",
+      "bytes": 42588,
+      "sha256": "84add9c38867eca5602bd54e82309e792ca7e65be839d62f6ac377b90bcfa0fa"
+    },
+    {
+      "path": "src/tools/unitLabTool/MapLab.ts",
+      "bytes": 165,
+      "sha256": "c4babdce3d85531c4782b04923ac8b63283e03b7e3e0c7757f09fe66b1db65c9"
+    },
+    {
+      "path": "src/tools/unitLabTool/VoxelCloud.ts",
+      "bytes": 8906,
+      "sha256": "a1fec18882cbbedbe12735f5e1eeccab6a8a5760b71313367fefe0e5ad13b989"
+    },
+    {
+      "path": "src/tools/unitLabTool/VoxelMesh.ts",
+      "bytes": 19451,
+      "sha256": "1784647134af006935374a1a190a0fca38edb11145bb2941b0a1d7561cff05bb"
+    },
+    {
+      "path": "src/tools/unitLabTool/WeaponMuzzleFx.ts",
+      "bytes": 7622,
+      "sha256": "333a6b09cab7fa638d09a2c3b48a0a59292aa55e5d4664e39b585dc86675362f"
+    },
+    {
+      "path": "unit-lab-tool.html",
+      "bytes": 17311,
+      "sha256": "5b4a5bd1ae29cecebf992c4a6c4662766f41472b83aeded0c300fd23fdf04e05"
+    },
+    {
+      "path": "wanderer-a-tool.html",
+      "bytes": 3566,
+      "sha256": "b82459a1d78d6d6d3e42d288676f7c6d9c6f7da6b439ddfd4ced35ed4acecd22"
+    },
+    {
+      "path": "wanderer-d-sprite-tool.html",
+      "bytes": 383,
+      "sha256": "7364fbed498730db911fdd11ae2563c421ba5a19495bdbf2d72a23837c705e25"
+    },
+    {
+      "path": "wanderer-d-tool.html",
+      "bytes": 3565,
+      "sha256": "5d925a09c28c6116665e50f676dbb495acb36455c3f570812ab55042a2b7232e"
+    }
+  ],
+  "legacy_source_copies": [
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\_inspect.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/_inspect.py",
+      "sha256": "ef5b60bdaa292a47559ab7f961e6e7091a8c0aaf61de5287626530904e7a1a17"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\_inspect2.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/_inspect2.py",
+      "sha256": "415b658acc731c6a837bc527a453623877342396d6720400c74bc713c7d1e7ce"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\build_buildings.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/build_buildings.py",
+      "sha256": "90f747a88cbdc9cfa61055a4e8f6188c7bd2e6a0cef10290d2a7ceb829a3ad6d"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\build_free.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/build_free.py",
+      "sha256": "4a7321dfb1772c246b8afbcc4eeb8e7a7ceaf5f613fe2d25817173df48021814"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\build_units.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/build_units.py",
+      "sha256": "b57ed7d53d369ef8eb0c4e77919c03eb2e5548cd080d5c9c9b5462eccad2ee0c"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\render_grid.py",
+      "copy": "docs/characters/legacy_sources/unit_lab/render_grid.py",
+      "sha256": "b800fa77563f708001cb8e706daae68129527eeac8d5474f19096fd6ac84e7fe"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_arms.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_arms.py",
+      "sha256": "7aa1236be5d38005f190520536e33da2b67fe8e8e4641b2d4e0a4b809dc4e880"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_axis.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_axis.py",
+      "sha256": "dbc6f05f7275044e67674519a2f5c59bf59ae028f9142c9ac36d460e8ef6052d"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_headbox.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_headbox.py",
+      "sha256": "d32ee1608084056aff2ae8341a2b169fb22a822ec88b3035f5db1527b462ae4e"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_ik.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_ik.py",
+      "sha256": "4e02e4c6023d1010fa81090e12bcd9a0b10b785c44c0ab8dc31cf026609e2191"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_knee.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_knee.py",
+      "sha256": "8288a2a012478ad889b37bb2e7597c250e7aadc876f777fd7fbe7461a04c93d2"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_knee2.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_knee2.py",
+      "sha256": "d02f94a0d20cc1ae92dee374f3c1c3dedd19ff23bd3f05e901fe34db28feb6f3"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_probe.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_probe.py",
+      "sha256": "75130d298e95134959adcafee1bcebd63b58f6ab583d625b71b2964eebafcecb"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_side_act.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_side_act.py",
+      "sha256": "a9c9a987ed7a8d52e330b9c6216e7ed255f24332669724ac69445834ce7949b4"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_solve.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_solve.py",
+      "sha256": "dc2f711340abd4b045cf4162007379cbd50bba677a0444e322c3010971fef60f"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_twist.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_twist.py",
+      "sha256": "370d3fbcce76d146ea45c7b1d618775a88c38a973a02ea181ba8f8be1bf0ca4a"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\_verify.py",
+      "copy": "docs/characters/legacy_sources/wanderer/_verify.py",
+      "sha256": "ab43ce5c532f29a6fda8e54303e632ae21255f656eb44264c6d9fbca24b7d76e"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\actions.py",
+      "copy": "docs/characters/legacy_sources/wanderer/actions.py",
+      "sha256": "1272d068362adf2578a2ae5c8ee2cb4dc02565ed2328c024726eb54310e74421"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\body_front.py",
+      "copy": "docs/characters/legacy_sources/wanderer/body_front.py",
+      "sha256": "e73efa00f542f07f28c6909f947056551cb37a85927a760ae0b7fc04b9c1dbfd"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\body_front_ab.py",
+      "copy": "docs/characters/legacy_sources/wanderer/body_front_ab.py",
+      "sha256": "d003c2aee10f35c384a588e331ffea891e48d5eb61347fbb0e46786107431aff"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\build_wanderer.py",
+      "copy": "docs/characters/legacy_sources/wanderer/build_wanderer.py",
+      "sha256": "92f4f2d8fd6683cb996a64ca3af18bfa3619574a9ef8e086b761add1c8117ac3"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\build_wanderer_ab.py",
+      "copy": "docs/characters/legacy_sources/wanderer/build_wanderer_ab.py",
+      "sha256": "0b557eb39e6ba4bdb244271fdeb826d1422e26889493fa7e4cf197a4e57b3c44"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\capture_ab.py",
+      "copy": "docs/characters/legacy_sources/wanderer/capture_ab.py",
+      "sha256": "6dd999837e272aa5ca502f4bd0d6593cbc1abf161095ca7a3dcd64399345c916"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\capture_b2.py",
+      "copy": "docs/characters/legacy_sources/wanderer/capture_b2.py",
+      "sha256": "7c556179c8fb26d95211b6fd3f80e2c510665a9459fbd089c148bb963a7c5dd6"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\compare.py",
+      "copy": "docs/characters/legacy_sources/wanderer/compare.py",
+      "sha256": "63624d93671603883212799662e463bb3f6bad82a15de4e2c926cdbd27edceea"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\eye_shape.py",
+      "copy": "docs/characters/legacy_sources/wanderer/eye_shape.py",
+      "sha256": "ab9ea78750ba00238f4c311b9bb98465807f514895658eeec97bd338625ef270"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\eye_shape_b2.py",
+      "copy": "docs/characters/legacy_sources/wanderer/eye_shape_b2.py",
+      "sha256": "380f68613cd38cc570315cf339afac17edb6764c458c67b823edb6a8120808c8"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\eyes_3d.py",
+      "copy": "docs/characters/legacy_sources/wanderer/eyes_3d.py",
+      "sha256": "fd7cc84d1790dd8cd1fe61e79e1fcfe31dfba60288a063beca96c9238a596515"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\head_b2.py",
+      "copy": "docs/characters/legacy_sources/wanderer/head_b2.py",
+      "sha256": "d9efa8ff016884c1fdf8b56571f896966976ca6888e174877cbdc4a4d3af0ea3"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\head_block.py",
+      "copy": "docs/characters/legacy_sources/wanderer/head_block.py",
+      "sha256": "b9feab826f8b6f625110abf2c1e3f61fb9a9c7570b2fefd842aa241ec66ef701"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\head_cartoon.py",
+      "copy": "docs/characters/legacy_sources/wanderer/head_cartoon.py",
+      "sha256": "ea100c4429c81a52c1a7ec59ec365e3a9e7ef245f51669019cfc62d5d10f5480"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\measure_outline.py",
+      "copy": "docs/characters/legacy_sources/wanderer/measure_outline.py",
+      "sha256": "7a2f757a5c80ee19d206407ea883213f8de58b14e8d009d1865392a3ac82f72e"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\paint_face.py",
+      "copy": "docs/characters/legacy_sources/wanderer/paint_face.py",
+      "sha256": "f27660d169dd42853fa18d0b6483aaf28fe6dfe6e95e49cb94c454504dd90486"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\paint_face_b2.py",
+      "copy": "docs/characters/legacy_sources/wanderer/paint_face_b2.py",
+      "sha256": "9a70fbf0501c46d9e47761bf5a0de459cf50e7b281f3d608ab84af8104757af5"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\props_guns.py",
+      "copy": "docs/characters/legacy_sources/wanderer/props_guns.py",
+      "sha256": "99a52a3b95605dc104a8194aaa887d95421bd8c75c529254b4493701b115a57e"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\render_face.py",
+      "copy": "docs/characters/legacy_sources/wanderer/render_face.py",
+      "sha256": "649787c7f2dd36bc916aa08044c6c61246a73b634d99f6e0d72611021d5006bd"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\render_ref.py",
+      "copy": "docs/characters/legacy_sources/wanderer/render_ref.py",
+      "sha256": "f56f7a12ab8b05a19a08a99942d86b345c41df3f9129815b1cee758df4fe92a2"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\render_views.py",
+      "copy": "docs/characters/legacy_sources/wanderer/render_views.py",
+      "sha256": "d814bf8608b9992b6b68b24f1e40183c2a3cf61927b63bf8491365226092a47f"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\rig_ik.py",
+      "copy": "docs/characters/legacy_sources/wanderer/rig_ik.py",
+      "sha256": "fbc71fadf041f68c95dd58b64877f4064e9fcd4f40e510b4e725e8e20622a7b5"
+    },
+    {
+      "original": "C:\\수스이미지 생성\\2026-09-24-unit-lab\\wanderer\\view_acts.py",
+      "copy": "docs/characters/legacy_sources/wanderer/view_acts.py",
+      "sha256": "72ce06ce37b56f9433aa0be878c31059c51dcdc6722f69c318ad0ea94c8ce882"
+    }
+  ],
+  "reports": [
+    {
+      "path": "docs/reports/20260924_작업보고서_건물공격.md",
+      "author": "본문 참조",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자3D.md",
+      "author": "Claude",
+      "summary": "방랑자를 Blender로 입체 모델링하고 대기·걷기·뛰기 애니를 넣었다. 유닛 랩에서 매끈한 3D(왼쪽) · 블록(오른쪽) · 원본 스프라이트(구석 창)를 같은 동작으로 같이 재생한다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_AB재디자인.md",
+      "author": "Claude",
+      "summary": "그룩봇 지시 1대로 방랑자 머리를 블록 머리로 새로 만들었다. 큰 머리, 픽셀 얼굴, 표정 4종을 넣었다. 머리카락은 A안(남색+청록 줄)과 B안(크림→민트+청록 잎 핀) 두 벌이다. 유닛 랩에서 현재/A/B와 표정을 버튼으로 바꿔 볼 수 있다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_던지기IK_사격반동.md",
+      "author": "Claude",
+      "summary": "던지기를 원본 14컷의 손 위치를 따라 IK로 새로 만들었다. 이제 키마다 멈추지 않고 곡선으로 흐른다. 총쏘기2는 발사 직후 몸이 뒤로 튀고, 무릎을 굽혀 반동을 받아 냈다가 다시 조준으로 돌아온다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_총던지기.md",
+      "author": "Claude",
+      "summary": "방랑자 3D에 쏘기·던지기·쏘며 걷기·던지며 걷기·총 들고 걷기 5개 동작과 정화총·정화 폭탄 소품을 넣었다. 동작은 모두 8개."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_총쏘기2_던지기.md",
+      "author": "Claude",
+      "summary": "필드에서 쓰는 총쏘기2(단발)를 3D 동작으로 새로 만들었다. 던지기는 원본 스프라이트를 다시 보고, 뒤로 젖힐 때 주먹이 어깨보다 위로 오게 고쳤다. 방랑자 3D 동작은 이제 9종이다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자_카툰머리.md",
+      "author": "Claude",
+      "summary": "방랑자 머리·얼굴을 처음부터 다시 만들었다. 목표는 로비 그림(`lobby_actor_still.png`)의 귀여운 카툰 얼굴이다. 무료 카툰 캐릭터(KayKit Adventurers, CC0)가 머리를 어떻게 만드는지 먼저 살펴보고, 같은 방식으로 만들어 나란히 비교하며 세 번 다듬었다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_방랑자블록깨짐.md",
+      "author": "Claude",
+      "summary": "방랑자 블록이 반바지 패치·버클·손 쪽에서 얼룩덜룩 깨지던 것을 고쳤다. 부위마다 따로 쌓던 블록을 뼈별 한 격자로 합쳤다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_블록부하.md",
+      "author": "Cursor",
+      "summary": "점구름은 쓰지 않는다. 유닛은 블록으로만 그리고, 가까운 것(칸 40)부터 기본(22)·무리(10)까지 이 PC에서 프레임 시간을 쟀다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_설치건물.md",
+      "author": "Claude",
+      "summary": "설치 건물 30개(조립 탑 6 · 캠프 13 · 기계 11)를 무료 CC0 모델로 만들어 유닛 랩에 넣었다. 무료 리소스의 웹게임 적합성도 평가했다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_스킬포탑분리.md",
+      "author": "Cursor",
+      "summary": "얼음·화염을 고르면 포탑이 다시 세워지던 연결을 끊고, 같은 포탑 앞에 적이 나오게 했다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_나란히비교.md",
+      "author": "Claude",
+      "summary": "유닛 랩에서 원본 메시와 점구름을 나란히 놓고 비교할 수 있게 했다. 점구름에 명암을 넣었고, 메시 vs 점구름 부하를 쟀다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_레고색.md",
+      "author": "Claude",
+      "summary": "유닛 랩 툴에 레고식 원색 스타일을 넣고 기본으로 바꿨다. 기존 사이버 색은 선택지로 남겼다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_무료모델.md",
+      "author": "Claude",
+      "summary": "무료 CC0 모델 69개(Kenney 타워디펜스 24 · Quaternius 몬스터 45)를 받아 원래 색 그대로 점구름으로 만들고, 유닛 랩 툴에 넣었다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_블록.md",
+      "author": "Claude",
+      "summary": "점구름을 접고, 무료 모델 69개를 정육면체 블록으로 쌓는 방식으로 바꿨다. 유닛 랩은 왼쪽 원본 · 오른쪽 블록 나란히 보기이고, 블록 크기는 상황별로 조절한다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_유닛랩_점구름.md",
+      "author": "Claude",
+      "summary": "블렌더로 52번 유닛 8종을 블록으로 만들고, 점을 뽑아 GPU 점구름으로 연출을 눌러 보는 툴(`unit-lab-tool.html`)을 만들었다. 부하 조사를 같이 했다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_총구5도.md",
+      "author": "본문 참조",
+      "summary": "총은 얼굴 정면 5도 안만 나간다. 줄이 그 밖이면 몸이 먼저 돌고, 총구가 맞은 뒤에 쏜다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터디테일.md",
+      "author": "Cursor",
+      "summary": "시퀀스 툴 방랑자를 기본 22칸이 아니라 디테일 70칸 블록으로 쌓는다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터디테일_고급조명.md",
+      "author": "Claude",
+      "summary": "캐릭터 블록을 더 잘게(2.6cm, 키 70칸) 쓸 수 있게 하고, 블록 AO·블록 테두리·그림자·환경광·림 라이트·톤 매핑으로 고급 조명을 넣었다. 원본+디테일 블록 캐릭터를 같이 띄워도 61fps."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터크기.md",
+      "author": "Cursor",
+      "summary": "샘플 영상처럼 캐릭터를 화면의 작은 점으로 줄이고, 카메라를 더 높은 쿼터로 뒤로 뺐다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_캐릭터화면크기.md",
+      "author": "Cursor",
+      "summary": "툴 화면에서 방랑자가 여정보다 커 보여, 같은 내려다보는 각도를 유지한 채 카메라를 뒤로 뺐다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_클로즈업최적화.md",
+      "author": "Claude",
+      "summary": "클로즈업(작은 블록)을 쓸 수 있게 블록 그리기를 최적화했다. 안 보이는 면을 지우고 같은 색 면을 합쳐, 삼각형이 5~9배 줄고 클로즈업 고양이 120마리가 59ms → 12.8ms가 됐다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑등장.md",
+      "author": "Cursor",
+      "summary": "포탑을 세울 때 바닥에서 솟은 뒤 모여 자리를 잡고, 색이 켜지게 했다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑사격_적근접.md",
+      "author": "Claude",
+      "summary": "유닛 랩에 「전투 미리보기」를 만들었다. 포탑 4종이 적을 향해 돌아 조준·발사하고(반동·섬광·탄·파편), 적 5종은 원본 애니로 걷기 → 물기 → 피격 → 사망한다. 블록 모드는 적 애니를 컷으로 구운 플립북."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑앞클리어.md",
+      "author": "Cursor",
+      "summary": "포탑을 세운 뒤 그 앞으로 가서, 포탑을 치는 적을 맞춰 없앨 때까지 물결이 끝나지 않게 했다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑쿼터뷰.md",
+      "author": "Cursor",
+      "summary": "포탑을 세울 때 카메라가 그 칸의 쿼터뷰로 가서 빈 자리를 보여 준 다음, 포탑이 솟아 설치된다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_포탑키.md",
+      "author": "Cursor",
+      "summary": "설치 포탑 높이를 캐릭터 키의 2배로 묶었다. 키를 바꾸면 포탑도 같이 커진다."
+    },
+    {
+      "path": "docs/reports/20260924_작업보고서_피격연출.md",
+      "author": "Cursor",
+      "summary": "적이 나올 때 솟고, 맞으면 번쩍이고, 쓰러지면 흩어진다. 탄은 더 크게 앞으로 나가 보이는 거리에서 맞는다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_D안_얼굴정합_턱목옷깃_Codex.md",
+      "author": "Codex",
+      "summary": "원본을 기준으로 D안을 독립 제작하고, 눈·눈썹·앞머리·얼굴 깊이를 수정한 뒤 마지막 요청인 턱–목 연결과 밝은 옷깃 확대를 반영했다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2그록블렌더수정.md",
+      "author": "Grok Bot (2026-09-25 18:51 KST)",
+      "summary": "기존 Claude B2 소스(head_b2.py · \body_front_ab.py)를 백업 후 Blender로 다시 빌드했다. 턱 U자·턱 아래 그늘·머리 폭·케이프렛 크기·몸 폭·머리/몸 비율을 샘플 쪽으로 당겼다. 비교 시트는 유닛 랩 블록 캡처(앞·3/4·뒤·옆90·얼굴)."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2문어형머리.md",
+      "author": "Claude",
+      "summary": "B2 머리를 Blender에서 **둥근 문어 머리통 + 바깥으로 말리는 문어 다리 가닥**으로 다시 만들었다. 의상은 샘플처럼 바꿨다. 결과는 `wanderer_B2.glb`로 내보내 툴에 반영했다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2보완_볼륨_입체눈_갈기.md",
+      "author": "Claude",
+      "summary": "사용자 피드백 세 가지(머리 볼륨 없음 / 눈을 시안과 똑같이 입체로 / 뒷머리 갈기 없음)를 샘플과 나란히 대조하며 고쳤다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2샘플시안.md",
+      "author": "Claude",
+      "summary": "사용자가 준 샘플 시안(블록 치비, 크림→민트 긴 머리)을 보고 B안을 B2로 새로 만들었다. - 머리 격자를 16칸 → 24칸(한 칸 3cm)으로 촘촘하게 했다. - 얼굴은 샘플 그대로의 픽셀 눈이고, 머리카락은 7단 그라데이션이다. 몸은 더 옹골차게 했다. 유닛 랩 「B2 샘플 시안」으로 본다. 기존 A·B·입체눈은 그대로 둔다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_B2실루엣맞춤.md",
+      "author": "Claude",
+      "summary": "샘플 정면 머리 아웃라인을 재서 비율표를 만들고, Blender B2 머리·얼굴을 그 비율에 맞춰 다시 잡았다. - **머리:** 종형(머리통 작고 아래만 큼)을 없앴다. 넓고 둥근 머리 덩어리에, 머리통 폭 안쪽에서 내려와 끝만 말리는 다리를 달았다. - **얼굴:** 가운데만 평평하고 볼·U자 턱이 둥근 덩어리. 턱을 입 바로 아래로 올리고 턱선 그늘을 넣었다. - **1단계라 하지 않은 것:** 앞머리 결·색·자세·망토."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_시안C등록.md",
+      "author": "본문 참조",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_입체눈.md",
+      "author": "Claude",
+      "summary": "A·B 블록 머리의 얼굴을 상용 치비 수준으로 다시 만들었다. - 눈: 블렌더 입체(눈알 판 + 각막 + 윗속눈썹 테 + 눈꺼풀) - 얼굴 판: 고해상도(512×480) 그림 - 움직임: 자동 깜빡임, 웃는 눈(^^), 결의(눈꺼풀 30%) 기존 A·B는 그대로 두고 「A 입체눈 / B 입체눈」으로 따로 비교할 수 있다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_방랑자_총재제작.md",
+      "author": "Claude",
+      "summary": "총이 거의 안 보이던 문제를 고쳤다. 기관총(약 50cm)과 단발 큰 총(약 76cm)을 따로 만들었다. 쏘기(기관총 루프)는 팔을 머리 높이까지 들고, 총쏘기2는 두 팔을 앞으로 뻗어 두 손으로 든다. 현재·A·B 세 버전 모두 다시 만들었다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_시안A.md",
+      "author": "Cursor",
+      "summary": "자동 사냥 준비 화면에 방랑자 시안 A(남색 머리)를 올렸다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_시안A디테일.md",
+      "author": "Cursor",
+      "summary": "시안 A를 유닛 랩과 같은 디테일 70칸으로 쌓아 화면에 올렸다."
+    },
+    {
+      "path": "docs/reports/20260925_작업보고서_총구방향.md",
+      "author": "Cursor",
+      "summary": "캐릭터가 보는 방향과 탄이 가는 방향을 맞추고, 탄은 총 끝에서 머리 아래로 나가게 했다. 바꾼 총 모델을 다시 읽었다."
+    },
+    {
+      "path": "docs/reports/20260926_작업계획_블록고양이펫_Astra.md",
+      "author": "Codex(아스트라 / Astra)",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_A얼굴그림자완화_Codex.md",
+      "author": "Codex",
+      "summary": "앞머리 그림자가 얼굴과 눈 위로 진하게 내려오던 문제를 A 얼굴 소재의 그림자 수신 농도 조절로 완화했다. 기존 그림자 농도의 18%를 남기며 비교 툴과 애니메이션 툴에 동일하게 적용했다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D안_등거치_표정인사승리_Codex.md",
+      "author": "Codex",
+      "summary": "바주카를 약 32% 늘려 등에 낮게 거치하고, 6초 대기 루프와 눈 깜박임·찡그리기·인사·손 흔들기·두 번 뛰는 승리를 추가했다. 기존 13개에서 18개 애니메이션으로 늘었다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D안_무기애니조명_Codex.md",
+      "author": "Codex",
+      "summary": "D안에 블록 쌍권총·짧은 사각 바주카, 대기/쌍권총 사용 중 뒷머리 뒤 사선 거치, 발도·납도 포함 13개 동작을 넣고, 어깨 옷·윗머리와 두 툴의 조명을 보정했다. 캐릭터 선택지는 A와 D만 남겼다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_D얼굴색_그림자보정_Codex.md",
+      "author": "Codex",
+      "summary": "D 얼굴을 원본의 밝은 복숭아색에 가깝게 보정하고 홍조를 맞췄다. 얼굴이 받는 머리 그림자 농도는 기존의 22%로 줄여 비교 툴과 유닛 툴에 같은 설정을 적용했다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_블록고양이펫계획_Codex.md",
+      "author": "Codex(아스트라)",
+      "summary": "정답 블록 고양이 시안을 확인하고, 외형·리깅·4클립·눈 레이저·툴 등록·검수 기준을 지정된 계획서로 작성했다. 현재 지시서의 계획 전용 범위를 완료했다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_시안A_D수준제작.md",
+      "author": "Codex",
+      "summary": "기존 유닛 툴의 A 선택을 모자 없는 네이비 남자 캐릭터 A01로 교체했다. Blender 독립 원본, 원본 그림 비교 툴, 18개 애니메이션, 검수 스크린샷과 루프 영상까지 생성했다. 기능 연결은 완료했으며, 원본과의 외형 일치는 아래 남은 차이를 포함해 추가 검수할 수 있는 1차 제작본이다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_시안D발도.md",
+      "author": "Cursor",
+      "summary": "캐릭터를 시안 D로 바꾸고, 권총과 바주카를 꺼낸 뒤에 쏘고 넣은 뒤에 다음 무기로 가게 했다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_쌍권총두발.md",
+      "author": "본문 참조",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_총구FX_후면가시성_Codex.md",
+      "author": "Codex",
+      "summary": "A/D 쌍권총과 바주카 총구에 블록 FX를 제작하고 발사 모션에 연결했다. 추가 요청에 따라 후면에서도 머리·어깨 실루엣 밖으로 보이도록 섬광과 입자의 확산 폭을 확대했다."
+    },
+    {
+      "path": "docs/reports/20260926_작업보고서_캐릭터30.md",
+      "author": "본문 참조",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260927_작업계획_D스프라이트비율_Codex.md",
+      "author": "Codex · 2026-09-27",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260927_작업계획_루온리아_유닛랩정리_Codex.md",
+      "author": "Codex",
+      "summary": ""
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_D비율추가_Codex.md",
+      "author": "Codex · 2026-09-27",
+      "summary": "기존 D를 보존하고 스프라이트 비율(약 4.4등신)과 3.5등신 두 버전을 각각 제작했다. 각 18개 동작을 새 골격으로 계산하고 유닛 랩과 세 모델 비교 화면에 등록했다."
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_루온리아_유닛랩정리_Codex.md",
+      "author": "Codex · 2026-09-27",
+      "summary": "남자 캐릭터는 **루온**, 여자 캐릭터는 **리아**로 이름을 붙였다. 각각 기존 비율과 3.5등신, 총 네 가지를 활성화하고 미사용 시안은 백업했다. 유닛 랩과 체형 비교 화면을 정리했다."
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_루온정수리_캐릭터제작문서_Codex.md",
+      "author": "Codex · 2026-09-27",
+      "summary": "루온(기존 시안 A)의 두 체형에서 정수리의 큰 단차를 줄였다. 캐릭터 제작법을 중심으로 초기 유닛 실험부터 현재 네 가지 캐릭터·동작·FX·툴·백업까지 통합 문서로 정리했다."
+    },
+    {
+      "path": "docs/reports/20260927_작업보고서_블록고양이_얼굴전환_Codex.md",
+      "author": "Codex(아스트라)",
+      "summary": "Blender 고양이와 기본 4동작을 제작한 뒤, 사용자의 외형·중간 동작 피드백에 따라 귀·이마·눈·코를 다시 만들고 1초짜리 앉기↔서기 전환 2종을 추가했다."
+    }
+  ],
+  "unit_count": 99,
+  "units": [
+    {
+      "id": "k_weapon_turret",
+      "name": "터렛",
+      "group": "building",
+      "span": 1.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4954,
+        0.0,
+        -0.6
+      ],
+      "dense_q": 3.7500001781154424e-05
+    },
+    {
+      "id": "k_weapon_cannon",
+      "name": "대포",
+      "group": "building",
+      "span": 1.1998,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5998,
+        0.0,
+        -0.5999
+      ],
+      "dense_q": 3.749375173356384e-05
+    },
+    {
+      "id": "k_weapon_catapult",
+      "name": "투석기",
+      "group": "building",
+      "span": 1.2997,
+      "dense": 30000,
+      "dense_lo": [
+        -0.466,
+        0.0,
+        -0.6497
+      ],
+      "dense_q": 4.061562503920868e-05
+    },
+    {
+      "id": "k_weapon_ballista",
+      "name": "발리스타",
+      "group": "building",
+      "span": 1.3,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5538,
+        0.0,
+        -0.65
+      ],
+      "dense_q": 4.0625000110594556e-05
+    },
+    {
+      "id": "k_enemy_ufo_a",
+      "name": "UFO A",
+      "group": "enemy_ufo",
+      "span": 0.9998,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5,
+        0.0,
+        -0.4997
+      ],
+      "dense_q": 3.124374779872596e-05
+    },
+    {
+      "id": "k_enemy_ufo_b",
+      "name": "UFO B",
+      "group": "enemy_ufo",
+      "span": 0.9959,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4962,
+        0.0,
+        -0.4975
+      ],
+      "dense_q": 3.112187550868839e-05
+    },
+    {
+      "id": "k_enemy_ufo_c",
+      "name": "UFO C",
+      "group": "enemy_ufo",
+      "span": 0.9996,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4999,
+        0.0,
+        -0.4972
+      ],
+      "dense_q": 3.1237501389114186e-05
+    },
+    {
+      "id": "k_enemy_ufo_d",
+      "name": "UFO D",
+      "group": "enemy_ufo",
+      "span": 0.9969,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4979,
+        0.0,
+        -0.4989
+      ],
+      "dense_q": 3.11531221086625e-05
+    },
+    {
+      "id": "k_tile",
+      "name": "바닥 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_tile_spawn",
+      "name": "스폰 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_tile_straight",
+      "name": "길 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_tile_crossing",
+      "name": "교차 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_tile_tree",
+      "name": "나무 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_tile_crystal",
+      "name": "크리스탈 타일",
+      "group": "tile",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_selection_a",
+      "name": "선택 표식 A",
+      "group": "marker",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_selection_b",
+      "name": "선택 표식 B",
+      "group": "marker",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -1.2,
+        0.0,
+        -1.2
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "k_detail_tree",
+      "name": "나무",
+      "group": "detail",
+      "span": 1.6,
+      "dense": 30000,
+      "dense_lo": [
+        -0.524,
+        0.0,
+        -0.521
+      ],
+      "dense_q": 5.0000002374872565e-05
+    },
+    {
+      "id": "k_detail_rocks",
+      "name": "바위",
+      "group": "detail",
+      "span": 0.9929,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4923,
+        0.0,
+        -0.4985
+      ],
+      "dense_q": 3.102812479482964e-05
+    },
+    {
+      "id": "k_detail_crystal",
+      "name": "크리스탈",
+      "group": "detail",
+      "span": 0.9896,
+      "dense": 30000,
+      "dense_lo": [
+        -0.2955,
+        0.0,
+        -0.3392
+      ],
+      "dense_q": 3.092499900958501e-05
+    },
+    {
+      "id": "k_weapon_ammo_bullet",
+      "name": "총알",
+      "group": "missile",
+      "span": 0.25,
+      "dense": 30000,
+      "dense_lo": [
+        -0.0833,
+        0.0,
+        -0.125
+      ],
+      "dense_q": 7.812500371073838e-06
+    },
+    {
+      "id": "k_weapon_ammo_cannonball",
+      "name": "대포알",
+      "group": "missile",
+      "span": 0.299,
+      "dense": 30000,
+      "dense_lo": [
+        -0.1491,
+        0.0007,
+        -0.1492
+      ],
+      "dense_q": 9.343750207335688e-06
+    },
+    {
+      "id": "k_weapon_ammo_boulder",
+      "name": "돌덩이",
+      "group": "missile",
+      "span": 0.35,
+      "dense": 30000,
+      "dense_lo": [
+        -0.175,
+        0.0,
+        -0.1516
+      ],
+      "dense_q": 1.0937499610008672e-05
+    },
+    {
+      "id": "tower_gun",
+      "name": "총 탑 (조립)",
+      "group": "building",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5961,
+        0.0,
+        -0.5961
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "tower_throw",
+      "name": "던지기 탑 (조립)",
+      "group": "building",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5585,
+        0.0,
+        -0.5601
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "q_mushnub",
+      "name": "Mushnub",
+      "group": "enemy_monster",
+      "span": 0.998,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4135,
+        0.0008,
+        -0.4137
+      ],
+      "dense_q": 3.118749737041071e-05
+    },
+    {
+      "id": "q_pink_slime",
+      "name": "Pink Slime",
+      "group": "enemy_monster",
+      "span": 0.9985,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4505,
+        0.001,
+        -0.4255
+      ],
+      "dense_q": 3.1203126127365977e-05
+    },
+    {
+      "id": "q_green_blob",
+      "name": "Green Blob",
+      "group": "enemy_monster",
+      "span": 1.2012,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5992,
+        0.0008,
+        -0.5906
+      ],
+      "dense_q": 3.7537502066697925e-05
+    },
+    {
+      "id": "q_orc_enemy",
+      "name": "Orc Enemy",
+      "group": "enemy_monster",
+      "span": 1.1023,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5525,
+        0.0002,
+        -0.3484
+      ],
+      "dense_q": 3.444687172304839e-05
+    },
+    {
+      "id": "q_ninja",
+      "name": "Ninja",
+      "group": "enemy_monster",
+      "span": 0.9885,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4113,
+        0.0089,
+        -0.4371
+      ],
+      "dense_q": 3.08906237478368e-05
+    },
+    {
+      "id": "q_cat",
+      "name": "Cat",
+      "group": "enemy_monster",
+      "span": 1.0497,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5241,
+        0.0004,
+        -0.4339
+      ],
+      "dense_q": 3.280312739661895e-05
+    },
+    {
+      "id": "q_pigeon",
+      "name": "Pigeon",
+      "group": "enemy_monster",
+      "span": 1.2968,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6493,
+        0.0006,
+        -0.553
+      ],
+      "dense_q": 4.052499571116641e-05
+    },
+    {
+      "id": "q_chicken",
+      "name": "Chicken",
+      "group": "enemy_monster",
+      "span": 0.9985,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4947,
+        0.0005,
+        -0.4414
+      ],
+      "dense_q": 3.1203126127365977e-05
+    },
+    {
+      "id": "q_cactoro",
+      "name": "Cactoro",
+      "group": "enemy_monster",
+      "span": 1.1217,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5559,
+        0.0003,
+        -0.5121
+      ],
+      "dense_q": 3.5053126339334995e-05
+    },
+    {
+      "id": "q_alien",
+      "name": "Alien",
+      "group": "enemy_monster",
+      "span": 1.1805,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5899,
+        0.0003,
+        -0.2956
+      ],
+      "dense_q": 3.6890625779051334e-05
+    },
+    {
+      "id": "q_mushnub_evolved",
+      "name": "Mushnub Evolved",
+      "group": "enemy_monster",
+      "span": 0.996,
+      "dense": 30000,
+      "dense_lo": [
+        -0.3821,
+        0.0024,
+        -0.3894
+      ],
+      "dense_q": 3.112500053248368e-05
+    },
+    {
+      "id": "q_yeti",
+      "name": "Yeti",
+      "group": "enemy_monster",
+      "span": 1.0421,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5187,
+        0.0014,
+        -0.5218
+      ],
+      "dense_q": 3.2565621950197965e-05
+    },
+    {
+      "id": "q_wizard",
+      "name": "Wizard",
+      "group": "enemy_monster",
+      "span": 0.9983,
+      "dense": 30000,
+      "dense_lo": [
+        -0.445,
+        0.0005,
+        -0.4429
+      ],
+      "dense_q": 3.1196872441796586e-05
+    },
+    {
+      "id": "q_fish",
+      "name": "Fish",
+      "group": "enemy_monster",
+      "span": 1.0596,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5124,
+        0.0,
+        -0.5309
+      ],
+      "dense_q": 3.311250111437403e-05
+    },
+    {
+      "id": "q_birb",
+      "name": "Birb",
+      "group": "enemy_monster",
+      "span": 1.1047,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5415,
+        0.0002,
+        -0.5527
+      ],
+      "dense_q": 3.452187229413539e-05
+    },
+    {
+      "id": "q_green_spiky_blob",
+      "name": "Green Spiky Blob",
+      "group": "enemy_monster",
+      "span": 1.0021,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4179,
+        0.0003,
+        -0.5006
+      ],
+      "dense_q": 3.1315623346017674e-05
+    },
+    {
+      "id": "q_glub",
+      "name": "Glub",
+      "group": "enemy_monster",
+      "span": 1.9984,
+      "dense": 30000,
+      "dense_lo": [
+        -0.9974,
+        0.0003,
+        -0.4735
+      ],
+      "dense_q": 6.245000258786604e-05
+    },
+    {
+      "id": "q_armabee",
+      "name": "Armabee",
+      "group": "enemy_monster",
+      "span": 2.3402,
+      "dense": 30000,
+      "dense_lo": [
+        -1.1691,
+        0.0012,
+        -0.5564
+      ],
+      "dense_q": 7.313124660868198e-05
+    },
+    {
+      "id": "q_alpaking",
+      "name": "Alpaking",
+      "group": "enemy_monster",
+      "span": 2.0728,
+      "dense": 30000,
+      "dense_lo": [
+        -1.0328,
+        0.0001,
+        -0.5257
+      ],
+      "dense_q": 6.477499846369028e-05
+    },
+    {
+      "id": "q_armabee_evolved",
+      "name": "Armabee Evolved",
+      "group": "enemy_monster",
+      "span": 2.0982,
+      "dense": 30000,
+      "dense_lo": [
+        -1.0496,
+        0.0007,
+        -0.5063
+      ],
+      "dense_q": 6.556874723173678e-05
+    },
+    {
+      "id": "q_goleling_evolved",
+      "name": "Goleling Evolved",
+      "group": "enemy_monster",
+      "span": 1.8512,
+      "dense": 30000,
+      "dense_lo": [
+        -0.9262,
+        0.001,
+        -0.426
+      ],
+      "dense_q": 5.78500003030058e-05
+    },
+    {
+      "id": "q_dragon",
+      "name": "Dragon",
+      "group": "enemy_monster",
+      "span": 2.6856,
+      "dense": 30000,
+      "dense_lo": [
+        -1.3449,
+        0.0015,
+        -0.7114
+      ],
+      "dense_q": 8.392499876208603e-05
+    },
+    {
+      "id": "q_goleling",
+      "name": "Goleling",
+      "group": "enemy_monster",
+      "span": 2.7142,
+      "dense": 30000,
+      "dense_lo": [
+        -1.3554,
+        0.0047,
+        -0.5796
+      ],
+      "dense_q": 8.481874829158187e-05
+    },
+    {
+      "id": "q_glub_evolved",
+      "name": "Glub Evolved",
+      "group": "enemy_monster",
+      "span": 1.2287,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6153,
+        0.0006,
+        -0.2822
+      ],
+      "dense_q": 3.8396872696466744e-05
+    },
+    {
+      "id": "q_alpaking_evolved",
+      "name": "Alpaking Evolved",
+      "group": "enemy_monster",
+      "span": 1.4086,
+      "dense": 30000,
+      "dense_lo": [
+        -0.7062,
+        0.0008,
+        -0.4604
+      ],
+      "dense_q": 4.401875412440859e-05
+    },
+    {
+      "id": "q_ghost",
+      "name": "Ghost",
+      "group": "enemy_monster",
+      "span": 0.9954,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4869,
+        0.0011,
+        -0.3384
+      ],
+      "dense_q": 3.110625038971193e-05
+    },
+    {
+      "id": "q_ghost_skull",
+      "name": "Ghost Skull",
+      "group": "enemy_monster",
+      "span": 0.9987,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4975,
+        0.0004,
+        -0.3827
+      ],
+      "dense_q": 3.120937617495656e-05
+    },
+    {
+      "id": "q_hywirl",
+      "name": "Hywirl",
+      "group": "enemy_monster",
+      "span": 1.0676,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5337,
+        0.0005,
+        -0.4466
+      ],
+      "dense_q": 3.336249938001856e-05
+    },
+    {
+      "id": "q_tribal",
+      "name": "Tribal",
+      "group": "enemy_monster",
+      "span": 0.9963,
+      "dense": 30000,
+      "dense_lo": [
+        -0.3831,
+        0.0006,
+        -0.2829
+      ],
+      "dense_q": 3.113437560386956e-05
+    },
+    {
+      "id": "q_demon",
+      "name": "Demon",
+      "group": "enemy_monster",
+      "span": 2.1272,
+      "dense": 30000,
+      "dense_lo": [
+        -1.0636,
+        0.0007,
+        -0.6708
+      ],
+      "dense_q": 6.647499685641378e-05
+    },
+    {
+      "id": "q_squidle",
+      "name": "Squidle",
+      "group": "enemy_monster",
+      "span": 2.0004,
+      "dense": 30000,
+      "dense_lo": [
+        -0.9984,
+        0.0013,
+        -0.6323
+      ],
+      "dense_q": 6.251250306377187e-05
+    },
+    {
+      "id": "q_dragon_evolved",
+      "name": "Dragon Evolved",
+      "group": "enemy_monster",
+      "span": 1.587,
+      "dense": 30000,
+      "dense_lo": [
+        -0.7938,
+        0.0006,
+        -0.5021
+      ],
+      "dense_q": 4.9593749281484634e-05
+    },
+    {
+      "id": "q_frog",
+      "name": "Frog",
+      "group": "enemy_monster",
+      "span": 1.4182,
+      "dense": 30000,
+      "dense_lo": [
+        -0.7083,
+        0.0001,
+        -0.3893
+      ],
+      "dense_q": 4.4318749132798985e-05
+    },
+    {
+      "id": "q_cactoro_2",
+      "name": "Cactoro",
+      "group": "enemy_monster",
+      "span": 0.9988,
+      "dense": 30000,
+      "dense_lo": [
+        -0.451,
+        0.0001,
+        -0.3476
+      ],
+      "dense_q": 3.1212497560773045e-05
+    },
+    {
+      "id": "q_ninja_2",
+      "name": "Ninja",
+      "group": "enemy_monster",
+      "span": 1.0785,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5394,
+        0.0002,
+        -0.4609
+      ],
+      "dense_q": 3.3703126973705366e-05
+    },
+    {
+      "id": "q_monkroose",
+      "name": "Monkroose",
+      "group": "enemy_monster",
+      "span": 1.2102,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6051,
+        0.0,
+        -0.3462
+      ],
+      "dense_q": 3.781874693231657e-05
+    },
+    {
+      "id": "q_dino",
+      "name": "Dino",
+      "group": "enemy_monster",
+      "span": 1.1426,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5716,
+        0.0001,
+        -0.357
+      ],
+      "dense_q": 3.570625267457217e-05
+    },
+    {
+      "id": "q_mushroom_king",
+      "name": "Mushroom King",
+      "group": "enemy_monster",
+      "span": 1.0124,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5064,
+        0.0003,
+        -0.3516
+      ],
+      "dense_q": 3.163749715895392e-05
+    },
+    {
+      "id": "q_alien_2",
+      "name": "Alien",
+      "group": "enemy_monster",
+      "span": 1.0623,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5314,
+        0.0001,
+        -0.3293
+      ],
+      "dense_q": 3.31968731188681e-05
+    },
+    {
+      "id": "q_blue_demon",
+      "name": "Blue Demon",
+      "group": "enemy_monster",
+      "span": 1.2551,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6277,
+        0.0004,
+        -0.3559
+      ],
+      "dense_q": 3.922187534044497e-05
+    },
+    {
+      "id": "q_fish_2",
+      "name": "Fish",
+      "group": "enemy_monster",
+      "span": 0.9965,
+      "dense": 30000,
+      "dense_lo": [
+        -0.457,
+        0.0,
+        -0.3258
+      ],
+      "dense_q": 3.114062565146014e-05
+    },
+    {
+      "id": "q_yeti_2",
+      "name": "Yeti",
+      "group": "enemy_monster",
+      "span": 1.3296,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6656,
+        0.0001,
+        -0.3395
+      ],
+      "dense_q": 4.154999987804331e-05
+    },
+    {
+      "id": "q_demon_2",
+      "name": "Demon",
+      "group": "enemy_monster",
+      "span": 1.3317,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6655,
+        0.0006,
+        -0.4396
+      ],
+      "dense_q": 4.1615625377744436e-05
+    },
+    {
+      "id": "q_orc",
+      "name": "Orc",
+      "group": "enemy_monster",
+      "span": 1.1035,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5514,
+        0.0072,
+        -0.3243
+      ],
+      "dense_q": 3.44843756465707e-05
+    },
+    {
+      "id": "q_bunny",
+      "name": "Bunny",
+      "group": "enemy_monster",
+      "span": 1.0014,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5006,
+        0.0009,
+        -0.327
+      ],
+      "dense_q": 3.129374817945063e-05
+    },
+    {
+      "id": "tower_cannon",
+      "name": "대포 탑",
+      "group": "building_tower",
+      "span": 2.1978,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5952,
+        0.0,
+        -0.5952
+      ],
+      "dense_q": 6.868124910397455e-05
+    },
+    {
+      "id": "tower_ballista",
+      "name": "발리스타 탑",
+      "group": "building_tower",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.55,
+        0.0,
+        -0.55
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "tower_crystal",
+      "name": "크리스탈 탑",
+      "group": "building_tower",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6153,
+        0.0,
+        -0.6776
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "tower_roof",
+      "name": "지붕 망루",
+      "group": "building_tower",
+      "span": 2.4,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4763,
+        0.0,
+        -0.4749
+      ],
+      "dense_q": 7.500000356230885e-05
+    },
+    {
+      "id": "tower_wood",
+      "name": "목조 망루",
+      "group": "building_tower",
+      "span": 2.0,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6536,
+        0.0,
+        -0.6536
+      ],
+      "dense_q": 6.25000029685907e-05
+    },
+    {
+      "id": "tower_catapult",
+      "name": "투석기 탑",
+      "group": "building_tower",
+      "span": 1.9,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6496,
+        0.0,
+        -0.6496
+      ],
+      "dense_q": 5.937500100117177e-05
+    },
+    {
+      "id": "k_campfire_stand",
+      "name": "모닥불 (거치대)",
+      "group": "building_camp",
+      "span": 1.2,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6,
+        0.0,
+        -0.1819
+      ],
+      "dense_q": 3.7500001781154424e-05
+    },
+    {
+      "id": "k_campfire_pit",
+      "name": "모닥불 (구덩이)",
+      "group": "building_camp",
+      "span": 1.0905,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5465,
+        0.0,
+        -0.5299
+      ],
+      "dense_q": 3.407812982914038e-05
+    },
+    {
+      "id": "k_tent",
+      "name": "텐트",
+      "group": "building_camp",
+      "span": 1.8,
+      "dense": 30000,
+      "dense_lo": [
+        -0.8995,
+        0.0,
+        -0.9
+      ],
+      "dense_q": 5.624999903375283e-05
+    },
+    {
+      "id": "k_tent_canvas",
+      "name": "천막",
+      "group": "building_camp",
+      "span": 1.8,
+      "dense": 30000,
+      "dense_lo": [
+        -0.8995,
+        0.0005,
+        -0.9
+      ],
+      "dense_q": 5.624999903375283e-05
+    },
+    {
+      "id": "k_workbench",
+      "name": "작업대",
+      "group": "building_camp",
+      "span": 1.291,
+      "dense": 30000,
+      "dense_lo": [
+        -0.65,
+        0.0,
+        -0.5901
+      ],
+      "dense_q": 4.0343747969018295e-05
+    },
+    {
+      "id": "k_workbench_anvil",
+      "name": "모루 작업대",
+      "group": "building_camp",
+      "span": 1.3527,
+      "dense": 30000,
+      "dense_lo": [
+        -0.65,
+        0.0,
+        -0.5956
+      ],
+      "dense_q": 4.2271873098798096e-05
+    },
+    {
+      "id": "k_workbench_grind",
+      "name": "숫돌 작업대",
+      "group": "building_camp",
+      "span": 1.3,
+      "dense": 30000,
+      "dense_lo": [
+        -0.5144,
+        0.0,
+        -0.65
+      ],
+      "dense_q": 4.0625000110594556e-05
+    },
+    {
+      "id": "k_fence_fortified",
+      "name": "방책",
+      "group": "building_camp",
+      "span": 1.6559,
+      "dense": 30000,
+      "dense_lo": [
+        -0.8,
+        0.0,
+        -0.0848
+      ],
+      "dense_q": 5.174687612452544e-05
+    },
+    {
+      "id": "k_chest",
+      "name": "보물 상자",
+      "group": "building_camp",
+      "span": 1.0156,
+      "dense": 30000,
+      "dense_lo": [
+        -0.4308,
+        0.0,
+        -0.45
+      ],
+      "dense_q": 3.173749792040326e-05
+    },
+    {
+      "id": "k_barrel",
+      "name": "통",
+      "group": "building_camp",
+      "span": 0.9,
+      "dense": 30000,
+      "dense_lo": [
+        -0.3094,
+        0.0,
+        -0.3094
+      ],
+      "dense_q": 2.8124999516876414e-05
+    },
+    {
+      "id": "k_signpost",
+      "name": "표지판",
+      "group": "building_camp",
+      "span": 1.5,
+      "dense": 30000,
+      "dense_lo": [
+        -0.3481,
+        0.0,
+        -0.0701
+      ],
+      "dense_q": 4.6875000407453626e-05
+    },
+    {
+      "id": "k_structure",
+      "name": "오두막 뼈대",
+      "group": "building_camp",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -1.1,
+        0.0,
+        -1.0999
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "k_structure_metal",
+      "name": "철제 창고",
+      "group": "building_camp",
+      "span": 2.2,
+      "dense": 30000,
+      "dense_lo": [
+        -1.1,
+        0.0,
+        -1.1
+      ],
+      "dense_q": 6.874999962747097e-05
+    },
+    {
+      "id": "k_machine",
+      "name": "기계",
+      "group": "building_machine",
+      "span": 1.3998,
+      "dense": 30000,
+      "dense_lo": [
+        -0.56,
+        0.0,
+        -0.7
+      ],
+      "dense_q": 4.374375203042291e-05
+    },
+    {
+      "id": "k_machine_fortified",
+      "name": "강화 기계",
+      "group": "building_machine",
+      "span": 1.4,
+      "dense": 30000,
+      "dense_lo": [
+        -0.525,
+        0.0,
+        -0.7
+      ],
+      "dense_q": 4.374999844003469e-05
+    },
+    {
+      "id": "k_machine_window",
+      "name": "창 달린 기계",
+      "group": "building_machine",
+      "span": 1.4,
+      "dense": 30000,
+      "dense_lo": [
+        -0.56,
+        0.0,
+        -0.7
+      ],
+      "dense_q": 4.374999844003469e-05
+    },
+    {
+      "id": "k_hopper_high_round",
+      "name": "원형 호퍼",
+      "group": "building_machine",
+      "span": 2.0,
+      "dense": 30000,
+      "dense_lo": [
+        -0.7453,
+        0.0,
+        -0.7453
+      ],
+      "dense_q": 6.25000029685907e-05
+    },
+    {
+      "id": "k_robot_arm_a",
+      "name": "로봇팔 A",
+      "group": "building_machine",
+      "span": 1.8,
+      "dense": 30000,
+      "dense_lo": [
+        -0.2791,
+        0.0,
+        -0.2787
+      ],
+      "dense_q": 5.624999903375283e-05
+    },
+    {
+      "id": "k_robot_arm_b",
+      "name": "로봇팔 B",
+      "group": "building_machine",
+      "span": 1.8,
+      "dense": 30000,
+      "dense_lo": [
+        -0.2994,
+        0.0,
+        -0.296
+      ],
+      "dense_q": 5.624999903375283e-05
+    },
+    {
+      "id": "k_scanner_high",
+      "name": "스캐너",
+      "group": "building_machine",
+      "span": 2.7927,
+      "dense": 30000,
+      "dense_lo": [
+        -0.3801,
+        0.0,
+        -1.3963
+      ],
+      "dense_q": 8.727186650503427e-05
+    },
+    {
+      "id": "k_crane",
+      "name": "크레인",
+      "group": "building_machine",
+      "span": 2.4858,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6504,
+        0.0,
+        -1.2429
+      ],
+      "dense_q": 7.768125215079635e-05
+    },
+    {
+      "id": "k_piston_round",
+      "name": "피스톤",
+      "group": "building_machine",
+      "span": 1.4,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6795,
+        0.0,
+        -0.6799
+      ],
+      "dense_q": 4.374999844003469e-05
+    },
+    {
+      "id": "k_pipe_glass_large_valve",
+      "name": "유리관 밸브",
+      "group": "building_machine",
+      "span": 1.3994,
+      "dense": 30000,
+      "dense_lo": [
+        -0.6892,
+        0.0002,
+        -0.7
+      ],
+      "dense_q": 4.373124829726294e-05
+    },
+    {
+      "id": "k_screen_wide",
+      "name": "대형 화면",
+      "group": "building_machine",
+      "span": 1.6,
+      "dense": 30000,
+      "dense_lo": [
+        -0.8,
+        0.0,
+        -0.325
+      ],
+      "dense_q": 5.0000002374872565e-05
+    }
+  ]
+}

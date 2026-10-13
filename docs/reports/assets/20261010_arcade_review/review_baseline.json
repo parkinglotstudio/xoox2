@@ -1,0 +1,153 @@
+{
+  "reviewedAt": "2026-10-10T21:25:38.834762+09:00",
+  "root": "C:\\soos-arcade",
+  "mode": "review_only",
+  "authority": "planner/data.json",
+  "files": [
+    {
+      "path": "planner/data.json",
+      "bytes": 118001,
+      "sha256": "4a0a035b63983f100c2f5ea703bafc69181995970f8dc8c4d3734547b621354f"
+    },
+    {
+      "path": "planner/sim.html",
+      "bytes": 54366,
+      "sha256": "e8cb3dc304f9751d47c800cb5d3ae81276bbab5f8e8cad16e448ae10537307b6"
+    },
+    {
+      "path": "package.json",
+      "bytes": 420,
+      "sha256": "564e18efcfe1d74486e2de194f53f1968bb9b85d997e93be10376fb2336b1d9f"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1054,
+      "sha256": "898a299e2d6fc769a22e469a10c8fab8d8105e1741f5cfe2ce0d2f7c683a4313"
+    },
+    {
+      "path": "assets/susu/tools/combat_skill/skills.json",
+      "bytes": 3284,
+      "sha256": "82c661cf89fb945d996c1f80d5be8fbcb56619bd77fd02fa4e1eb947f3337453"
+    },
+    {
+      "path": "docs/20261010_기획작성계획.md",
+      "bytes": 4619,
+      "sha256": "d4670e1d37821b4b873af2a04a8bff4b9866fe6c9a6aef0d0a57201204061c54"
+    },
+    {
+      "path": "docs/20261010_다른AI_아이디어프롬프트.md",
+      "bytes": 4187,
+      "sha256": "035dd19dd009cdb1737ccfc09aa37784551fd0ecc1c9096f0d76bdbccbc024b0"
+    },
+    {
+      "path": "docs/20261010_로비까지_시나리오.md",
+      "bytes": 4285,
+      "sha256": "3e085e6c057b1f4c47f433c6a377004f8709fdaabaedd50c3375dd2f8cab1c68"
+    },
+    {
+      "path": "docs/20261010_리소스활용계획.md",
+      "bytes": 7658,
+      "sha256": "6d157840f6951f0e6e24c1afc6f766854ae9613f30feca050d6d18f254ee2e31"
+    },
+    {
+      "path": "docs/20261010_외출카드_기본기획.md",
+      "bytes": 4525,
+      "sha256": "60712d838aac046af6be99567fc6626a7f329945d0c5e3be446fa693fe001432"
+    },
+    {
+      "path": "docs/20261010_이야기흐름.md",
+      "bytes": 2361,
+      "sha256": "24c1e75a9257f2eb8c720b614f43a5120c8446cd8090c36d0351f0f8d7db91e3"
+    },
+    {
+      "path": "docs/20261010_일행과로비_세부기획.md",
+      "bytes": 3608,
+      "sha256": "08e5ce7b528f5885693cc583524f515a67887596dba242260246698878403a44"
+    },
+    {
+      "path": "docs/20261010_카드01_푸더덕_기획.md",
+      "bytes": 8380,
+      "sha256": "9e82b3c31534075621035397c94447859d8c1ca5e6ec100ef08d220fdf0f6c08"
+    },
+    {
+      "path": "docs/20261010_카드시나리오.md",
+      "bytes": 9198,
+      "sha256": "dd7fa561d02f9aadb5877a65c0215acd5ca2e19a7b54900d93a6789ce975bc08"
+    },
+    {
+      "path": "docs/기획서.md",
+      "bytes": 91394,
+      "sha256": "41bed70ac6a5cd1bb50209310f1d90d677a4482ef1947bfa2725a4ccd484df62"
+    },
+    {
+      "path": "docs/plans/20261010_공중섬마을_제작계획_Codex.md",
+      "bytes": 11110,
+      "sha256": "ee06a3fa662c205c06fc6f9c52c0cb46626ae0430f0147f9f26df1d3d78c8bd5"
+    }
+  ],
+  "executionEvidence": "simulator_inspection.json",
+  "notes": [
+    "Legacy six-card documents are reference history.",
+    "No gameplay or planner data was modified.",
+    "Claude map creation is in progress per BOARD; map file links in planner are still empty.",
+    "During the review Claude completed the first map batch; final report reflects the newly registered m01/m02/m04 and 22 GLB files. Initial execution evidence remains unchanged."
+  ],
+  "finalRecheck": {
+    "at": "2026-10-10T21:27:58.838078+09:00",
+    "planningSha256": "4a0a035b63983f100c2f5ea703bafc69181995970f8dc8c4d3734547b621354f",
+    "maps": [
+      {
+        "id": "m01",
+        "status": "블렌더 작업",
+        "file": "assets/maps/landing/landing_{purified|polluted}.glb"
+      },
+      {
+        "id": "m02",
+        "status": "블렌더 작업",
+        "file": "assets/maps/forest_rooms/room_{empty|rock|pillars|spikes|pools|boss}_{purified|polluted}.glb"
+      },
+      {
+        "id": "m03",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m04",
+        "status": "블렌더 작업",
+        "file": "assets/maps/sky_route/sky_route_{purified|polluted}.glb"
+      },
+      {
+        "id": "m05",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m06",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m07",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m08",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m09",
+        "status": "설정 중",
+        "file": ""
+      },
+      {
+        "id": "m10",
+        "status": "설정 중",
+        "file": ""
+      }
+    ],
+    "mapGLBCount": 22,
+    "sourceReport": "docs/작업완료보고서/2026-10-10_미션맵_1차.md"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "revision": "PET04-02",
+  "author": "Codex",
+  "entries": [
+    {
+      "id": "pet_nofilter",
+      "name": "NoFilter",
+      "glb": "/tools/unit_lab/pets/nofilter/nofilter.glb",
+      "manifest": "/tools/unit_lab/pets/nofilter/manifest.json",
+      "reference": "/tools/unit_lab/pets/nofilter/reference.png",
+      "source": "data/tools/unit_lab/pets/nofilter/source/nofilter.blend",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ],
+      "triangles": 16872,
+      "bytes": 2143400
+    },
+    {
+      "id": "pet_flux",
+      "name": "Flux",
+      "glb": "/tools/unit_lab/pets/flux/flux.glb",
+      "manifest": "/tools/unit_lab/pets/flux/manifest.json",
+      "reference": "/tools/unit_lab/pets/flux/reference.png",
+      "source": "data/tools/unit_lab/pets/flux/source/flux.blend",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ],
+      "triangles": 18106,
+      "bytes": 2279308
+    },
+    {
+      "id": "pet_lumos",
+      "name": "Lumos",
+      "glb": "/tools/unit_lab/pets/lumos/lumos.glb",
+      "manifest": "/tools/unit_lab/pets/lumos/manifest.json",
+      "reference": "/tools/unit_lab/pets/lumos/reference.png",
+      "source": "data/tools/unit_lab/pets/lumos/source/lumos.blend",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ],
+      "triangles": 17688,
+      "bytes": 2233164
+    },
+    {
+      "id": "pet_gizmo",
+      "name": "Gizmo",
+      "glb": "/tools/unit_lab/pets/gizmo/gizmo.glb",
+      "manifest": "/tools/unit_lab/pets/gizmo/manifest.json",
+      "reference": "/tools/unit_lab/pets/gizmo/reference.png",
+      "source": "data/tools/unit_lab/pets/gizmo/source/gizmo.blend",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ],
+      "triangles": 18004,
+      "bytes": 2267512
+    }
+  ]
+}

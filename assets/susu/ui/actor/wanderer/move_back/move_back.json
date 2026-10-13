@@ -1,0 +1,317 @@
+{
+  "id": "move_back",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 16,
+  "rows": 1,
+  "frame_count": 16,
+  "sheet": "move_back_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "move_back_00.png",
+      "src": "00.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\00.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_00.png",
+      "char_size": [
+        195,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 1,
+      "name": "move_back_01.png",
+      "src": "01.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\01.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_01.png",
+      "char_size": [
+        189,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 2,
+      "name": "move_back_02.png",
+      "src": "02.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\02.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_02.png",
+      "char_size": [
+        189,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 3,
+      "name": "move_back_03.png",
+      "src": "03.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\03.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_03.png",
+      "char_size": [
+        199,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 4,
+      "name": "move_back_04.png",
+      "src": "04.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\04.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_04.png",
+      "char_size": [
+        199,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 5,
+      "name": "move_back_05.png",
+      "src": "05.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\05.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_05.png",
+      "char_size": [
+        166,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 6,
+      "name": "move_back_06.png",
+      "src": "06.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\06.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_06.png",
+      "char_size": [
+        166,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 7,
+      "name": "move_back_07.png",
+      "src": "07.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\07.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_07.png",
+      "char_size": [
+        166,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 8,
+      "name": "move_back_08.png",
+      "src": "08.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\08.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_08.png",
+      "char_size": [
+        177,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 9,
+      "name": "move_back_09.png",
+      "src": "09.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\09.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_09.png",
+      "char_size": [
+        177,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 10,
+      "name": "move_back_10.png",
+      "src": "10.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\10.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_10.png",
+      "char_size": [
+        199,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 11,
+      "name": "move_back_11.png",
+      "src": "11.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\11.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_11.png",
+      "char_size": [
+        199,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 12,
+      "name": "move_back_12.png",
+      "src": "12.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\12.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_12.png",
+      "char_size": [
+        189,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 13,
+      "name": "move_back_13.png",
+      "src": "13.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\13.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_13.png",
+      "char_size": [
+        189,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 14,
+      "name": "move_back_14.png",
+      "src": "14.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\14.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_14.png",
+      "char_size": [
+        189,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 15,
+      "name": "move_back_15.png",
+      "src": "15.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\move_back\\gif_clean\\15.png",
+      "duration_ms": 60,
+      "file": "frames/move_back_15.png",
+      "char_size": [
+        171,
+        446
+      ],
+      "applied_scale": 1.0
+    }
+  ],
+  "loop": true,
+  "source_gif": "0824 뒤로 이동.gif",
+  "source_frame_count": 16,
+  "pad_bottom": 12,
+  "applied_frame_scales": {
+    "anim_id": "move_back",
+    "cell": 512,
+    "pivot": "bottom-center",
+    "pad_bottom": 12,
+    "type": "frame_scales",
+    "baseline": "_pre_scale_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "scales": {}
+  },
+  "applied_body_offsets": {
+    "anim_id": "move_back",
+    "cell": 512,
+    "pivot": {
+      "x": 256,
+      "y": 500
+    },
+    "type": "body_offsets",
+    "baseline": "_pre_offset_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "offsets": {
+      "0": {
+        "dx": 0,
+        "dy": 0
+      },
+      "1": {
+        "dx": 0,
+        "dy": 0
+      },
+      "2": {
+        "dx": 0,
+        "dy": 0
+      },
+      "3": {
+        "dx": 17,
+        "dy": 0
+      },
+      "4": {
+        "dx": 16,
+        "dy": 0
+      },
+      "5": {
+        "dx": -1,
+        "dy": 0
+      },
+      "6": {
+        "dx": 0,
+        "dy": 0
+      },
+      "7": {
+        "dx": 0,
+        "dy": 0
+      },
+      "8": {
+        "dx": -3,
+        "dy": 0
+      },
+      "9": {
+        "dx": -2,
+        "dy": 0
+      },
+      "10": {
+        "dx": -2,
+        "dy": 0
+      },
+      "11": {
+        "dx": -5,
+        "dy": 0
+      },
+      "12": {
+        "dx": 0,
+        "dy": 0
+      },
+      "13": {
+        "dx": 0,
+        "dy": 0
+      },
+      "14": {
+        "dx": 0,
+        "dy": 0
+      },
+      "15": {
+        "dx": 0,
+        "dy": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "changedResource": "m_lobby",
+  "resourceCount": 42,
+  "oldResourceLabelAbsent": true,
+  "thumbnailLoaded": true,
+  "openButtonUrl": "http://127.0.0.1:5180/village-lobby-tool.html?revision=VILLAGE03-final",
+  "legacyUrlUnchanged": true,
+  "servedFiles": [
+    {
+      "file": "village_environment.glb",
+      "status": 200,
+      "bytes": 7493284
+    },
+    {
+      "file": "village_bird.glb",
+      "status": 200,
+      "bytes": 18348
+    },
+    {
+      "file": "village_navmesh.glb",
+      "status": 200,
+      "bytes": 435188
+    },
+    {
+      "file": "layout.json",
+      "status": 200,
+      "bytes": 54736
+    },
+    {
+      "file": "navigation.json",
+      "status": 200,
+      "bytes": 651762
+    },
+    {
+      "file": "village_settings.json",
+      "status": 200,
+      "bytes": 4647
+    }
+  ],
+  "previewReady": true,
+  "previewTitle": "정화숲 공중마을",
+  "plannerJavaScriptErrors": [],
+  "planningMarkdownExported": true
+}

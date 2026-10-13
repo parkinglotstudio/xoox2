@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 2,
+  "entries": [
+    {
+      "enemyId": "q_goleling_evolved",
+      "usedBy": [
+        "base-final",
+        "horde-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_mushnub_evolved",
+      "usedBy": [
+        "horde-mid"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.5,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_glub_evolved",
+      "usedBy": [
+        "region-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 8,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 6,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 8,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 6,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_alpaking_evolved",
+      "usedBy": [
+        "region-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.02,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.02,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.275,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.02,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.275,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.36,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_dragon_evolved",
+      "usedBy": [
+        "region-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 3,
+              "coneDeg": 75,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 3,
+              "coneDeg": 75,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 3,
+              "coneDeg": 75,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_mushroom_king",
+      "usedBy": [
+        "region-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1,
+              "damage": 18,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.2,
+              "damage": 20,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 4,
+              "radiusM": 1.2,
+              "telegraphSec": 1.3,
+              "damage": 10,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    },
+    {
+      "enemyId": "q_yeti_2",
+      "usedBy": [
+        "region-final"
+      ],
+      "spawnWarningSec": 2,
+      "introInvulnerabilitySec": 1.2,
+      "deathResultDelaySec": 2,
+      "phases": [
+        {
+          "phase": 1,
+          "hpRatioAtOrBelow": 1,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1.15,
+              "damage": 20.7,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 2,
+          "hpRatioAtOrBelow": 0.66,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1.15,
+              "damage": 20.7,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.38,
+              "damage": 23.0,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        },
+        {
+          "phase": 3,
+          "hpRatioAtOrBelow": 0.33,
+          "patterns": [
+            {
+              "id": "cone-slam",
+              "shape": "cone",
+              "radiusM": 2,
+              "coneDeg": 100,
+              "telegraphSec": 1.15,
+              "damage": 20.7,
+              "recoverSec": 1.2,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "line-charge",
+              "shape": "capsule",
+              "lengthM": 6,
+              "radiusM": 0.6,
+              "telegraphSec": 1.38,
+              "damage": 23.0,
+              "recoverSec": 1.5,
+              "dashSpeedMps": 8,
+              "targetLock": "on-telegraph-start"
+            },
+            {
+              "id": "three-pools",
+              "shape": "circles",
+              "count": 3,
+              "radiusM": 1.5,
+              "telegraphSec": 1.4949999999999999,
+              "damage": 11.5,
+              "damageTickSec": 0.5,
+              "durationSec": 3,
+              "recoverSec": 1.6,
+              "minSafeGapM": 1.5,
+              "targetLock": "on-telegraph-start"
+            }
+          ]
+        }
+      ],
+      "hpSource": "ruleset-absolute-then-region-once"
+    }
+  ]
+}

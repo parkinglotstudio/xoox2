@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "label": "레고 (원색 · 균일)",
+  "note": "유닛 랩 툴 전용 레고식 원색. 한 부품 = 한 색. tone_mix 낮을수록 점 밝기가 균일하다.",
+  "tone_mix": 0.15,
+  "crisp": 1.0,
+  "pure_dots": [
+    "#F4F4F4",
+    "#F2CD37"
+  ],
+  "pure_dot_ratio": 0.0,
+  "enemy_roles": [
+    {
+      "id": "swarm",
+      "label": "무리",
+      "blight": {
+        "body": "#C91A09",
+        "accent": "#F2CD37",
+        "edge": "#720E0F"
+      }
+    },
+    {
+      "id": "fast",
+      "label": "빠른",
+      "blight": {
+        "body": "#F2CD37",
+        "accent": "#FE8A18",
+        "edge": "#A0831E"
+      }
+    },
+    {
+      "id": "tank",
+      "label": "단단",
+      "blight": {
+        "body": "#0055BF",
+        "accent": "#F4F4F4",
+        "edge": "#0A3463"
+      }
+    },
+    {
+      "id": "culprit",
+      "label": "원흉",
+      "blight": {
+        "body": "#05131D",
+        "accent": "#C91A09",
+        "edge": "#05131D"
+      }
+    }
+  ],
+  "enemy_pure": {
+    "body": "#F4F4F4",
+    "accent": "#36AEBF",
+    "edge": "#A0A5A9"
+  },
+  "units": {
+    "block_gun": {
+      "blight": {
+        "body": "#A0A5A9",
+        "accent": "#6C6E68",
+        "edge": "#6C6E68"
+      },
+      "pure": {
+        "body": "#C91A09",
+        "accent": "#F4F4F4",
+        "edge": "#720E0F"
+      }
+    },
+    "block_throw": {
+      "blight": {
+        "body": "#A0A5A9",
+        "accent": "#6C6E68",
+        "edge": "#6C6E68"
+      },
+      "pure": {
+        "body": "#F2CD37",
+        "accent": "#0055BF",
+        "edge": "#A0831E"
+      }
+    },
+    "floor_tile": {
+      "blight": {
+        "body": "#A0A5A9",
+        "accent": "#6C6E68",
+        "edge": "#6C6E68"
+      },
+      "pure": {
+        "body": "#237841",
+        "accent": "#F4F4F4",
+        "edge": "#184632"
+      }
+    },
+    "rescue_mark": {
+      "blight": {
+        "body": "#A0A5A9",
+        "accent": "#6C6E68",
+        "edge": "#6C6E68"
+      },
+      "pure": {
+        "body": "#F4F4F4",
+        "accent": "#FE8A18",
+        "edge": "#A0A5A9"
+      }
+    },
+    "wanderer_ref": {
+      "blight": {
+        "body": "#C91A09",
+        "accent": "#F2CD37",
+        "edge": "#0055BF",
+        "skin": "#F2CD37"
+      },
+      "pure": {
+        "body": "#C91A09",
+        "accent": "#F2CD37",
+        "edge": "#0055BF",
+        "skin": "#F2CD37"
+      }
+    },
+    "shot_gun": {
+      "blight": {
+        "body": "#F2CD37",
+        "accent": "#F4F4F4",
+        "edge": "#FE8A18"
+      },
+      "pure": {
+        "body": "#F2CD37",
+        "accent": "#F4F4F4",
+        "edge": "#FE8A18"
+      }
+    },
+    "bomb": {
+      "blight": {
+        "body": "#05131D",
+        "accent": "#FE8A18",
+        "edge": "#05131D"
+      },
+      "pure": {
+        "body": "#05131D",
+        "accent": "#FE8A18",
+        "edge": "#05131D"
+      }
+    }
+  },
+  "point_size": 0.1
+}

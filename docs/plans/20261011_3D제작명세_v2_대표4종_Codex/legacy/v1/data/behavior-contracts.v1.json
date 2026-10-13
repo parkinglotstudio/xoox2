@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "status": "implementation-contract-not-executable-AI",
+  "defaults": {
+    "melee": {
+      "attackRangeM": 1.2,
+      "shape": "cone",
+      "coneDeg": 100,
+      "radiusM": 1.4
+    },
+    "ranged": {
+      "preferredRangeM": 6,
+      "retreatBelowM": 3,
+      "projectileSpeedMps": 3.5,
+      "projectileCount": 1
+    },
+    "dash": {
+      "triggerRangeM": [
+        3,
+        6
+      ],
+      "dashSpeedMps": 8,
+      "dashLengthM": 5,
+      "turnDuringAttack": false
+    },
+    "air": {
+      "altitudeM": [
+        1.5,
+        3
+      ],
+      "honorWorldBounds": true
+    },
+    "water": {
+      "requireWaterNavigation": true,
+      "preferredRangeM": 5,
+      "flightSec": 0.8,
+      "blastRadiusM": 0.8
+    },
+    "support": {
+      "radiusM": 4,
+      "maxTargets": 3,
+      "speedMultiplier": 1.1,
+      "durationSec": 2,
+      "stacking": false
+    },
+    "heal": {
+      "intervalSec": 5,
+      "radiusM": 4,
+      "maxTargets": 3,
+      "hpFraction": 0.05,
+      "maxHealsPerTarget": 3,
+      "affectsBosses": false
+    }
+  },
+  "perSpecies": {
+    "earth-pop": {
+      "enemyId": "q_mushnub",
+      "role": "burrow",
+      "attackIntervalSec": 2,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "burrowSec": 2,
+      "unburrowWarningSec": 0.7,
+      "popRadiusM": 1,
+      "minDistanceFromHeroM": 2
+    },
+    "paint-trail": {
+      "enemyId": "q_pink_slime",
+      "role": "swarm",
+      "attackIntervalSec": 1.9,
+      "telegraphSec": 0.35,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "repaintAreaCapM2PerSec": 0.4,
+      "enabledGames": [
+        "g09"
+      ]
+    },
+    "soft-approach": {
+      "enemyId": "q_green_blob",
+      "role": "swarm",
+      "attackIntervalSec": 2,
+      "telegraphSec": 0.4,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "approachSlotArcDeg": 360,
+      "avoidanceWeight": 1.2
+    },
+    "core-priority": {
+      "enemyId": "q_orc_enemy",
+      "role": "bruiser",
+      "attackIntervalSec": 2.2,
+      "telegraphSec": 0.55,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "targetPriority": [
+        "core",
+        "wall",
+        "hero"
+      ],
+      "coneDeg": 100,
+      "attackRangeM": 1.4
+    },
+    "left-right-arc": {
+      "enemyId": "q_ninja",
+      "role": "flanker",
+      "attackIntervalSec": 1.5,
+      "telegraphSec": 0.45,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "flankAngleDeg": [
+        60,
+        100
+      ],
+      "retreatAfterHitM": 1
+    },
+    "side-pounce": {
+      "enemyId": "q_cat",
+      "role": "pouncer",
+      "attackIntervalSec": 2.4,
+      "telegraphSec": 0.65,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "triggerRangeM": 3,
+      "flightSec": 0.5,
+      "jumpHeightM": 0.8,
+      "landingRadiusM": 0.8
+    },
+    "flock-offset": {
+      "enemyId": "q_pigeon",
+      "role": "air",
+      "attackIntervalSec": 1.8,
+      "telegraphSec": 0.5,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "altitudeM": 2.5,
+      "separationRadiusM": 0.5
+    },
+    "brief-sprint": {
+      "enemyId": "q_chicken",
+      "role": "runner",
+      "attackIntervalSec": 1.4,
+      "telegraphSec": 0.4,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "sprintMultiplier": 1.25,
+      "sprintSec": 1,
+      "restSec": 3
+    },
+    "linear-charge": {
+      "enemyId": "q_cactoro",
+      "role": "charger",
+      "attackIntervalSec": 2.8,
+      "telegraphSec": 0.6,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "dashSpeedMps": 8,
+      "dashLengthM": 5,
+      "turnDuringAttack": false
+    },
+    "single-pulse": {
+      "enemyId": "q_alien",
+      "role": "ranged",
+      "attackIntervalSec": 2.3,
+      "telegraphSec": 0.65,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "preferredRangeM": 6,
+      "projectileSpeedMps": 4,
+      "projectileCount": 1
+    },
+    "three-spore-pools": {
+      "enemyId": "q_mushnub_evolved",
+      "role": "elite",
+      "attackIntervalSec": 3.8,
+      "telegraphSec": 0.9,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "pools": 3,
+      "radiusM": 1.2,
+      "durationSec": 4,
+      "damagePerSec": 8
+    },
+    "cart-road-block": {
+      "enemyId": "q_yeti",
+      "role": "tank",
+      "attackIntervalSec": 3,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "targetPriority": [
+        "cart",
+        "hero"
+      ],
+      "coneDeg": 120,
+      "attackRangeM": 1.8
+    },
+    "three-fan": {
+      "enemyId": "q_wizard",
+      "role": "ranged",
+      "attackIntervalSec": 2.4,
+      "telegraphSec": 0.8,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "projectileCount": 3,
+      "projectileSpeedMps": 3.5,
+      "fanAngleStepDeg": 20
+    },
+    "pool-ambush": {
+      "enemyId": "q_fish",
+      "role": "water",
+      "attackIntervalSec": 2.1,
+      "telegraphSec": 0.55,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "requireWaterNavigation": true,
+      "preferredRangeM": 5,
+      "projectileSpeedMps": 3.5
+    },
+    "gliding-strafe": {
+      "enemyId": "q_birb",
+      "role": "air",
+      "attackIntervalSec": 2,
+      "telegraphSec": 0.6,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "altitudeM": 2,
+      "strafeOffsetM": 2,
+      "preferredRangeM": 4
+    },
+    "contact-spikes": {
+      "enemyId": "q_green_spiky_blob",
+      "role": "tank",
+      "attackIntervalSec": 2.6,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "contactDamage": 16,
+      "approachSlotArcDeg": 360
+    },
+    "tunnel-follow": {
+      "enemyId": "q_glub",
+      "role": "crawler",
+      "attackIntervalSec": 1.9,
+      "telegraphSec": 0.5,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "repathOnTerrainChange": true,
+      "breakDirtWarningSec": 0.8
+    },
+    "line-dash": {
+      "enemyId": "q_armabee",
+      "role": "air-charge",
+      "attackIntervalSec": 3,
+      "telegraphSec": 0.5,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "dashSpeedMps": 8,
+      "dashLengthM": 6,
+      "turnDuringAttack": false
+    },
+    "kick-cone": {
+      "enemyId": "q_alpaking",
+      "role": "elite",
+      "attackIntervalSec": 2.8,
+      "telegraphSec": 0.9,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "coneDeg": 120,
+      "attackRangeM": 1.8,
+      "knockbackM": 0.6
+    },
+    "two-dashes": {
+      "enemyId": "q_armabee_evolved",
+      "role": "air-charge",
+      "attackIntervalSec": 3.4,
+      "telegraphSec": 0.75,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "dashCount": 2,
+      "dashSpeedMps": 8,
+      "interDashSec": 0.5
+    },
+    "triple-dash-rocks": {
+      "enemyId": "q_goleling_evolved",
+      "role": "boss",
+      "attackIntervalSec": 4,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g01.finalBoss",
+      "dashCount": 3,
+      "rocks": 3
+    },
+    "breath-lane": {
+      "enemyId": "q_dragon",
+      "role": "air-elite",
+      "attackIntervalSec": 3.6,
+      "telegraphSec": 1.1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "laneLengthM": 6,
+      "laneWidthM": 1.2,
+      "burnDurationSec": 3
+    },
+    "front-55deg-shield": {
+      "enemyId": "q_goleling",
+      "role": "shield",
+      "attackIntervalSec": 2.7,
+      "telegraphSec": 0.85,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "frontHalfAngleDeg": 55,
+      "frontDamageMultiplier": 0.15,
+      "turnLimitRadPerSec": 1.5
+    },
+    "burrow-triple-dash": {
+      "enemyId": "q_glub_evolved",
+      "role": "boss",
+      "attackIntervalSec": 4.1,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g08.boss",
+      "burrowWarningSec": 1,
+      "dashCount": 3
+    },
+    "kick-dash-fan": {
+      "enemyId": "q_alpaking_evolved",
+      "role": "boss",
+      "attackIntervalSec": 4.3,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g08.boss",
+      "fanCount": 5,
+      "kickConeDeg": 120
+    },
+    "visible-phase-step": {
+      "enemyId": "q_ghost",
+      "role": "phaser",
+      "attackIntervalSec": 2.5,
+      "telegraphSec": 0.75,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "stepWarningSec": 0.8,
+      "maxStepM": 3,
+      "minLandingDistanceToHeroM": 1.2
+    },
+    "ricochet-two": {
+      "enemyId": "q_ghost_skull",
+      "role": "ranged",
+      "attackIntervalSec": 3,
+      "telegraphSec": 0.8,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "preferredRangeM": 6,
+      "projectileSpeedMps": 4,
+      "wallBounces": 2
+    },
+    "spiral-approach": {
+      "enemyId": "q_hywirl",
+      "role": "orbit",
+      "attackIntervalSec": 2.6,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "orbitRadiusM": 3,
+      "reverseAfterAttack": true
+    },
+    "speed-aura-nearby": {
+      "enemyId": "q_tribal",
+      "role": "support",
+      "attackIntervalSec": 2.35,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "radiusM": 4,
+      "maxTargets": 3,
+      "speedMultiplier": 1.1,
+      "durationSec": 2,
+      "stacking": false
+    },
+    "core-charge": {
+      "enemyId": "q_demon",
+      "role": "charger",
+      "attackIntervalSec": 3.2,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "targetPriority": [
+        "core",
+        "hero"
+      ],
+      "dashSpeedMps": 8,
+      "dashLengthM": 5
+    },
+    "arc-three-pools": {
+      "enemyId": "q_squidle",
+      "role": "lobber",
+      "attackIntervalSec": 3.1,
+      "telegraphSec": 0.9,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "poolCount": 3,
+      "flightSec": 0.8,
+      "poolRadiusM": 1.2,
+      "poolDurationSec": 3
+    },
+    "breath-dash-fan": {
+      "enemyId": "q_dragon_evolved",
+      "role": "boss",
+      "attackIntervalSec": 4.5,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g08.boss",
+      "fanCount": 5,
+      "laneLengthM": 6
+    },
+    "one-companion-swallow": {
+      "enemyId": "q_frog",
+      "role": "eater",
+      "attackIntervalSec": 3.5,
+      "telegraphSec": 0.8,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "maximumSwallowed": 1,
+      "rescueWindowSec": 3,
+      "releaseDamage": 24
+    },
+    "double-short-charge": {
+      "enemyId": "q_cactoro_2",
+      "role": "charger",
+      "attackIntervalSec": 3.1,
+      "telegraphSec": 0.75,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "dashCount": 2,
+      "dashLengthM": 3,
+      "interDashSec": 0.6
+    },
+    "shadow-telegraphed-jump": {
+      "enemyId": "q_ninja_2",
+      "role": "flanker",
+      "attackIntervalSec": 1.8,
+      "telegraphSec": 0.65,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "stepWarningSec": 0.8,
+      "maxStepM": 3,
+      "minLandingDistanceToHeroM": 1.2
+    },
+    "heal-neighbors-capped": {
+      "enemyId": "q_monkroose",
+      "role": "healer",
+      "attackIntervalSec": 3.8,
+      "telegraphSec": 1.1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "intervalSec": 5,
+      "radiusM": 4,
+      "maxTargets": 3,
+      "hpFraction": 0.05,
+      "maxHealsPerTarget": 3,
+      "affectsBosses": false
+    },
+    "tail-cone": {
+      "enemyId": "q_dino",
+      "role": "tank",
+      "attackIntervalSec": 3.4,
+      "telegraphSec": 1.2,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "coneDeg": 140,
+      "attackRangeM": 2,
+      "knockbackM": 0.8
+    },
+    "spore-dash-fan": {
+      "enemyId": "q_mushroom_king",
+      "role": "boss",
+      "attackIntervalSec": 4.2,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g08.boss",
+      "fanCount": 5,
+      "poolCount": 3
+    },
+    "long-warning-line": {
+      "enemyId": "q_alien_2",
+      "role": "sniper",
+      "attackIntervalSec": 3.3,
+      "telegraphSec": 1.1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "preferredRangeM": 10,
+      "projectileSpeedMps": 8,
+      "lineWarningSec": 1.1
+    },
+    "cold-five-fan": {
+      "enemyId": "q_blue_demon",
+      "role": "ranged",
+      "attackIntervalSec": 3,
+      "telegraphSec": 0.95,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "projectileCount": 5,
+      "fanAngleStepDeg": 18,
+      "slowMultiplier": 0.65,
+      "slowSec": 2
+    },
+    "pool-arc-shot": {
+      "enemyId": "q_fish_2",
+      "role": "water",
+      "attackIntervalSec": 2.7,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "requireWaterNavigation": true,
+      "flightSec": 0.8,
+      "blastRadiusM": 0.8
+    },
+    "rage-dash-rocks": {
+      "enemyId": "q_yeti_2",
+      "role": "boss",
+      "attackIntervalSec": 4.4,
+      "telegraphSec": 1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "controller": "g08.boss",
+      "dashCount": 3,
+      "rocks": 3
+    },
+    "charge-area-landing": {
+      "enemyId": "q_demon_2",
+      "role": "elite",
+      "attackIntervalSec": 3.7,
+      "telegraphSec": 1.1,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "dashLengthM": 6,
+      "landingRadiusM": 1.5
+    },
+    "light-melee": {
+      "enemyId": "q_orc",
+      "role": "bruiser",
+      "attackIntervalSec": 1.95,
+      "telegraphSec": 0.6,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "coneDeg": 100,
+      "attackRangeM": 1.2
+    },
+    "ignores-blocking": {
+      "enemyId": "q_bunny",
+      "role": "runner",
+      "attackIntervalSec": 1.6,
+      "telegraphSec": 0.45,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "blockingCost": 0,
+      "followsGroundRoute": true
+    },
+    "air-single-pulse": {
+      "enemyId": "k_enemy_ufo_a",
+      "role": "air",
+      "attackIntervalSec": 2.6,
+      "telegraphSec": 0.7,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "altitudeM": 2.2,
+      "projectileCount": 1,
+      "projectileSpeedMps": 4
+    },
+    "slow-pulse": {
+      "enemyId": "k_enemy_ufo_b",
+      "role": "air",
+      "attackIntervalSec": 3.2,
+      "telegraphSec": 0.9,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "altitudeM": 2.5,
+      "slowMultiplier": 0.7,
+      "slowSec": 1.5,
+      "projectileSpeedMps": 3.5
+    },
+    "dive-shadow": {
+      "enemyId": "k_enemy_ufo_c",
+      "role": "air-charge",
+      "attackIntervalSec": 3.4,
+      "telegraphSec": 0.8,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "altitudeM": 3,
+      "landingWarningSec": 0.8,
+      "landingRadiusM": 1
+    },
+    "scan-speed-aura": {
+      "enemyId": "k_enemy_ufo_d",
+      "role": "air-support",
+      "attackIntervalSec": 4,
+      "telegraphSec": 1.2,
+      "minSpawnDistanceFromHeroM": 7,
+      "stopOnDeath": true,
+      "radiusM": 4,
+      "maxTargets": 3,
+      "speedMultiplier": 1.1,
+      "durationSec": 2,
+      "stacking": false,
+      "altitudeM": 2.6
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "revision": "VILLAGE03",
+  "regions": [
+    {
+      "id": "main",
+      "name": "모두의 집",
+      "role": "공동 식사 · 식수 · 휴식",
+      "center": [
+        8,
+        1.3,
+        6.4
+      ],
+      "radii": [
+        14.2,
+        11.5
+      ],
+      "depth": 3.8,
+      "focus": [
+        11,
+        7,
+        -2
+      ]
+    },
+    {
+      "id": "pet",
+      "name": "반려동물 쉼터",
+      "role": "물그릇 · 작은 보금자리 · 놀이터",
+      "center": [
+        -19,
+        8.4,
+        8.2
+      ],
+      "radii": [
+        8.8,
+        7.4
+      ],
+      "depth": 4.3,
+      "focus": [
+        -19,
+        9,
+        -7
+      ]
+    },
+    {
+      "id": "garden",
+      "name": "정화 물빛 정원",
+      "role": "빗물 저장 · 채소밭 · 씨앗 보관",
+      "center": [
+        -19,
+        26.2,
+        12.85
+      ],
+      "radii": [
+        7.1,
+        6
+      ],
+      "depth": 5,
+      "focus": [
+        -19,
+        13.7,
+        -23
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "바람 정비소",
+      "role": "비행선 부품 · 작업대 · 화물",
+      "center": [
+        1,
+        28.8,
+        13.45
+      ],
+      "radii": [
+        7.8,
+        6.2
+      ],
+      "depth": 5.3,
+      "focus": [
+        1,
+        14.3,
+        -26
+      ]
+    },
+    {
+      "id": "lookout",
+      "name": "등불 전망대",
+      "role": "항로 안내 · 망원경 · 쉼터",
+      "center": [
+        28,
+        23.2,
+        16.8
+      ],
+      "radii": [
+        6.9,
+        5.6
+      ],
+      "depth": 5,
+      "focus": [
+        28,
+        17.6,
+        -21
+      ]
+    }
+  ],
+  "cores": [
+    {
+      "id": "main",
+      "position": [
+        8,
+        1.9500000000000006,
+        -1.3
+      ],
+      "radius": 17.75
+    },
+    {
+      "id": "pet",
+      "position": [
+        -19,
+        3.2499999999999996,
+        -8.4
+      ],
+      "radius": 11.0
+    },
+    {
+      "id": "garden",
+      "position": [
+        -19,
+        7.199999999999999,
+        -26.2
+      ],
+      "radius": 8.875
+    },
+    {
+      "id": "workshop",
+      "position": [
+        1,
+        7.499999999999998,
+        -28.8
+      ],
+      "radius": 9.75
+    },
+    {
+      "id": "lookout",
+      "position": [
+        28,
+        11.15,
+        -23.2
+      ],
+      "radius": 8.625
+    }
+  ],
+  "waterfalls": [
+    {
+      "id": "main",
+      "top": [
+        17.5,
+        6.71,
+        7.9
+      ],
+      "width": 1.2,
+      "source": [
+        17.2,
+        6.71,
+        5.5
+      ]
+    },
+    {
+      "id": "pet",
+      "top": [
+        -24.1,
+        8.5,
+        -1.8
+      ],
+      "width": 0.75,
+      "source": [
+        -24,
+        8.5,
+        -5.2
+      ]
+    },
+    {
+      "id": "garden",
+      "top": [
+        -22.3,
+        13.16,
+        -20.5
+      ],
+      "width": 0.78,
+      "source": [
+        -22.1,
+        13.16,
+        -23
+      ]
+    },
+    {
+      "id": "lookout",
+      "top": [
+        31.3,
+        17.1,
+        -18.2
+      ],
+      "width": 0.7,
+      "source": [
+        31.1,
+        17.1,
+        -19.4
+      ]
+    }
+  ],
+  "airship": {
+    "dock": [
+      -10.4,
+      0.92,
+      18
+    ],
+    "dockHeading": 0.19198621771937624,
+    "dwellSeconds": 24,
+    "flightSeconds": 135,
+    "route": [
+      [
+        -10.4,
+        0.92,
+        18
+      ],
+      [
+        -16,
+        4,
+        22
+      ],
+      [
+        -28,
+        9,
+        23
+      ],
+      [
+        -42,
+        18,
+        7
+      ],
+      [
+        -39,
+        23,
+        -27
+      ],
+      [
+        -8,
+        26,
+        -46
+      ],
+      [
+        42,
+        25,
+        -44
+      ],
+      [
+        49,
+        21,
+        -6
+      ],
+      [
+        37,
+        16,
+        23
+      ],
+      [
+        8,
+        8,
+        30
+      ],
+      [
+        -5,
+        3,
+        24
+      ],
+      [
+        -10.4,
+        0.92,
+        18
+      ]
+    ]
+  },
+  "details": {
+    "solidObjects": 22,
+    "newBoxes": 755,
+    "navigationNodes": 4021,
+    "waterFallsTo": "sea level 0"
+  },
+  "notes": [
+    "Regions share groundwater and rainwater reservoirs. Visible streams feed cascades.",
+    "No per-island movement: connected bridges and navigation stay physically aligned.",
+    "Airship is decorative; boarding/game transitions are not implemented."
+  ]
+}

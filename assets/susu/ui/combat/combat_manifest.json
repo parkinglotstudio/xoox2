@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "style": "capybara_go_stage_sd",
+  "gdd": "docs/gdd/40_인게임_비주얼_작업정리.md#8",
+  "wired": false,
+  "backgrounds": {
+    "action": {
+      "file": "combat_bg_action.png",
+      "aspect": "16:9",
+      "note": "부두·따뜻 · 캐릭 없음"
+    },
+    "purify": {
+      "file": "combat_bg_purify.png",
+      "aspect": "16:9",
+      "note": "같은 구도 · 보라 오염"
+    }
+  },
+  "sprites": {
+    "hero_wanderer": {
+      "file": "combat_hero_wanderer.png",
+      "facing": "right",
+      "slot": "left"
+    },
+    "enemy_blight": {
+      "file": "combat_enemy_blight.png",
+      "facing": "left",
+      "slot": "right"
+    },
+    "pet_mongchi": {
+      "file": "combat_pet_mongchi.png",
+      "facing": "right",
+      "slot": "ally_pet"
+    }
+  }
+}

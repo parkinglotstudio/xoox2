@@ -1,0 +1,553 @@
+{
+  "games": [
+    {
+      "n": 1,
+      "profile": "p01",
+      "level": 1,
+      "skills": [
+        [
+          "lightning-chain",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ]
+      ],
+      "maxSkills": 20,
+      "initial": [
+        "w:lightning-chain:1",
+        "w:bounce-block:1",
+        "w:pierce-drill:1"
+      ],
+      "growth": {
+        "phase": "battle",
+        "wave": 1,
+        "t": 35.34999999999928,
+        "hp": 100,
+        "enemies": 3,
+        "result": null,
+        "cards": null,
+        "level": 4,
+        "picks": [
+          "w:lightning-chain:1",
+          "w:bounce-block:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1",
+          "w:ice-home:1",
+          "w:pet-drone-b:1"
+        ],
+        "skills": [
+          [
+            "lightning-chain",
+            1
+          ],
+          [
+            "bounce-block",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "pet-drone-a",
+            1
+          ],
+          [
+            "ice-home",
+            1
+          ],
+          [
+            "pet-drone-b",
+            1
+          ]
+        ],
+        "mapChildren": 18,
+        "geometry": {
+          "frame": 15,
+          "calls": 61,
+          "triangles": 363892,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": null
+      }
+    },
+    {
+      "n": 3,
+      "profile": "p03",
+      "level": 1,
+      "skills": [
+        [
+          "lightning-chain",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ]
+      ],
+      "maxSkills": 20,
+      "initial": [
+        "w:lightning-chain:1",
+        "w:bounce-block:1",
+        "w:pierce-drill:1"
+      ],
+      "growth": {
+        "phase": "battle",
+        "wave": 1,
+        "t": 35.29999999999928,
+        "hp": 100,
+        "enemies": 2,
+        "result": null,
+        "cards": null,
+        "level": 4,
+        "picks": [
+          "w:lightning-chain:1",
+          "w:bounce-block:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1",
+          "w:ice-home:1",
+          "w:pet-drone-b:1"
+        ],
+        "skills": [
+          [
+            "lightning-chain",
+            1
+          ],
+          [
+            "bounce-block",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "pet-drone-a",
+            1
+          ],
+          [
+            "ice-home",
+            1
+          ],
+          [
+            "pet-drone-b",
+            1
+          ]
+        ],
+        "mapChildren": 43,
+        "geometry": {
+          "frame": 14,
+          "calls": 58,
+          "triangles": 363260,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": null
+      }
+    },
+    {
+      "n": 4,
+      "profile": "p04",
+      "level": 1,
+      "skills": [],
+      "maxSkills": 20,
+      "initial": [
+        "chain:pellets"
+      ],
+      "growth": {
+        "phase": "prep",
+        "wave": 1,
+        "t": 18.450000000000234,
+        "hp": 100,
+        "enemies": 0,
+        "result": null,
+        "cards": null,
+        "level": 4,
+        "picks": [
+          "chain:pellets",
+          "chain:burst:1",
+          "w:chain-needle:1",
+          "w:chain-bomb:1"
+        ],
+        "skills": [
+          [
+            "chain-needle",
+            1
+          ],
+          [
+            "chain-bomb",
+            1
+          ]
+        ],
+        "mapChildren": 33,
+        "geometry": {
+          "frame": 11,
+          "calls": 73,
+          "triangles": 474424,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": null
+      }
+    },
+    {
+      "n": 5,
+      "profile": "p05",
+      "level": 1,
+      "skills": [
+        [
+          "lightning-chain",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ]
+      ],
+      "maxSkills": 20,
+      "initial": [
+        "w:lightning-chain:1",
+        "w:bounce-block:1",
+        "w:pierce-drill:1"
+      ],
+      "input": {
+        "before": {
+          "x": 0,
+          "z": 7
+        },
+        "after": {
+          "x": 0,
+          "z": 4.20000000000001
+        }
+      },
+      "growth": {
+        "phase": "battle",
+        "wave": 1,
+        "t": 35.88333333333258,
+        "hp": 160,
+        "enemies": 0,
+        "result": null,
+        "cards": null,
+        "level": 5,
+        "picks": [
+          "w:lightning-chain:1",
+          "w:bounce-block:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1",
+          "w:ice-home:1",
+          "w:pet-drone-b:1",
+          "w:slow-aura:1"
+        ],
+        "skills": [
+          [
+            "lightning-chain",
+            1
+          ],
+          [
+            "bounce-block",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "pet-drone-a",
+            1
+          ],
+          [
+            "ice-home",
+            1
+          ],
+          [
+            "pet-drone-b",
+            1
+          ],
+          [
+            "slow-aura",
+            1
+          ]
+        ],
+        "mapChildren": 21,
+        "geometry": {
+          "frame": 41,
+          "calls": 106,
+          "triangles": 258761,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": {
+          "mode": "rooms",
+          "room": 0,
+          "message": "출구가 열렸어요 · 북쪽 빛으로 이동",
+          "cart": {
+            "x": 0,
+            "z": 63
+          },
+          "clean": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "profile": "p06",
+      "level": 1,
+      "skills": [
+        [
+          "lightning-chain",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ]
+      ],
+      "maxSkills": 20,
+      "initial": [
+        "w:lightning-chain:1",
+        "w:bounce-block:1",
+        "w:pierce-drill:1"
+      ],
+      "input": {
+        "before": {
+          "x": 0,
+          "z": 63
+        },
+        "after": {
+          "x": 0,
+          "z": 63
+        }
+      },
+      "growth": {
+        "phase": "battle",
+        "wave": 1,
+        "t": 35.01666666666596,
+        "hp": 160,
+        "enemies": 0,
+        "result": null,
+        "cards": null,
+        "level": 5,
+        "picks": [
+          "w:lightning-chain:1",
+          "w:bounce-block:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1",
+          "w:ice-home:1",
+          "w:pet-drone-b:1",
+          "w:slow-aura:1",
+          "w:orbit-shards:1"
+        ],
+        "skills": [
+          [
+            "lightning-chain",
+            1
+          ],
+          [
+            "bounce-block",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "pet-drone-a",
+            1
+          ],
+          [
+            "ice-home",
+            1
+          ],
+          [
+            "pet-drone-b",
+            1
+          ],
+          [
+            "slow-aura",
+            1
+          ],
+          [
+            "orbit-shards",
+            1
+          ]
+        ],
+        "mapChildren": 14,
+        "geometry": {
+          "frame": 48,
+          "calls": 44,
+          "triangles": 273768,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": {
+          "mode": "escort",
+          "room": 0,
+          "message": "수레 가까이 이동하면 출발합니다",
+          "cart": {
+            "x": 0,
+            "z": 57.453333333333205
+          },
+          "clean": 0
+        }
+      }
+    },
+    {
+      "n": 7,
+      "profile": "p07",
+      "level": 1,
+      "skills": [
+        [
+          "lightning-chain",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ]
+      ],
+      "maxSkills": 20,
+      "initial": [
+        "w:lightning-chain:1",
+        "w:bounce-block:1",
+        "w:pierce-drill:1"
+      ],
+      "input": {
+        "before": {
+          "x": 0,
+          "z": 20
+        },
+        "after": {
+          "x": 0,
+          "z": 15.699999999999946
+        }
+      },
+      "growth": {
+        "phase": "battle",
+        "wave": 1,
+        "t": 35.93333333333258,
+        "hp": 160,
+        "enemies": 0,
+        "result": null,
+        "cards": null,
+        "level": 7,
+        "picks": [
+          "w:lightning-chain:1",
+          "w:bounce-block:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1",
+          "w:ice-home:1",
+          "w:pet-drone-b:1",
+          "w:slow-aura:1",
+          "w:orbit-shards:1",
+          "w:ground-mine:1"
+        ],
+        "skills": [
+          [
+            "lightning-chain",
+            1
+          ],
+          [
+            "bounce-block",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "pet-drone-a",
+            1
+          ],
+          [
+            "ice-home",
+            1
+          ],
+          [
+            "pet-drone-b",
+            1
+          ],
+          [
+            "slow-aura",
+            1
+          ],
+          [
+            "orbit-shards",
+            1
+          ],
+          [
+            "ground-mine",
+            1
+          ]
+        ],
+        "mapChildren": 14,
+        "geometry": {
+          "frame": 34,
+          "calls": 50,
+          "triangles": 377768,
+          "points": 210,
+          "lines": 0
+        },
+        "adventure": {
+          "mode": "restore",
+          "room": 0,
+          "message": "걸으며 바닥 정화 · 정화석 채집 후 시설 3곳 복구",
+          "cart": {
+            "x": 0,
+            "z": 63
+          },
+          "clean": 0.012345679012345678
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "net": [],
+  "raid": {
+    "phase": "win",
+    "result": {
+      "status": "win",
+      "kills": 24,
+      "hp": 400,
+      "seconds": 44.346066666665436,
+      "pets": 0,
+      "shots": 201,
+      "testOnly": true
+    },
+    "spawned": 24
+  },
+  "planner": [
+    "공중섬 로비",
+    "카드 미션",
+    "① 코어 방어",
+    "② FPS 방어",
+    "③ 대생존",
+    "④ 체인 디펜스",
+    "⑤ 수색 돌파",
+    "⑥ 구출 호위와 탈출",
+    "⑦ 정화 복구",
+    "마을 침략"
+  ]
+}

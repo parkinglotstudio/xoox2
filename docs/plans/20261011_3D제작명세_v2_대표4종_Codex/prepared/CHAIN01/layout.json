@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "assetId": "CHAIN01",
+  "status": "preparation-not-playable",
+  "coordinateSpace": "three-y-up-m",
+  "boardBounds": {
+    "min": [
+      -6,
+      0,
+      -12
+    ],
+    "max": [
+      6,
+      0,
+      12
+    ]
+  },
+  "groundHeightM": 0,
+  "playerRail": {
+    "xMinM": -5,
+    "xMaxM": 5,
+    "zM": 10.5
+  },
+  "failBoundaryZM": 9.5,
+  "collision": {
+    "walkableBox": [
+      -6,
+      -12,
+      6,
+      12
+    ],
+    "sweepRequired": true,
+    "decorationsCollide": false
+  },
+  "namedNodes": {
+    "floor": "CHAIN01_existing_tile_floor",
+    "boundary": "purification_boundary"
+  },
+  "previewExcludedFromGlb": true,
+  "sourceResources": [
+    {
+      "unitId": "k_tile",
+      "sourceGlb": "assets/susu/tools/unit_lab/units_free/k_tile.glb",
+      "sourceSha256": "f4db15204b716cc920b1e0b357201830dea9a857da117534025ebfc6ac60d0bd",
+      "triangles": 24,
+      "method": "original-block-mesh"
+    },
+    {
+      "unitId": "k_detail_tree",
+      "sourceDense": "assets/susu/tools/unit_lab/units_free/k_detail_tree.dense.bin",
+      "sourceSha256": "3bbf3db28d7fed9c5021d48bd49e9d12de4e14892ecd6c0b70d7d922dfb2d923",
+      "voxelSizeM": 0.1,
+      "surfaceCells": 518,
+      "triangles": 2132
+    },
+    {
+      "unitId": "k_detail_crystal",
+      "sourceDense": "assets/susu/tools/unit_lab/units_free/k_detail_crystal.dense.bin",
+      "sourceSha256": "1a2a0fb4c06b4c444498b651dd1b0f6c1d9f1d8ed367d09a873c5ebeb5c373bc",
+      "voxelSizeM": 0.07,
+      "surfaceCells": 485,
+      "triangles": 1936
+    },
+    {
+      "unitId": "k_chest",
+      "sourceDense": "assets/susu/tools/unit_lab/units_free/k_chest.dense.bin",
+      "sourceSha256": "3ac8b98a1faa9611de74e351e0d08408f1e1fd1d01f9903f322d5e2f7257eaea",
+      "voxelSizeM": 0.08,
+      "surfaceCells": 1025,
+      "triangles": 2936
+    },
+    {
+      "unitId": "q_green_blob",
+      "sourceDense": "assets/susu/tools/unit_lab/units_free/q_green_blob.dense.bin",
+      "sourceSha256": "9d72f1a0c5394821f4d41240ecc9488f70d7cdc65e2596f2723b67dbba498d3c",
+      "voxelSizeM": 0.08,
+      "surfaceCells": 909,
+      "triangles": 3604
+    }
+  ]
+}

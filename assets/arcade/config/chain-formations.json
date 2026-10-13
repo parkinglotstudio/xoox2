@@ -1,0 +1,1706 @@
+{
+  "schemaVersion": 2,
+  "status": "candidate-path-must-validate-sweep-and-rounded-corners",
+  "paths": [
+    {
+      "id": "chain-serpentine-v1",
+      "coordinateSpace": "mission-local-three-m",
+      "points": [
+        [
+          -5.25,
+          0,
+          -10.5
+        ],
+        [
+          5.25,
+          0,
+          -10.5
+        ],
+        [
+          5.25,
+          0,
+          -8.5
+        ],
+        [
+          -5.25,
+          0,
+          -8.5
+        ],
+        [
+          -5.25,
+          0,
+          -6.5
+        ],
+        [
+          5.25,
+          0,
+          -6.5
+        ],
+        [
+          5.25,
+          0,
+          -4.5
+        ],
+        [
+          -5.25,
+          0,
+          -4.5
+        ],
+        [
+          -5.25,
+          0,
+          -2.5
+        ],
+        [
+          5.25,
+          0,
+          -2.5
+        ],
+        [
+          5.25,
+          0,
+          -0.5
+        ],
+        [
+          -5.25,
+          0,
+          -0.5
+        ],
+        [
+          -5.25,
+          0,
+          1.5
+        ],
+        [
+          5.25,
+          0,
+          1.5
+        ],
+        [
+          5.25,
+          0,
+          3.5
+        ],
+        [
+          -5.25,
+          0,
+          3.5
+        ],
+        [
+          -5.25,
+          0,
+          5.5
+        ],
+        [
+          5.25,
+          0,
+          5.5
+        ],
+        [
+          5.25,
+          0,
+          7.5
+        ],
+        [
+          -5.25,
+          0,
+          7.5
+        ],
+        [
+          -5.25,
+          0,
+          10
+        ]
+      ],
+      "cornerRadiusM": 0.35,
+      "pathLengthM": 125.5
+    }
+  ],
+  "formations": [
+    {
+      "sequence": 1,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 18,
+      "speedMps": 4,
+      "spacingM": 0.7,
+      "headHp": 120,
+      "baseBodyHp": 12,
+      "rewardMembers": [
+        6,
+        12
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3
+      ],
+      "totalInitialHpBudget": 360.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 31.375,
+      "members": [
+        {
+          "segmentId": "c1-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_glub_evolved",
+          "hp": 120
+        },
+        {
+          "segmentId": "c1-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 18.0
+        },
+        {
+          "segmentId": "c1-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 18.0
+        },
+        {
+          "segmentId": "c1-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 18.0
+        },
+        {
+          "segmentId": "c1-4",
+          "orderIndex": 4,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-5",
+          "orderIndex": 5,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-6",
+          "orderIndex": 6,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 15.0
+        },
+        {
+          "segmentId": "c1-7",
+          "orderIndex": 7,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-8",
+          "orderIndex": 8,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-9",
+          "orderIndex": 9,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-10",
+          "orderIndex": 10,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-12",
+          "orderIndex": 12,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 15.0
+        },
+        {
+          "segmentId": "c1-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-14",
+          "orderIndex": 14,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-16",
+          "orderIndex": 16,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        },
+        {
+          "segmentId": "c1-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 12
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 24,
+      "speedMps": 4.2,
+      "spacingM": 0.7,
+      "headHp": 160,
+      "baseBodyHp": 16,
+      "rewardMembers": [
+        8,
+        16
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "totalInitialHpBudget": 584.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 29.88095238095238,
+      "members": [
+        {
+          "segmentId": "c2-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_glub_evolved",
+          "hp": 160
+        },
+        {
+          "segmentId": "c2-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 24.0
+        },
+        {
+          "segmentId": "c2-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 24.0
+        },
+        {
+          "segmentId": "c2-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 24.0
+        },
+        {
+          "segmentId": "c2-4",
+          "orderIndex": 4,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 24.0
+        },
+        {
+          "segmentId": "c2-5",
+          "orderIndex": 5,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-6",
+          "orderIndex": 6,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-7",
+          "orderIndex": 7,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-8",
+          "orderIndex": 8,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 20.0
+        },
+        {
+          "segmentId": "c2-9",
+          "orderIndex": 9,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-10",
+          "orderIndex": 10,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-12",
+          "orderIndex": 12,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-14",
+          "orderIndex": 14,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-16",
+          "orderIndex": 16,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 20.0
+        },
+        {
+          "segmentId": "c2-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-19",
+          "orderIndex": 19,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-20",
+          "orderIndex": 20,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-21",
+          "orderIndex": 21,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-22",
+          "orderIndex": 22,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-23",
+          "orderIndex": 23,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        },
+        {
+          "segmentId": "c2-24",
+          "orderIndex": 24,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 16
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 30,
+      "speedMps": 4.4,
+      "spacingM": 0.72,
+      "headHp": 200,
+      "baseBodyHp": 20,
+      "rewardMembers": [
+        10,
+        20
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "totalInitialHpBudget": 870.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 28.52272727272727,
+      "members": [
+        {
+          "segmentId": "c3-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_glub_evolved",
+          "hp": 200
+        },
+        {
+          "segmentId": "c3-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-4",
+          "orderIndex": 4,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-5",
+          "orderIndex": 5,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-6",
+          "orderIndex": 6,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 30.0
+        },
+        {
+          "segmentId": "c3-7",
+          "orderIndex": 7,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-8",
+          "orderIndex": 8,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-9",
+          "orderIndex": 9,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-10",
+          "orderIndex": 10,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 25.0
+        },
+        {
+          "segmentId": "c3-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-12",
+          "orderIndex": 12,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-14",
+          "orderIndex": 14,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-16",
+          "orderIndex": 16,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-19",
+          "orderIndex": 19,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-20",
+          "orderIndex": 20,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 25.0
+        },
+        {
+          "segmentId": "c3-21",
+          "orderIndex": 21,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-22",
+          "orderIndex": 22,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-23",
+          "orderIndex": 23,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-24",
+          "orderIndex": 24,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-25",
+          "orderIndex": 25,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-26",
+          "orderIndex": 26,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-27",
+          "orderIndex": 27,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-28",
+          "orderIndex": 28,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-29",
+          "orderIndex": 29,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        },
+        {
+          "segmentId": "c3-30",
+          "orderIndex": 30,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 20
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 36,
+      "speedMps": 4.6,
+      "spacingM": 0.74,
+      "headHp": 260,
+      "baseBodyHp": 28,
+      "rewardMembers": [
+        12,
+        24
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "totalInitialHpBudget": 1380.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 27.282608695652176,
+      "members": [
+        {
+          "segmentId": "c4-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_glub_evolved",
+          "hp": 260
+        },
+        {
+          "segmentId": "c4-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-4",
+          "orderIndex": 4,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-5",
+          "orderIndex": 5,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-6",
+          "orderIndex": 6,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-7",
+          "orderIndex": 7,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 42.0
+        },
+        {
+          "segmentId": "c4-8",
+          "orderIndex": 8,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-9",
+          "orderIndex": 9,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-10",
+          "orderIndex": 10,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-12",
+          "orderIndex": 12,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 35.0
+        },
+        {
+          "segmentId": "c4-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-14",
+          "orderIndex": 14,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-16",
+          "orderIndex": 16,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-19",
+          "orderIndex": 19,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-20",
+          "orderIndex": 20,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-21",
+          "orderIndex": 21,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-22",
+          "orderIndex": 22,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-23",
+          "orderIndex": 23,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-24",
+          "orderIndex": 24,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 35.0
+        },
+        {
+          "segmentId": "c4-25",
+          "orderIndex": 25,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-26",
+          "orderIndex": 26,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-27",
+          "orderIndex": 27,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-28",
+          "orderIndex": 28,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-29",
+          "orderIndex": 29,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-30",
+          "orderIndex": 30,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-31",
+          "orderIndex": 31,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-32",
+          "orderIndex": 32,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-33",
+          "orderIndex": 33,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-34",
+          "orderIndex": 34,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-35",
+          "orderIndex": 35,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        },
+        {
+          "segmentId": "c4-36",
+          "orderIndex": 36,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 28
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 42,
+      "speedMps": 4.8,
+      "spacingM": 0.76,
+      "headHp": 320,
+      "baseBodyHp": 36,
+      "rewardMembers": [
+        14,
+        28
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "totalInitialHpBudget": 1994.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 26.145833333333336,
+      "members": [
+        {
+          "segmentId": "c5-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_glub_evolved",
+          "hp": 320
+        },
+        {
+          "segmentId": "c5-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-4",
+          "orderIndex": 4,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-5",
+          "orderIndex": 5,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-6",
+          "orderIndex": 6,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-7",
+          "orderIndex": 7,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-8",
+          "orderIndex": 8,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 54.0
+        },
+        {
+          "segmentId": "c5-9",
+          "orderIndex": 9,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-10",
+          "orderIndex": 10,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-12",
+          "orderIndex": 12,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-14",
+          "orderIndex": 14,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 45.0
+        },
+        {
+          "segmentId": "c5-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-16",
+          "orderIndex": 16,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-19",
+          "orderIndex": 19,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-20",
+          "orderIndex": 20,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-21",
+          "orderIndex": 21,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-22",
+          "orderIndex": 22,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-23",
+          "orderIndex": 23,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-24",
+          "orderIndex": 24,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-25",
+          "orderIndex": 25,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-26",
+          "orderIndex": 26,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-27",
+          "orderIndex": 27,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-28",
+          "orderIndex": 28,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 45.0
+        },
+        {
+          "segmentId": "c5-29",
+          "orderIndex": 29,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-30",
+          "orderIndex": 30,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-31",
+          "orderIndex": 31,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-32",
+          "orderIndex": 32,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-33",
+          "orderIndex": 33,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-34",
+          "orderIndex": 34,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-35",
+          "orderIndex": 35,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-36",
+          "orderIndex": 36,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-37",
+          "orderIndex": 37,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-38",
+          "orderIndex": 38,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-39",
+          "orderIndex": 39,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-40",
+          "orderIndex": 40,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-41",
+          "orderIndex": 41,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        },
+        {
+          "segmentId": "c5-42",
+          "orderIndex": 42,
+          "role": "body",
+          "modelId": "q_green_blob",
+          "hp": 36
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "pathId": "chain-serpentine-v1",
+      "generalCountIncludingRewards": 48,
+      "speedMps": 5,
+      "spacingM": 0.78,
+      "headHp": 400,
+      "baseBodyHp": 48,
+      "rewardMembers": [
+        16,
+        32
+      ],
+      "armorMembers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "totalInitialHpBudget": 2944.0,
+      "centerPathLengthM": 125.5,
+      "headEtaAtPathEndSec": 25.1,
+      "members": [
+        {
+          "segmentId": "c6-head",
+          "orderIndex": 0,
+          "role": "head",
+          "modelId": "q_dragon_evolved",
+          "hp": 400
+        },
+        {
+          "segmentId": "c6-1",
+          "orderIndex": 1,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-2",
+          "orderIndex": 2,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-3",
+          "orderIndex": 3,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-4",
+          "orderIndex": 4,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-5",
+          "orderIndex": 5,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-6",
+          "orderIndex": 6,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-7",
+          "orderIndex": 7,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-8",
+          "orderIndex": 8,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-9",
+          "orderIndex": 9,
+          "role": "armor",
+          "modelId": "q_green_spiky_blob",
+          "hp": 72.0
+        },
+        {
+          "segmentId": "c6-10",
+          "orderIndex": 10,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-11",
+          "orderIndex": 11,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-12",
+          "orderIndex": 12,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-13",
+          "orderIndex": 13,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-14",
+          "orderIndex": 14,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-15",
+          "orderIndex": 15,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-16",
+          "orderIndex": 16,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 60.0
+        },
+        {
+          "segmentId": "c6-17",
+          "orderIndex": 17,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-18",
+          "orderIndex": 18,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-19",
+          "orderIndex": 19,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-20",
+          "orderIndex": 20,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-21",
+          "orderIndex": 21,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-22",
+          "orderIndex": 22,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-23",
+          "orderIndex": 23,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-24",
+          "orderIndex": 24,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-25",
+          "orderIndex": 25,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-26",
+          "orderIndex": 26,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-27",
+          "orderIndex": 27,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-28",
+          "orderIndex": 28,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-29",
+          "orderIndex": 29,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-30",
+          "orderIndex": 30,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-31",
+          "orderIndex": 31,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-32",
+          "orderIndex": 32,
+          "role": "reward",
+          "modelId": "k_chest",
+          "hp": 60.0
+        },
+        {
+          "segmentId": "c6-33",
+          "orderIndex": 33,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-34",
+          "orderIndex": 34,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-35",
+          "orderIndex": 35,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-36",
+          "orderIndex": 36,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-37",
+          "orderIndex": 37,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-38",
+          "orderIndex": 38,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-39",
+          "orderIndex": 39,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-40",
+          "orderIndex": 40,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-41",
+          "orderIndex": 41,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-42",
+          "orderIndex": 42,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-43",
+          "orderIndex": 43,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-44",
+          "orderIndex": 44,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-45",
+          "orderIndex": 45,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-46",
+          "orderIndex": 46,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-47",
+          "orderIndex": 47,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        },
+        {
+          "segmentId": "c6-48",
+          "orderIndex": 48,
+          "role": "body",
+          "modelId": "q_pink_slime",
+          "hp": 48
+        }
+      ]
+    }
+  ]
+}

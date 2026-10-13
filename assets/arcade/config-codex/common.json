@@ -1,0 +1,172 @@
+{
+  "fixedTickHz": 60,
+  "displayViewportCss": [
+    390,
+    844
+  ],
+  "orientation": "portrait",
+  "hero": {
+    "hp": 140,
+    "heightM": 2.1,
+    "radiusM": 0.35,
+    "speedMps": 4.5,
+    "contactInvulnerabilitySec": 0.65,
+    "aimRangeM": 9,
+    "retargetDelaySec": 0.2
+  },
+  "stream": {
+    "damage": 10,
+    "totalRoundsPerSecBothHands": 16,
+    "activeSec": 3,
+    "restSec": 2,
+    "speedMps": 64,
+    "rangeM": 9,
+    "hitPolicy": "swept-segment"
+  },
+  "cards": {
+    "choices": 3,
+    "maxWeaponSlots": 6,
+    "maxPassiveKinds": 3,
+    "maxWeaponLevel": 5,
+    "maxPassiveLevel": 3,
+    "passiveCandidateKinds": 7,
+    "maxEvolutionCards": 1,
+    "evolutionFirst": true,
+    "invalidCandidatesRemoved": true
+  },
+  "passives": {
+    "speedPerLevel": 0.1,
+    "cooldownReductionPerLevel": 0.1,
+    "areaRadiusPerLevel": 0.15,
+    "hpAddedPerLevel": 20,
+    "cooldownMinimumMultiplier": 0.7,
+    "xpPerLevel": 0.15,
+    "durationPerLevel": 0.2,
+    "reloadRestReductionPerLevel": 0.1,
+    "reloadMinimumMultiplier": 0.7
+  },
+  "damageMultiplierByWeaponLevel": [
+    1,
+    1.25,
+    1.6,
+    2,
+    2.5
+  ],
+  "cooldownMultiplierByWeaponLevel": [
+    1,
+    1,
+    0.95,
+    0.9,
+    0.85
+  ],
+  "pet": {
+    "intervalSec": 3,
+    "damage": 12,
+    "rangeM": 8,
+    "activeCount": 1,
+    "roles": {
+      "nofilter": {
+        "intervalSec": 3.5,
+        "damage": 12,
+        "healHp": 4
+      },
+      "flux": {
+        "intervalSec": 1.8,
+        "damage": 18,
+        "burnSec": 1.5
+      },
+      "lumos": {
+        "intervalSec": 2.4,
+        "damage": 16,
+        "slowSec": 1.5,
+        "slowMultiplier": 0.6
+      },
+      "gizmo": {
+        "intervalSec": 4,
+        "damage": 12,
+        "repairHp": 8
+      },
+      "block_cat": {
+        "intervalSec": 3,
+        "damage": 10,
+        "xp": 2
+      }
+    }
+  },
+  "schemaVersion": 2,
+  "status": "implemented-PC-playtested",
+  "xpPickup": {
+    "attractRadiusM": 6,
+    "collectRadiusM": 1.5,
+    "orbCap": 160,
+    "overflowPolicy": "merge-preserve-value"
+  },
+  "performance": {
+    "targetPcFps": 60,
+    "targetMobileLowFps": 30,
+    "targetDrawCalls": 150,
+    "targetTrianglesLow": 350000,
+    "targetTrianglesMedium": 700000,
+    "maxDprLow": 1.25,
+    "maxDprMedium": 1.5,
+    "shadowMapLow": 512,
+    "shadowMapMedium": 1024,
+    "sceneTransferBudgetMiB": 60,
+    "globalDebrisCap": 256
+  },
+  "growth": {
+    "initialLevel": 1,
+    "maxLevel": 14,
+    "initialRequiredXp": 20,
+    "requiredXpAddedPerLevel": 6,
+    "preserveOverflowXp": true,
+    "multipleLevelupsPolicy": "queued-choices",
+    "maxLevelFallback": "heal-or-result-fragment",
+    "combatChoiceIntervalSec": 18,
+    "startingChoices": 1,
+    "starterSkills": {
+      "p01": {
+        "id": "fire-rocket",
+        "level": 2,
+        "name": "화염 바주카",
+        "hint": "기본 쌍권총에 더해 적 무리를 자동으로 폭발시킵니다."
+      },
+      "p02": {
+        "id": "bolt-rocket",
+        "level": 2,
+        "name": "번개 바주카",
+        "hint": "범위 정화는 자동 지원. 이동 · 시점 · 사격 버튼으로 코어를 지키세요."
+      },
+      "p03": {
+        "id": "orbit-shards",
+        "level": 2,
+        "name": "서리 조각",
+        "hint": "수정이 몸 주위를 돌며 적을 타격합니다. 이동하며 땅을 되살리세요."
+      },
+      "p04": {
+        "id": "chain-bomb",
+        "level": 1,
+        "name": "대열 정화 폭탄",
+        "hint": "기본 연속 사격과 함께 무리 중심을 자동으로 폭발시킵니다."
+      },
+      "p05": {
+        "id": "lightning-chain",
+        "level": 2,
+        "name": "번개 사슬",
+        "hint": "여러 적 사이로 번개가 이어집니다. 정화가 끝난 방의 문으로 이동하세요."
+      },
+      "p06": {
+        "id": "orbit-shards",
+        "level": 2,
+        "name": "서리 조각",
+        "hint": "주변 수정이 접근하는 적을 막습니다. 수레 옆을 지키며 이동하세요."
+      },
+      "p07": {
+        "id": "slow-aura",
+        "level": 2,
+        "name": "서리 장막",
+        "hint": "정화 장막으로 주변 적을 늦춥니다. 땅과 장치를 직접 복구하세요."
+      }
+    }
+  }
+}

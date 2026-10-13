@@ -1,0 +1,521 @@
+{
+  "at": "2026-10-11T08:25:55.185974+09:00",
+  "root": "C:\\soos-arcade",
+  "direction": "Use existing Soos 3D models, voxel data and combat source for the game and its gameplay validation.",
+  "resourceStatusCounts": {
+    "있음": 30,
+    "확인 필요": 1,
+    "사용 안 함": 18
+  },
+  "activePaths": [
+    {
+      "id": "m_lobby",
+      "exists": true
+    },
+    {
+      "id": "m_forest",
+      "exists": true
+    },
+    {
+      "id": "m_forest_boss",
+      "exists": true
+    },
+    {
+      "id": "m_block",
+      "exists": true
+    },
+    {
+      "id": "n_forest_island",
+      "exists": true
+    },
+    {
+      "id": "n_rooms",
+      "exists": true
+    },
+    {
+      "id": "n_route",
+      "exists": true
+    },
+    {
+      "id": "n_landing",
+      "exists": true
+    },
+    {
+      "id": "n_props",
+      "exists": true
+    },
+    {
+      "id": "h_ruon",
+      "exists": true
+    },
+    {
+      "id": "h_ria",
+      "exists": true
+    },
+    {
+      "id": "h_wanderer",
+      "exists": true
+    },
+    {
+      "id": "a_nofilter",
+      "exists": true
+    },
+    {
+      "id": "a_hackercat",
+      "exists": true
+    },
+    {
+      "id": "a_flux",
+      "exists": true
+    },
+    {
+      "id": "a_lumos",
+      "exists": true
+    },
+    {
+      "id": "a_gizmo",
+      "exists": true
+    },
+    {
+      "id": "p_stream",
+      "exists": true
+    },
+    {
+      "id": "p_fire-rocket",
+      "exists": true
+    },
+    {
+      "id": "p_ice-rocket",
+      "exists": true
+    },
+    {
+      "id": "p_bolt-rocket",
+      "exists": true
+    },
+    {
+      "id": "p_fire-home",
+      "exists": true
+    },
+    {
+      "id": "p_ice-home",
+      "exists": true
+    },
+    {
+      "id": "p_bolt-home",
+      "exists": true
+    },
+    {
+      "id": "p_bomb",
+      "exists": true
+    },
+    {
+      "id": "fx_hits",
+      "exists": true
+    },
+    {
+      "id": "e_ufo",
+      "exists": true
+    },
+    {
+      "id": "e_voxel",
+      "exists": true
+    },
+    {
+      "id": "e_wave",
+      "exists": true
+    },
+    {
+      "id": "b_units",
+      "exists": true
+    },
+    {
+      "id": "g_sky",
+      "exists": true
+    }
+  ],
+  "invalidGameReferences": [
+    {
+      "game": "g08",
+      "resource": "c_matter",
+      "status": "사용 안 함"
+    }
+  ],
+  "copyComparisonExecuted": {
+    "files": 1362,
+    "sameAsOriginalDataBySHA256": 1355,
+    "different": 0,
+    "characterDocsFromOriginalDocs": 6,
+    "characterDocsAllSHA256Match": true,
+    "generatedIndexFiles": 1
+  },
+  "voxelGroupCounts": {
+    "building": 6,
+    "enemy_ufo": 4,
+    "tile": 6,
+    "marker": 2,
+    "detail": 3,
+    "missile": 3,
+    "enemy_monster": 45,
+    "building_tower": 6,
+    "building_camp": 13,
+    "building_machine": 11
+  },
+  "actorAnimations": [
+    {
+      "id": "h_ruon",
+      "file": "assets/susu/tools/unit_lab/character/Ruon_35/ruon_35.glb",
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "shoot",
+        "shoot2",
+        "throw",
+        "walk_shoot",
+        "walk_throw",
+        "walk_gun",
+        "draw",
+        "holster",
+        "draw_launcher",
+        "holster_launcher",
+        "blink",
+        "squint",
+        "bow",
+        "wave",
+        "victory"
+      ]
+    },
+    {
+      "id": "h_ria",
+      "file": "assets/susu/tools/unit_lab/character/D_35/wanderer_D_35.glb",
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "shoot",
+        "shoot2",
+        "throw",
+        "walk_shoot",
+        "walk_throw",
+        "walk_gun",
+        "draw",
+        "holster",
+        "draw_launcher",
+        "holster_launcher",
+        "blink",
+        "squint",
+        "bow",
+        "wave",
+        "victory"
+      ]
+    },
+    {
+      "id": "a_nofilter",
+      "file": "assets/susu/tools/unit_lab/pets/nofilter/nofilter.glb",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ]
+    },
+    {
+      "id": "a_hackercat",
+      "file": "assets/susu/tools/unit_lab/pets/block_cat/block_cat.glb",
+      "animations": [
+        "walk",
+        "idle_sit",
+        "idle_look",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ]
+    },
+    {
+      "id": "a_flux",
+      "file": "assets/susu/tools/unit_lab/pets/flux/flux.glb",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ]
+    },
+    {
+      "id": "a_lumos",
+      "file": "assets/susu/tools/unit_lab/pets/lumos/lumos.glb",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ]
+    },
+    {
+      "id": "a_gizmo",
+      "file": "assets/susu/tools/unit_lab/pets/gizmo/gizmo.glb",
+      "animations": [
+        "idle_stand",
+        "idle_sit",
+        "idle_look",
+        "walk",
+        "run",
+        "attack_laser",
+        "stand_up",
+        "sit_down"
+      ]
+    }
+  ],
+  "newMapModels": [
+    {
+      "file": "assets/maps/forest_island/forest_island_polluted.glb",
+      "bytes": 10769680,
+      "validHeader": true,
+      "extensions": [
+        "EXT_mesh_gpu_instancing"
+      ],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_island/forest_island_purified.glb",
+      "bytes": 10767524,
+      "validHeader": true,
+      "extensions": [
+        "EXT_mesh_gpu_instancing"
+      ],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_boss_polluted.glb",
+      "bytes": 2393240,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_boss_purified.glb",
+      "bytes": 2384968,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_empty_polluted.glb",
+      "bytes": 2321200,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_empty_purified.glb",
+      "bytes": 2312928,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_pillars_polluted.glb",
+      "bytes": 2331920,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_pillars_purified.glb",
+      "bytes": 2323648,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_pools_polluted.glb",
+      "bytes": 2370808,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_pools_purified.glb",
+      "bytes": 2362536,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_rock_polluted.glb",
+      "bytes": 2335976,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_rock_purified.glb",
+      "bytes": 2327704,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_spikes_polluted.glb",
+      "bytes": 2375552,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/forest_rooms/room_spikes_purified.glb",
+      "bytes": 2367280,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/landing/landing_polluted.glb",
+      "bytes": 15985660,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/landing/landing_purified.glb",
+      "bytes": 15977316,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/cart_polluted.glb",
+      "bytes": 37684,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/cart_purified.glb",
+      "bytes": 38600,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/lighthouse_polluted.glb",
+      "bytes": 35760,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/lighthouse_purified.glb",
+      "bytes": 35760,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/signal_tower_polluted.glb",
+      "bytes": 58276,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/props/signal_tower_purified.glb",
+      "bytes": 59192,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/sky_route/sky_route_polluted.glb",
+      "bytes": 7477304,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "assets/maps/sky_route/sky_route_purified.glb",
+      "bytes": 7468672,
+      "validHeader": true,
+      "extensions": [],
+      "externalUris": []
+    }
+  ],
+  "maps": [
+    {
+      "id": "m01",
+      "name": "상륙 섬 (공중섬)",
+      "file": "assets/maps/landing/landing_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m02",
+      "name": "숲길 방 모듈 (공중섬 6종)",
+      "file": "assets/maps/forest_rooms/room_{empty|rock|pillars|spikes|pools|boss}_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m03",
+      "name": "폐허 마을",
+      "file": "",
+      "status": "설정 중"
+    },
+    {
+      "id": "m04",
+      "name": "구름다리길 (공중섬 5개)",
+      "file": "assets/maps/sky_route/sky_route_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m05",
+      "name": "입구 앞 거점",
+      "file": "assets/maps/forest_island/forest_island_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m06",
+      "name": "지하 굴",
+      "file": "",
+      "status": "설정 중"
+    },
+    {
+      "id": "m07",
+      "name": "오염원 둘레",
+      "file": "assets/maps/forest_island/forest_island_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m08",
+      "name": "오염원 보스방",
+      "file": "assets/maps/forest_island/forest_island_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m09",
+      "name": "오염된 땅",
+      "file": "assets/maps/forest_island/forest_island_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    },
+    {
+      "id": "m10",
+      "name": "무너지는 귀환길",
+      "file": "assets/maps/forest_island/forest_island_{purified|polluted}.glb",
+      "status": "블렌더 작업"
+    }
+  ],
+  "exportContainsLatestIsland": false,
+  "evidence": "viewer_verification.json",
+  "planningSHA256": "527ec42d01e157dd1b835bc5db77693cd881552c40a94d5567397c336e46a31e",
+  "simulatorSHA256": "e8cb3dc304f9751d47c800cb5d3ae81276bbab5f8e8cad16e448ae10537307b6"
+}

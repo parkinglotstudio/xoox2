@@ -1,0 +1,936 @@
+{
+  "author": "Codex",
+  "date": "2026-10-11",
+  "files": [
+    {
+      "path": "src/arcadeComplete/actors/Actors.ts",
+      "bytes": 5392,
+      "sha256": "94b8516cde239f493fbb4b559d302716bb2c325df7cbaa20a266c0548c999bc2"
+    },
+    {
+      "path": "src/arcadeComplete/app/DefenseApp.ts",
+      "bytes": 7257,
+      "sha256": "2491c200595e14bc374a647be07ad86919950f9bae5e259779d5e06a302ca2df"
+    },
+    {
+      "path": "src/arcadeComplete/app/GameApp.ts",
+      "bytes": 10219,
+      "sha256": "837b80809b2e1632b3018705874552c26bba9145fd1ba558ee2d06c2710dbc3a"
+    },
+    {
+      "path": "src/arcadeComplete/app/RunStore.ts",
+      "bytes": 1845,
+      "sha256": "b17c3aca0107929716f7baa72f02ae1829fd548ecf86f7bd51b3ef037dafdf28"
+    },
+    {
+      "path": "src/arcadeComplete/assets/AssetProvider.ts",
+      "bytes": 4727,
+      "sha256": "c9cd4a563401174e1d0caed0158099abf0062c3e18e3101bcc8eee63a5b402b5"
+    },
+    {
+      "path": "src/arcadeComplete/config/ConfigStore.ts",
+      "bytes": 13111,
+      "sha256": "357d3bab77abed3e2f4e770ef4c82db5f786992285089cc9ea930f3ea9660076"
+    },
+    {
+      "path": "src/arcadeComplete/core/Events.ts",
+      "bytes": 1968,
+      "sha256": "95d3aa0db2f471dadb68321e860c155f4d4446eddc563843aaa30729d401b06b"
+    },
+    {
+      "path": "src/arcadeComplete/core/FixedClock.ts",
+      "bytes": 1850,
+      "sha256": "e8c36e9dfdca87efdb5fa480eb75e204fbecea6d1189b9742fbb66b0b090780d"
+    },
+    {
+      "path": "src/arcadeComplete/core/Input.ts",
+      "bytes": 5012,
+      "sha256": "3a68bd56c9e052f7ec2680c1f2a4e54b588cd67f627cec6713519003d2c45553"
+    },
+    {
+      "path": "src/arcadeComplete/core/Rng.ts",
+      "bytes": 1733,
+      "sha256": "c12798bf64832b01d929e5c3cce61d4a9bb0b67e031d2d149b0d4dd80e1c5501"
+    },
+    {
+      "path": "src/arcadeComplete/entries/cards.ts",
+      "bytes": 420,
+      "sha256": "55487db15813abeacb2e18c986f8ff7124d29ed1b088854f2860b48883731e63"
+    },
+    {
+      "path": "src/arcadeComplete/entries/game.ts",
+      "bytes": 250,
+      "sha256": "103713020be6f61176b69a2f639d225599c0de4025319d23e02b107029830f25"
+    },
+    {
+      "path": "src/arcadeComplete/entries/game1.ts",
+      "bytes": 134,
+      "sha256": "f6d292ad2f337f73c7cf1ca047bc7b561777d7570f28778bfd306a0106b84308"
+    },
+    {
+      "path": "src/arcadeComplete/entries/lobby.ts",
+      "bytes": 419,
+      "sha256": "50466bea08242ac352c6c0aa45b2fec3d2fcc5e535ccd66e364e2908abeac26f"
+    },
+    {
+      "path": "src/arcadeComplete/entries/pending.ts",
+      "bytes": 994,
+      "sha256": "84c2b9cf07abb2bc79d462f5ea280eb2c4d6d1577b0535ab47642a10c449ca5b"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/Airship.ts",
+      "bytes": 3880,
+      "sha256": "4a4303bbfc85aefbdb9157a6dc0aac8a5a93db0d55a11cce7bddc13dd48f2179"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/BirdFlock.ts",
+      "bytes": 2622,
+      "sha256": "1cfb279fd667fed7ea93a24695da41f107c9c6025e3e278ae2b1f4b8cea6750b"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/CardsApp.ts",
+      "bytes": 5072,
+      "sha256": "ab587b38cd5b7b3b869e06794eb445e5a761456ed54f91394930e65b97ce1660"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/DayNight.ts",
+      "bytes": 6243,
+      "sha256": "d6f6725a00ff98af496de404519d48a5c902f78a9bddf4862dd5b9127c20e297"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/IslandEffects.ts",
+      "bytes": 6752,
+      "sha256": "4960b50aaea3c7619c0b0505f411c425db8fef6727a5efcce1fcedc83206d458"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/LobbyApp.ts",
+      "bytes": 15689,
+      "sha256": "612250c868c6185a86434143abd771e2f6cd991bf58180b935e7b550ba2787ba"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/Navigation.ts",
+      "bytes": 2539,
+      "sha256": "beef4c8015bbe0839b317e0cd8ea98399303ae95bd3f9067cac596e876726163"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/PetLife.ts",
+      "bytes": 7982,
+      "sha256": "1bcf852a3f0e3a08e5132de6531eb4321981f7c0e2ad5b2d86343f1065d6c34a"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/VillageResidents.ts",
+      "bytes": 4089,
+      "sha256": "97e33c59efd453260a7a07273793f31e0c147fa9d302fdbc2e3d3b15b4325abe"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/VoxelOcean.ts",
+      "bytes": 4179,
+      "sha256": "c312802a1a23ba7564d373d3e34134d3b3ac8221f3d9103fccf518f38e705c71"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/BaseDefense.ts",
+      "bytes": 64883,
+      "sha256": "1ed198495d0f1f9d11d3b0de5aa707093b4f1d72232cb0427086aa374b06e21f"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/ChainDefense.ts",
+      "bytes": 9782,
+      "sha256": "1de4fc7c7cc1c8dbf9bb33f6fb19f5bd5108568e1c61a07e2056cf96bda4f3df"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/HordeSurvival.ts",
+      "bytes": 12903,
+      "sha256": "885c449f033c7522a0a47c08b67cd661ebd5fab11652ff0b579d50455c9c7141"
+    },
+    {
+      "path": "src/arcadeComplete/systems/Cards.ts",
+      "bytes": 9167,
+      "sha256": "0e66ca287dc5beabac7ba0deabee7024cc986cd431e188f2160e8b5830a37c40"
+    },
+    {
+      "path": "src/arcadeComplete/systems/PetCombat.ts",
+      "bytes": 3286,
+      "sha256": "603b482c10c93c51cf62eb5f6b6102dacd0a97046f7931937a44479b842549dd"
+    },
+    {
+      "path": "src/arcadeComplete/ui/arcade.css",
+      "bytes": 11820,
+      "sha256": "1f3ff4601d5ecbffff4a01fb543a9a8a33eea9976aa8ae1ce340d9d587896b90"
+    },
+    {
+      "path": "src/arcadeComplete/ui/complete.css",
+      "bytes": 3933,
+      "sha256": "e0dcf17f85b03a2e0204fe4d426079175ef8fc500c0336bc477a8f107164d011"
+    },
+    {
+      "path": "src/arcadeComplete/ui/DefenseHud.ts",
+      "bytes": 19820,
+      "sha256": "0e7b2a7495f61e32dbf0776981a1c765d726dc0899da1663ebed70cded07177a"
+    },
+    {
+      "path": "src/arcadeComplete/ui/lobby.css",
+      "bytes": 4695,
+      "sha256": "227a6d90804bbbeb914147a26c68f997c90851b9c044d07440d770b63aed5312"
+    },
+    {
+      "path": "src/arcadeComplete/ui/Tutorial.ts",
+      "bytes": 3071,
+      "sha256": "aceb76e1d97251610e02a17e47d3b32774a0c47f422e152cf80713948a7d6297"
+    },
+    {
+      "path": "src/arcadeComplete/views/DefenseView.ts",
+      "bytes": 44014,
+      "sha256": "ad3e6019e5b63629ef3c6002d546a5b28126e9f3121b3ca0998caadc0b6b2fce"
+    },
+    {
+      "path": "src/arcadeComplete/world/DefenseWorld.ts",
+      "bytes": 3232,
+      "sha256": "f1f5df802062a67790af9de1d97d7951569ea24ea14e7487fd39ca692876378c"
+    },
+    {
+      "path": "assets/arcade/config-codex/behavior-contracts.json",
+      "bytes": 16535,
+      "sha256": "c8a8a188c86de26ed32fc0424ce30e3f70ad2896292133b971b57f139bec317e"
+    },
+    {
+      "path": "assets/arcade/config-codex/boss-patterns.json",
+      "bytes": 18388,
+      "sha256": "74fd69707674a12f89ec144df3b64bb84b541d7b5c10c1c7b6b2411d43c0e015"
+    },
+    {
+      "path": "assets/arcade/config-codex/campaign.json",
+      "bytes": 10769,
+      "sha256": "aab963fa4352efa30b7eee2ada90d04b5c9c3b04d9207509593144c1000032e6"
+    },
+    {
+      "path": "assets/arcade/config-codex/chain-formations.json",
+      "bytes": 39909,
+      "sha256": "1cf3bf8a7548f4bc0d49f352e0ff18b8834f28ea51637d14b643dc7d6f552ee6"
+    },
+    {
+      "path": "assets/arcade/config-codex/common.json",
+      "bytes": 2190,
+      "sha256": "2f32b59b5b2207cf36c3ecd51e27cf20be46e308fe0c657a8f2ae38f786478a4"
+    },
+    {
+      "path": "assets/arcade/config-codex/encounter-plan.json",
+      "bytes": 13946,
+      "sha256": "722c72e258fc7500ec79c0550ece6c0ce0bdb9cb60851ebeedbe67d748ac103a"
+    },
+    {
+      "path": "assets/arcade/config-codex/enemy-catalog.json",
+      "bytes": 34546,
+      "sha256": "3ee6f5c624dbb984ebb3ab33538dd9eed03480c8904df1cfda269d8458026d9f"
+    },
+    {
+      "path": "assets/arcade/config-codex/lobby.json",
+      "bytes": 599,
+      "sha256": "95e3283556933cc894f270161fd9e8c227d74482bd24a9948b2c4fa56d139d51"
+    },
+    {
+      "path": "assets/arcade/config-codex/maps.json",
+      "bytes": 4510,
+      "sha256": "eb3831850fe5d2a7286d6c5a39f17ebe91806f7e0ec6f3389948058eb6ff7923"
+    },
+    {
+      "path": "assets/arcade/config-codex/presentation.json",
+      "bytes": 2122,
+      "sha256": "113f50725bbdfa67c1f0e21bf1f34b532d7569a33c9483b30ecdb75dd7763f34"
+    },
+    {
+      "path": "assets/arcade/config-codex/profiles.json",
+      "bytes": 1862,
+      "sha256": "90951c3679bcbff4c91f242639a331b7428ffa670222dc3f6c63e9c7168b0bff"
+    },
+    {
+      "path": "assets/arcade/config-codex/rulesets.json",
+      "bytes": 10044,
+      "sha256": "a112b9265d926d2c87531a3000265716109bc141c5ee3d735a9ec3145eb1e40c"
+    },
+    {
+      "path": "assets/arcade/config-codex/skills.json",
+      "bytes": 18330,
+      "sha256": "fc6d8fb811b8161733ced53e1abe3d9d35bbb40983c9ac5dc40b39a6340f1d24"
+    },
+    {
+      "path": "assets/arcade/config-codex/spawn-plans.json",
+      "bytes": 79796,
+      "sha256": "182ee6b75c24b4e864df3691c2b1ac2065c859f97e9be3e4ec95840de2656d25"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_navigation.json",
+      "bytes": 84,
+      "sha256": "dc79072904a3c543035c54a74af38d4aace4dc6b56d20ce6dc28c86086339112"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_polluted.glb",
+      "bytes": 5383944,
+      "sha256": "df69aa64b9e0159ed76936500288deeb4bd2ba20f57584588f7a7c7fd10b5272"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_preview.png",
+      "bytes": 712387,
+      "sha256": "2753dd395417da7aa4bfaaa7e8b38f148d10e72b5e5007ef62093e7673bdefed"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_purified.glb",
+      "bytes": 5383944,
+      "sha256": "e307684521e65d2ae30c30ea86bc95a0bc10e61f5a4f831f119e81a6d9ddab7c"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_navigation.json",
+      "bytes": 280,
+      "sha256": "6a399ce1cccdb42bf31bb1892e52a48e613a27dcea0a48f58d02d154578be6a4"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_polluted.glb",
+      "bytes": 9319460,
+      "sha256": "7175da4111c36f4250e1c698db426a7d3eef0473013f26a11e61bb732b222beb"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_preview.png",
+      "bytes": 902974,
+      "sha256": "8d9cceb3fdc426aa902e7efcee9a39ff6629c46411158d4db77bc1f36ed9f03e"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_purified.glb",
+      "bytes": 9319460,
+      "sha256": "0fae14fcd6e74cfc29c0b0c6b1f72c9c82de5d6730d53f82bb6072e2dccc4ce6"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/manifest.json",
+      "bytes": 473,
+      "sha256": "810018029f74a98b6c55fe5ae6cb57d8dfca426f4f58a47f672e89dcab75c73c"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_navigation.json",
+      "bytes": 6705,
+      "sha256": "c53b92e59982e7cbfb077a136392674f5032bc5c550976bd6d1b47b37b14072b"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_polluted.glb",
+      "bytes": 9855624,
+      "sha256": "1ca537781545744b3b9850e664ad585f1072127c975d63899315173865a51db6"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_preview.png",
+      "bytes": 860016,
+      "sha256": "e78514622f9d188a4dd2980fd5a1dc8eec6801ccf4e746212a7f8fed5917fee9"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_purified.glb",
+      "bytes": 9855624,
+      "sha256": "2768fb37560de24b32fc10341b66f5105d7e84ae32286657513423368cd19cc3"
+    },
+    {
+      "path": "assets/arcade/art/icons/area.png",
+      "bytes": 76085,
+      "sha256": "87e0793275d06967a9bd744012fb8938fc142aee91ad3588bffec3b461429a72"
+    },
+    {
+      "path": "assets/arcade/art/icons/block_cat.png",
+      "bytes": 70725,
+      "sha256": "a9bd4bffa72160ad7cb41ff19951d65d13887293680969d8c5efb47c22f329ba"
+    },
+    {
+      "path": "assets/arcade/art/icons/bolt-home.png",
+      "bytes": 50174,
+      "sha256": "63e6ad5756a7816b08e35dbd89a7c56a5a593adab96ce442ca6b832be5d9833f"
+    },
+    {
+      "path": "assets/arcade/art/icons/bolt-rocket.png",
+      "bytes": 59867,
+      "sha256": "685f89f6e04fe636b085e04670a522cce547e2641d8570062e40985409343635"
+    },
+    {
+      "path": "assets/arcade/art/icons/boltTower.png",
+      "bytes": 111317,
+      "sha256": "fb6288c474670b6490b8e214491d7cfa8a389049179fb244c3c417454b8f5fa0"
+    },
+    {
+      "path": "assets/arcade/art/icons/bomb.png",
+      "bytes": 76070,
+      "sha256": "2807d736c59ac41157e80b232f656e335647e2f9440793d4f30dd11f4338edf2"
+    },
+    {
+      "path": "assets/arcade/art/icons/bounce-block.png",
+      "bytes": 54969,
+      "sha256": "a1fb8a252ff55a4b0872f46735b0632a1d6d9ca65dffc2c6ed5a5a9e793d3d67"
+    },
+    {
+      "path": "assets/arcade/art/icons/burst.png",
+      "bytes": 48888,
+      "sha256": "15a8d2bc97191acc9b39cfa38dccd88dbb9c6c2c9b260808048ffcdbf8f1a899"
+    },
+    {
+      "path": "assets/arcade/art/icons/carpet-three.png",
+      "bytes": 84002,
+      "sha256": "67d7a4eb995dc58c04ff13e9883536099a57f42e3a7f47ccef03d4ab837e38db"
+    },
+    {
+      "path": "assets/arcade/art/icons/chain-bomb.png",
+      "bytes": 76070,
+      "sha256": "cfdde1a6c49b423eed0abcbcbb0e2dd9e7168035bbf5d938e14ff5c9de30dde9"
+    },
+    {
+      "path": "assets/arcade/art/icons/chain-needle.png",
+      "bytes": 55068,
+      "sha256": "94ae83b0aaabbf941e177892cf6d87367fc71d9718beca7a96e0bea92234196d"
+    },
+    {
+      "path": "assets/arcade/art/icons/chain-primary.png",
+      "bytes": 81530,
+      "sha256": "38a25ff494f556155fad4b56a33b2f8fa0582bc31f676f1430344a6ed495c439"
+    },
+    {
+      "path": "assets/arcade/art/icons/chain-three.png",
+      "bytes": 57838,
+      "sha256": "9b895b143cad76013718c0e48313bea7bbd252630bb4be819bf7fd3237f4e881"
+    },
+    {
+      "path": "assets/arcade/art/icons/cooldown.png",
+      "bytes": 67847,
+      "sha256": "0e0555bd527d2efdf2f8150cbfc526e17ee0bf14bd362b929076e5bc7680c110"
+    },
+    {
+      "path": "assets/arcade/art/icons/core.png",
+      "bytes": 102133,
+      "sha256": "78e040424bb15c55353ab1ede1e8ae4da35e3a87c8f9632b81fcccf8d5103b65"
+    },
+    {
+      "path": "assets/arcade/art/icons/damage.png",
+      "bytes": 70935,
+      "sha256": "a85c25c8983a3b65bd4d0491dc974ae648b075ed31e8655ed18e58e0eb1a4bf0"
+    },
+    {
+      "path": "assets/arcade/art/icons/discount.png",
+      "bytes": 144780,
+      "sha256": "21492dbfbb857b3e046e00946b639670cfe97a1893bc145b1af9adfa9ac306a7"
+    },
+    {
+      "path": "assets/arcade/art/icons/dual-stream.png",
+      "bytes": 77289,
+      "sha256": "2cddc0642f7e2caf5fa52fa6d587fe6f1c967d647d52cd18b1927d6af75394dd"
+    },
+    {
+      "path": "assets/arcade/art/icons/duration.png",
+      "bytes": 67847,
+      "sha256": "ba96ff19e23fbd2b5526112bdc948ccd52d30f1641cac4dc3ea77fc4be853cdc"
+    },
+    {
+      "path": "assets/arcade/art/icons/fan-slash.png",
+      "bytes": 57079,
+      "sha256": "89081bad6253215d6457854d8b6e45422f5c70e0c1002eab50b5c9273c819ae2"
+    },
+    {
+      "path": "assets/arcade/art/icons/fire-home.png",
+      "bytes": 50260,
+      "sha256": "549a90833ce85e4690f5737f38543e2b26dfcf3e6abaf4b283a641f1b01581ef"
+    },
+    {
+      "path": "assets/arcade/art/icons/fire-pillar.png",
+      "bytes": 66424,
+      "sha256": "a943bdd9eb57a099c74d0fc3a6d4e89d0b2bac5de17354f5915a28b20a3a1031"
+    },
+    {
+      "path": "assets/arcade/art/icons/fire-rocket.png",
+      "bytes": 60021,
+      "sha256": "539f44ebda3f2425cd932785be9ecf7505fee28828d928a404a383227958dfe2"
+    },
+    {
+      "path": "assets/arcade/art/icons/fireSeat.png",
+      "bytes": 125475,
+      "sha256": "ef0adbff3bf11fbd45c3d85034a8224da6926f283ffa2e331961dacb61e6eb4b"
+    },
+    {
+      "path": "assets/arcade/art/icons/flame-field.png",
+      "bytes": 69429,
+      "sha256": "60f34e61ce9282f32d7b5c04d5deebae7b46092df41035109cf8e5a42c3b25de"
+    },
+    {
+      "path": "assets/arcade/art/icons/flux.png",
+      "bytes": 78090,
+      "sha256": "dbe1b31f2a2c8c24cdce5a7f416ce5fe47cccae4a00332be295ef6a893ab1b36"
+    },
+    {
+      "path": "assets/arcade/art/icons/gizmo.png",
+      "bytes": 83370,
+      "sha256": "d6644730575251afe62a54c8a7342d684a78b861004bc21b05f025bd19fe7bc5"
+    },
+    {
+      "path": "assets/arcade/art/icons/ground-mine.png",
+      "bytes": 69804,
+      "sha256": "f9380a8fee31338ae8ff4b068707eb1291e4e54bc20af5b6d721b94d72edffdb"
+    },
+    {
+      "path": "assets/arcade/art/icons/hp.png",
+      "bytes": 97046,
+      "sha256": "69dddb0f344944f0c5d0789af6f9bc468a87fb913b9b3ddcb0b4e17f926afd23"
+    },
+    {
+      "path": "assets/arcade/art/icons/ice-home.png",
+      "bytes": 50530,
+      "sha256": "c81dd0afd57106fd351b82c48c1cb28d1d22af20ccdd92b7f8efad037b270b06"
+    },
+    {
+      "path": "assets/arcade/art/icons/ice-rocket.png",
+      "bytes": 60042,
+      "sha256": "f5a37962fc29aa4cdebd8948dbdfa7d2b97fb32a23e9feb4dd57e3dffa229aad"
+    },
+    {
+      "path": "assets/arcade/art/icons/iceTower.png",
+      "bytes": 102133,
+      "sha256": "5d08e2053e1a0d544434240d77f15f75d8a10bda467acf89252bd4da392a4f6c"
+    },
+    {
+      "path": "assets/arcade/art/icons/lightning-chain.png",
+      "bytes": 57838,
+      "sha256": "9fcf8369930e5b4b2077eaaa1651565586172c9819eea01907a3f886629908b3"
+    },
+    {
+      "path": "assets/arcade/art/icons/lumos.png",
+      "bytes": 77112,
+      "sha256": "ab178c226bf0ea226ff7f28140f6d6b8fac2f77d81a54a78d56593b469a33f5b"
+    },
+    {
+      "path": "assets/arcade/art/icons/nofilter.png",
+      "bytes": 79136,
+      "sha256": "74f8952958d03f33dc3d734650dee5be706421ca5ab21e1c1fcfeb012ed8210b"
+    },
+    {
+      "path": "assets/arcade/art/icons/orbit-four.png",
+      "bytes": 72177,
+      "sha256": "73685adf33049b4775ad646f5bd0d229e2c0cec528e11747ca4987faf097ccca"
+    },
+    {
+      "path": "assets/arcade/art/icons/orbit-shards.png",
+      "bytes": 68554,
+      "sha256": "db1b83b28189c9f81575454d073ae9b3327d2d37704677465c3ddaadce615b36"
+    },
+    {
+      "path": "assets/arcade/art/icons/pellets.png",
+      "bytes": 52119,
+      "sha256": "c4641d0da3d6286a20d0842e0030a79c1fa447f9d623d29dc1154473ac38fc36"
+    },
+    {
+      "path": "assets/arcade/art/icons/pet-drone-a.png",
+      "bytes": 82513,
+      "sha256": "8e8efd0c376c72852b51a39a2d9d9b64b778214e8133d3522d345711a7868a5b"
+    },
+    {
+      "path": "assets/arcade/art/icons/pet-drone-b.png",
+      "bytes": 82456,
+      "sha256": "8ed3225d9859a695eb6f2f06f8673f6de0adeda480324431fcfb868d82253a0f"
+    },
+    {
+      "path": "assets/arcade/art/icons/pierce-drill.png",
+      "bytes": 55068,
+      "sha256": "9d1a9fd843439427f87400a1dc032c0fbd865b6d14fcb0a169c160885e1c7c0a"
+    },
+    {
+      "path": "assets/arcade/art/icons/pierce.png",
+      "bytes": 60314,
+      "sha256": "2473bcb2f5634af82372336cf7ae29361e973fb4949bcde1d9b75bf03e378a57"
+    },
+    {
+      "path": "assets/arcade/art/icons/points.png",
+      "bytes": 101469,
+      "sha256": "b6a5670915e6f98756e3b78dbb0695c6561c2463ce5e7ba433b2ce9b884f2e03"
+    },
+    {
+      "path": "assets/arcade/art/icons/q_glub_evolved.png",
+      "bytes": 67595,
+      "sha256": "8bb391b2a6753879b8ea2bd107d52e61d747da5adc6c2470d4be233f9249ae7e"
+    },
+    {
+      "path": "assets/arcade/art/icons/q_goleling_evolved.png",
+      "bytes": 74077,
+      "sha256": "160b50adb5bd112b7a92af2cbc27c18a04146263c64a3ef24c850f4963254d30"
+    },
+    {
+      "path": "assets/arcade/art/icons/q_green_blob.png",
+      "bytes": 103994,
+      "sha256": "8c3fedfa61135041272c00cc925fc54d5cc36613c5005dff2ea21d5628d834f8"
+    },
+    {
+      "path": "assets/arcade/art/icons/q_mushnub_evolved.png",
+      "bytes": 109637,
+      "sha256": "f4af03dfc011b7f73e3ce3f68facdfd3ed187544afb2ddd6de4d90b48181a485"
+    },
+    {
+      "path": "assets/arcade/art/icons/rate.png",
+      "bytes": 70203,
+      "sha256": "3ce209ce45b7e30699fbddc02f74039fdf16b18932f46231ccaa644f772d24e2"
+    },
+    {
+      "path": "assets/arcade/art/icons/reload.png",
+      "bytes": 70203,
+      "sha256": "12d7b4156bdef657447c5f9bff680c6c3605b716688fb071643dafd7cbe0543e"
+    },
+    {
+      "path": "assets/arcade/art/icons/repair.png",
+      "bytes": 73917,
+      "sha256": "1e3d10af8f00c01c2aa2078e1eefa9ff836cc441c4c9116d7d816554074d64a7"
+    },
+    {
+      "path": "assets/arcade/art/icons/return-crystal.png",
+      "bytes": 71938,
+      "sha256": "c9c827e450230d2118b77742d02dbe4e653be51e30896f693121a05126d40d3c"
+    },
+    {
+      "path": "assets/arcade/art/icons/ria.png",
+      "bytes": 76783,
+      "sha256": "6ab6ef4b3f1578df966b5ba4c660ae01e7838ff3b1e6e3a8157184c1e64f0205"
+    },
+    {
+      "path": "assets/arcade/art/icons/ruon.png",
+      "bytes": 74713,
+      "sha256": "ff4557e6645b5cb4ebc2ef723cf263fab8f82d1d8befa4f517bde8ec03fdf7d4"
+    },
+    {
+      "path": "assets/arcade/art/icons/slow-aura.png",
+      "bytes": 72746,
+      "sha256": "e10697c42a2de1c232243902f40ef9ad16abcebfe6a77240b61af5998e3b730e"
+    },
+    {
+      "path": "assets/arcade/art/icons/speed.png",
+      "bytes": 59939,
+      "sha256": "428bde9b9077c4a25b94ad63552374387ea1313fe93950390f7cd8bbb2c45f39"
+    },
+    {
+      "path": "assets/arcade/art/icons/spread-stream.png",
+      "bytes": 81530,
+      "sha256": "6bb2ae56fc7ec74b11411e106e61e6af38a4fbed6c3286bf757726ac024f23d3"
+    },
+    {
+      "path": "assets/arcade/art/icons/upgrade.png",
+      "bytes": 111317,
+      "sha256": "f9f13d0cd23437e298be277c7fe625cbe80778cc41ec9cd6e80160e3f43591d6"
+    },
+    {
+      "path": "assets/arcade/art/icons/wall.png",
+      "bytes": 94793,
+      "sha256": "b52f09d8e95386224545602d5c4ba57f1513761467e01aa2826a43af8e6235cc"
+    },
+    {
+      "path": "assets/arcade/art/icons/xp.png",
+      "bytes": 101469,
+      "sha256": "1ef796397bbedb05b533bad0e35517e5ec3c36343180d47da3ae0bc990832426"
+    },
+    {
+      "path": "assets/arcade/art/manifest.json",
+      "bytes": 10177,
+      "sha256": "e5bd7f401049e7b9b0eee72ea836959aea679de2326c2652158ddd2710f75e13"
+    },
+    {
+      "path": "assets/arcade/art/missions/r01-p01.png",
+      "bytes": 280157,
+      "sha256": "ccbe78a5c8df3ae63e01384e442fade2d82664febd65569dfcda86db6d113945"
+    },
+    {
+      "path": "assets/arcade/art/missions/r01-p02.png",
+      "bytes": 266018,
+      "sha256": "c2a55e7db4c4981bbf5dd6b45706fbbc1811e7e3f49c405a556c6864323dbee3"
+    },
+    {
+      "path": "assets/arcade/art/missions/r01-p03.png",
+      "bytes": 292522,
+      "sha256": "c3e799d4114d6bb9a97ff515e418b83b52c8d177049c7379a04f111a9508f866"
+    },
+    {
+      "path": "assets/arcade/art/missions/r01-p04.png",
+      "bytes": 210874,
+      "sha256": "449a1f7f90ddef1af2f6303f5552e9d64b09a8c50c1e199f0c477b9d5119fb26"
+    },
+    {
+      "path": "assets/arcade/art/missions/r02-p01.png",
+      "bytes": 280041,
+      "sha256": "b689c1f4ca46248c51d24c3befe3a0e507e744d7eaa17d20b9d15918fcdaa3ef"
+    },
+    {
+      "path": "assets/arcade/art/missions/r02-p02.png",
+      "bytes": 266320,
+      "sha256": "d66ed56720f254a3b81ec2d8503a25f9b5652afa90bcfdb23d447a193d5baa58"
+    },
+    {
+      "path": "assets/arcade/art/missions/r02-p03.png",
+      "bytes": 294471,
+      "sha256": "dae032febfc711fda5201ecbbc46296daf646d54b3c99c71b1b0cc416ab23952"
+    },
+    {
+      "path": "assets/arcade/art/missions/r02-p04.png",
+      "bytes": 211175,
+      "sha256": "a73a2bf8a178db3c3076cbf7d2fa39462ea5ce25e68099f9672910e8673c0b93"
+    },
+    {
+      "path": "assets/arcade/art/missions/r03-p01.png",
+      "bytes": 280707,
+      "sha256": "2e381b98b6765b78080eb994d32ad9a66a98e8dc1847c9cc14f079d81bbaea52"
+    },
+    {
+      "path": "assets/arcade/art/missions/r03-p02.png",
+      "bytes": 267011,
+      "sha256": "f0c469388402766775f11f23904553a05a17e56da9a84e67beb2674177981f54"
+    },
+    {
+      "path": "assets/arcade/art/missions/r03-p03.png",
+      "bytes": 292876,
+      "sha256": "5e85aa54372ba6750b28d3fc8da03c8fd878df0ce649c619331ecf0126c31127"
+    },
+    {
+      "path": "assets/arcade/art/missions/r03-p04.png",
+      "bytes": 210275,
+      "sha256": "632ce336cb15c121e11c8ebb595c02507224fa00dffe8e31a944df3c84c497f9"
+    },
+    {
+      "path": "assets/arcade/art/missions/r04-p01.png",
+      "bytes": 279374,
+      "sha256": "e92fb1be4fb0dbe15c19b96c520968109c5d60ce826d8fa66e44f740b61055ad"
+    },
+    {
+      "path": "assets/arcade/art/missions/r04-p02.png",
+      "bytes": 265545,
+      "sha256": "b5425ec97d73d5fafceb991f1f2e3cafac4cd4c2b56600f8410a2f0654a28e6b"
+    },
+    {
+      "path": "assets/arcade/art/missions/r04-p03.png",
+      "bytes": 293362,
+      "sha256": "2492822b51d2b0ed686ca0b2c277e2b8e0545ec8888d68dfa094d02be00d987a"
+    },
+    {
+      "path": "assets/arcade/art/missions/r04-p04.png",
+      "bytes": 212755,
+      "sha256": "cf7889720aa8fafde006b1ee60e512e902f7c1d4e724b38d5ab2556d73aa728b"
+    },
+    {
+      "path": "assets/arcade/art/missions/r05-p01.png",
+      "bytes": 279546,
+      "sha256": "0794a6f9d6005ddca6df367a151147e95666f65f327e9b1cf4b810bb2fa91be4"
+    },
+    {
+      "path": "assets/arcade/art/missions/r05-p02.png",
+      "bytes": 265838,
+      "sha256": "0dadeed7809dd59400d213b5a18fcf215200be0c2220a7ca0307c9845c2879a6"
+    },
+    {
+      "path": "assets/arcade/art/missions/r05-p03.png",
+      "bytes": 294062,
+      "sha256": "549dc2c889bc7a720f9ecc1f15f2454598e90258527292684d6c93da4cf8c8a8"
+    },
+    {
+      "path": "assets/arcade/art/missions/r05-p04.png",
+      "bytes": 217622,
+      "sha256": "bd91a6479baaaff40cbbd211481055fab47d76c7165f3081ed8866a984b08a08"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/build_arcade_maps.py",
+      "bytes": 14827,
+      "sha256": "5d09e44b32d451381254e83f92f15c162038f7d64f9d9175ddca2e0f178a632b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/chain.blend",
+      "bytes": 2438398,
+      "sha256": "edb38b567792655a29ed0af4279cdaf97e8a470bf614397a0675d2a3f6ca9e06"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/chain.blend1",
+      "bytes": 1428806,
+      "sha256": "762299bbe489b6fb582a9a2bd682c442019d15b1a416b7f493fbd837e0732f5c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/compose_mission_art.py",
+      "bytes": 2086,
+      "sha256": "ec65d17a9ddf3be1e124ed88d144ed372ee1e796ebe8249182d0dc21e5efe00b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/defense.blend",
+      "bytes": 3956828,
+      "sha256": "765c204f69b2253cbad6af2136cac9e62d5cdc3b471b2f259189502c8c8531e8"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/defense.blend1",
+      "bytes": 4510550,
+      "sha256": "0c6056542817fb68ee84cd0d12e78730bd88401249daa81ac9e028690d9fdacf"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/intermediate-backups/defense.blend1",
+      "bytes": 3928737,
+      "sha256": "e10b00e07f2c06282eba4da50b951f82345f87c94bac39e7fbdc2859f617d7bb"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/intermediate-backups/survival.blend1",
+      "bytes": 45540275,
+      "sha256": "c5fe3a8a9e7960ceaaab36030bdd2b175cd5fe82094567f71f698e88e96cc98a"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/chain.blend",
+      "bytes": 1319744,
+      "sha256": "6e505e48ad956ac2a6db48cfa8871fa958fcb1363fa15b9a65d1e7e61c45dc0b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/defense.blend",
+      "bytes": 3657351,
+      "sha256": "adb9a259946a7dde0f9e826adfadd19ccec80627c3cea22247f0b25a0a529709"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/survival.blend",
+      "bytes": 3976106,
+      "sha256": "d24d510d6c9122e4fa82918deafd4a6b8cf86e806ecfca75bdd87ccc570c038c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/README.md",
+      "bytes": 1050,
+      "sha256": "14d419003b9dbb87d28f1109b742c6327f74348c04b16faf271348d98f19d26e"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_arcade_art.py",
+      "bytes": 5322,
+      "sha256": "7a3b3e6c28e7a6880043498a924f0706ada44450e45d539db213abfaff7ba98c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_portrait_art.py",
+      "bytes": 2273,
+      "sha256": "943d89d3f493dfa512d8f2ec54d2b3bbbc2679b0e6ada1297b643c9d7d8cc960"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_skill_art.py",
+      "bytes": 9917,
+      "sha256": "d9c06261a11c93edeab9dbce789d866c1c774435cab416ee2801067ae275b122"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/survival.blend",
+      "bytes": 4236634,
+      "sha256": "c5e26796e5ac6ee29cf152f318afeb1f841c0de5ad04102d7d5efc3a7cfbae79"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/survival.blend1",
+      "bytes": 4610363,
+      "sha256": "0131de102540b2f4384e8f1dbf01b0c3af2071a0d6aef6f0d9e07e8499782668"
+    },
+    {
+      "path": "tools/arcade-complete-tests/capture_showcase_final.cjs",
+      "bytes": 2394,
+      "sha256": "f6a6253b93fa9936c1d13ee9b70c025522f920f3e26e3420bd8ea651a6d7ecb1"
+    },
+    {
+      "path": "tools/arcade-complete-tests/compose_delivery_final.py",
+      "bytes": 1545,
+      "sha256": "353bd58a4e58b0aac17b63f0349c582bc4fe0f5fa96bc639e024dcfffc0e4425"
+    },
+    {
+      "path": "tools/arcade-complete-tests/final_display_check.cjs",
+      "bytes": 5149,
+      "sha256": "47046009fbb3d2cbdca8643b6c00d85ee971d88e52ffce1a47bc4ebb8ff619ec"
+    },
+    {
+      "path": "tools/arcade-complete-tests/final_facility_gallery.cjs",
+      "bytes": 3297,
+      "sha256": "8ce2be556e3d49c6c6d10f531ba32ae95a78c517c23911d86a8cc196b174a9c9"
+    },
+    {
+      "path": "tools/arcade-complete-tests/play-complete.cjs",
+      "bytes": 3174,
+      "sha256": "2f091c17adc0c6c880c1687221f0fd369a3970018288e1dbd2d248844ec7c370"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_art_final.cjs",
+      "bytes": 2736,
+      "sha256": "1b5b56ef3097554f124ed2977a7bb8553162d12e35be81ade5530febd44a5f9c"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_campaign_final.cjs",
+      "bytes": 6309,
+      "sha256": "2d6dafe5d135766f4169a8012728057e3b1f6334532f8562bf122ca3503b3c16"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_campaign_flow_final.cjs",
+      "bytes": 3490,
+      "sha256": "5e14ed1e61d6a7107fc792edea9d0e366fe4cbefe604480b57f035525f168076"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_complete.cjs",
+      "bytes": 7127,
+      "sha256": "9da7105e70c4bb6efb51dc31e563665791926b5ec60e9834346d401cb93934ce"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_contracts.cjs",
+      "bytes": 5113,
+      "sha256": "543f540dfcdb927af8b1bb92725c6a73cf8893a74bac314b28b342d0b1d171c8"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_planner_final.cjs",
+      "bytes": 2515,
+      "sha256": "82625fcbd00a7b0913dfc7a9e1b343306d621a2f55018772e8a6e091c4573c29"
+    },
+    {
+      "path": "tools/arcade-complete-tests/verify_roles_input.cjs",
+      "bytes": 5718,
+      "sha256": "ef260c7fd6a3a53ea3abdd995719261e8fc2164d5b5688d9cd7b0074435fed43"
+    },
+    {
+      "path": "arcade.html",
+      "bytes": 4314,
+      "sha256": "d816bdc4f0bba57eda54ef7623e47a482df1821b43acdd44a2bb4a8656e21c2f"
+    },
+    {
+      "path": "arcade-lobby.html",
+      "bytes": 372,
+      "sha256": "08504cefcf15aed84d4d0d2480f9399ece955dbe237460bcb47cd7929eb1cbcd"
+    },
+    {
+      "path": "arcade-cards.html",
+      "bytes": 379,
+      "sha256": "2b17983bc32b48747b4e841bfb660d615211d62c8ee2a1598d8828cb8adb3787"
+    },
+    {
+      "path": "arcade-game1.html",
+      "bytes": 416,
+      "sha256": "472a5072bc891347ceb531f3cba72354bc1be5286a2a1809bc933365e7ebbd0b"
+    },
+    {
+      "path": "arcade-game2.html",
+      "bytes": 392,
+      "sha256": "3a72607a9ed749c383ea4207681775a9f3484d218560b24ee246cbe344abed95"
+    },
+    {
+      "path": "arcade-game3.html",
+      "bytes": 392,
+      "sha256": "b2ea7d3f8c4b82fb4d3bcc6225d53e7d22d2890d4a8ee9bf3b17da49fbf40cf7"
+    },
+    {
+      "path": "arcade-game4.html",
+      "bytes": 392,
+      "sha256": "02616a10f91340f8045abba74c0f06ff00478c2cf30b2b3f6baa60cb05627e09"
+    },
+    {
+      "path": "planner/index.html",
+      "bytes": 46518,
+      "sha256": "45a752de1fab6dc06f4052f2fb06b81066d86d114e2cfb3b47cb0d912bbee37c"
+    },
+    {
+      "path": "planner/play.html",
+      "bytes": 14882,
+      "sha256": "23a94f53abd9c1c8f01db6aa486a743d320a8083bddc78fbfc0683ddd5797b50"
+    },
+    {
+      "path": "planner/server.js",
+      "bytes": 6838,
+      "sha256": "ca073eec7702829c0d09726b2d81345aff1979e86a3f4fe5b82066d84d24fd69"
+    },
+    {
+      "path": "planner/validateArcadeConfig.cjs",
+      "bytes": 2411,
+      "sha256": "6cf084361835838d7e8000a28bedb5a21f456f2d527a4113e279f6edea8c97fd"
+    },
+    {
+      "path": "tools/start-arcade-complete.ps1",
+      "bytes": 2355,
+      "sha256": "4afe6905279bdec42a0de2f5996eddfb43d95f02903934530af0e23d5362d4ee"
+    },
+    {
+      "path": "docs/implementation/20261011_대표4종_실제플레이_구현인수인계_Codex.md",
+      "bytes": 22647,
+      "sha256": "44decda88ee8b002b19d785fe22b90d32a6d6daacd8a39adea066364a2a70c8f"
+    }
+  ]
+}

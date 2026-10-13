@@ -1,0 +1,134 @@
+{
+  "map": "sky_route",
+  "file": "sky_route",
+  "title": "구름다리길",
+  "note": "호위. 수레는 흙길을 따라 북쪽으로. 80m 에서 짧은 다리(폭 2.8m)와 동쪽 작은 섬을 도는 긴 길로 갈린다.",
+  "route": [
+    {
+      "y": 0,
+      "label": "출발"
+    },
+    {
+      "y": 40,
+      "label": "지점 1"
+    },
+    {
+      "y": 80,
+      "label": "지점 2 · 갈림"
+    },
+    {
+      "y": 122,
+      "label": "입구"
+    }
+  ],
+  "islands": [
+    {
+      "id": "start",
+      "x": 0,
+      "y": 0,
+      "top": 7.0,
+      "rx": 9,
+      "ry": 8
+    },
+    {
+      "id": "cp40",
+      "x": 0,
+      "y": 40,
+      "top": 8.2,
+      "rx": 10,
+      "ry": 8
+    },
+    {
+      "id": "fork80",
+      "x": 0,
+      "y": 80,
+      "top": 9.0,
+      "rx": 11,
+      "ry": 9
+    },
+    {
+      "id": "islet",
+      "x": 20,
+      "y": 100,
+      "top": 9.6,
+      "rx": 6,
+      "ry": 6
+    },
+    {
+      "id": "gate120",
+      "x": 0,
+      "y": 122,
+      "top": 10.0,
+      "rx": 12,
+      "ry": 9
+    }
+  ],
+  "cartStart": {
+    "x": 0,
+    "y": -2
+  },
+  "gate": {
+    "x": 0,
+    "y": 128.5
+  },
+  "enemyPerches": [
+    {
+      "x": -6.5,
+      "y": 16.2,
+      "z": 7.12
+    },
+    {
+      "x": 6.5,
+      "y": 16.2,
+      "z": 7.12
+    },
+    {
+      "x": -6.5,
+      "y": 25.1,
+      "z": 7.54
+    },
+    {
+      "x": 6.5,
+      "y": 25.1,
+      "z": 7.54
+    },
+    {
+      "x": -6.5,
+      "y": 55.8,
+      "z": 8.18
+    },
+    {
+      "x": 6.5,
+      "y": 55.8,
+      "z": 8.18
+    },
+    {
+      "x": -6.5,
+      "y": 64.4,
+      "z": 8.46
+    },
+    {
+      "x": 6.5,
+      "y": 64.4,
+      "z": 8.46
+    }
+  ],
+  "airshipDock": {
+    "x": 0,
+    "y": -12
+  },
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/sky_route/sky_route_purified.glb",
+    "polluted": "/assets/maps/sky_route/sky_route_polluted.glb"
+  },
+  "previews": [
+    "sky_route_overview_purified.png",
+    "sky_route_start_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 7300
+}

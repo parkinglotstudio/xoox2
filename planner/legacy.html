@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soos Arcade 기획툴</title>
+<style>
+:root{
+  --bg:#f6f5fa; --panel:#ffffff; --ink:#1d1b26; --sub:#6b6880; --line:#e3e0ee;
+  --accent:#7b4dff; --accent-soft:#efe9ff;
+  --ok:#1f9d63; --ok-soft:#e3f6ec; --warn:#c77c00; --warn-soft:#fff3dc;
+  --none:#8a879a; --none-soft:#efeef4; --bad:#d33a3a; --bad-soft:#fde8e8;
+  --shadow:0 1px 2px rgba(20,10,60,.06),0 4px 14px rgba(20,10,60,.05);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#14121c; --panel:#1d1a28; --ink:#ece9f6; --sub:#9a96ad; --line:#2f2b3e;
+  --accent:#a585ff; --accent-soft:#2b2340;
+  --ok:#4ccf8f; --ok-soft:#173326; --warn:#f0b54a; --warn-soft:#3a2e15;
+  --none:#9a96ad; --none-soft:#27243a; --bad:#ff7a7a; --bad-soft:#3d1d22;
+  --shadow:none;
+}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:14px/1.55 "Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;display:flex;flex-direction:column}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 12px}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.ghost{background:transparent}
+button.danger{color:var(--bad)}
+input,textarea,select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 9px;width:100%}
+textarea{resize:vertical;min-height:38px}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+
+header{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:16px;margin:0;font-weight:700}
+header .save{color:var(--sub);font-size:12px;margin-right:auto}
+header .save.err{color:var(--bad)}
+
+.wrap{flex:1;display:flex;min-height:0}
+nav{width:180px;flex:none;border-right:1px solid var(--line);padding:12px 8px;background:var(--panel);overflow:auto}
+nav a{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;margin-bottom:2px}
+nav a:hover{background:var(--accent-soft)}
+nav a.on{background:var(--accent);color:#fff}
+nav a .n{font-size:11px;opacity:.8}
+main{flex:1;overflow:auto;padding:22px 26px 80px}
+main h2{margin:0 0 4px;font-size:20px}
+main .lead{color:var(--sub);margin:0 0 18px}
+h3{font-size:14px;margin:26px 0 10px;color:var(--sub);font-weight:600}
+
+.pill{display:inline-block;font-size:11px;padding:1px 8px;border-radius:99px;font-weight:600;white-space:nowrap}
+.s-확정,.s-있음,.s-반영,.s-닫힘{background:var(--ok-soft);color:var(--ok)}
+.s-후보,.s-초안,.s-참고,.s-보류,.s-열림{background:var(--warn-soft);color:var(--warn)}
+.s-미정,.s-확인필요{background:var(--none-soft);color:var(--none)}
+.s-폐기,.s-없음{background:var(--bad-soft);color:var(--bad)}
+.s-사용안함{background:var(--none-soft);color:var(--none);text-decoration:line-through}
+.row.off{opacity:.45}
+
+.form{display:grid;grid-template-columns:150px 1fr;gap:10px 16px;max-width:900px}
+.form label{padding-top:8px;color:var(--sub);font-size:13px}
+.form .hint{grid-column:2;color:var(--sub);font-size:12px;margin-top:-6px}
+
+.flow{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch}
+.stage{position:relative;width:230px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);cursor:pointer;display:flex;flex-direction:column;gap:6px}
+.stage:hover,.card:hover,.row:hover{border-color:var(--accent)}
+.stage .no{font-size:22px;font-weight:800;color:var(--accent);line-height:1}
+.stage .t{font-weight:700}
+.stage .beat{font-size:13px}
+.stage .sit{font-size:12px;font-weight:600;color:var(--accent)}
+.fit{font-weight:800;font-size:12px}
+.fit-상{color:var(--ok)}.fit-중{color:var(--warn)}.fit-하{color:var(--bad)}
+.card dl{margin:0;display:grid;grid-template-columns:62px 1fr;gap:3px 8px;font-size:12px}
+.card dt{color:var(--sub)}.card dd{margin:0}
+.stage .learn{font-size:12px;color:var(--sub);border-left:3px solid var(--accent-soft);padding-left:7px}
+.stage .game{margin-top:auto;font-size:12px;border-radius:8px;padding:6px 8px;background:var(--accent-soft)}
+.stage .game.empty{background:transparent;border:1px dashed var(--line);color:var(--sub)}
+.stage.add,.card.add{align-items:center;justify-content:center;border-style:dashed;color:var(--sub);min-height:150px;box-shadow:none}
+.arrow{align-self:center;color:var(--sub);font-size:18px}
+.end{width:200px;border-radius:12px;padding:12px 14px;background:var(--ok-soft);color:var(--ok);display:flex;flex-direction:column;justify-content:center;gap:4px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow);cursor:pointer;display:flex;flex-direction:column;gap:7px}
+.card .top{display:flex;gap:8px;align-items:center}
+.card .nm{font-weight:700;font-size:15px}
+.card .nm.empty{color:var(--sub);font-weight:500}
+.card .meta{font-size:12px;color:var(--sub)}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:11px;padding:1px 7px;border-radius:6px;background:var(--none-soft);color:var(--sub)}
+.chip.on{background:var(--accent-soft);color:var(--accent)}
+.tabs{display:flex;gap:6px;margin-bottom:14px}
+.tabs button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.rows{display:flex;flex-direction:column;gap:6px}
+.row{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 12px;cursor:pointer}
+.row .thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;flex:none;background:var(--none-soft)}
+.row .body{flex:1;min-width:0}
+.row .nm{font-weight:600}
+.row .desc{font-size:12px;color:var(--sub)}
+.row .path{font:11px/1.4 Consolas,monospace;color:var(--sub);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .used{font-size:11px;color:var(--accent);white-space:nowrap}
+
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px}
+.gal img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;cursor:zoom-in;background:var(--none-soft);border:1px solid var(--line)}
+.gal.wide img{aspect-ratio:16/9}
+.gal.wide{grid-template-columns:repeat(auto-fill,minmax(170px,1fr))}
+details{margin-bottom:10px}
+summary{cursor:pointer;font-weight:600;padding:6px 0}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media (max-width:1000px){.two{grid-template-columns:1fr}}
+.qa{font-size:12px;color:var(--sub);margin-top:2px}
+
+aside.drawer{position:fixed;top:0;right:0;height:100%;width:min(720px,100%);background:var(--panel);border-left:1px solid var(--line);box-shadow:-8px 0 30px rgba(0,0,0,.12);transform:translateX(105%);transition:transform .18s ease;display:flex;flex-direction:column;z-index:20}
+aside.drawer.open{transform:none}
+.dh{display:flex;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.dh b{margin-right:auto}
+.db{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.f label{display:block;font-size:12px;color:var(--sub);margin-bottom:4px}
+.checks{display:flex;flex-wrap:wrap;gap:6px}
+.checks label{display:flex;gap:5px;align-items:center;font-size:12px;color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:3px 8px;margin:0;cursor:pointer}
+.checks input{width:auto;margin:0}
+.checks label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.grp{font-size:11px;color:var(--sub);margin:6px 0 3px}
+.refthumbs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.vids{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.vids iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#000}
+.vids a{font:11px Consolas,monospace;color:var(--sub);word-break:break-all}
+.s-링크있음{background:var(--accent-soft);color:var(--accent)}
+.s-받을것{background:var(--warn-soft);color:var(--warn)}
+.refthumbs img{height:90px;border-radius:6px;border:1px solid var(--line);cursor:zoom-in}
+
+.lb{position:fixed;inset:0;background:rgba(10,8,20,.82);display:none;z-index:30;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:20px}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:80vh;border-radius:8px}
+.lb .bar{display:flex;gap:8px;align-items:center;color:#fff;font:12px Consolas,monospace;flex-wrap:wrap;justify-content:center}
+.lb select{width:auto}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;transition:opacity .2s;z-index:40;pointer-events:none}
+.toast.on{opacity:1}
+.empty-note{color:var(--sub);font-size:13px;padding:10px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1>Soos Arcade 기획툴</h1>
+  <span class="save" id="save">불러오는 중…</span>
+  <button id="btnExport" class="primary" title="docs/기획서.md 로 저장">기획서 내보내기</button>
+  <button id="btnCopy" title="기획서 전체를 마크다운으로 복사 (다른 AI에게 붙여넣기용)">MD 복사</button>
+  <button style="background:#b2e2c5;color:#162c24" onclick="location.href='/planner/play.html'" title="로비 → 외출 → 미션 카드 → 게임 → 결과를 돌려 본다">▶ 실제 3D 플레이</button>
+</header>
+<div class="wrap">
+  <nav id="nav"></nav>
+  <main id="main"></main>
+</div>
+<aside class="drawer" id="drawer">
+  <div class="dh"><b id="dTitle"></b><span id="dBtns"></span><button class="ghost" id="dClose">닫기</button></div>
+  <div class="db" id="dBody"></div>
+</aside>
+<div class="lb" id="lb">
+  <img id="lbImg" alt="">
+  <div class="bar"><span id="lbPath"></span><button id="lbCopy">경로 복사</button><select id="lbGame"></select><button id="lbClose">닫기 (Esc)</button></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+'use strict';
+// ── 기준 목록 ─────────────────────────────────────────────
+const STRUCT = ['원판 이동','거리 원 자동 공격','전투 버튼','악마 표식(스폰 예고)','건물 칸 → 세우기','레벨업 스킬 3택','바닥 초상 메시지'];
+const ST_GAME = ['확정','후보','미정','폐기'];
+const ST_STAGE = ['확정','초안','미정'];
+const ST_RES = ['있음','확인 필요','없음','사용 안 함'];
+const ST_REF = ['받을 것','링크 있음','반영','참고','폐기'];
+const ytId = u => { const m = String(u).match(/(?:v=|youtu\.be\/|shorts\/|embed\/)([\w-]{11})/); return m ? m[1] : ''; };
+const KINDS = ['맵','인간','동물','원인','적','발사체','이펙트','건물','UI','그림','데이터','기타'];
+const VIEWS = [
+  ['play','실제 플레이'],['overview','개요'],['scenario','미션'],['bench','벤치마크'],['games','게임 타입'],['maps','맵'],
+  ['resources','리소스'],['refs','자료'],['log','결정·질문']
+];
+
+let D = null, view = location.hash.slice(1) || 'overview', gameFilter = '전체';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid = p => p + Date.now().toString(36) + Math.random().toString(36).slice(2,5);
+const pill = s => `<span class="pill s-${esc(String(s||'').replace(/\s/g,''))}">${esc(s||'—')}</span>`;
+const imgSrc = p => !p ? '' : p.startsWith('/') ? p : '/' + p.replace(/\\/g,'/');
+const gameName = (g, i) => g.name || `이름 없는 게임 ${String((i ?? D.games.indexOf(g)) + 1).padStart(2,'0')}`;
+const stagesOf = g => D.scenario.stages.map((s,i) => s.gameId === g.id ? String(i+1).padStart(2,'0') + ' ' + s.title : null).filter(Boolean);
+const gamesUsing = rid => D.games.filter(g => (g.uses||[]).includes(rid));
+
+function toast(t){ const el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 1600); }
+async function copy(t, msg){ try { await navigator.clipboard.writeText(t); toast(msg || '복사했습니다'); } catch { toast('복사 실패'); } }
+
+// ── 저장 ─────────────────────────────────────────────────
+let saveTimer = null;
+function touch(){
+  const el = $('#save'); el.className = 'save'; el.textContent = '저장 대기…';
+  clearTimeout(saveTimer); saveTimer = setTimeout(save, 600);
+}
+async function save(){
+  const el = $('#save');
+  D.meta.updated = new Date().toISOString().slice(0,10);
+  try {
+    const r = await fetch('/api/data', {method:'PUT', headers:{'Content-Type':'application/json'}, body: JSON.stringify(D, null, 2)});
+    if (!r.ok) throw new Error(r.status);
+    el.textContent = '저장됨 ' + new Date().toLocaleTimeString('ko-KR');
+  } catch (e) { el.className = 'save err'; el.textContent = '저장 실패 — 서버가 켜져 있는지 확인'; }
+}
+
+// ── 화면 ─────────────────────────────────────────────────
+function renderNav(){
+  const g = D.games, q = D.questions.filter(x => x.status !== '닫힘').length;
+  const cnt = {
+    scenario: D.scenario.stages.length + '장',
+    bench: (D.benchmarks||[]).length,
+    games: `${g.filter(x=>x.status==='확정').length}/${g.filter(x=>x.status!=='폐기').length}`,
+    resources: D.resources.length,
+    refs: D.references.length,
+    log: q ? `질문 ${q}` : '',
+  };
+  $('#nav').innerHTML = VIEWS.map(([k,t]) => `<a href="#${k}" class="${k===view?'on':''}">${t}<span class="n">${cnt[k] ?? ''}</span></a>`).join('');
+}
+
+function render(){
+  renderNav();
+  const m = $('#main'); const top = m.scrollTop;
+  m.innerHTML = ({play:()=>`<h2>실제 3D 플레이 제작실</h2><p>로비 · 카드 미션 · 기존 대표4종 · 추가3종 · 마을 침략을 각각 실제 3D로 실행하고 수치와 기술 효과를 조절합니다.</p><iframe src="/planner/play.html" style="width:100%;height:calc(100vh - 150px);border:0" title="정화숲 제작실"></iframe>`,overview:vOverview, scenario:vScenario, bench:vBench, games:vGames, maps:vMaps, resources:vResources, refs:vRefs, log:vLog}[view] || vOverview)();
+  m.scrollTop = top;
+  if (view === 'refs') loadGalleries();
+}
+
+const OV_FIELDS = [
+  ['oneLine','한 줄 정의','이 프로젝트가 무엇인지 한 문장'],
+  ['why','왜 만드나',''],
+  ['susu','수스와의 관계',''],
+  ['genre','게임 장르',''],
+  ['platform','플랫폼·화면','예: 모바일 세로, 원판 하나'],
+  ['coreLoop','핵심 루프','한 판 → 다음 장 → 마지막에 무엇이 남나'],
+  ['stageCount','장 수',''],
+  ['reward','보상',''],
+  ['notes','메모',''],
+];
+function vOverview(){
+  const o = D.overview;
+  return `<h2>개요</h2><p class="lead">프로젝트가 무엇인지 한 화면에. 다른 AI나 새 작업자에게 가장 먼저 보여 줄 내용.</p>
+  <div class="form">${OV_FIELDS.map(([k,l,h]) => `<label>${l}</label><textarea data-ov="${k}" rows="2" placeholder="${esc(h||'비어 있음')}">${esc(o[k])}</textarea>`).join('')}</div>
+  <h3>한눈에</h3>
+  <div class="rows" style="max-width:900px">
+    <div class="row" onclick="go('scenario')"><div class="body"><div class="nm">시나리오 ${D.scenario.stages.length}장</div><div class="desc">${D.scenario.stages.map(s=>esc(s.title)).join(' → ')} → ${esc(D.scenario.ending||'')}</div></div></div>
+    <div class="row" onclick="go('games')"><div class="body"><div class="nm">초기 아이디어 ${D.games.filter(g=>g.status!=='폐기').length}개</div><div class="desc">${['확정','후보','미정'].map(s=>`${s} ${D.games.filter(g=>g.status===s).length}`).join(' · ')}</div></div></div>
+    <div class="row" onclick="go('log')"><div class="body"><div class="nm">열린 질문 ${D.questions.filter(q=>q.status!=='닫힘').length}개</div><div class="desc">${D.questions.filter(q=>q.status!=='닫힘').map(q=>esc(q.text)).join(' / ')}</div></div></div>
+  </div>`;
+}
+
+function vScenario(){
+  const S = D.scenario, linked = S.stages.filter(s => s.gameId).length;
+  const cards = S.stages.map((s,i) => {
+    const gi = D.games.findIndex(g => g.id === s.gameId), g = D.games[gi];
+    return `<div class="stage" onclick="editStage('${s.id}')">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="no">${String(i+1).padStart(2,'0')}</span>${pill(s.status)}</div>
+      <div class="t">${esc(s.title) || '<span style="color:var(--sub)">제목 없음</span>'}</div>
+      ${s.situation ? `<div class="sit">⚔ ${esc(s.situation)}</div>` : ''}
+      <div class="beat">${esc(s.beat)}</div>
+      ${s.learn ? `<div class="learn">깨면: ${esc(s.learn)}</div>` : ''}
+      ${g ? `<div class="game">🎮 ${esc(gameName(g,gi))} ${pill(g.status)}</div>` : `<div class="game empty">게임 없음 — 눌러서 연결</div>`}
+    </div><span class="arrow">→</span>`;
+  }).join('');
+  return `<h2>시나리오</h2><p class="lead">장 하나 = 게임 한 판. 왼쪽부터 깨면 다음 장이 열린다. 장 ${S.stages.length}개 · 게임 연결 ${linked}/${S.stages.length}</p>
+  <div class="form" style="margin-bottom:22px">
+    <label>배경 (무슨 일이 있었나)</label><textarea data-sc="premise" rows="3" placeholder="동물들이 왜, 무엇에 오염됐나. 플레이어는 누구인가.">${esc(S.premise)}</textarea>
+    <label>끝 (모두 깨면)</label><textarea data-sc="ending" rows="2">${esc(S.ending)}</textarea>
+  </div>
+  <div class="flow">${cards}<div class="end"><b>끝</b><span>${esc(S.ending)}</span></div></div>
+  <div style="margin-top:14px"><button onclick="addStage()">+ 장 추가</button></div>`;
+}
+
+function vGames(){
+  const list = D.games.map((g,i) => [g,i]).filter(([g]) => gameFilter === '전체' || g.status === gameFilter);
+  const tabs = ['전체',...ST_GAME].map(t => `<button class="${t===gameFilter?'on':''}" onclick="setFilter('${t}')">${t} ${t==='전체'?D.games.length:D.games.filter(g=>g.status===t).length}</button>`).join('');
+  const cards = list.map(([g,i]) => {
+    const st = stagesOf(g);
+    return `<div class="card" onclick="editGame('${g.id}')">
+      <div class="top">${pill(g.status)}<span class="meta">${esc(benchName(g.bench) || g.genre)}</span></div>
+      <div class="nm ${g.name?'':'empty'}">${esc(gameName(g,i))}</div>
+      <div style="font-size:13px">${esc(g.oneLine) || '<span class="meta">무엇을 하는 게임인지 아직 없음</span>'}</div>
+      ${g.twist ? `<div class="meta">다른 점: ${esc(g.twist)}</div>` : ''}
+      <div class="chips">${STRUCT.map(s => `<span class="chip ${(g.structure||[]).includes(s)?'on':''}">${esc(s)}</span>`).join('')}</div>
+      <div class="meta">${st.length ? '쓰는 장: ' + esc(st.join(', ')) : '아직 어느 장에도 없음'}</div>
+    </div>`;
+  }).join('');
+  return `<section class="card"><h2>현재 확정 7종 + 마을 침략</h2><p>아래 초기10개 아이디어를 보존하고 추가6개를 3종으로 통합했습니다. 실제 제작 범위와 실행은 다음 버튼을 기준으로 확인하세요.</p><a class="btn" href="/planner/play.html?part=p01">코어 방어 실행</a> <a class="btn" href="/planner/play.html?part=p02">FPS 방어 실행</a> <a class="btn" href="/planner/play.html?part=p03">대생존 실행</a> <a class="btn" href="/planner/play.html?part=p04">체인 실행</a> <a class="btn" href="/planner/play.html?part=p05">수색 돌파 실행</a> <a class="btn" href="/planner/play.html?part=p06">호위와 탈출 실행</a> <a class="btn" href="/planner/play.html?part=p07">정화 복구 실행</a> <a href="/planner/play.html?part=raid">마을 침략 시험</a></section><h2>초기 아이디어 기록</h2><p class="lead">최초 아이디어 10종을 보존한 기록입니다. 현재 제작 범위는 위 실행 목록과 제작계획을 기준으로 확인합니다.</p>
+  <div class="tabs">${tabs}</div>
+  <div class="grid">${cards}<div class="card add" onclick="addGame()">+ 게임 추가</div></div>`;
+}
+
+const benchName = id => ((D.benchmarks||[]).find(b => b.id === id) || {}).name || '';
+function vBench(){
+  const B = D.benchmarks || [];
+  const cards = B.map(b => {
+    const gs = D.games.filter(g => g.bench === b.id);
+    return `<div class="card" onclick="editBench('${b.id}')">
+      <div class="top">${pill(b.status)}<span class="fit fit-${esc(b.fit)}">리소스 적합 ${esc(b.fit)}</span></div>
+      <div class="nm">${esc(b.name)}</div>
+      <div class="meta">${esc(b.refs)}</div>
+      <dl><dt>상황</dt><dd>${esc(b.situation)}</dd><dt>재미</dt><dd>${esc(b.core)}</dd><dt>손</dt><dd>${esc(b.hands)}</dd><dt>있는 것</dt><dd>${esc(b.reuse)}</dd><dt>새로 필요</dt><dd>${esc(b.need)}</dd></dl>
+      <div class="chips">${STRUCT.map(s => `<span class="chip ${(b.structure||[]).includes(s)?'on':''}">${esc(s)}</span>`).join('')}</div>
+      <div class="meta">${gs.length ? '게임: ' + esc(gs.map(g => gameName(g)).join(', ')) : '아직 게임으로 안 만듦'}</div>
+    </div>`;
+  }).join('');
+  return `<h2>벤치마크</h2><p class="lead">수스 리소스로 만들 수 있는 게임 종류. 장마다 "상황"에 맞는 것을 골라 게임으로 만든다. 보라 칩 = 푸더덕과 함께 쓰는 구조.</p>
+  <div class="grid">${cards}<div class="card add" onclick="addBench()">+ 벤치마크 추가</div></div>`;
+}
+const BENCH_FIELDS = [
+  ['name','이름','text'],['status','상태','select',['채택','후보','보류']],['fit','기존 리소스 적합도','select',['상','중','하']],
+  ['refs','레퍼런스 게임','text'],['situation','어울리는 상황','text'],['core','핵심 재미','area',3],['hands','손 (조작)','area',2],
+  ['reuse','기존 리소스로 되는 것','area',2],['need','새로 만들어야 하는 것','area',2],['structure','푸더덕과 함께 쓰는 구조','checks',STRUCT],['notes','메모','area',3],
+];
+function editBench(id){ const b = D.benchmarks.find(x => x.id === id); openDrawer('벤치마크 — ' + b.name, b, BENCH_FIELDS, {onDelete: () => { del(D.benchmarks,id); D.games.forEach(g => { if (g.bench === id) g.bench = ''; }); }, extra: `<button class="ghost" onclick="gameFromBench('${id}')">이걸로 게임 만들기</button>`}); }
+function addBench(){ D.benchmarks = D.benchmarks || []; const b = {id:uid('b'), name:'새 벤치마크', refs:'', situation:'', core:'', hands:'', reuse:'', need:'', structure:[], fit:'중', status:'후보', notes:''}; D.benchmarks.push(b); touch(); render(); editBench(b.id); }
+function gameFromBench(id){
+  const b = D.benchmarks.find(x => x.id === id);
+  let g = D.games.find(x => x.status === '미정' && !x.name && !x.bench);
+  if (!g) { g = {id:uid('g'), status:'미정', uses:[], refs:[]}; D.games.push(g); }
+  Object.assign(g, {name:b.name, status:'후보', bench:b.id, genre:b.name.split(' (')[0], oneLine:'', structure:[...(b.structure||[])], hands:b.hands, twist:g.twist||'', camera:g.camera||'', win:g.win||'', lose:g.lose||'', time:g.time||'', notes:g.notes||''});
+  touch(); go('games'); setTimeout(() => editGame(g.id), 50);
+}
+
+// 리소스 열기: 툴 서버(vite, 5190)에서 연다. assets/susu/X 는 웹 경로 /X 다
+const TOOLS = 'http://localhost:5190';
+const TOOL_OF = {m_lobby:'/island-coast-tool.html', m_forest:'/forest-play-tool.html', m_forest_boss:'/forest-map-tool.html'};
+function openUrl(r){
+  if (r.tool) return /^https?:\/\//i.test(r.tool) ? r.tool : TOOLS + r.tool;
+  if (TOOL_OF[r.id]) return TOOLS + TOOL_OF[r.id];
+  const p = String(r.path || '').replace(/\\/g, '/');
+  if (!p.startsWith('assets/susu/')) return '';
+  const web = '/' + p.slice('assets/susu/'.length);
+  return TOOLS + '/viewer.html?' + (/\.[a-z0-9]+$/i.test(web) ? 'src=' : 'dir=') + encodeURIComponent(web);
+}
+function openRes(id, e){ if (e) e.stopPropagation(); const u = openUrl(D.resources.find(x => x.id === id)); if (u) window.open(u, '_blank'); else toast('열 수 있는 경로가 없습니다'); }
+
+function vResources(){
+  const groups = KINDS.map(k => [k, D.resources.filter(r => (r.kind||'기타') === k)]).filter(([,a]) => a.length);
+  return `<h2>리소스</h2><p class="lead">수스에서 가져온 자산과 아케이드에서 새로 만든 리소스. "열기"를 누르면 등록된 미리보기 툴이나 리소스 뷰어로 열린다. 미리보기 서버가 실행 중이어야 한다.</p>
+  ${groups.map(([k,arr]) => `<h3>${k} ${arr.length}</h3><div class="rows">${arr.map(r => {
+    const used = gamesUsing(r.id);
+    return `<div class="row ${r.status === '사용 안 함' ? 'off' : ''}" onclick="editRes('${r.id}')">
+      ${r.thumb ? `<img class="thumb" loading="lazy" src="${esc(imgSrc(r.thumb))}" alt="">` : `<div class="thumb"></div>`}
+      <div class="body"><div class="nm">${esc(r.name)} ${pill(r.status)}</div><div class="desc">${esc(r.desc)}</div><div class="path">${esc(r.path)}</div></div>
+      ${used.length ? `<span class="used">게임 ${used.length}개에서 씀</span>` : ''}
+      ${openUrl(r) ? `<button onclick="openRes('${r.id}', event)">열기</button>` : ''}
+    </div>`;}).join('')}</div>`).join('')}
+  <div style="margin-top:14px"><button onclick="addRes()">+ 리소스 추가</button></div>`;
+}
+
+function vRefs(){
+  const kinds = [...new Set(D.references.map(r => r.kind))];
+  return `<h2>자료</h2><p class="lead">영상, 화면 캡처, 이전 문서. 이전 문서는 참고만 하고, 정본은 이 툴이다.</p>
+  ${kinds.map(k => `<h3>${esc(k)}</h3><div class="rows">${D.references.filter(r=>r.kind===k).map(r => `
+    <div class="row" onclick="editRef('${r.id}')"><div class="body"><div class="nm">${esc(r.title)} ${pill(r.status)}</div><div class="desc">${esc(r.note)}</div><div class="path">${esc(r.path)}</div></div>${(r.links||[]).length ? `<span class="used">▶ 영상 ${r.links.length}</span>` : ''}</div>`).join('')}</div>`).join('')}
+  <div style="margin-top:14px"><button onclick="addRef()">+ 자료 추가</button></div>
+  <h3>화면 캡처</h3>
+  ${(D.galleries||[]).map((g,i) => `<details ${i===0?'open':''}><summary>${esc(g.title)} <span class="meta" id="gc${i}"></span></summary><div class="gal ${g.dir.includes('intro')?'wide':''}" id="gal${i}"></div></details>`).join('')}`;
+}
+async function loadGalleries(){
+  for (const [i,g] of (D.galleries||[]).entries()){
+    const el = document.getElementById('gal'+i); if (!el || el.dataset.done) continue;
+    try {
+      const r = await fetch('/api/ls?dir=' + encodeURIComponent(g.dir)); const {files} = await r.json();
+      el.dataset.done = 1;
+      document.getElementById('gc'+i).textContent = files.length + '장';
+      el.innerHTML = files.map(f => { const p = g.dir + '/' + f; return `<img loading="lazy" src="${esc(imgSrc(p))}" data-p="${esc(p)}" title="${esc(f)}" alt="">`; }).join('');
+    } catch { el.innerHTML = '<div class="empty-note">불러오지 못했습니다</div>'; }
+  }
+}
+
+function vLog(){
+  const qs = D.questions.slice().sort((a,b) => (a.status==='닫힘') - (b.status==='닫힘'));
+  return `<h2>결정·질문</h2><p class="lead">확정한 것은 결정으로, 아직 모르는 것은 질문으로. 질문에 답이 나오면 닫고, 필요하면 결정으로 옮긴다.</p>
+  <div class="two">
+    <div><h3>열린 질문 ${D.questions.filter(q=>q.status!=='닫힘').length}</h3><div class="rows">${qs.map(q => `
+      <div class="row" onclick="editQ('${q.id}')"><div class="body"><div class="nm">${esc(q.text)} ${pill(q.status)}</div>${q.answer?`<div class="qa">답: ${esc(q.answer)}</div>`:''}</div></div>`).join('')}</div>
+      <div style="margin-top:10px"><button onclick="addQ()">+ 질문</button></div></div>
+    <div><h3>결정 ${D.decisions.length}</h3><div class="rows">${D.decisions.map(d => `
+      <div class="row" onclick="editDec('${d.id}')"><div class="body"><div class="nm">${esc(d.text)}</div><div class="desc">${esc(d.date)} ${pill(d.status)}</div></div></div>`).join('')}</div>
+      <div style="margin-top:10px"><button onclick="addDec()">+ 결정</button></div></div>
+  </div>`;
+}
+
+// ── 편집 패널 ───────────────────────────────────────────
+// fields: [key, label, type, opts]  type: text|area|select|checks|uses|game|refs
+function openDrawer(title, item, fields, {onDelete, extra=''} = {}){
+  $('#dTitle').textContent = title;
+  $('#dBtns').innerHTML = extra + (onDelete ? '<button class="danger ghost" id="dDel">삭제</button>' : '');
+  const body = $('#dBody');
+  body.innerHTML = fields.map(([k,l,t,o]) => {
+    const v = item[k];
+    let inp;
+    if (t === 'area') inp = `<textarea data-k="${k}" rows="${o||3}">${esc(v)}</textarea>`;
+    else if (t === 'select') inp = `<select data-k="${k}">${o.map(x => `<option ${x===v?'selected':''}>${esc(x)}</option>`).join('')}</select>`;
+    else if (t === 'game') inp = `<select data-k="${k}"><option value="">— 없음 —</option>${D.games.map((g,i) => `<option value="${g.id}" ${g.id===v?'selected':''}>${esc(gameName(g,i))} (${esc(g.status)})</option>`).join('')}</select>`;
+    else if (t === 'map') inp = `<select data-k="${k}"><option value="">— 없음 —</option>${(D.maps||[]).map(m => `<option value="${m.id}" ${m.id===v?'selected':''}>${esc(m.name)}</option>`).join('')}</select>`;
+    else if (t === 'bench') inp = `<select data-k="${k}"><option value="">— 없음 —</option>${(D.benchmarks||[]).map(b => `<option value="${b.id}" ${b.id===v?'selected':''}>${esc(b.name)}</option>`).join('')}</select>`;
+    else if (t === 'checks') inp = `<div class="checks">${o.map(x => `<label><input type="checkbox" data-arr="${k}" value="${esc(x)}" ${(v||[]).includes(x)?'checked':''}>${esc(x)}</label>`).join('')}</div>`;
+    else if (t === 'uses') inp = KINDS.map(kd => { const rs = D.resources.filter(r => r.kind === kd); return rs.length ? `<div class="grp">${kd}</div><div class="checks">${rs.map(r => `<label><input type="checkbox" data-arr="${k}" value="${r.id}" ${(v||[]).includes(r.id)?'checked':''}>${esc(r.name)}</label>`).join('')}</div>` : ''; }).join('');
+    else if (t === 'refs') inp = `<textarea data-k="${k}" data-lines="1" rows="3" placeholder="한 줄에 하나. 예: _preview/story/f_011.png">${esc((v||[]).join('\n'))}</textarea><div class="refthumbs" id="refthumbs"></div>`;
+    else if (t === 'links') inp = `<textarea data-k="${k}" data-lines="1" rows="4" placeholder="영상 주소. 한 줄에 하나">${esc((v||[]).join('\n'))}</textarea><div class="vids" id="vids"></div>`;
+    else inp = `<input data-k="${k}" value="${esc(v)}">`;
+    return `<div class="f"><label>${l}</label>${inp}</div>`;
+  }).join('');
+  const syncVids = () => { const el = $('#vids'); if (el) el.innerHTML = (item.links||[]).map(u => { const id = ytId(u); return id ? `<iframe src="https://www.youtube-nocookie.com/embed/${id}" allowfullscreen loading="lazy"></iframe><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>` : `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`; }).join(''); };
+  syncVids();
+  const syncThumbs = () => { const el = $('#refthumbs'); if (el) el.innerHTML = (item.refs||[]).filter(p => /\.(png|jpe?g|webp|gif)$/i.test(p)).map(p => `<img src="${esc(imgSrc(p))}" data-p="${esc(p)}" alt="">`).join(''); };
+  syncThumbs();
+  body.oninput = body.onchange = e => {
+    const t = e.target;
+    if (t.dataset.k) item[t.dataset.k] = t.dataset.lines ? t.value.split('\n').map(s => s.trim()).filter(Boolean) : t.value;
+    if (t.dataset.arr) item[t.dataset.arr] = [...body.querySelectorAll(`[data-arr="${t.dataset.arr}"]:checked`)].map(x => x.value);
+    if (t.dataset.lines) { syncThumbs(); syncVids(); }
+    touch(); renderSoon();
+  };
+  if (onDelete) $('#dDel').onclick = () => { if (confirm('삭제할까요?')) { onDelete(); closeDrawer(); touch(); render(); } };
+  $('#drawer').classList.add('open');
+}
+function closeDrawer(){ $('#drawer').classList.remove('open'); }
+let rt; function renderSoon(){ clearTimeout(rt); rt = setTimeout(render, 150); }
+const del = (arr, id) => { const i = arr.findIndex(x => x.id === id); if (i >= 0) arr.splice(i,1); };
+
+const GAME_FIELDS = [
+  ['name','이름','text'],['status','상태','select',ST_GAME],['bench','기반 벤치마크','bench'],['genre','장르 (한 단어)','text'],
+  ['oneLine','무엇을 하는 게임인가 (한 문장)','area',2],
+  ['structure','푸더덕과 함께 쓰는 구조','checks',STRUCT],
+  ['twist','이 게임만 다른 점','area',2],
+  ['camera','카메라','text'],['hands','손 (플레이어가 하는 조작)','area',2],
+  ['win','이기는 조건','text'],['lose','지는 조건','text'],['time','시간·길이','text'],
+  ['research','레퍼런스 조사 (원본 게임은 어떻게 돌아가나)','area',9],
+  ['sim','시뮬레이터 결과','area',3],
+  ['video','영상 확인 (본 것 → 바꾼 것)','area',9],
+  ['flow','우리 버전 — 한 판 흐름','area',8],
+  ['numbers','수치 초안','area',4],
+  ['enemies','적 구성','area',5],
+  ['cards','성장 (레벨업 카드·건물·보상)','area',5],
+  ['ui','화면 구성','area',3],
+  ['tutorial','첫 30초 — 가르치는 법','area',3],
+  ['lines','대사 (입장·중간·성공·실패)','area',6],
+  ['loops','바퀴마다 달라지는 것','area',3],
+  ['build','새로 만들어야 하는 것','area',3],
+  ['uses','쓰는 리소스','uses'],['refs','참고 이미지·자료 경로','refs'],['sources','출처 (한 줄에 하나)','area',3],['notes','메모','area',4],
+];
+function editGame(id){ const g = D.games.find(x => x.id === id); openDrawer('게임 — ' + gameName(g), g, GAME_FIELDS, {onDelete: () => { del(D.games,id); D.scenario.stages.forEach(s => { if (s.gameId === id) s.gameId = ''; }); }}); }
+function addGame(){ const g = {id:uid('g'), name:'', status:'미정', genre:'', oneLine:'', structure:[], twist:'', camera:'', hands:'', win:'', lose:'', time:'', uses:[], refs:[], notes:''}; D.games.push(g); touch(); render(); editGame(g.id); }
+
+function vMaps(){
+  const ms = D.maps || [];
+  return `<h2>맵</h2><p class="lead">미션 = 게임 타입 + 맵. 맵 설정서가 확정되면 블렌더 작업으로 넘어간다.</p>
+  <div class="rows">${ms.map(m => { const used = D.scenario.stages.filter(s => s.mapId === m.id).map(s => s.title);
+    return `<div class="row" onclick="editMap('${m.id}')"><div class="body"><div class="nm">${esc(m.name)} ${pill(m.status)}</div><div class="desc">${esc(m.size)}</div><div class="desc">${esc((m.layout||'').slice(0,90))}…</div></div>${used.length ? `<span class="used">미션: ${esc(used.join(', '))}</span>` : ''}</div>`; }).join('')}</div>
+  <div style="margin-top:14px"><button onclick="addMap()">+ 맵 추가</button></div>`;
+}
+function editMap(id){ const m = D.maps.find(x => x.id === id); openDrawer('맵 — ' + m.name, m, [
+  ['name','이름','text'],['status','상태','select',['설정 중','설정 확정','블렌더 작업','완료']],['typeFit','맞는 게임 타입','checks',D.games.map(g => g.id)],
+  ['size','크기','area',2],['layout','배치','area',5],['spawns','스폰','area',3],['props','소품','area',2],['mood','분위기·조명','area',2],['susu','쓸 수스 리소스','area',2],['file','블렌더 파일 경로','text'],['refs','참고 이미지','refs'],['notes','메모','area',3],
+], {onDelete: () => { del(D.maps,id); D.scenario.stages.forEach(s => { if (s.mapId === id) s.mapId = ''; }); }}); }
+function addMap(){ D.maps = D.maps || []; const m = {id:uid('m'), name:'새 맵', typeFit:[], size:'', layout:'', spawns:'', props:'', mood:'', susu:'', status:'설정 중', file:'', refs:[], notes:''}; D.maps.push(m); touch(); render(); editMap(m.id); }
+
+function editStage(id){
+  const S = D.scenario.stages, i = S.findIndex(x => x.id === id), s = S[i];
+  openDrawer(`미션 ${String(i+1).padStart(2,'0')}`, s, [
+    ['title','미션 이름 (카드 제목)','text'],['status','상태','select',ST_STAGE],
+    ['gameId','게임 타입','game'],['mapId','맵','map'],
+    ['situation','상황 (몸으로 하는 일 — 몰려온다, 뚫는다, 지킨다…)','text'],
+    ['beat','이야기 (이 미션에서 일어나는 일)','area',3],['learn','깨면 남는 한 줄','text'],
+    ['headline','카드 — 굵은 문장 (줄바꿈 가능)','area',2],['howto','카드 — 하는 법','area',2],
+    ['difficulty','카드 — 난이도','text'],['time','카드 — 판 길이','text'],
+    ['artPrompt','카드 그림 시안 (그림 AI에게 줄 지시문)','area',8],['artImage','카드 그림 파일 (그림이 나오면 경로, 예: assets/cards/01.png)','text'],
+  ], {onDelete: () => del(S,id), extra: `<button class="ghost" onclick="moveStage('${id}',-1)">◀ 앞으로</button><button class="ghost" onclick="moveStage('${id}',1)">뒤로 ▶</button>`});
+}
+function moveStage(id, d){ const S = D.scenario.stages, i = S.findIndex(x => x.id === id), j = i + d; if (j < 0 || j >= S.length) return; [S[i],S[j]] = [S[j],S[i]]; touch(); render(); editStage(id); }
+function addStage(){ const s = {id:uid('s'), title:'', beat:'', learn:'', gameId:'', status:'미정'}; D.scenario.stages.push(s); touch(); render(); editStage(s.id); }
+
+function editRes(id){ const r = D.resources.find(x => x.id === id); openDrawer('리소스 — ' + r.name, r, [
+  ['name','이름','text'],['kind','종류','select',KINDS],['status','상태','select',ST_RES],['desc','설명','area',2],['path','경로 (assets/susu/...)','text'],['thumb','미리보기 이미지','text'],['tool','열 툴 (비우면 자동, 예: /forest-map-tool.html)','text'],
+], {onDelete: () => { del(D.resources,id); D.games.forEach(g => g.uses = (g.uses||[]).filter(u => u !== id)); }, extra: `<button onclick="openRes('${id}')">열기</button>`}); }
+function addRes(){ const r = {id:uid('r'), kind:'기타', name:'새 리소스', desc:'', path:'', thumb:'', status:'확인 필요'}; D.resources.push(r); touch(); render(); editRes(r.id); }
+
+function editRef(id){ const r = D.references.find(x => x.id === id); openDrawer('자료 — ' + r.title, r, [
+  ['title','제목','text'],['kind','종류','text'],['status','상태','select',ST_REF],['path','경로','text'],['note','메모','area',3],['links','영상 링크 (누르면 재생)','links'],
+], {onDelete: () => del(D.references,id), extra: `<button class="ghost" onclick="copy(${esc(JSON.stringify(r.path))})">경로 복사</button>`}); }
+function addRef(){ const r = {id:uid('r'), kind:'기타', title:'새 자료', path:'', note:'', status:'참고'}; D.references.push(r); touch(); render(); editRef(r.id); }
+
+function editQ(id){ const q = D.questions.find(x => x.id === id); openDrawer('질문', q, [['text','질문','area',2],['answer','답','area',4],['status','상태','select',['열림','닫힘']]], {onDelete: () => del(D.questions,id)}); }
+function addQ(){ const q = {id:uid('q'), text:'', answer:'', status:'열림'}; D.questions.unshift(q); touch(); render(); editQ(q.id); }
+function editDec(id){ const d = D.decisions.find(x => x.id === id); openDrawer('결정', d, [['text','결정','area',3],['date','날짜','text'],['status','상태','select',['확정','보류']]], {onDelete: () => del(D.decisions,id)}); }
+function addDec(){ const d = {id:uid('d'), date:new Date().toISOString().slice(0,10), text:'', status:'확정'}; D.decisions.push(d); touch(); render(); editDec(d.id); }
+
+function go(v){ location.hash = v; }
+function setFilter(f){ gameFilter = f; render(); }
+
+// ── 라이트박스 ──────────────────────────────────────────
+let lbPath = '';
+document.addEventListener('click', e => {
+  const im = e.target.closest('img[data-p]'); if (!im) return;
+  lbPath = im.dataset.p;
+  $('#lbImg').src = imgSrc(lbPath); $('#lbPath').textContent = lbPath;
+  $('#lbGame').innerHTML = `<option value="">게임 참고로 붙이기…</option>` + D.games.map((g,i) => `<option value="${g.id}">${esc(gameName(g,i))}</option>`).join('');
+  $('#lb').classList.add('open');
+});
+$('#lbClose').onclick = () => $('#lb').classList.remove('open');
+$('#lb').onclick = e => { if (e.target.id === 'lb') $('#lb').classList.remove('open'); };
+$('#lbCopy').onclick = () => copy(lbPath);
+$('#lbGame').onchange = e => {
+  const g = D.games.find(x => x.id === e.target.value); if (!g) return;
+  g.refs = g.refs || []; if (!g.refs.includes(lbPath)) g.refs.push(lbPath);
+  touch(); toast(`${gameName(g)}에 붙였습니다`); e.target.value = ''; render();
+};
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { $('#lb').classList.remove('open'); closeDrawer(); } });
+
+// 개요·시나리오 본문 칸은 바로 고친다
+$('#main').addEventListener('input', e => {
+  const t = e.target;
+  if (t.dataset.ov) { D.overview[t.dataset.ov] = t.value; touch(); renderNav(); }
+  if (t.dataset.sc) { D.scenario[t.dataset.sc] = t.value; touch(); }
+});
+$('#dClose').onclick = closeDrawer;
+window.addEventListener('hashchange', () => { view = location.hash.slice(1) || 'overview'; closeDrawer(); render(); $('#main').scrollTop = 0; });
+
+// ── 기획서 내보내기 ─────────────────────────────────────
+function toMarkdown(){
+  const o = D.overview, S = D.scenario, L = [];
+  const line = (k, v) => L.push(`- **${k}:** ${v ? String(v).replace(/\n/g,' ') : '(미정)'}`);
+  const resName = id => (D.resources.find(r => r.id === id) || {}).name || id;
+  L.push(`# ${D.meta.title} 기획서`, '', `갱신: ${D.meta.updated} · 이 문서는 기획툴(planner/)에서 자동으로 만든다. 직접 고치지 말고 툴에서 고친다.`, '');
+  L.push('## 1. 개요', ''); OV_FIELDS.forEach(([k,l]) => line(l, o[k])); L.push('');
+  L.push('## 2. 시나리오', ''); line('배경', S.premise); line('끝', S.ending); L.push('');
+  L.push('| 장 | 이름 | 상황 | 이야기 | 깨면 남는 한 줄 | 게임 | 상태 |','|---|---|---|---|---|---|---|');
+  S.stages.forEach((s,i) => { const gi = D.games.findIndex(g => g.id === s.gameId); L.push(`| ${String(i+1).padStart(2,'0')} | ${s.title||''} | ${s.situation||''} | ${s.beat||''} | ${s.learn||''} | ${gi>=0?gameName(D.games[gi],gi):'(없음)'} | ${s.status} |`); });
+  L.push('', `## 3. 게임`, '', `푸더덕과 함께 쓸 수 있는 구조: ${STRUCT.join(', ')}`, '');
+  D.games.filter(g => g.status !== '폐기').forEach((g,i) => {
+    L.push(`### ${gameName(g, D.games.indexOf(g))} [${g.status}]`, '');
+    line('기반', benchName(g.bench)); line('장르', g.genre); line('한 문장', g.oneLine); line('쓰는 장', stagesOf(g).join(', '));
+    line('푸더덕 구조', (g.structure||[]).join(', ')); line('다른 점', g.twist); line('카메라', g.camera); line('손', g.hands);
+    line('이기는 조건', g.win); line('지는 조건', g.lose); line('시간', g.time);
+    const block = (t, v) => { if (v) L.push('', `**${t}**`, '', v.split('\n').filter(Boolean).map(s => /^[-*] /.test(s) ? s : '- ' + s).join('\n')); };
+    block('레퍼런스 조사', g.research); block('영상 확인', g.video); block('시뮬레이터 결과', g.sim); block('한 판 흐름', g.flow); block('수치 초안', g.numbers); block('적 구성', g.enemies); block('성장', g.cards); block('화면', g.ui); block('첫 30초', g.tutorial); block('대사', g.lines); block('바퀴마다', g.loops); block('새로 만들 것', g.build);
+    if (g.sources) L.push('', '출처: ' + g.sources.split('\n').filter(Boolean).map(u => `<${u}>`).join(' '));
+    line('쓰는 리소스', (g.uses||[]).map(resName).join(', ')); line('참고', (g.refs||[]).join(', '));
+    if (g.notes) L.push('', g.notes.split('\n').map(s => '> ' + s).join('\n'));
+    L.push('');
+  });
+  L.push('## 4. 벤치마크 (만들 수 있는 게임 종류)', '');
+  (D.benchmarks||[]).forEach(b => { L.push(`### ${b.name} [${b.status} · 적합 ${b.fit}]`, ''); line('레퍼런스', b.refs); line('상황', b.situation); line('재미', b.core); line('손', b.hands); line('있는 것', b.reuse); line('새로 필요', b.need); line('푸더덕 구조', (b.structure||[]).join(', ')); L.push(''); });
+  L.push('## 4-1. 미션 카드', '');
+  S.stages.forEach((s,i) => { L.push(`### ${String(i+1).padStart(2,'0')} ${s.title}`, ''); line('게임 타입', (D.games.find(g => g.id === s.gameId) || {}).name); line('맵', (D.maps||[]).find(m => m.id === s.mapId)?.name); line('굵은 문장', s.headline); line('하는 법', s.howto); line('난이도', s.difficulty); line('판 길이', s.time); if (s.artPrompt) L.push('', '그림 시안:', '', s.artPrompt.split('\n').map(x => '- ' + x).join('\n')); L.push(''); });
+  L.push('## 4-2. 맵 설정서 (블렌더 작업 지시)', '');
+  (D.maps||[]).forEach(m => { L.push(`### ${m.name} [${m.status}]`, ''); line('맞는 게임 타입', (m.typeFit||[]).map(id => (D.games.find(g => g.id === id) || {}).name).join(', ')); line('크기', m.size); line('배치', m.layout); line('스폰', m.spawns); line('소품', m.props); line('분위기·조명', m.mood); line('쓸 수스 리소스', m.susu); line('블렌더 파일', m.file); L.push(''); });
+  L.push('## 5. 리소스 (수스)', '');
+  KINDS.forEach(k => { const rs = D.resources.filter(r => r.kind === k); if (!rs.length) return; L.push(`**${k}**`, ''); rs.forEach(r => L.push(`- ${r.name} [${r.status}] — ${r.desc}${r.path ? ` \`${r.path}\`` : ''}`)); L.push(''); });
+  L.push('## 6. 결정', ''); D.decisions.forEach(d => L.push(`- ${d.date} [${d.status}] ${d.text}`)); L.push('');
+  L.push('## 7. 열린 질문', ''); D.questions.filter(q => q.status !== '닫힘').forEach(q => L.push(`- ${q.text}${q.answer ? ` — ${q.answer}` : ''}`)); L.push('');
+  L.push('## 8. 자료', ''); D.references.forEach(r => L.push(`- [${r.kind}·${r.status}] ${r.title} — \`${r.path}\`${r.note ? ` — ${r.note}` : ''}`));
+  return L.join('\n') + '\n';
+}
+$('#btnExport').onclick = async () => {
+  try { const r = await fetch('/api/export', {method:'POST', body: toMarkdown()}); if (!r.ok) throw 0; toast('docs/기획서.md 로 저장했습니다'); }
+  catch { toast('내보내기 실패'); }
+};
+$('#btnCopy').onclick = () => copy(toMarkdown(), '기획서 마크다운을 복사했습니다');
+
+// ── 시작 ─────────────────────────────────────────────────
+(async () => {
+  try {
+    D = await (await fetch('/api/data')).json();
+    $('#save').textContent = '불러옴';
+    render();
+  } catch {
+    $('#main').innerHTML = '<h2>서버가 꺼져 있습니다</h2><p class="lead">planner\\기획툴_열기.bat 를 실행하세요.</p>';
+  }
+})();
+</script>
+
+
+</body></html>

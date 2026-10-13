@@ -1,0 +1,617 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:soos-arcade:production-config:v1",
+  "title": "Soos Arcade initial production configuration",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "frameworks",
+    "common",
+    "weapons",
+    "towers",
+    "games",
+    "rounds",
+    "campaign"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "status": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "projectRoot": {
+      "type": "string"
+    },
+    "frameworks": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "g01",
+            "g02",
+            "g03",
+            "g04",
+            "g05",
+            "g06",
+            "g07",
+            "g08",
+            "g09",
+            "g10"
+          ]
+        },
+        "uniqueItems": true
+      }
+    },
+    "common": {
+      "type": "object",
+      "required": [
+        "fixedTickHz",
+        "hero",
+        "stream",
+        "cards",
+        "pet"
+      ],
+      "properties": {
+        "fixedTickHz": {
+          "const": 60
+        },
+        "hero": {
+          "type": "object",
+          "required": [
+            "hp",
+            "speedMps",
+            "radiusM"
+          ],
+          "properties": {
+            "hp": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "speedMps": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "radiusM": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        },
+        "stream": {
+          "type": "object",
+          "required": [
+            "damage",
+            "totalRoundsPerSecBothHands",
+            "activeSec",
+            "restSec"
+          ],
+          "properties": {
+            "damage": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "totalRoundsPerSecBothHands": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "activeSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "restSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        }
+      }
+    },
+    "weapons": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "damage",
+          "cooldownSec",
+          "rangeM",
+          "blastRadiusM"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "damage": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "cooldownSec": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "rangeM": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "blastRadiusM": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "towers": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "games": {
+      "type": "object",
+      "required": [
+        "g01",
+        "g02",
+        "g03",
+        "g04",
+        "g05",
+        "g06",
+        "g07",
+        "g08",
+        "g09",
+        "g10"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "g01": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g01"
+            },
+            "frameworkId": {
+              "const": "A"
+            },
+            "mapId": {
+              "const": "m01"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g02": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g02"
+            },
+            "frameworkId": {
+              "const": "A"
+            },
+            "mapId": {
+              "const": "m02"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g03": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g03"
+            },
+            "frameworkId": {
+              "const": "C"
+            },
+            "mapId": {
+              "const": "m03"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g04": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g04"
+            },
+            "frameworkId": {
+              "const": "A"
+            },
+            "mapId": {
+              "const": "m04"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g05": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g05"
+            },
+            "frameworkId": {
+              "const": "B"
+            },
+            "mapId": {
+              "const": "m05"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g06": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g06"
+            },
+            "frameworkId": {
+              "const": "D"
+            },
+            "mapId": {
+              "const": "m06"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g07": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g07"
+            },
+            "frameworkId": {
+              "const": "B"
+            },
+            "mapId": {
+              "const": "m07"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g08": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g08"
+            },
+            "frameworkId": {
+              "const": "A"
+            },
+            "mapId": {
+              "const": "m08"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g09": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g09"
+            },
+            "frameworkId": {
+              "const": "A"
+            },
+            "mapId": {
+              "const": "m09"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "g10": {
+          "type": "object",
+          "required": [
+            "id",
+            "frameworkId",
+            "mapId",
+            "nominalDurationSec",
+            "hardTimeLimitSec",
+            "starChallenges"
+          ],
+          "properties": {
+            "id": {
+              "const": "g10"
+            },
+            "frameworkId": {
+              "const": "E"
+            },
+            "mapId": {
+              "const": "m10"
+            },
+            "nominalDurationSec": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "hardTimeLimitSec": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "starChallenges": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        }
+      }
+    },
+    "rounds": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5
+    },
+    "campaign": {
+      "type": "object",
+      "required": [
+        "missionOrder",
+        "gameOrder",
+        "rescuePetsByRound",
+        "missionsPerRound",
+        "roundCount"
+      ],
+      "properties": {
+        "missionOrder": {
+          "type": "array",
+          "minItems": 10,
+          "maxItems": 10,
+          "uniqueItems": true
+        },
+        "gameOrder": {
+          "type": "array",
+          "minItems": 10,
+          "maxItems": 10,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "g01",
+              "g02",
+              "g03",
+              "g04",
+              "g05",
+              "g06",
+              "g07",
+              "g08",
+              "g09",
+              "g10"
+            ]
+          }
+        },
+        "rescuePetsByRound": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "uniqueItems": true
+        },
+        "missionsPerRound": {
+          "const": 10
+        },
+        "roundCount": {
+          "const": 5
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

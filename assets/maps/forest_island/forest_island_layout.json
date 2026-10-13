@@ -1,0 +1,120 @@
+{
+  "map": "forest_island",
+  "file": "forest_island",
+  "title": "정화숲 공중섬",
+  "note": "수스 정화숲(150×300m)을 하나의 큰 공중섬으로 띄웠다. 숲 지형·나무·유물은 수스 원본 그대로.",
+  "forestToIsland": {
+    "dx": -75.0,
+    "dy": -150.0,
+    "dz": 32.0,
+    "note": "숲 좌표(0~150, 0~300, 0) + (dx, dy, dz) = 섬 좌표"
+  },
+  "top": 32.0,
+  "size": {
+    "w": 150.0,
+    "l": 300.0
+  },
+  "airshipDock": {
+    "x": 0,
+    "y": -160.5
+  },
+  "entry": {
+    "x": 0,
+    "y": -148.5
+  },
+  "bossArea": {
+    "x": 4.0,
+    "y": 135.2,
+    "w": 75.0,
+    "h": 26.5
+  },
+  "cores": [
+    {
+      "x": 0,
+      "y": -95,
+      "z": 9.9
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2.1
+    },
+    {
+      "x": 0,
+      "y": 95,
+      "z": 9.9
+    }
+  ],
+  "waterfalls": [
+    {
+      "x": -76.0,
+      "y": 60
+    },
+    {
+      "x": 76.0,
+      "y": -40
+    },
+    {
+      "x": 25,
+      "y": 151.0
+    },
+    {
+      "x": -35,
+      "y": -151.0
+    }
+  ],
+  "constructionSites": [
+    {
+      "site": 1,
+      "name": "출발 방어",
+      "x": -18.5,
+      "y": -104.0
+    },
+    {
+      "site": 2,
+      "name": "오른쪽 굴곡",
+      "x": 1.5,
+      "y": -52.0
+    },
+    {
+      "site": 3,
+      "name": "중간 방어",
+      "x": -2.0,
+      "y": 0.0
+    },
+    {
+      "site": 4,
+      "name": "긴 진입 구간",
+      "x": 9.0,
+      "y": 53.0
+    },
+    {
+      "site": 5,
+      "name": "마지막 공터",
+      "x": -8.5,
+      "y": 105.0
+    }
+  ],
+  "missionZones": {
+    "05_입구거점": "남쪽 입구 쪽 건설 자리(constructionSites, 섬 y -150 ~ -60)",
+    "07_오염원둘레": "가운데~북쪽 건설 자리와 포탑 근경 구역",
+    "08_보스": "bossArea 둘레(검은 첨탑 유물)",
+    "09_칠하기": "숲 가운데 열린 풀밭 50×50m(오염판·정화판을 칠한 만큼 바꿔 보임)",
+    "10_귀환": "bossArea → 남쪽 선착장까지 숲길을 달려 나온다(약 250m)"
+  },
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_island/forest_island_purified.glb",
+    "polluted": "/assets/maps/forest_island/forest_island_polluted.glb"
+  },
+  "previews": [
+    "forest_island_overview_purified.png",
+    "forest_island_side_purified.png",
+    "forest_island_entry_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 1920
+}

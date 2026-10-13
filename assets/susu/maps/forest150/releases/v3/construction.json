@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "revision": "forest150x300-v3",
+  "sites": [
+    {
+      "id": 1,
+      "name": "출발 방어",
+      "x": 56.5,
+      "y": 46,
+      "side": -1
+    },
+    {
+      "id": 2,
+      "name": "오른쪽 굴곡",
+      "x": 76.5,
+      "y": 98,
+      "side": 1
+    },
+    {
+      "id": 3,
+      "name": "중간 방어",
+      "x": 73.0,
+      "y": 150,
+      "side": -1
+    },
+    {
+      "id": 4,
+      "name": "긴 진입 구간",
+      "x": 84.0,
+      "y": 203,
+      "side": 1
+    },
+    {
+      "id": 5,
+      "name": "마지막 공터",
+      "x": 66.5,
+      "y": 255,
+      "side": -1
+    }
+  ],
+  "slots": [
+    {
+      "id": "1-tower",
+      "site": 1,
+      "kind": "tower",
+      "x": 56.5,
+      "y": 53,
+      "width": 6,
+      "depth": 6,
+      "reserveWidth": 8,
+      "reserveDepth": 8,
+      "maxHp": 220,
+      "range": 28
+    },
+    {
+      "id": "1-unit",
+      "site": 1,
+      "kind": "unit",
+      "x": 56.5,
+      "y": 39,
+      "width": 8,
+      "depth": 8,
+      "reserveWidth": 10,
+      "reserveDepth": 10,
+      "maxHp": 180,
+      "range": 0
+    },
+    {
+      "id": "2-tower",
+      "site": 2,
+      "kind": "tower",
+      "x": 76.5,
+      "y": 105,
+      "width": 6,
+      "depth": 6,
+      "reserveWidth": 8,
+      "reserveDepth": 8,
+      "maxHp": 220,
+      "range": 28
+    },
+    {
+      "id": "2-unit",
+      "site": 2,
+      "kind": "unit",
+      "x": 76.5,
+      "y": 91,
+      "width": 8,
+      "depth": 8,
+      "reserveWidth": 10,
+      "reserveDepth": 10,
+      "maxHp": 180,
+      "range": 0
+    },
+    {
+      "id": "3-tower",
+      "site": 3,
+      "kind": "tower",
+      "x": 73.0,
+      "y": 157,
+      "width": 6,
+      "depth": 6,
+      "reserveWidth": 8,
+      "reserveDepth": 8,
+      "maxHp": 220,
+      "range": 28
+    },
+    {
+      "id": "3-unit",
+      "site": 3,
+      "kind": "unit",
+      "x": 73.0,
+      "y": 143,
+      "width": 8,
+      "depth": 8,
+      "reserveWidth": 10,
+      "reserveDepth": 10,
+      "maxHp": 180,
+      "range": 0
+    },
+    {
+      "id": "4-tower",
+      "site": 4,
+      "kind": "tower",
+      "x": 84.0,
+      "y": 210,
+      "width": 6,
+      "depth": 6,
+      "reserveWidth": 8,
+      "reserveDepth": 8,
+      "maxHp": 220,
+      "range": 28
+    },
+    {
+      "id": "4-unit",
+      "site": 4,
+      "kind": "unit",
+      "x": 84.0,
+      "y": 196,
+      "width": 8,
+      "depth": 8,
+      "reserveWidth": 10,
+      "reserveDepth": 10,
+      "maxHp": 180,
+      "range": 0
+    },
+    {
+      "id": "5-tower",
+      "site": 5,
+      "kind": "tower",
+      "x": 66.5,
+      "y": 262,
+      "width": 6,
+      "depth": 6,
+      "reserveWidth": 8,
+      "reserveDepth": 8,
+      "maxHp": 220,
+      "range": 28
+    },
+    {
+      "id": "5-unit",
+      "site": 5,
+      "kind": "unit",
+      "x": 66.5,
+      "y": 248,
+      "width": 8,
+      "depth": 8,
+      "reserveWidth": 10,
+      "reserveDepth": 10,
+      "maxHp": 180,
+      "range": 0
+    }
+  ]
+}

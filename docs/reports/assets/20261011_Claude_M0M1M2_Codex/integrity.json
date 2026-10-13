@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-11T12:28:09.674346+09:00",
+  "baselineCapturedAt": "2026-10-11T10:10:50+09:00",
+  "sourceBaseline": {
+    "checked": 46,
+    "changed": [
+      {
+        "path": "vite.config.ts",
+        "expected": "898a299e2d6fc769a22e469a10c8fab8d8105e1741f5cfe2ce0d2f7c683a4313",
+        "actual": "0f02601c3a5836ef3b6aba6efa0a634fdea7aa2616dd9a0f7d25fb2ec6fe324b"
+      }
+    ],
+    "missing": []
+  },
+  "resourceBaseline": {
+    "checked": 1503,
+    "changed": [],
+    "missing": []
+  },
+  "copiedConfigs": [
+    {
+      "path": "assets\\arcade\\config\\behavior-contracts.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\boss-patterns.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\campaign.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\chain-formations.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\common.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\encounter-plan.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\enemy-catalog.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\lobby.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\maps.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\presentation.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\profiles.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\rulesets.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\skills.json",
+      "same_json": true
+    },
+    {
+      "path": "assets\\arcade\\config\\spawn-plans.json",
+      "same_json": true
+    }
+  ],
+  "newArcadeFiles": [
+    "src/arcade/actors/Actors.ts",
+    "src/arcade/app/DefenseApp.ts",
+    "src/arcade/app/RunStore.ts",
+    "src/arcade/assets/AssetProvider.ts",
+    "src/arcade/config/ConfigStore.ts",
+    "src/arcade/core/Events.ts",
+    "src/arcade/core/FixedClock.ts",
+    "src/arcade/core/Input.ts",
+    "src/arcade/core/Rng.ts",
+    "src/arcade/entries/cards.ts",
+    "src/arcade/entries/game1.ts",
+    "src/arcade/entries/lobby.ts",
+    "src/arcade/entries/pending.ts",
+    "src/arcade/lobby/Airship.ts",
+    "src/arcade/lobby/BirdFlock.ts",
+    "src/arcade/lobby/CardsApp.ts",
+    "src/arcade/lobby/DayNight.ts",
+    "src/arcade/lobby/IslandEffects.ts",
+    "src/arcade/lobby/LobbyApp.ts",
+    "src/arcade/lobby/Navigation.ts",
+    "src/arcade/lobby/PetLife.ts",
+    "src/arcade/lobby/VillageResidents.ts",
+    "src/arcade/lobby/VoxelOcean.ts",
+    "src/arcade/rulesets/BaseDefense.ts",
+    "src/arcade/systems/Cards.ts",
+    "src/arcade/ui/arcade.css",
+    "src/arcade/ui/DefenseHud.ts",
+    "src/arcade/ui/lobby.css",
+    "src/arcade/views/DefenseView.ts",
+    "src/arcade/world/DefenseWorld.ts"
+  ]
+}

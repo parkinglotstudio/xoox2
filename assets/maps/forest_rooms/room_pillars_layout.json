@@ -1,0 +1,107 @@
+{
+  "map": "forest_rooms",
+  "file": "room_pillars",
+  "title": "돌기둥 넷",
+  "note": "기둥 사이로 돌며 쏜다.",
+  "playArea": {
+    "w": 12,
+    "h": 18,
+    "top": 8.0
+  },
+  "origin": "놀이 바닥 가운데, 높이 top",
+  "entry": {
+    "x": 0,
+    "y": -8.0
+  },
+  "door": {
+    "x": 0,
+    "y": 9.0,
+    "w": 3,
+    "glowMaterial": "Arcade_Glow"
+  },
+  "bridges": {
+    "in": [
+      0,
+      -19.1
+    ],
+    "out": [
+      0,
+      19.1
+    ]
+  },
+  "spawns": [
+    {
+      "x": -1.2,
+      "y": 5.5
+    },
+    {
+      "x": -0.4,
+      "y": 1.9
+    },
+    {
+      "x": -4.3,
+      "y": 0.1
+    },
+    {
+      "x": 4.3,
+      "y": 0.7
+    },
+    {
+      "x": 0.9,
+      "y": 4.7
+    },
+    {
+      "x": -1.7,
+      "y": -0.1
+    },
+    {
+      "x": 1.2,
+      "y": 0.3
+    },
+    {
+      "x": 3.1,
+      "y": 5.9
+    }
+  ],
+  "blockers": [
+    {
+      "x": -3,
+      "y": -2.5,
+      "w": 1.4,
+      "h": 1.4
+    },
+    {
+      "x": 3,
+      "y": -2.5,
+      "w": 1.4,
+      "h": 1.4
+    },
+    {
+      "x": -3,
+      "y": 3.5,
+      "w": 1.4,
+      "h": 1.4
+    },
+    {
+      "x": 3,
+      "y": 3.5,
+      "w": 1.4,
+      "h": 1.4
+    }
+  ],
+  "hazards": [],
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_rooms/room_pillars_purified.glb",
+    "polluted": "/assets/maps/forest_rooms/room_pillars_polluted.glb"
+  },
+  "previews": [
+    "room_pillars_overview_purified.png",
+    "room_pillars_float_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 2334
+}

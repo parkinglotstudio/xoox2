@@ -1,0 +1,81 @@
+{
+  "note": "Diagnostic --target esnext override only, original build target fails; original files untouched",
+  "files": [
+    {
+      "path": "assets/arcade/config/profiles.json",
+      "exists": false
+    },
+    {
+      "path": "assets/arcade/config/common.json",
+      "exists": false
+    },
+    {
+      "path": "assets/maps/forest_island/forest_island_polluted.glb",
+      "exists": false
+    },
+    {
+      "path": "assets/village/releases/VILLAGE03/layout.json",
+      "exists": false
+    },
+    {
+      "path": "tools/unit_lab/units_free.json",
+      "exists": true
+    }
+  ],
+  "body": "ASSET_MISSING\n설정 파일 없음: profiles.json\n원본 목록",
+  "failed": [
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/profiles.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/rulesets.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/common.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/skills.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/enemy-catalog.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/spawn-plans.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/boss-patterns.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/chain-formations.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/maps.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/campaign.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/lobby.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/presentation.json",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:54765/assets/arcade/config/behavior-contracts.json",
+      "status": 404
+    }
+  ],
+  "errors": []
+}

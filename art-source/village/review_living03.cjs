@@ -1,0 +1,24 @@
+const fs=require('node:fs'),path=require('node:path');
+const {chromium}=require('C:/Users/dmaxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'../..'),out=path.join(root,'docs/reports/assets/20261010_village03');
+(async()=>{
+ const b=await chromium.launch({channel:'chrome',headless:true,args:['--ignore-gpu-blocklist','--enable-webgl']});
+ const p=await b.newPage({viewport:{width:1600,height:900},deviceScaleFactor:1}),errors=[];
+ p.on('pageerror',e=>errors.push(String(e)));p.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ await p.goto('http://127.0.0.1:5180/village-lobby-tool.html?revision=VILLAGE03',{waitUntil:'networkidle'});
+ await p.waitForFunction(()=>window.__village?.diagnostics().ready,{timeout:60000});
+ await p.uncheck('#auto-time');await p.uncheck('#flight-auto');
+ await p.evaluate(()=>{const a=window.__village.airship;a.flying=false;a.elapsed=0;a.rest=0;});await p.check('#flight-pause');
+ await p.click('[data-hour="12"]');await p.waitForTimeout(1500);await p.screenshot({path:path.join(out,'village03_day.png')});
+ await p.click('[data-hour="18"]');await p.waitForTimeout(400);await p.screenshot({path:path.join(out,'village03_sunset.png')});
+ await p.click('[data-hour="22"]');await p.waitForTimeout(400);await p.screenshot({path:path.join(out,'village03_night.png')});
+ await p.click('[data-hour="12"]');await p.selectOption('#focus','airship');
+ await p.evaluate(()=>{const a=window.__village.airship;a.paused=false;a.depart();a.elapsed=113;a.tick(1/30,1);a.paused=true;});
+ await p.waitForTimeout(700);await p.screenshot({path:path.join(out,'village03_airship_flight.png')});
+ await p.selectOption('#focus','region:workshop');await p.waitForTimeout(400);await p.screenshot({path:path.join(out,'village03_workshop.png')});
+ await p.selectOption('#focus','region:garden');await p.waitForTimeout(400);await p.screenshot({path:path.join(out,'village03_garden.png')});
+ await p.selectOption('#focus','all');await p.click('[data-hour="9"]');await p.check('#nav');await p.check('#paths');await p.evaluate(()=>window.__village.advance(80));
+ await p.waitForTimeout(500);await p.screenshot({path:path.join(out,'village03_navigation.png')});
+ if(errors.length)throw Error(errors.join('\n'));
+ console.log('VISUAL_OK');await b.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});

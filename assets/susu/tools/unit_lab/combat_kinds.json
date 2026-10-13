@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "note": "유닛 랩 전투 미리보기 전용 값. 본편·forward_wave CSV와 연결하지 않는다. 각도=도, 시간=초, 거리=m.",
+  "turrets": [
+    { "id": "gun", "label": "기관총 탑", "weapon": "weapon-turret", "tower": ["tower-square-bottom-a", "tower-square-middle-a", "tower-square-top-a"],
+      "turn_deg_s": 220, "muzzle_deg": 6, "interval": 0.16, "range": 9, "damage": 1, "shot": "tracer", "speed": 34, "splash": 0, "recoil": 0.06 },
+    { "id": "cannon", "label": "대포 탑", "weapon": "weapon-cannon", "tower": ["tower-square-bottom-a", "tower-square-middle-a", "tower-square-top-a"],
+      "turn_deg_s": 110, "muzzle_deg": 4, "interval": 1.1, "range": 10, "damage": 3, "shot": "ball", "speed": 16, "splash": 1.3, "recoil": 0.12 },
+    { "id": "ballista", "label": "발리스타 탑", "weapon": "weapon-ballista", "tower": ["tower-round-bottom-b", "tower-round-middle-b", "tower-round-top-a"],
+      "turn_deg_s": 160, "muzzle_deg": 3, "interval": 0.8, "range": 12, "damage": 2, "shot": "arrow", "speed": 24, "splash": 0, "recoil": 0.1 },
+    { "id": "catapult", "label": "투석기 탑", "weapon": "weapon-catapult", "tower": ["tower-round-bottom-b", "tower-round-middle-b", "tower-round-top-a"],
+      "turn_deg_s": 90, "muzzle_deg": 8, "interval": 1.6, "range": 11, "damage": 3, "shot": "lob", "speed": 0, "flight": 0.9, "splash": 1.7, "recoil": 0 }
+  ],
+  "enemies": [
+    { "id": "green_blob", "label": "초록 블롭", "hp": 5, "speed": 1.1, "height": 0.9, "attack": "Bite_Front" },
+    { "id": "pink_slime", "label": "핑크 슬라임", "hp": 4, "speed": 1.3, "height": 0.8, "attack": "Bite_Front" },
+    { "id": "green_spiky_blob", "label": "가시 블롭", "hp": 7, "speed": 0.9, "height": 1.0, "attack": "Bite_Front" },
+    { "id": "mushnub", "label": "버섯", "hp": 4, "speed": 1.2, "height": 0.9, "attack": "Bite_Front" },
+    { "id": "cactoro", "label": "선인장", "hp": 6, "speed": 1.0, "height": 1.0, "attack": "Bite_Front" }
+  ],
+  "flipbook_frames": { "Walk": 8, "Bite_Front": 10, "HitRecieve": 6, "Death": 10, "Idle": 6 }
+}

@@ -1,0 +1,889 @@
+{
+  "schemaVersion": 4,
+  "author": "Codex",
+  "updatedAt": "2026-10-13 23:08 KST",
+  "root": "C:/xoox-arcade",
+  "previousBaseline": "data/handoff-baseline.v3.json",
+  "revision": "UX04-final",
+  "profiles": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05",
+    "p06",
+    "p07"
+  ],
+  "parts": [
+    "lobby",
+    "cards",
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05",
+    "p06",
+    "p07",
+    "raid"
+  ],
+  "plans": "docs/plans/20261013_게임UX전면개선_Codex",
+  "report": "docs/reports/20261013_작업보고서_게임UX전면개선_Codex.md",
+  "handoff": "docs/implementation/20261013_UX04_게임정화_구현인수인계_Codex.md",
+  "qa": "docs/reports/assets/20261013_UX04_Codex",
+  "verified": {
+    "sevenGamesWinAndRetry": true,
+    "additionalSeeds": 4,
+    "snapshots": 35,
+    "touchMoveLookFire": true,
+    "multiTouch": true,
+    "fixedTickFpsRecord": true,
+    "typesArcade": true,
+    "audio": false,
+    "deploymentBuild": false,
+    "physicalMobile": false,
+    "browserErrors": 0,
+    "httpFailures": 0
+  },
+  "files": [
+    {
+      "path": "arcade-cards.html",
+      "bytes": 379,
+      "sha256": "2b17983bc32b48747b4e841bfb660d615211d62c8ee2a1598d8828cb8adb3787"
+    },
+    {
+      "path": "arcade-game1.html",
+      "bytes": 416,
+      "sha256": "472a5072bc891347ceb531f3cba72354bc1be5286a2a1809bc933365e7ebbd0b"
+    },
+    {
+      "path": "arcade-game2.html",
+      "bytes": 392,
+      "sha256": "3a72607a9ed749c383ea4207681775a9f3484d218560b24ee246cbe344abed95"
+    },
+    {
+      "path": "arcade-game3.html",
+      "bytes": 392,
+      "sha256": "b2ea7d3f8c4b82fb4d3bcc6225d53e7d22d2890d4a8ee9bf3b17da49fbf40cf7"
+    },
+    {
+      "path": "arcade-game4.html",
+      "bytes": 392,
+      "sha256": "02616a10f91340f8045abba74c0f06ff00478c2cf30b2b3f6baa60cb05627e09"
+    },
+    {
+      "path": "arcade-game5.html",
+      "bytes": 392,
+      "sha256": "683a453ca76d7c6be39691a8bf4ff21c54234478d4a0b62b2e1f4316e58171b7"
+    },
+    {
+      "path": "arcade-game6.html",
+      "bytes": 392,
+      "sha256": "e0033a03672164907e0d98a72327e6b96d72887bb5975873c60d647a81c5600e"
+    },
+    {
+      "path": "arcade-game7.html",
+      "bytes": 392,
+      "sha256": "f32b01e0d3bbf9f40aac850b6a0cc0e5edfef7f0ed1c87b33c6ca4a98922638b"
+    },
+    {
+      "path": "arcade-lobby.html",
+      "bytes": 372,
+      "sha256": "08504cefcf15aed84d4d0d2480f9399ece955dbe237460bcb47cd7929eb1cbcd"
+    },
+    {
+      "path": "arcade.html",
+      "bytes": 4537,
+      "sha256": "5c05083d7f9a5642b221ff430a47ec7830bdcc3c5e2981b1b4c23aaf1cf9afa0"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/README.md",
+      "bytes": 1050,
+      "sha256": "14d419003b9dbb87d28f1109b742c6327f74348c04b16faf271348d98f19d26e"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/build_arcade_maps.py",
+      "bytes": 15894,
+      "sha256": "a700e1ed7b261b7c23ebd4b987b49431b0efbd77231ad41f76a5dfc1ab106b4c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/chain.blend",
+      "bytes": 2438398,
+      "sha256": "edb38b567792655a29ed0af4279cdaf97e8a470bf614397a0675d2a3f6ca9e06"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/compose_mission_art.py",
+      "bytes": 2086,
+      "sha256": "ec65d17a9ddf3be1e124ed88d144ed372ee1e796ebe8249182d0dc21e5efe00b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/defense.blend",
+      "bytes": 3956828,
+      "sha256": "765c204f69b2253cbad6af2136cac9e62d5cdc3b471b2f259189502c8c8531e8"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/chain.blend",
+      "bytes": 1319744,
+      "sha256": "6e505e48ad956ac2a6db48cfa8871fa958fcb1363fa15b9a65d1e7e61c45dc0b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/defense.blend",
+      "bytes": 3657351,
+      "sha256": "adb9a259946a7dde0f9e826adfadd19ccec80627c3cea22247f0b25a0a529709"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/previous-v2/survival.blend",
+      "bytes": 3976106,
+      "sha256": "d24d510d6c9122e4fa82918deafd4a6b8cf86e806ecfca75bdd87ccc570c038c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_arcade_art.py",
+      "bytes": 5322,
+      "sha256": "7a3b3e6c28e7a6880043498a924f0706ada44450e45d539db213abfaff7ba98c"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_portrait_art.py",
+      "bytes": 2273,
+      "sha256": "943d89d3f493dfa512d8f2ec54d2b3bbbc2679b0e6ada1297b643c9d7d8cc960"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/render_skill_art.py",
+      "bytes": 9917,
+      "sha256": "d9c06261a11c93edeab9dbce789d866c1c774435cab416ee2801067ae275b122"
+    },
+    {
+      "path": "art-source/arcade/CODEX_COMPLETE/survival.blend",
+      "bytes": 4236634,
+      "sha256": "c5e26796e5ac6ee29cf152f318afeb1f841c0de5ad04102d7d5efc3a7cfbae79"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/README.md",
+      "bytes": 383,
+      "sha256": "766791cee8893736c2f321d2fac9ee318989858d195f4d89d12d573658b8afcc"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/build_expansion_maps.py",
+      "bytes": 4287,
+      "sha256": "b181a5499b48fc9bcdfe75343e9d380325547210863e4f5ce851f16f6d74c89d"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/landing.blend",
+      "bytes": 5403076,
+      "sha256": "4be9170a1ecb51ba0839880ce73362ad0a3939b1a084b7762277ded8a2d1dea9"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_boss.blend",
+      "bytes": 933931,
+      "sha256": "b3b0096fa2956e333d7737d7ff03124302ebc9d26a53706a3b42e6d2117d6c8b"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_empty.blend",
+      "bytes": 907636,
+      "sha256": "01377befc0bdc4355c541a3ea2751568055c633e29b8c9057f165caaefdfa650"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_pillars.blend",
+      "bytes": 911820,
+      "sha256": "c29679ef5ea3c9a7c94752533805708c04c89a85649638dc671aaef886e1ad93"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_pools.blend",
+      "bytes": 933246,
+      "sha256": "b024d9971a3498b142998dca48c5fa35b06dd6d0e0ba4964db7e876b6ee4e3d9"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_rock.blend",
+      "bytes": 911902,
+      "sha256": "cf83ff433ecb9e38859646037ec9b1b4f11f6e97cd1c43117a7ea979358b189f"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/room_spikes.blend",
+      "bytes": 930830,
+      "sha256": "de2ed09afc252402442a96e71380e4a91b255c10111fb2ff7771d99be4d9c0aa"
+    },
+    {
+      "path": "art-source/arcade/CODEX_EXPANSION/sky_route.blend",
+      "bytes": 2586863,
+      "sha256": "e1d53aa0202ac0bf51d47fc8f15f5f85cd9e35511a23ee5673568314155b1f4b"
+    },
+    {
+      "path": "assets/arcade/art/UX03/generation-1.json",
+      "bytes": 5805,
+      "sha256": "44fabe08a6a0ae329c63dab08eedea902b4b4be55899e41bcbafaf37c39b7787"
+    },
+    {
+      "path": "assets/arcade/art/UX03/generation-2.json",
+      "bytes": 5409,
+      "sha256": "2717b4c614bd809cf85f27011220fb9f4ca6861dd175c61c3b6642f3c5fb91da"
+    },
+    {
+      "path": "assets/arcade/art/UX03/logo-reference.png",
+      "bytes": 808565,
+      "sha256": "0738760bc623f4e7a8595ffbd7a895e5a64728c07473ebb8f12ffe792c4c459b"
+    },
+    {
+      "path": "assets/arcade/art/UX03/logo.png",
+      "bytes": 1804842,
+      "sha256": "548073717e0b92e5fead43a5596e0f4ad2304f7210875a768a6d2a6c04ed02a1"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p01.png",
+      "bytes": 2534643,
+      "sha256": "52d5dbb8bdf42682af18f623cd4d76830530415113d8a41ea802bfc643a29d13"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p02.png",
+      "bytes": 2416653,
+      "sha256": "4e2a1e2204341fc971c55759ada66b134de0e7aba3dd2ca12508c3ed31221974"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p03.png",
+      "bytes": 2595346,
+      "sha256": "da90462837f97f3be57f205f32e59f555eb0cb21e4e36f621065dd2fb0e20fc7"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p04.png",
+      "bytes": 2499042,
+      "sha256": "8b66faa18bfdb1959a3979393cc607ecd316ea900eb1f27656bd46f310172f29"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p05.png",
+      "bytes": 2613689,
+      "sha256": "95ff2e1036cf272ec0e2a82c22fdeb9070d85bd9da27d522313588bc32e5407d"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p06.png",
+      "bytes": 2452964,
+      "sha256": "0192bcab1d7b0ffac819fd37163b62be74f3a6db62f319280cbd3b7cf789a86d"
+    },
+    {
+      "path": "assets/arcade/art/UX03/p07.png",
+      "bytes": 2721945,
+      "sha256": "1bc468cf547e85308064765905b36054bf99d56beb285e7ba9eb3b6ea2c2a636"
+    },
+    {
+      "path": "assets/arcade/art/UX03/ui-direction.png",
+      "bytes": 2347424,
+      "sha256": "bc426f8f6216d4bfcfa1eca67d78d1af56f511d7a504f402d8f94702cd0a9a8b"
+    },
+    {
+      "path": "assets/arcade/config-codex/behavior-contracts.json",
+      "bytes": 16535,
+      "sha256": "c8a8a188c86de26ed32fc0424ce30e3f70ad2896292133b971b57f139bec317e"
+    },
+    {
+      "path": "assets/arcade/config-codex/boss-patterns.json",
+      "bytes": 18388,
+      "sha256": "74fd69707674a12f89ec144df3b64bb84b541d7b5c10c1c7b6b2411d43c0e015"
+    },
+    {
+      "path": "assets/arcade/config-codex/campaign.json",
+      "bytes": 18152,
+      "sha256": "577a82e421107c5c16ab19ebad4ec59eff374cc1d6acc9b7f54cbbf594578ec6"
+    },
+    {
+      "path": "assets/arcade/config-codex/chain-formations.json",
+      "bytes": 39898,
+      "sha256": "6baa3d5a95abff6a7e41fc05dcc65d80f9609b6e284f2c1c0f1571d3b65c19d6"
+    },
+    {
+      "path": "assets/arcade/config-codex/common.json",
+      "bytes": 4400,
+      "sha256": "ea0abd967a92fa4402ccca20d5765acf76656b2edc6236c8944dbfa550007429"
+    },
+    {
+      "path": "assets/arcade/config-codex/encounter-plan.json",
+      "bytes": 13946,
+      "sha256": "722c72e258fc7500ec79c0550ece6c0ce0bdb9cb60851ebeedbe67d748ac103a"
+    },
+    {
+      "path": "assets/arcade/config-codex/enemy-catalog.json",
+      "bytes": 34546,
+      "sha256": "3ee6f5c624dbb984ebb3ab33538dd9eed03480c8904df1cfda269d8458026d9f"
+    },
+    {
+      "path": "assets/arcade/config-codex/lobby.json",
+      "bytes": 1160,
+      "sha256": "0690afda3133b1c2b4664fd49e52c19442651a62cbbcada9761acff54365ebe8"
+    },
+    {
+      "path": "assets/arcade/config-codex/maps.json",
+      "bytes": 5619,
+      "sha256": "eee6d440119a60c99476bbe595c6d439a10c421a477dff3bb79b6467284cd465"
+    },
+    {
+      "path": "assets/arcade/config-codex/presentation.json",
+      "bytes": 2122,
+      "sha256": "113f50725bbdfa67c1f0e21bf1f34b532d7569a33c9483b30ecdb75dd7763f34"
+    },
+    {
+      "path": "assets/arcade/config-codex/profiles.json",
+      "bytes": 2668,
+      "sha256": "0b29d5ee2836428cc6ad70869e5ce55cce2e7a84005918515e01989d6a04e447"
+    },
+    {
+      "path": "assets/arcade/config-codex/rulesets.json",
+      "bytes": 20511,
+      "sha256": "42bd6ce7f71fdf71f5e5714b6dec5cea95e50b813f4e39f1d60c8f9e11a899e9"
+    },
+    {
+      "path": "assets/arcade/config-codex/skills.json",
+      "bytes": 20926,
+      "sha256": "4080e0f86ff1978abf80a83744c3cc4e079c7b5bdae648a9fc510f297b8240dd"
+    },
+    {
+      "path": "assets/arcade/config-codex/spawn-plans.json",
+      "bytes": 79796,
+      "sha256": "182ee6b75c24b4e864df3691c2b1ac2065c859f97e9be3e4ec95840de2656d25"
+    },
+    {
+      "path": "assets/arcade/experience-v3.json",
+      "bytes": 12255,
+      "sha256": "db361e4229a5124235b700458e9520b6c82675002ac2afa15aaf1840bd8f38eb"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/landing_polluted.glb",
+      "bytes": 16275156,
+      "sha256": "39c6037721b917a0596ca9ef07ceb6d91693537314240a64d1b185aa91f7a593"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/landing_purified.glb",
+      "bytes": 16266816,
+      "sha256": "b5fba44d2d9947795fa74f1a39fa525c61d491b37fbfcb91e9679e38effcf3d8"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/manifest.json",
+      "bytes": 4377,
+      "sha256": "cc2e7ae56e5dcf0881a1acf86f68ec0794059f85fae0314990161c3c2cca1dfe"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_boss_polluted.glb",
+      "bytes": 2691172,
+      "sha256": "05accc6b1fc4dfa606dcd6f8a70ad76c2eb2f07b8eb34e8fe6af9c13af4ccfaf"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_boss_purified.glb",
+      "bytes": 2682904,
+      "sha256": "6cb433ebd8d1a40d183b0a3e38677aafe65cde8ca788290fd5e7548676cf96fa"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_empty_polluted.glb",
+      "bytes": 2619124,
+      "sha256": "cc3433f495c80b4bc84429202c0349e445da323b819f639a2601d498a941f489"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_empty_purified.glb",
+      "bytes": 2611672,
+      "sha256": "6732a82ab02a0345909fc060433a3f87e65c66ce6b30f8fb79ce273f3d9a178a"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_pillars_polluted.glb",
+      "bytes": 2629840,
+      "sha256": "682f408374ecc33f7456535a4577be627a06abd5d6e4f3e7261333b32759dc4a"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_pillars_purified.glb",
+      "bytes": 2621572,
+      "sha256": "ccb8cdde031fa52456f08d52fe223bd4abf2fec0fe394d87b2f4ad6d0e19410e"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_pools_polluted.glb",
+      "bytes": 2668732,
+      "sha256": "420d2234151992f26bf1d0c786134a7b20fb962e7361ede8746eb1ac4bf8c984"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_pools_purified.glb",
+      "bytes": 2660464,
+      "sha256": "a45e3ce34e1225ffbcbecbc7697f802a881891dc17fc87cd117f7a64e6bfef82"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_rock_polluted.glb",
+      "bytes": 2633932,
+      "sha256": "0360b801eb4e33d6b769595c8eaed15f09674f4b50478b5cbc38b52306f36454"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_rock_purified.glb",
+      "bytes": 2625664,
+      "sha256": "a9f96bb6b9be1042bf097cecf6ad8e7fb3e50b412effdbc00674f6b4374dd6bf"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_spikes_polluted.glb",
+      "bytes": 2673472,
+      "sha256": "e4a1bc88d4d8914558f7c4adeabc8745bfd691cb79b0d66552c59ad1ae8562d8"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/room_spikes_purified.glb",
+      "bytes": 2665208,
+      "sha256": "d1a93b12adea8089da42ccc975ed855dce3537eec08fc0333753f1dffbe2e954"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/sky_route_polluted.glb",
+      "bytes": 7724240,
+      "sha256": "9fa2c24089b2c6ab4b25a2d788c9e778c78205f72042a046a8fc90968dc694cc"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_EXPANSION/sky_route_purified.glb",
+      "bytes": 7715608,
+      "sha256": "f57bc6124a3b2e1e8e7d7c257356ff853ba2d3c64a840cf43742bd33b3895875"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain.blend",
+      "bytes": 2445701,
+      "sha256": "aab83856caea6d074b5e9a0fd3c9f8e7f034a798687967c6f38eda63e74a54c7"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_navigation.json",
+      "bytes": 84,
+      "sha256": "dc79072904a3c543035c54a74af38d4aace4dc6b56d20ce6dc28c86086339112"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_polluted.glb",
+      "bytes": 5419832,
+      "sha256": "d5402c8de3923f3a87b46eb367d18c40fa9bcc58ebdc2d3a2dc00cc8f8a1cbac"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_preview.png",
+      "bytes": 713199,
+      "sha256": "549bded0b04c97d2682ca619de8f1fe6550cf2aef329bc25f5a175f8ab0f2d02"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/chain_purified.glb",
+      "bytes": 5419832,
+      "sha256": "f2866034092a3437564b508dcfb37350cbd4d21336214c61f82bb34cc9e85e49"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense.blend",
+      "bytes": 4165104,
+      "sha256": "f2ac4146ee39b9f736ab97cbf55109ed6fd8602127a48ae2ad229575d6f44085"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_navigation.json",
+      "bytes": 280,
+      "sha256": "6a399ce1cccdb42bf31bb1892e52a48e613a27dcea0a48f58d02d154578be6a4"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_polluted.glb",
+      "bytes": 10219232,
+      "sha256": "741cceba940482dfeb76011a431e88902cba4a11fa6eade208c2c1c58086179f"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_preview.png",
+      "bytes": 921552,
+      "sha256": "8f68f6aba0f724023f7612b99b19b158f4587397f5376516a6f1869261da0aed"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/defense_purified.glb",
+      "bytes": 10219236,
+      "sha256": "790c8539bf7ddce0f29abbe2b7b232e1e39768e172c318fd67a0e75a43912d49"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/manifest.json",
+      "bytes": 473,
+      "sha256": "810018029f74a98b6c55fe5ae6cb57d8dfca426f4f58a47f672e89dcab75c73c"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival.blend",
+      "bytes": 4410698,
+      "sha256": "886b8668a7b71504305894350de269d77dd18d222eb48955b84b5ec36197f07d"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_navigation.json",
+      "bytes": 6705,
+      "sha256": "c53b92e59982e7cbfb077a136392674f5032bc5c550976bd6d1b47b37b14072b"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_polluted.glb",
+      "bytes": 10638768,
+      "sha256": "ae1d7b671443a9116b10c7def0a6e84f45151e000e68b0c6d30adc46ae8d02e7"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_preview.png",
+      "bytes": 873074,
+      "sha256": "fc0370e44d2c94a052dcf428222b6fd15e4998e5fabfd8be0037e8682aadf5a9"
+    },
+    {
+      "path": "assets/arcade/maps/CODEX_FOREST/survival_purified.glb",
+      "bytes": 10638772,
+      "sha256": "84dc8ee65000a59a323bd93f639292a366c8070f723e7659ff0cf98e38af1a12"
+    },
+    {
+      "path": "docs/implementation/20261013_UX04_게임정화_구현인수인계_Codex.md",
+      "bytes": 8141,
+      "sha256": "bac30b0670a4814df1a4974df68a93f0e9abe0d7c6de69dec2d89c958244ad36"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/01_세계관과한판경험.md",
+      "bytes": 2138,
+      "sha256": "9a9f5e5fa84faba3414df3b65fad7773dd1e398a24c703ba2317b030f041bf14"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/02_게임7종_상세기획.md",
+      "bytes": 11259,
+      "sha256": "6c0d711ffb706faecf433aa504c5ef89086cc107e11e5bdffeda291d1b0d6bca"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/03_밸런스_측정계약.md",
+      "bytes": 2352,
+      "sha256": "4834d8864c0a8cec2bd884ecb73946956d6f68af71fafcb802113cc8d4480add"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/04_브랜드_UI카드_가이드.md",
+      "bytes": 2531,
+      "sha256": "d81057e76a5040b148b96fddf3ee1b69fcc7e521190330d499b757c4dde92a73"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/05_로비침략_기획.md",
+      "bytes": 1645,
+      "sha256": "8591adddaabed9211eaef409e1b37de7904ece8f7e1a630e3ec1306c511d1570"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/06_기획툴_구현검수.md",
+      "bytes": 1893,
+      "sha256": "35fd34a28b4ce12608c8a8122c7b6a806167129ffb678949df5ee4c39a4389bf"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/07_HUD_FPS_주변정화.md",
+      "bytes": 4171,
+      "sha256": "44cc0e07eb309e1959a267f77ff748909a01eafbbe6642a006ccc3f078328542"
+    },
+    {
+      "path": "docs/plans/20261013_게임UX전면개선_Codex/README.md",
+      "bytes": 1509,
+      "sha256": "7778f0e4b6d519aabd2e7718ec4753ff38904b1505f29b51f2d94b74d6a69799"
+    },
+    {
+      "path": "docs/reports/20261013_작업보고서_게임UX전면개선_Codex.md",
+      "bytes": 8805,
+      "sha256": "af2259b17b9387785c713fce3f977c6197be68d76071ca834107e1863013db1f"
+    },
+    {
+      "path": "planner/backup/data_20261010_100402.json",
+      "bytes": 14281,
+      "sha256": "19fe3f9895d4302ef5541c638c3b4fa3f06ef4c8ec7a1fa0c2e4fce4cffb48c2"
+    },
+    {
+      "path": "planner/backup/data_20261010_210047.json",
+      "bytes": 110967,
+      "sha256": "e5f55a676f73f288bbd79162e8fe8f0cfb5893942baed5ccb0045152883b6494"
+    },
+    {
+      "path": "planner/backup/data_20261010_210113.json",
+      "bytes": 111364,
+      "sha256": "1d07355e444b851c8c6bff6123be4c39742fb10b43e05148150c086122954c3b"
+    },
+    {
+      "path": "planner/backup/data_20261010_210114.json",
+      "bytes": 111364,
+      "sha256": "c492d4a4f80efc42324f6ad81a9717ad1b18fe84bd772c4087b8d7d73262a2a5"
+    },
+    {
+      "path": "planner/data.json",
+      "bytes": 121538,
+      "sha256": "527ec42d01e157dd1b835bc5db77693cd881552c40a94d5567397c336e46a31e"
+    },
+    {
+      "path": "planner/index.html",
+      "bytes": 7959,
+      "sha256": "5c3da4067c390680ad4bd6e15cb4053b9a5acd11b947d346972d5846d8518897"
+    },
+    {
+      "path": "planner/legacy.html",
+      "bytes": 47494,
+      "sha256": "82db34a34556f21ac0807f6b659a7b340b193afb9905935f41bc64cc92e0646d"
+    },
+    {
+      "path": "planner/package.json",
+      "bytes": 25,
+      "sha256": "8005a3491db7d92f36ac66369861589f9c47123d3a7c71e643fc2c06168cd45a"
+    },
+    {
+      "path": "planner/play.html",
+      "bytes": 18388,
+      "sha256": "2548687071e07631876d467fba526c242ebeacd484ad39d5d834a0d0c8315b26"
+    },
+    {
+      "path": "planner/server.js",
+      "bytes": 6838,
+      "sha256": "ca073eec7702829c0d09726b2d81345aff1979e86a3f4fe5b82066d84d24fd69"
+    },
+    {
+      "path": "planner/sim.html",
+      "bytes": 54366,
+      "sha256": "e8cb3dc304f9751d47c800cb5d3ae81276bbab5f8e8cad16e448ae10537307b6"
+    },
+    {
+      "path": "planner/ux03.css",
+      "bytes": 12046,
+      "sha256": "b3d493dc2eaf87c8ca78b313bbb6ef028587961d1600edb84ccacdb27827c8da"
+    },
+    {
+      "path": "planner/validateArcadeConfig.cjs",
+      "bytes": 2411,
+      "sha256": "6cf084361835838d7e8000a28bedb5a21f456f2d527a4113e279f6edea8c97fd"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/README.md",
+      "bytes": 1304,
+      "sha256": "68cd1623f2f7e68b2f72d22d3347c0d7a9fe7c0b0e93ab1394bb9c8d1263d0e6"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/capture_ux04_delivery.cjs",
+      "bytes": 4156,
+      "sha256": "2676c27e50851f9d3e83fb491938b307e5ca19ed85d0513ebcb83a8d0ecfba24"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/qa_fps_record.cjs",
+      "bytes": 2040,
+      "sha256": "eeddeba94beb58b557a61024f0dd6e2857cb2e7f4888e1540f41bce52004f048"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/qa_ux04_delivery.cjs",
+      "bytes": 11701,
+      "sha256": "0a558f5c68d0b92f2912cc7d04aa29e087082d102ebead17f4ff01cb2db8b20d"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/qa_ux04_final.cjs",
+      "bytes": 4758,
+      "sha256": "73dbdd969a9e504a18c05385e34c6b5cedb943ee30836fd63dc8ae70f8e9232c"
+    },
+    {
+      "path": "scripts/qa-codex-ux04/qa_ux04_input.cjs",
+      "bytes": 4213,
+      "sha256": "0c77f83925f412b9f0d0236241b992c1f3a61951603a74a460d50d5cda7ebcf0"
+    },
+    {
+      "path": "src/arcadeComplete/actors/Actors.ts",
+      "bytes": 5392,
+      "sha256": "94b8516cde239f493fbb4b559d302716bb2c325df7cbaa20a266c0548c999bc2"
+    },
+    {
+      "path": "src/arcadeComplete/app/DefenseApp.ts",
+      "bytes": 7257,
+      "sha256": "2491c200595e14bc374a647be07ad86919950f9bae5e259779d5e06a302ca2df"
+    },
+    {
+      "path": "src/arcadeComplete/app/GameApp.ts",
+      "bytes": 13761,
+      "sha256": "0587fe7d45b9c9c7e30d37a504de421e404fb981fc17cec1eb220d569b2b1e39"
+    },
+    {
+      "path": "src/arcadeComplete/app/RunStore.ts",
+      "bytes": 1845,
+      "sha256": "b17c3aca0107929716f7baa72f02ae1829fd548ecf86f7bd51b3ef037dafdf28"
+    },
+    {
+      "path": "src/arcadeComplete/assets/AssetProvider.ts",
+      "bytes": 4727,
+      "sha256": "c9cd4a563401174e1d0caed0158099abf0062c3e18e3101bcc8eee63a5b402b5"
+    },
+    {
+      "path": "src/arcadeComplete/config/ConfigStore.ts",
+      "bytes": 13334,
+      "sha256": "7957508577fd8821331c45394349919e011e557ee591d01391facdc38717b138"
+    },
+    {
+      "path": "src/arcadeComplete/core/Events.ts",
+      "bytes": 1968,
+      "sha256": "95d3aa0db2f471dadb68321e860c155f4d4446eddc563843aaa30729d401b06b"
+    },
+    {
+      "path": "src/arcadeComplete/core/FixedClock.ts",
+      "bytes": 1860,
+      "sha256": "ec3f5360cb0361713a4babcf70e998790eb7ec6523502e9683da4367debc0a16"
+    },
+    {
+      "path": "src/arcadeComplete/core/Input.ts",
+      "bytes": 5252,
+      "sha256": "afb1b4537d5bab9ade37d623a770a14d6a2c899a1bdab0cade85687cb90f5bef"
+    },
+    {
+      "path": "src/arcadeComplete/core/Rng.ts",
+      "bytes": 1733,
+      "sha256": "c12798bf64832b01d929e5c3cce61d4a9bb0b67e031d2d149b0d4dd80e1c5501"
+    },
+    {
+      "path": "src/arcadeComplete/entries/cards.ts",
+      "bytes": 472,
+      "sha256": "23eefc598eba2a0f085b262948a88d14edd044f13fb93a796c880861dece63be"
+    },
+    {
+      "path": "src/arcadeComplete/entries/game.ts",
+      "bytes": 302,
+      "sha256": "79668ba10b9f82678965d32f653b4be4c4227d57e58e3252f8fefa2e8533c5f5"
+    },
+    {
+      "path": "src/arcadeComplete/entries/game1.ts",
+      "bytes": 134,
+      "sha256": "f6d292ad2f337f73c7cf1ca047bc7b561777d7570f28778bfd306a0106b84308"
+    },
+    {
+      "path": "src/arcadeComplete/entries/lobby.ts",
+      "bytes": 471,
+      "sha256": "847ccf412b63a6d4de93ce1aa7bd4be6388966bdbdcd09fb4eaa11d1d2f0a013"
+    },
+    {
+      "path": "src/arcadeComplete/entries/pending.ts",
+      "bytes": 994,
+      "sha256": "84c2b9cf07abb2bc79d462f5ea280eb2c4d6d1577b0535ab47642a10c449ca5b"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/Airship.ts",
+      "bytes": 3880,
+      "sha256": "4a4303bbfc85aefbdb9157a6dc0aac8a5a93db0d55a11cce7bddc13dd48f2179"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/BirdFlock.ts",
+      "bytes": 2622,
+      "sha256": "1cfb279fd667fed7ea93a24695da41f107c9c6025e3e278ae2b1f4b8cea6750b"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/CardsApp.ts",
+      "bytes": 6540,
+      "sha256": "ffa19969ed75ec0080a9c25e3e44f696429a0b88b0439fdb9ae8c24bdf5f0d13"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/DayNight.ts",
+      "bytes": 6243,
+      "sha256": "d6f6725a00ff98af496de404519d48a5c902f78a9bddf4862dd5b9127c20e297"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/IslandEffects.ts",
+      "bytes": 6752,
+      "sha256": "4960b50aaea3c7619c0b0505f411c425db8fef6727a5efcce1fcedc83206d458"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/LobbyApp.ts",
+      "bytes": 16498,
+      "sha256": "7ee5307f3e6eb9a94cc73f08163913997ef9224dc370e6a44781855670da9aff"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/LobbyRaid.ts",
+      "bytes": 7681,
+      "sha256": "e3488090404070155c4dcd0daecc72705b6cdda8c0298b276bc419c08cf0b7d1"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/Navigation.ts",
+      "bytes": 2539,
+      "sha256": "beef4c8015bbe0839b317e0cd8ea98399303ae95bd3f9067cac596e876726163"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/PetLife.ts",
+      "bytes": 7982,
+      "sha256": "1bcf852a3f0e3a08e5132de6531eb4321981f7c0e2ad5b2d86343f1065d6c34a"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/VillageResidents.ts",
+      "bytes": 4089,
+      "sha256": "97e33c59efd453260a7a07273793f31e0c147fa9d302fdbc2e3d3b15b4325abe"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/VoxelOcean.ts",
+      "bytes": 4179,
+      "sha256": "c312802a1a23ba7564d373d3e34134d3b3ac8221f3d9103fccf518f38e705c71"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/AdventureRules.ts",
+      "bytes": 9853,
+      "sha256": "2b8b2b22c2f57163a9db811b4c1e5d93b0d9873633513c830d420b1572c5b688"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/BaseDefense.ts",
+      "bytes": 73187,
+      "sha256": "5e7cda487c38c05aec97a162604cf96e5201e955fe8a1fabb51ba3700f6e9527"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/ChainDefense.ts",
+      "bytes": 10215,
+      "sha256": "a661883b8a94bb8d8ec4b070f903c52bbce3c006ae37112d90d1a268db0ea2d3"
+    },
+    {
+      "path": "src/arcadeComplete/rulesets/HordeSurvival.ts",
+      "bytes": 6794,
+      "sha256": "d81be876b2eea570602559441725d7f26d0b17d0441b50d00e2768ead923703f"
+    },
+    {
+      "path": "src/arcadeComplete/systems/Cards.ts",
+      "bytes": 10390,
+      "sha256": "45da4d78848db73a1bef83785ab47d4eeab66ec617fd40b058c982ae0f8ea256"
+    },
+    {
+      "path": "src/arcadeComplete/systems/PetCombat.ts",
+      "bytes": 3841,
+      "sha256": "b177282eb2fdfac0f9f26fa85ec567e75ad68417b36bc628000418c5655b64e5"
+    },
+    {
+      "path": "src/arcadeComplete/systems/PurificationField.ts",
+      "bytes": 1789,
+      "sha256": "227435f4a3f2e537db4e2033cb58a5998554728b1a09ae3fffbe640bb24a2316"
+    },
+    {
+      "path": "src/arcadeComplete/ui/CombatControls.ts",
+      "bytes": 4552,
+      "sha256": "7329c18d3fff522588d0e749cb777aa03bd3dc6ae5b45aba1e0920998e637e9d"
+    },
+    {
+      "path": "src/arcadeComplete/ui/DefenseHud.ts",
+      "bytes": 21613,
+      "sha256": "8a2dc0bd1ca51ad7e250f49376b84bb18bddd4311a00691f9cba07a5538ba8f4"
+    },
+    {
+      "path": "src/arcadeComplete/ui/ExperienceDirector.ts",
+      "bytes": 8865,
+      "sha256": "e982dd4ec5c86bfb1d800c7fdc0f7fbaccd1cfce14ef09133754f1308aff5c75"
+    },
+    {
+      "path": "src/arcadeComplete/ui/Tutorial.ts",
+      "bytes": 3296,
+      "sha256": "aace560a5aa2b09670b290cf28333d435a66ace32e7abbb76cc80ef6cbebe528"
+    },
+    {
+      "path": "src/arcadeComplete/ui/arcade.css",
+      "bytes": 11880,
+      "sha256": "b9508c58cbe8c6aaf5e376dcd3cba31ec14292b6fbc55d872b762e260b003597"
+    },
+    {
+      "path": "src/arcadeComplete/ui/complete.css",
+      "bytes": 4468,
+      "sha256": "23aff7439c564a6eac3a05d5ada13a3ac1ac47484f5889f31f740139669ddd1a"
+    },
+    {
+      "path": "src/arcadeComplete/ui/lobby.css",
+      "bytes": 5000,
+      "sha256": "b64b11594ad5e546ff8e672faec788f54b9778145698c40ec87837ebcc53651b"
+    },
+    {
+      "path": "src/arcadeComplete/ui/ux03.css",
+      "bytes": 12924,
+      "sha256": "bdebfade013ef47a9b1cc66ecabac5a760c98b39393e0ef9cbd9aa82d12d706c"
+    },
+    {
+      "path": "src/arcadeComplete/ui/ux04.css",
+      "bytes": 8642,
+      "sha256": "151f4fd9e919b769294c8fbd1743735c564837614311b5bd288924c6cf8f00f6"
+    },
+    {
+      "path": "src/arcadeComplete/views/AdventurePresentation.ts",
+      "bytes": 7468,
+      "sha256": "91a1356e276e253f6f751baa286e7ff084bd70a3fe7123c75c1891ba9e99d014"
+    },
+    {
+      "path": "src/arcadeComplete/views/DefenseView.ts",
+      "bytes": 45034,
+      "sha256": "7c44ad00d3ccf94c47b2c57866276883f11abe9a042404a91c812713b6c22b23"
+    },
+    {
+      "path": "src/arcadeComplete/views/PurificationView.ts",
+      "bytes": 3012,
+      "sha256": "d3bd6b3cdd363e85781ed40ae981f79de0bc5b412ec52edc8bd731dd38e3b3d0"
+    },
+    {
+      "path": "src/arcadeComplete/world/AdventureWorld.ts",
+      "bytes": 3820,
+      "sha256": "86a01aeeb47e33774afd81ef83e852b083d78e1ef7ec57bdda2bac6948d267c7"
+    },
+    {
+      "path": "src/arcadeComplete/world/DefenseWorld.ts",
+      "bytes": 3232,
+      "sha256": "f1f5df802062a67790af9de1d97d7951569ea24ea14e7487fd39ca692876378c"
+    }
+  ]
+}

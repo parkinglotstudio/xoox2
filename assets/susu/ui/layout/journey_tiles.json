@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "note": "한 섬 3x3 아트. 보행은 육지 십자 5칸만. 섹터 이동 UI는 맵 좌하단(오른쪽 필러 금지).",
+  "walkable": ["i01", "i10", "i11", "i12", "i21"],
+  "sea_corners_art_only": ["i00", "i02", "i20", "i22"],
+  "spawn_area_id": "area_i21"
+}

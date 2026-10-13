@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "defaultHour": 12,
+  "cycleDurationSec": 900,
+  "houseCount": 5,
+  "petHomeStaySec": [
+    40,
+    120
+  ],
+  "petPauseSec": [
+    8,
+    25
+  ],
+  "onlyRescuedPetsLiveInVillage": true,
+  "airshipDepartureSec": 4,
+  "airshipSkipAfterSec": 1,
+  "defaultCharacter": "RUON_35",
+  "availableCharacters": [
+    "RUON",
+    "RUON_35",
+    "RIA",
+    "RIA_35"
+  ],
+  "gameProfileCount": 4,
+  "campaignMissionCount": 20,
+  "mainMenus": [
+    "outing",
+    "pet",
+    "record",
+    "settings"
+  ],
+  "source": "assets/village/releases/VILLAGE03/",
+  "invasion": {
+    "enabled": true,
+    "firstAfterSec": 180,
+    "intervalSec": 300,
+    "warningSec": 6,
+    "enemyCount": 24,
+    "enemyIds": [
+      "q_armabee",
+      "k_enemy_ufo_a",
+      "q_dragon"
+    ],
+    "enemyHp": 100,
+    "enemySpeedMps": 7,
+    "enemyDamage": 9,
+    "spawnIntervalSec": 1.35,
+    "coreHp": 400,
+    "facilityDamage": 22,
+    "facilityIntervalSec": 1,
+    "petDamage": 10,
+    "projectileSpeedMps": 35,
+    "focusDamage": 45,
+    "focusCooldownSec": 6,
+    "maxBattleSec": 90,
+    "recoverySec": 9
+  }
+}

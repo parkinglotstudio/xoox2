@@ -1,0 +1,143 @@
+{
+  "createdAt": "2026-10-11T09:16:55+09:00",
+  "scope": "documentation-and-initial-data-only",
+  "checks": [
+    {
+      "id": "10-games-5-frameworks",
+      "passed": true,
+      "detail": "All games assigned exactly once."
+    },
+    {
+      "id": "campaign-order-preserved",
+      "passed": true,
+      "detail": "No silent reordering of planner data."
+    },
+    {
+      "id": "50-missions-5-pets",
+      "passed": true,
+      "detail": "Ten games repeated across five rounds."
+    },
+    {
+      "id": "g02-20-rooms-two-bosses",
+      "passed": true,
+      "detail": "No old nine-room labels."
+    },
+    {
+      "id": "g05-three-waves-total",
+      "passed": true,
+      "detail": "144 regular enemies plus boss."
+    },
+    {
+      "id": "g07-eight-waves-total",
+      "passed": true,
+      "detail": "312 regular enemies plus boss."
+    },
+    {
+      "id": "wave-groups-real-ids",
+      "passed": true,
+      "detail": "Every wave group points to copied voxel resource."
+    },
+    {
+      "id": "overlapping-mixed-spawns",
+      "passed": true,
+      "detail": "First two species start together rather than in serial lines."
+    },
+    {
+      "id": "wave-count-sums",
+      "passed": true,
+      "detail": "Group quotas preserve totals."
+    },
+    {
+      "id": "49-species-coverage",
+      "passed": true,
+      "detail": "All 45 monsters and four UFO models have a design role and first encounter task."
+    },
+    {
+      "id": "enemy-settings-unique",
+      "passed": true,
+      "detail": "Species have distinct stats/behavior combinations."
+    },
+    {
+      "id": "49-behavior-contracts",
+      "passed": true,
+      "detail": "Every special tag has an implementation parameter contract."
+    },
+    {
+      "id": "g04-display-vs-geometry-separated",
+      "passed": true,
+      "detail": "Display distance does not override actual y122 goal geometry."
+    },
+    {
+      "id": "active-resource-paths",
+      "passed": true,
+      "detail": "30 active planner paths checked."
+    },
+    {
+      "id": "99-dense-and-metadata",
+      "passed": true,
+      "detail": "99 existing dense/metadata pairs."
+    },
+    {
+      "id": "24-map-glbs",
+      "passed": true,
+      "detail": "GLB headers and lengths checked."
+    },
+    {
+      "id": "four-humans-18-clips",
+      "passed": true,
+      "detail": "Current human models inspected."
+    },
+    {
+      "id": "pet-clip-gaps-recorded",
+      "passed": true,
+      "detail": "block_cat has six clips; extra idle/run remain an implementation task."
+    },
+    {
+      "id": "references-present",
+      "passed": true,
+      "detail": "40 reference capture paths."
+    },
+    {
+      "id": "g09-target-feasible-upper-bound",
+      "passed": true,
+      "detail": "Ideal body painting upper bound 2430m2 vs full-square target1750m2. Not a gameplay validation."
+    },
+    {
+      "id": "g10-distance-speed-time",
+      "passed": true,
+      "detail": "720m with speed linear in distance 7→9m/s = 90.47s, before collisions."
+    },
+    {
+      "id": "g10-pet-retry-location",
+      "passed": true,
+      "detail": "Pet is after section-three checkpoint; retry can collect it again."
+    },
+    {
+      "id": "g03-start-and-carriers",
+      "passed": true,
+      "detail": "Five initial helpers plus guaranteed missing bolt helper."
+    },
+    {
+      "id": "originals-unchanged",
+      "passed": true,
+      "detail": "planner/data.json, package.json, vite.config.ts unchanged."
+    },
+    {
+      "id": "json-schema-basic",
+      "passed": true,
+      "detail": "jsonschema unavailable; structural and semantic custom checks performed; full schema validation is an M0 gate."
+    },
+    {
+      "id": "markdown-links",
+      "passed": true,
+      "detail": "All local document links resolved after final readback."
+    }
+  ],
+  "allPassed": true,
+  "prohibitedClaim": "This result is not a game-playability, visual-animation, balance or performance test.",
+  "unchangedSourceHashes": {
+    "planner/data.json": "527ec42d01e157dd1b835bc5db77693cd881552c40a94d5567397c336e46a31e",
+    "package.json": "564e18efcfe1d74486e2de194f53f1968bb9b85d997e93be10376fb2336b1d9f",
+    "vite.config.ts": "898a299e2d6fc769a22e469a10c8fab8d8105e1741f5cfe2ce0d2f7c683a4313"
+  }
+}

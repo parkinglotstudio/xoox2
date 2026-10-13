@@ -1,0 +1,39 @@
+{
+  "id": "aim_walk_r",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 2,
+  "rows": 1,
+  "frame_count": 2,
+  "sheet": "aim_walk_r_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "aim_walk_r_00.png",
+      "src": "00.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\aim_walk_r\\gif_clean\\00.png",
+      "duration_ms": 80,
+      "file": "frames/aim_walk_r_00.png"
+    },
+    {
+      "index": 1,
+      "name": "aim_walk_r_01.png",
+      "src": "01.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\aim_walk_r\\gif_clean\\01.png",
+      "duration_ms": 80,
+      "file": "frames/aim_walk_r_01.png"
+    }
+  ],
+  "loop": true,
+  "muzzle_uv": [
+    0.58,
+    0.4
+  ]
+}

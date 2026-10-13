@@ -1,0 +1,42 @@
+{
+  "id": "wanderer_test_clips",
+  "bank": "test",
+  "note": "all 4 clips packed 512 to match idle foot (256,500). shoot = 총쏘기2 one-shot frames 20-25.",
+  "cell_w": 512,
+  "cell_h": 512,
+  "pivot": "bottom-center",
+  "foot_anchor": {
+    "x": 256,
+    "y": 500
+  },
+  "clips": [
+    {
+      "id": "shoot",
+      "label": "총쏘기",
+      "loop": false,
+      "sheet": "shoot/shoot_sheet.png",
+      "manifest": "shoot/shoot.json"
+    },
+    {
+      "id": "pickup",
+      "label": "줍기",
+      "loop": false,
+      "sheet": "pickup/pickup_sheet.png",
+      "manifest": "pickup/pickup.json"
+    },
+    {
+      "id": "victory",
+      "label": "승리",
+      "loop": false,
+      "sheet": "victory/victory_sheet.png",
+      "manifest": "victory/victory.json"
+    },
+    {
+      "id": "fail",
+      "label": "패배",
+      "loop": false,
+      "sheet": "fail/fail_sheet.png",
+      "manifest": "fail/fail.json"
+    }
+  ]
+}

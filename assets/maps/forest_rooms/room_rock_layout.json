@@ -1,0 +1,89 @@
+{
+  "map": "forest_rooms",
+  "file": "room_rock",
+  "title": "가운데 바위",
+  "note": "바위 뒤로 숨어 탄을 피한다.",
+  "playArea": {
+    "w": 12,
+    "h": 18,
+    "top": 8.0
+  },
+  "origin": "놀이 바닥 가운데, 높이 top",
+  "entry": {
+    "x": 0,
+    "y": -8.0
+  },
+  "door": {
+    "x": 0,
+    "y": 9.0,
+    "w": 3,
+    "glowMaterial": "Arcade_Glow"
+  },
+  "bridges": {
+    "in": [
+      0,
+      -19.1
+    ],
+    "out": [
+      0,
+      19.1
+    ]
+  },
+  "spawns": [
+    {
+      "x": 3.9,
+      "y": 4.0
+    },
+    {
+      "x": -0.8,
+      "y": 4.5
+    },
+    {
+      "x": -3.3,
+      "y": 2.5
+    },
+    {
+      "x": -3.8,
+      "y": -0.8
+    },
+    {
+      "x": -4.0,
+      "y": 5.8
+    },
+    {
+      "x": 2.4,
+      "y": 6.5
+    },
+    {
+      "x": 2.8,
+      "y": 1.3
+    },
+    {
+      "x": 3.7,
+      "y": -0.9
+    }
+  ],
+  "blockers": [
+    {
+      "x": 0,
+      "y": 1.3,
+      "w": 3.6,
+      "h": 3.0
+    }
+  ],
+  "hazards": [],
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_rooms/room_rock_purified.glb",
+    "polluted": "/assets/maps/forest_rooms/room_rock_polluted.glb"
+  },
+  "previews": [
+    "room_rock_overview_purified.png",
+    "room_rock_float_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 2317
+}

@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "note": "유닛 랩 툴 전용 색. 본편 CSV와 연결하지 않는다. 오염=blight, 정화/켜짐=pure. 색 기준은 docs/art/11 · CulpritCloud BLIGHT/PURE.",
+  "pure_dots": [
+    "#d158bc",
+    "#d1c51d"
+  ],
+  "pure_dot_ratio": 0.14,
+  "enemy_roles": [
+    {
+      "id": "swarm",
+      "label": "무리",
+      "blight": {
+        "body": "#4a1848",
+        "accent": "#a7439d",
+        "edge": "#2a0e28"
+      }
+    },
+    {
+      "id": "fast",
+      "label": "빠른",
+      "blight": {
+        "body": "#5a4a12",
+        "accent": "#e0b43a",
+        "edge": "#2a220a"
+      }
+    },
+    {
+      "id": "tank",
+      "label": "단단",
+      "blight": {
+        "body": "#19314a",
+        "accent": "#5b6fd0",
+        "edge": "#0a1422"
+      }
+    },
+    {
+      "id": "culprit",
+      "label": "원흉",
+      "blight": {
+        "body": "#5a0e1c",
+        "accent": "#ff4a5e",
+        "edge": "#1e0508"
+      }
+    }
+  ],
+  "enemy_pure": {
+    "body": "#0fbec7",
+    "accent": "#9ff0ff",
+    "edge": "#106f83"
+  },
+  "units": {
+    "block_gun": {
+      "blight": {
+        "body": "#1a2230",
+        "accent": "#2e3a4c",
+        "edge": "#0c1018"
+      },
+      "pure": {
+        "body": "#22344a",
+        "accent": "#0ed3d9",
+        "edge": "#0c1624"
+      }
+    },
+    "block_throw": {
+      "blight": {
+        "body": "#1a2230",
+        "accent": "#2e3a4c",
+        "edge": "#0c1018"
+      },
+      "pure": {
+        "body": "#22344a",
+        "accent": "#d1c51d",
+        "edge": "#0c1624"
+      }
+    },
+    "floor_tile": {
+      "blight": {
+        "body": "#141a22",
+        "accent": "#303a48",
+        "edge": "#0c1018"
+      },
+      "pure": {
+        "body": "#10303a",
+        "accent": "#0fbec7",
+        "edge": "#0c1624"
+      }
+    },
+    "rescue_mark": {
+      "blight": {
+        "body": "#141a22",
+        "accent": "#303a48",
+        "edge": "#0c1018"
+      },
+      "pure": {
+        "body": "#3a2a10",
+        "accent": "#ffd27a",
+        "edge": "#1e1406"
+      }
+    },
+    "wanderer_ref": {
+      "blight": {
+        "body": "#8a6a52",
+        "accent": "#ffd27a",
+        "edge": "#3a2a20"
+      },
+      "pure": {
+        "body": "#c4895a",
+        "accent": "#7dffee",
+        "edge": "#5a3a22"
+      }
+    },
+    "shot_gun": {
+      "blight": {
+        "body": "#7dffee",
+        "accent": "#e8ffff",
+        "edge": "#0fbec7"
+      },
+      "pure": {
+        "body": "#7dffee",
+        "accent": "#e8ffff",
+        "edge": "#0fbec7"
+      }
+    },
+    "bomb": {
+      "blight": {
+        "body": "#d1c51d",
+        "accent": "#fff2a0",
+        "edge": "#6a5a10"
+      },
+      "pure": {
+        "body": "#d1c51d",
+        "accent": "#fff2a0",
+        "edge": "#6a5a10"
+      }
+    }
+  },
+  "label": "사이버 (art/11)",
+  "tone_mix": 1.0,
+  "crisp": 0.0,
+  "point_size": 0.07
+}

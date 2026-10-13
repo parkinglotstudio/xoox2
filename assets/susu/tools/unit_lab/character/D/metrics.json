@@ -1,0 +1,215 @@
+{
+  "stage": "D08 +31.8% bazooka, back rack, six-second idle, blink/squint/bow/wave/victory",
+  "voxel_cell_m": 0.0256,
+  "occupied_cells": 31588,
+  "objects": 11,
+  "triangles": 91770,
+  "file_bytes": 10240516,
+  "animations": [
+    "idle",
+    "walk",
+    "run",
+    "shoot",
+    "shoot2",
+    "throw",
+    "walk_shoot",
+    "walk_throw",
+    "walk_gun",
+    "draw",
+    "holster",
+    "draw_launcher",
+    "holster_launcher",
+    "blink",
+    "squint",
+    "bow",
+    "wave",
+    "victory"
+  ],
+  "rig": {
+    "bones": 48,
+    "hair_tip_bones": 25,
+    "clips": {
+      "idle": {
+        "duration": 6.0,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.55
+      },
+      "walk": {
+        "duration": 1.0,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "run": {
+        "duration": 0.7333333333333333,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.0,
+          0.01949366217018122
+        ],
+        "hair_peak_degrees": 2.1
+      },
+      "shoot": {
+        "duration": 0.26666666666666666,
+        "arm_solver_error_m": 1.3328003749250113e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.65
+      },
+      "shoot2": {
+        "duration": 0.5,
+        "arm_solver_error_m": 1.0745380149674383e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "throw": {
+        "duration": 1.1,
+        "arm_solver_error_m": 1.3348812510944096e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.6
+      },
+      "walk_shoot": {
+        "duration": 1.0,
+        "arm_solver_error_m": 1.959941750461743e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "walk_throw": {
+        "duration": 1.1,
+        "arm_solver_error_m": 1.8143349382111313e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.65
+      },
+      "walk_gun": {
+        "duration": 1.0,
+        "arm_solver_error_m": 1.0323827311807139e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "draw": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.4975481660844222e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.9
+      },
+      "holster": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.4975481660844222e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.9
+      },
+      "draw_launcher": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.8907453925087333e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "holster_launcher": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.4057727354849284e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "blink": {
+        "duration": 1.8,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.35
+      },
+      "squint": {
+        "duration": 2.4,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.4
+      },
+      "bow": {
+        "duration": 2.8,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.7
+      },
+      "wave": {
+        "duration": 3.2,
+        "arm_solver_error_m": 1.8189185285171422e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "victory": {
+        "duration": 3.2,
+        "arm_solver_error_m": 1.8671101460071903e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.17585438239644968
+        ],
+        "hair_peak_degrees": 2.2
+      }
+    }
+  },
+  "face_depth_px": -58,
+  "eye_surface_depth_px": [
+    -57.35,
+    -57.84
+  ],
+  "eye_socket_floor_px": -56.3,
+  "cheek_recede_px": [
+    0,
+    1.44,
+    4.8,
+    7.6
+  ],
+  "reference_landmarks": {
+    "crown_y": 110,
+    "chin_y": 374,
+    "feet_y": 650,
+    "head_width_px": 292,
+    "face_width_px": 168
+  }
+}

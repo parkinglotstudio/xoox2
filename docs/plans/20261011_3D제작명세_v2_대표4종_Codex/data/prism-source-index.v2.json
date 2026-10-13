@@ -1,0 +1,778 @@
+{
+  "schemaVersion": 2,
+  "sourceRoot": "docs/PRISM_SQUAD_v2_build_20260606_1908",
+  "tableCount": 47,
+  "tables": [
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/adventure_config.csv",
+      "sha256": "5b8aaf37531bf1141b8f4dd4f8941b0b24ea1b35421cf6748310fdbc11e8064d",
+      "rows": 15,
+      "columns": [
+        "level",
+        "exp_required",
+        "reward_gem",
+        "reward_gold"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/boss_config.csv",
+      "sha256": "be27c5e44a349621ea3cc549eb9d0c75f819f79f373127e73a58ed09f01d2d7b",
+      "rows": 3,
+      "columns": [
+        "boss_id",
+        "boss_name",
+        "is_mini_boss",
+        "boss_type",
+        "arena_size_w",
+        "arena_size_h",
+        "hp",
+        "speed",
+        "radius",
+        "contact_dmg",
+        "contact_dmg_interval_frames",
+        "puddle_interval_frames",
+        "puddle_radius",
+        "puddle_life_frames",
+        "puddle_dmg",
+        "puddle_dmg_interval_frames",
+        "missile_count",
+        "missile_interval_frames",
+        "missile_speed",
+        "missile_turn_rate",
+        "missile_max_range",
+        "missile_spread_angle",
+        "spawn_time_seconds",
+        "spawn_offset_y",
+        "clear_minions_on_intro",
+        "suppress_wave_spawn",
+        "geometry_type",
+        "color_hex",
+        "glow_color_hex",
+        "sprite_url"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/boss_pattern_config.csv",
+      "sha256": "3ab2f0cda8c263c63decd5a1857f6e8fde9c0d3351d7fa763ab189e739641f71",
+      "rows": 60,
+      "columns": [
+        "boss_id",
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/challenge_config.csv",
+      "sha256": "beaa0700806eac00294cfe038379e80f5cd204f45482eb35d6a9da7a3919d6fd",
+      "rows": 30,
+      "columns": [
+        "challenge_id",
+        "stage",
+        "difficulty",
+        "difficulty_name",
+        "enemy_hp_mult",
+        "enemy_dmg_mult",
+        "reward_dna",
+        "reward_gold",
+        "prereq_id"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/combat_tuning.csv",
+      "sha256": "4c21fc1fb483154fc83e9134c73edadf6cff1adb1e911df0ad3ed96fe0d95610",
+      "rows": 48,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/control_config.csv",
+      "sha256": "1d2a3d9ed240a258bfc499e51d7fa3ce94c0e2dc4fcbc30fa9353f11cacb262e",
+      "rows": 1,
+      "columns": [
+        "joystick_ring_diameter",
+        "joystick_knob_diameter",
+        "joystick_max_dist",
+        "joystick_z_index",
+        "joystick_ring_opacity",
+        "joystick_knob_opacity",
+        "keyboard_diagonal_normalize"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/drop_config.csv",
+      "sha256": "ff661075a5679b56cfad9bc5964b8b6b326b7d21dd0bb605083995156430a68c",
+      "rows": 6,
+      "columns": [
+        "drop_id",
+        "drop_type",
+        "drop_weight",
+        "effect_value",
+        "pickup_radius",
+        "geometry_type",
+        "color_hex",
+        "size_small",
+        "size_medium",
+        "size_large",
+        "sprite_url"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/element_config.csv",
+      "sha256": "245d848edb8e15d5729abbe68a48f5fa3b0b412daffbee814c48f288c1215390",
+      "rows": 5,
+      "columns": [
+        "element",
+        "element_name",
+        "icon",
+        "color_hex",
+        "effect_type",
+        "duration_sec",
+        "magnitude",
+        "tick_interval_sec",
+        "max_stacks"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/enemy_config.csv",
+      "sha256": "f49f3d3e62363b376b6ad5612cbeec16a5d1e03a91d903a69eb1b6d37aa3904d",
+      "rows": 4,
+      "columns": [
+        "enemy_id",
+        "enemy_name",
+        "hp",
+        "damage_reduction",
+        "speed",
+        "radius",
+        "contact_dmg",
+        "contact_dmg_interval_frames",
+        "exp_drop_type",
+        "gold_drop",
+        "weight",
+        "geometry_type",
+        "color_hex",
+        "has_glow",
+        "glow_color_hex",
+        "sprite_url"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/equipment_config.csv",
+      "sha256": "69fee74439880fcae565c393d02753344ea4b21d4db429c529b35d1fc76912c4",
+      "rows": 10,
+      "columns": [
+        "slot_id",
+        "slot_name",
+        "item_name",
+        "icon",
+        "grade",
+        "stat_type",
+        "effect_per_level",
+        "max_level",
+        "base_gold_cost",
+        "gold_cost_scale",
+        "description",
+        "skill_id"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/event_minigame_acquire_config.csv",
+      "sha256": "f3cae6c0e691f07c449cc0760d4e71182ef2990356df3883f9a7a2193b1d83d7",
+      "rows": 4,
+      "columns": [
+        "minigame_id",
+        "target_type",
+        "kills_required",
+        "reward_label",
+        "left_icon_key",
+        "reward_icon_key",
+        "sort_order",
+        "enabled",
+        "row_title"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/event_minigame_host_config.csv",
+      "sha256": "281ed6df786dc7ef2385e6c5af7336835514794fb10ab569525a1ff6f43f8270",
+      "rows": 3,
+      "columns": [
+        "id",
+        "label",
+        "emoji",
+        "tab_bg",
+        "src",
+        "ticket_path",
+        "ticket_cost",
+        "ticket_unit",
+        "show_flag_key",
+        "persist_keys",
+        "duration_hours",
+        "enabled"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/event_minigame_kill_reward_config.csv",
+      "sha256": "c844820c9a36a7c96b04eedcc6ed1329b61e36e315324bbe572298c527eb903a",
+      "rows": 6,
+      "columns": [
+        "enemy_id",
+        "lava_base",
+        "prize_base",
+        "archery_base",
+        "is_boss"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/evolution_config.csv",
+      "sha256": "2897333dce149fe5c08aeb38bdc34ef9c39ae8a5970ac24a7e8f128b015fa76d",
+      "rows": 11,
+      "columns": [
+        "evo_id",
+        "order",
+        "branch",
+        "node_name",
+        "node_title",
+        "node_description",
+        "icon",
+        "ability_type",
+        "effect_value",
+        "cost_type",
+        "cost_amount",
+        "prereq_id"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/formation_spawn_config.csv",
+      "sha256": "108d8894a8cdca22f8315d8270e22125b0f9d2be9c121acd645c1727797ef924",
+      "rows": 9,
+      "columns": [
+        "formation_id",
+        "start_time_seconds",
+        "enemy_id",
+        "count",
+        "start_offset_y",
+        "col_spacing",
+        "row_spacing",
+        "move_sec",
+        "fire_sec",
+        "march_speed_mult",
+        "enabled"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/guardian_runtime_config.csv",
+      "sha256": "c4e111dabd9dc596613c4b0dddfc876432f81a8b7cb82aeb598893fd6c9acc7a",
+      "rows": 19,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/lava_quest_host_config.csv",
+      "sha256": "9accb7bc1f4dfbc19035cd6d76c920f748a130e8828b531f30482ebe56c15bfc",
+      "rows": 3,
+      "columns": [
+        "level_min",
+        "level_max",
+        "boss_id",
+        "boss_spawn_sec_override",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/level_config.csv",
+      "sha256": "0cf13de9c27e98828344be7aa715efe87c391fe0a5b5e11111a1c4765c7fb357",
+      "rows": 35,
+      "columns": [
+        "level",
+        "exp_required",
+        "exp_scale_rate"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/levelup_rule_config.csv",
+      "sha256": "94c59d61926be2c51db6566d3602fe7b80da354dc809ad73344aa220ec8847be",
+      "rows": 5,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/lucky_train_config.csv",
+      "sha256": "4f2ee0b7835fbeb40643fe117ea3f38820209d9679ccaa4ef62a2e8bf3ae5c52",
+      "rows": 19,
+      "columns": [
+        "skill_id",
+        "gold_cost"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/map_config.csv",
+      "sha256": "ec88abc429a31322feeca6959ec9617fdacbbc95f3c637df589870fe94306387",
+      "rows": 1,
+      "columns": [
+        "map_id",
+        "map_width",
+        "map_height",
+        "camera_zoom",
+        "spawn_radius_min",
+        "spawn_radius_max",
+        "boundary_color_hex",
+        "boundary_opacity",
+        "grid_color_hex",
+        "grid_interval",
+        "floor_color_hex",
+        "ambient_light_color",
+        "ambient_light_intensity",
+        "dir_light_color",
+        "dir_light_intensity",
+        "boss_ambient_color",
+        "boss_ambient_transition_seconds",
+        "bg_sprite_url"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/meta_config.csv",
+      "sha256": "283a0a6595a3364b9a46fa80c7204fe3d6011441d2541c39f44672a5ed5ee03a",
+      "rows": 12,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/player_config.csv",
+      "sha256": "9c66fb03c0dc9f3046d7816892ceea714dcca3378be6d41545895c7151fc173a",
+      "rows": 30,
+      "columns": [
+        "player_id",
+        "max_hp",
+        "base_speed",
+        "radius",
+        "invincible_frames",
+        "geometry_size",
+        "color_hex",
+        "glow_intensity",
+        "hp_bar_low_threshold",
+        "sprite_url"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/player_visual_config.csv",
+      "sha256": "d8f36f652a1b43c2c585f94e79c53fb36e477c92589fb02fe95ecd7176b6ae47",
+      "rows": 42,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/projectile_config.csv",
+      "sha256": "3c421243c7a711339c38860802394a0f5d15890b7eeecf8f3bfc1e6ff71046cc",
+      "rows": 14,
+      "columns": [
+        "projectile_id",
+        "shape",
+        "color_hex",
+        "size_mult",
+        "speed_mult",
+        "life_seconds",
+        "pierce",
+        "bounce_enemy",
+        "bounce_screen",
+        "bounce_count",
+        "homing_turn_rate",
+        "gravity"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/red_dot_config.csv",
+      "sha256": "85d1decc1b2de738cf9a13407cfc773c7a1abb096730753ac257ac763bafee39",
+      "rows": 31,
+      "columns": [
+        "dot_id",
+        "category",
+        "enabled",
+        "hud_path",
+        "resolver_key",
+        "min_int",
+        "bubble_to",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/renderer_config.csv",
+      "sha256": "5b30d7be3b455a5b8eddaa045526eefc04c8e191f360ec3b0a403062dbe43c83",
+      "rows": 6,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/rush_config.csv",
+      "sha256": "844e9ecad7814881db85a43402aaf794684c2412b5f56a2150d246ab7ccd208c",
+      "rows": 6,
+      "columns": [
+        "rush_id",
+        "start_time_seconds",
+        "warning_sec",
+        "spawn_count_base",
+        "spawn_count_per_stage",
+        "spawn_count_max",
+        "ring_radius",
+        "ring_radius_jitter",
+        "rate_dog",
+        "rate_basic",
+        "rate_spitter",
+        "formation",
+        "respect_max_enemies",
+        "enabled"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/rush_cycle_config.csv",
+      "sha256": "bb8afeb2a2c6a7084f318de1c3d8d35ac314f4367fda4419a2e0d60da860b97a",
+      "rows": 1,
+      "columns": [
+        "rush_id",
+        "warning_sec",
+        "spawn_count_base",
+        "spawn_count_per_stage",
+        "spawn_count_max",
+        "ring_radius",
+        "ring_radius_jitter",
+        "rate_dog",
+        "rate_basic",
+        "rate_spitter",
+        "formation",
+        "respect_max_enemies",
+        "enabled",
+        "note"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/shop_box.csv",
+      "sha256": "17600f75028a6d70aae64a71214fa87ee9b7df8ecabd42401a18ebafee192e45",
+      "rows": 2,
+      "columns": [
+        "box_id",
+        "sort_order",
+        "label",
+        "subtitle",
+        "gem_cost",
+        "key_cost",
+        "pity_max",
+        "pity_force_grade",
+        "key_bonus_chance",
+        "banner_title",
+        "banner_desc",
+        "enabled"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/shop_box_grade.csv",
+      "sha256": "39b1bec491042926a98c3026086d96c9522c41ca8d483e89d61b21d2e08752bf",
+      "rows": 5,
+      "columns": [
+        "box_id",
+        "equipment_grade",
+        "weight",
+        "grant_fallback_gold"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/shop_gem_pack.csv",
+      "sha256": "8b5b3f8979259d2740ced82cc12dfb46aed627e110b5c9dfd08529333cb64c97",
+      "rows": 6,
+      "columns": [
+        "pack_id",
+        "sort_order",
+        "label",
+        "gems",
+        "bonus_gems",
+        "price_krw",
+        "enabled"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/shop_gold_pack.csv",
+      "sha256": "f93d235b694096bf9722b4afb6412de2c1deca4dc23798d8841e69b2540764f8",
+      "rows": 3,
+      "columns": [
+        "pack_id",
+        "sort_order",
+        "label",
+        "sublabel",
+        "gold",
+        "gem_cost",
+        "is_free",
+        "enabled"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/shop_test_config.csv",
+      "sha256": "b3dc832ff553ee8d7fa5cfb451d107ce397a926c2949d702b0b01726987d4a34",
+      "rows": 3,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/skill_config.csv",
+      "sha256": "6164fd56e1f6a9c1b2216774b771bd1672adb53b49f6a8fdb4b47e0fed51f43d",
+      "rows": 25,
+      "columns": [
+        "skill_id",
+        "skill_name",
+        "skill_type",
+        "icon",
+        "description",
+        "base_cooldown_frames",
+        "base_dmg_mult",
+        "projectile_speed",
+        "projectile_radius",
+        "max_level",
+        "max_range",
+        "element",
+        "projectile_sprite_url",
+        "fire_pattern",
+        "target_mode",
+        "projectile_count",
+        "spread_deg",
+        "explode_radius",
+        "projectile_id",
+        "magazine_capacity",
+        "burst_interval_frames",
+        "reload_frames"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/skill_evolution_config.csv",
+      "sha256": "8b1ebbb3bf5f7144fbc068a12fb9f14b475bcf136e4707e2e5bfe3b3ec73a7bf",
+      "rows": 8,
+      "columns": [
+        "evolution_id",
+        "active_skill_id",
+        "passive_skill_id",
+        "result_skill_id",
+        "result_skill_name",
+        "result_description"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/skill_level_config.csv",
+      "sha256": "6f38424ee23a73bcfa91453e8879ce7459d8087ce5c122767a61a08f660bc461",
+      "rows": 109,
+      "columns": [
+        "skill_id",
+        "level",
+        "dmg_mult_scale",
+        "cooldown_reduce_rate",
+        "passive_bonus_value"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/skill_runtime_config.csv",
+      "sha256": "1466dd865126a6baf6ccb10d0ca56395a5187c8090abff061804c895a601f631",
+      "rows": 104,
+      "columns": [
+        "key",
+        "value",
+        "note"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/stage_config.csv",
+      "sha256": "8ab9889a1120bde1ab876dbacb3e88664c8940e1e83e0ae1cc2dd7198092f00b",
+      "rows": 10,
+      "columns": [
+        "stage",
+        "stage_name",
+        "max_enemies_scale",
+        "spawn_interval_scale",
+        "spawn_interval_min_frames",
+        "boss_hp_mult",
+        "xp_mult",
+        "initial_xp_small",
+        "enemy_hp_mult",
+        "enemy_speed_mult",
+        "enemy_dmg_mult"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/talent_config.csv",
+      "sha256": "1487b85813cde5ed304c697d0ea1a921f4900a87f1a26aa747690aff3c146415",
+      "rows": 4,
+      "columns": [
+        "talent_id",
+        "talent_name",
+        "description",
+        "max_level",
+        "effect_per_level"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/talent_cost_config.csv",
+      "sha256": "004996a1fc22ad65eb5cc15db3907ee44be58203f386d89b890b8e2e89c116fa",
+      "rows": 12,
+      "columns": [
+        "talent_id",
+        "level",
+        "gold_cost"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/ticket_config.csv",
+      "sha256": "9fd1c532b06d746bf080b45b56254f5d39b31022494d043bc8272b0b67406537",
+      "rows": 4,
+      "columns": [
+        "ticket_id",
+        "ticket_name",
+        "ticket_tier",
+        "multiplier",
+        "gem_cost",
+        "daily_free_count",
+        "icon",
+        "acquire_label"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/ticket_multiplier_step.csv",
+      "sha256": "db426793f058a59bd3c5e79f59ad3d19b842fc8ecc736193e2b32496db14fe6e",
+      "rows": 6,
+      "columns": [
+        "sort_order",
+        "multiplier",
+        "note"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/vfx_config.csv",
+      "sha256": "8e1553b8e9beccc0d1d0603021fc72edaae0308b18ee5d0c82618b42d437cc7a",
+      "rows": 8,
+      "columns": [
+        "vfx_id",
+        "particle_count",
+        "particle_size_min",
+        "particle_size_max",
+        "particle_life_frames",
+        "particle_speed",
+        "bloom_strength",
+        "bloom_radius",
+        "bloom_threshold",
+        "screen_shake_intensity",
+        "screen_shake_duration_frames",
+        "flash_duration_frames",
+        "particle_color_hex",
+        "particle_sprite_url"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/wave_config.csv",
+      "sha256": "7022fcf7c61efe87f98223250144f56c971fa5b5df9f0b6b049e3dc95962402a",
+      "rows": 40,
+      "columns": [
+        "stage",
+        "wave_id",
+        "start_time_seconds",
+        "spawn_interval_frames",
+        "max_enemies",
+        "rate_basic",
+        "rate_dog",
+        "rate_bloater",
+        "rate_spitter"
+      ],
+      "includedForStructuralReference": true
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/weapon_config.csv",
+      "sha256": "3e93d95f4a77718e06d54e6a3bb429d7ca15830e7ac7949d8d20dd8049bb22f5",
+      "rows": 3,
+      "columns": [
+        "weapon_id",
+        "item_name",
+        "icon",
+        "grade",
+        "skill_id",
+        "description"
+      ],
+      "includedForStructuralReference": false
+    },
+    {
+      "path": "docs/PRISM_SQUAD_v2_build_20260606_1908/tables/weapon_visual_config.csv",
+      "sha256": "25ae245f43e35e663eb00791fd73adf4af0199d0f5a3fb6d595e8120f9bf1485",
+      "rows": 3,
+      "columns": [
+        "skill_id",
+        "weapon_kind",
+        "scale",
+        "offset_x",
+        "offset_y"
+      ],
+      "includedForStructuralReference": false
+    }
+  ],
+  "notCopied": [
+    "sprites",
+    "compiled-runtime",
+    "shops",
+    "equipment-permanent-upgrades"
+  ]
+}

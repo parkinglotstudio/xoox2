@@ -1,0 +1,59 @@
+{
+  "id": "fail",
+  "bank": "test",
+  "cell": 512,
+  "cell_w": 512,
+  "cell_h": 512,
+  "cols": 7,
+  "rows": 1,
+  "frame_count": 7,
+  "pivot": "bottom-center",
+  "foot_anchor": {
+    "x": 256,
+    "y": 500
+  },
+  "sheet": "fail_sheet.png",
+  "loop": false,
+  "source": "fail.gif",
+  "trim_start": 0,
+  "trim_end": null,
+  "match_idle": true,
+  "scale_to_idle": 1.0827,
+  "frames": [
+    {
+      "index": 0,
+      "duration_ms": 80,
+      "file": "frames/fail_00.png"
+    },
+    {
+      "index": 1,
+      "duration_ms": 90,
+      "file": "frames/fail_01.png"
+    },
+    {
+      "index": 2,
+      "duration_ms": 80,
+      "file": "frames/fail_02.png"
+    },
+    {
+      "index": 3,
+      "duration_ms": 80,
+      "file": "frames/fail_03.png"
+    },
+    {
+      "index": 4,
+      "duration_ms": 90,
+      "file": "frames/fail_04.png"
+    },
+    {
+      "index": 5,
+      "duration_ms": 80,
+      "file": "frames/fail_05.png"
+    },
+    {
+      "index": 6,
+      "duration_ms": 80,
+      "file": "frames/fail_06.png"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 2,
+  "baseDefense": {
+    "waves": [
+      {
+        "wave": 1,
+        "regularCount": 24,
+        "bossCount": 0,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 12,
+            "routeId": "base-route-1",
+            "startSec": 0.0,
+            "intervalSec": 3.4545454545454546,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_pink_slime",
+            "count": 12,
+            "routeId": "base-route-2",
+            "startSec": 0.8,
+            "intervalSec": 3.3818181818181823,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          }
+        ],
+        "finishPolicy": "spawn-ended-and-enemies-cleared"
+      },
+      {
+        "wave": 2,
+        "regularCount": 48,
+        "bossCount": 0,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 16,
+            "routeId": "base-route-1",
+            "startSec": 0.0,
+            "intervalSec": 2.533333333333333,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 16,
+            "routeId": "base-route-2",
+            "startSec": 0.8,
+            "intervalSec": 2.48,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_orc_enemy",
+            "count": 16,
+            "routeId": "base-route-3",
+            "startSec": 1.6,
+            "intervalSec": 2.4266666666666667,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          }
+        ],
+        "finishPolicy": "spawn-ended-and-enemies-cleared"
+      },
+      {
+        "wave": 3,
+        "regularCount": 72,
+        "bossCount": 1,
+        "groups": [
+          {
+            "enemyId": "q_pink_slime",
+            "count": 24,
+            "routeId": "base-route-1",
+            "startSec": 0.0,
+            "intervalSec": 1.6521739130434783,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 24,
+            "routeId": "base-route-2",
+            "startSec": 0.8,
+            "intervalSec": 1.6173913043478263,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_wizard",
+            "count": 24,
+            "routeId": "base-route-3",
+            "startSec": 1.6,
+            "intervalSec": 1.5826086956521739,
+            "formation": {
+              "lanes": 3,
+              "lateralOffsetM": [
+                -0.65,
+                0,
+                0.65
+              ],
+              "minimumSpacingPolicy": "max-0.7-and-radius-sum-times-1.05"
+            }
+          },
+          {
+            "enemyId": "q_goleling_evolved",
+            "count": 1,
+            "routeId": "base-route-boss",
+            "startSec": 40,
+            "intervalSec": 1,
+            "bossHpAbsolute": 900
+          }
+        ],
+        "finishPolicy": "spawn-ended-and-enemies-cleared"
+      }
+    ]
+  },
+  "hordeSurvival": {
+    "blocks": [
+      {
+        "fromSec": 0,
+        "toSec": 10,
+        "budgetCount": 3,
+        "maxActive": 3,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 3,
+            "startSec": 0.0,
+            "intervalSec": 4.5,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          }
+        ]
+      },
+      {
+        "fromSec": 10,
+        "toSec": 30,
+        "budgetCount": 16,
+        "maxActive": 20,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 11,
+            "startSec": 10.0,
+            "intervalSec": 1.9,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 3,
+            "startSec": 10.2,
+            "intervalSec": 9.4,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 2,
+            "startSec": 10.4,
+            "intervalSec": 18.6,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          }
+        ]
+      },
+      {
+        "fromSec": 30,
+        "toSec": 90,
+        "budgetCount": 108,
+        "maxActive": 50,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 67,
+            "startSec": 30.0,
+            "intervalSec": 0.8939393939393939,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 19,
+            "startSec": 30.2,
+            "intervalSec": 3.2666666666666666,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 10,
+            "startSec": 30.4,
+            "intervalSec": 6.511111111111111,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 12,
+            "startSec": 60,
+            "intervalSec": 0.12,
+            "spawnPolicy": "open-fan",
+            "formationPolicy": "rush",
+            "telegraphSec": 2
+          }
+        ]
+      },
+      {
+        "fromSec": 90,
+        "toSec": 150,
+        "budgetCount": 168,
+        "maxActive": 90,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 105,
+            "startSec": 90.0,
+            "intervalSec": 0.5673076923076923,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 30,
+            "startSec": 90.2,
+            "intervalSec": 2.027586206896552,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 15,
+            "startSec": 90.4,
+            "intervalSec": 4.185714285714286,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_wizard",
+            "count": 6,
+            "startSec": 90,
+            "intervalSec": 0.12,
+            "spawnPolicy": "offset-rows",
+            "formationPolicy": "formation",
+            "telegraphSec": 2
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 12,
+            "startSec": 120,
+            "intervalSec": 0.12,
+            "spawnPolicy": "open-fan",
+            "formationPolicy": "rush",
+            "telegraphSec": 2
+          }
+        ]
+      },
+      {
+        "fromSec": 150,
+        "toSec": 240,
+        "budgetCount": 306,
+        "maxActive": 120,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 202,
+            "startSec": 150.0,
+            "intervalSec": 0.4427860696517413,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 58,
+            "startSec": 150.2,
+            "intervalSec": 1.5578947368421052,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 28,
+            "startSec": 150.4,
+            "intervalSec": 3.281481481481481,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_wizard",
+            "count": 6,
+            "startSec": 180,
+            "intervalSec": 0.12,
+            "spawnPolicy": "offset-rows",
+            "formationPolicy": "formation",
+            "telegraphSec": 2
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 12,
+            "startSec": 210,
+            "intervalSec": 0.12,
+            "spawnPolicy": "open-fan",
+            "formationPolicy": "rush",
+            "telegraphSec": 2
+          }
+        ]
+      },
+      {
+        "fromSec": 240,
+        "toSec": 300,
+        "budgetCount": 252,
+        "maxActive": 150,
+        "groups": [
+          {
+            "enemyId": "q_green_blob",
+            "count": 164,
+            "startSec": 240.0,
+            "intervalSec": 0.3619631901840491,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 47,
+            "startSec": 240.2,
+            "intervalSec": 1.2782608695652173,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_green_spiky_blob",
+            "count": 23,
+            "startSec": 240.4,
+            "intervalSec": 2.6636363636363636,
+            "spawnPolicy": "safe-ring-8-to-13m",
+            "formationPolicy": "free"
+          },
+          {
+            "enemyId": "q_wizard",
+            "count": 6,
+            "startSec": 240,
+            "intervalSec": 0.12,
+            "spawnPolicy": "offset-rows",
+            "formationPolicy": "formation",
+            "telegraphSec": 2
+          },
+          {
+            "enemyId": "q_cactoro",
+            "count": 12,
+            "startSec": 270,
+            "intervalSec": 0.12,
+            "spawnPolicy": "open-fan",
+            "formationPolicy": "rush",
+            "telegraphSec": 2
+          }
+        ]
+      }
+    ],
+    "capDelaySec": 3,
+    "bossBlockWindowSec": 5,
+    "allExtrasIncludedInBudget": true,
+    "droppedDueToCapacityLogged": true
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "profiles": [
+    {
+      "id": "p01",
+      "title": "정화 코어 방어",
+      "reference": "Duck Survival",
+      "rulesetId": "base-defense",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p02",
+      "title": "정화 코어 방어 · FPS",
+      "reference": "user-requested-FPS-mode-no-specific-game-supplied",
+      "inheritsProfileId": "p01",
+      "rulesetId": "base-defense",
+      "viewPolicy": "firstPerson",
+      "controlPolicy": "joystick-look-auto",
+      "targetingPolicy": "view-cone-los",
+      "enabled": true,
+      "overrides": {
+        "view": {
+          "verticalFovDeg": 60,
+          "eyeHeightM": 1.6,
+          "nearM": 0.05,
+          "headBobEnabled": false,
+          "visualRecoilDegMax": 1
+        },
+        "input": {
+          "lookDegreesPerCssPx": 0.18,
+          "pitchLimitDeg": [
+            -35,
+            45
+          ],
+          "deadzonePx": 2
+        },
+        "targeting": {
+          "coneHalfAngleDeg": 18
+        }
+      }
+    },
+    {
+      "id": "p03",
+      "title": "정화숲 대생존",
+      "reference": "Survivor.io / Vampire Survivors",
+      "rulesetId": "horde-survival",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p04",
+      "title": "체인 대열 정화",
+      "reference": "Cell Survivor supplied video",
+      "rulesetId": "chain-defense",
+      "viewPolicy": "chainBoard",
+      "controlPolicy": "horizontal-target",
+      "targetingPolicy": "fixed-forward",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p05",
+      "title": "수색 돌파",
+      "rulesetId": "room-rescue",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p06",
+      "title": "구출 호위와 탈출",
+      "rulesetId": "escort-rescue",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p07",
+      "title": "정화 복구",
+      "rulesetId": "restoration",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "sizeMeters": 150,
+  "monster": "/tools/unit_lab/monsters_anim/mushnub.glb",
+  "navigation": "/maps/forest150/releases/v3/navigation.json",
+  "person": "/tools/unit_lab/character/D/wanderer_D.glb",
+  "mask": "/maps/forest150/releases/v3/walkability.png",
+  "schemaVersion": 1,
+  "defaultState": "purified",
+  "revision": "forest150x300-v7",
+  "states": {
+    "purified": "/maps/forest150/releases/v7/forest_purified.glb",
+    "polluted": "/maps/forest150/releases/v7/forest_polluted.glb",
+    "mid": "/maps/forest150/releases/v7/forest_purified.glb"
+  },
+  "widthMeters": 150,
+  "lengthMeters": 300,
+  "construction": "/maps/forest150/releases/v3/construction.json",
+  "buildings": {
+    "tower": "/maps/forest150/releases/v7/catalog/tower_purified.glb",
+    "unit": "/maps/forest150/releases/v7/catalog/unit_purified.glb"
+  },
+  "lighting": {
+    "purified": {
+      "hemiIntensity": 0.85,
+      "sky": "#D9C3C9",
+      "hemiSky": "#C5DDD8",
+      "sunIntensity": 2.5,
+      "hemiGround": "#344C37",
+      "sun": "#FFE0BD",
+      "fogColor": "#C7B9C6",
+      "fogNear": 95,
+      "fogFar": 320,
+      "backdropTint": "#FFE5EF"
+    },
+    "polluted": {
+      "hemiIntensity": 0.72,
+      "sky": "#282938",
+      "hemiSky": "#818093",
+      "sunIntensity": 0.85,
+      "hemiGround": "#343040",
+      "sun": "#969ACD",
+      "fogColor": "#4C4A61",
+      "fogNear": 45,
+      "fogFar": 160,
+      "backdropTint": "#A29CBF"
+    },
+    "mid": {
+      "hemiIntensity": 0.78,
+      "sky": "#816F81",
+      "hemiSky": "#A3BDB6",
+      "sunIntensity": 1.65,
+      "hemiGround": "#343E3C",
+      "sun": "#CBBDC5",
+      "fogColor": "#8A8294",
+      "fogNear": 70,
+      "fogFar": 240,
+      "backdropTint": "#D1C1D7"
+    }
+  },
+  "backdrops": {
+    "purified": {
+      "url": "/art/sky/horizon_mountains_purified.png?v=purify3",
+      "sky": "#D9C3C9",
+      "radius": 190,
+      "height": 180,
+      "footY": 117,
+      "repeat": 6
+    },
+    "polluted": {
+      "url": "/art/sky/horizon_mountains_polluted.png?v=purify3",
+      "sky": "#282938",
+      "radius": 190,
+      "height": 180,
+      "footY": 117,
+      "repeat": 6
+    },
+    "mid": {
+      "url": "/art/sky/horizon_mountains_mid.png?v=purify3",
+      "sky": "#816F81",
+      "radius": 190,
+      "height": 180,
+      "footY": 117,
+      "repeat": 6
+    }
+  },
+  "catalog": "/maps/forest150/releases/v7/catalog.json",
+  "buildingVariants": {
+    "purified": {
+      "tower": "/maps/forest150/releases/v7/catalog/tower_purified.glb",
+      "unit": "/maps/forest150/releases/v7/catalog/unit_purified.glb"
+    },
+    "polluted": {
+      "tower": "/maps/forest150/releases/v7/catalog/tower_polluted.glb",
+      "unit": "/maps/forest150/releases/v7/catalog/unit_polluted.glb"
+    }
+  },
+  "backgroundRevision": "forest-sky-purify3"
+}

@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 2,
+  "status": "implemented-shared-battle",
+  "entries": [
+    {
+      "id": "dual-stream",
+      "slot": "base",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "direct",
+      "visualRef": "source:combat_skill/skills.json#stream",
+      "damage": 8,
+      "activeSec": 3,
+      "restSec": 2,
+      "totalRoundsPerSecBothHands": 16,
+      "speedMps": 64,
+      "rangeM": 9,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "maxLevel": 1
+    },
+    {
+      "id": "fire-rocket",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "direct",
+      "visualRef": "source:combat_skill/skills.json#fire-rocket",
+      "damage": 24,
+      "cooldownSec": 3,
+      "speedMps": 18,
+      "rangeM": 20,
+      "blastRadiusM": 2.2,
+      "turnRadPerSec": 0,
+      "status": "burn",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "ice-rocket",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "direct",
+      "visualRef": "source:combat_skill/skills.json#ice-rocket",
+      "damage": 24,
+      "cooldownSec": 3.2,
+      "speedMps": 20,
+      "rangeM": 20,
+      "blastRadiusM": 2,
+      "turnRadPerSec": 0,
+      "status": "slow",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "bolt-rocket",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "direct",
+      "visualRef": "source:combat_skill/skills.json#bolt-rocket",
+      "damage": 24,
+      "cooldownSec": 2.8,
+      "speedMps": 26,
+      "rangeM": 22,
+      "blastRadiusM": 1.8,
+      "turnRadPerSec": 0,
+      "status": "chain",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "fire-home",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "homing",
+      "visualRef": "source:combat_skill/skills.json#fire-home",
+      "damage": 20,
+      "cooldownSec": 3.2,
+      "speedMps": 13,
+      "rangeM": 24,
+      "blastRadiusM": 2,
+      "turnRadPerSec": 4.2,
+      "status": "burn",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "ice-home",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "homing",
+      "visualRef": "source:combat_skill/skills.json#ice-home",
+      "damage": 20,
+      "cooldownSec": 3.2,
+      "speedMps": 14,
+      "rangeM": 24,
+      "blastRadiusM": 1.8,
+      "turnRadPerSec": 5,
+      "status": "slow",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "bolt-home",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "homing",
+      "visualRef": "source:combat_skill/skills.json#bolt-home",
+      "damage": 20,
+      "cooldownSec": 3,
+      "speedMps": 16,
+      "rangeM": 24,
+      "blastRadiusM": 1.6,
+      "turnRadPerSec": 6,
+      "status": "chain",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": null,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "bomb",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "firePattern": "parabola",
+      "visualRef": "source:combat_skill/skills.json#bomb",
+      "damage": 40,
+      "cooldownSec": 4,
+      "speedMps": 12,
+      "rangeM": 18,
+      "blastRadiusM": 3.2,
+      "turnRadPerSec": 0,
+      "status": "none",
+      "hitPolicy": "explosion-per-target-once",
+      "flightSec": 0.9,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "chain-primary",
+      "inheritsSkillId": "dual-stream",
+      "slot": "base",
+      "allowedRulesets": [
+        "chain-defense"
+      ],
+      "firePattern": "spread",
+      "visualRef": "source:combat_skill/skills.json#stream",
+      "damage": 10,
+      "cooldownSec": 0.25,
+      "activeSec": null,
+      "restSec": 0,
+      "speedMps": 32,
+      "rangeM": 24,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "burstIntervalSec": 0.06,
+      "pelletSpacingM": 0.22,
+      "pierceCount": 1,
+      "componentRanks": {
+        "pellets": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "burst": [
+          1,
+          2,
+          3
+        ],
+        "cooldownMultiplier": [
+          1,
+          0.8333333333333334,
+          0.7142857142857143,
+          0.6
+        ],
+        "damageMultiplier": [
+          1,
+          1.3,
+          1.6,
+          1.9
+        ],
+        "pierce": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "chain-needle",
+      "slot": "active",
+      "allowedRulesets": [
+        "chain-defense"
+      ],
+      "firePattern": "direct",
+      "visualRef": "source:combat_skill/skills.json#bolt-rocket",
+      "damage": 16,
+      "cooldownSec": 1.2,
+      "speedMps": 40,
+      "rangeM": 24,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 3,
+      "maxPierceCount": 5,
+      "maxLevel": 5
+    },
+    {
+      "id": "chain-bomb",
+      "slot": "active",
+      "allowedRulesets": [
+        "chain-defense"
+      ],
+      "firePattern": "parabola",
+      "visualRef": "source:combat_skill/skills.json#bomb",
+      "damage": 40,
+      "cooldownSec": 4,
+      "flightSec": 0.9,
+      "blastRadiusM": 2.4,
+      "rangeM": 24,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "return-crystal",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "boomerang",
+      "visualRef": "unit:k_detail_crystal",
+      "damage": 18,
+      "cooldownSec": 2.0,
+      "speedMps": 14,
+      "rangeM": 10,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "outboundM": 6,
+      "returnSpeedMps": 18,
+      "lifetimeSec": 2,
+      "perTargetHitCooldownSec": 0.5
+    },
+    {
+      "id": "orbit-shards",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "orbit",
+      "visualRef": "source:combat_skill/skills.json#ice-rocket",
+      "damage": 12,
+      "cooldownSec": 0,
+      "speedMps": 0,
+      "rangeM": 2.2,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "orbitRadiusM": 2.2,
+      "orbitCount": 2,
+      "angularSpeedRadPerSec": 2.4,
+      "targetHitIntervalSec": 0.5
+    },
+    {
+      "id": "bounce-block",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "bounce",
+      "visualRef": "unit:k_weapon_ammo_cannonball",
+      "damage": 12,
+      "cooldownSec": 2.4,
+      "speedMps": 14,
+      "rangeM": 14,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "maxBounces": 4,
+      "lifetimeSec": 3,
+      "revisitCooldownSec": 0.2
+    },
+    {
+      "id": "pierce-drill",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "directional",
+      "visualRef": "source:combat_skill/skills.json#bolt-rocket",
+      "damage": 16,
+      "cooldownSec": 1.8,
+      "speedMps": 26,
+      "rangeM": 16,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 3
+    },
+    {
+      "id": "fan-slash",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "blade",
+      "visualRef": "source:combat_skill/skills.json#bolt-rocket",
+      "damage": 22,
+      "cooldownSec": 2,
+      "speedMps": 0,
+      "rangeM": 3.5,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "coneDeg": 80,
+      "windupSec": 0.15
+    },
+    {
+      "id": "slow-aura",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "aura",
+      "visualRef": "source:combat_skill/skills.json#ice-rocket",
+      "damage": 4,
+      "cooldownSec": 3,
+      "speedMps": 0,
+      "rangeM": 2.5,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "durationSec": 2,
+      "slowMultiplier": 0.7,
+      "damageTickSec": 0.5
+    },
+    {
+      "id": "lightning-chain",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "chain",
+      "visualRef": "source:combat_skill/skills.json#bolt-home",
+      "damage": 20,
+      "cooldownSec": 2.4,
+      "speedMps": 0,
+      "rangeM": 12,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "chainCount": 3,
+      "chainRadiusM": 3,
+      "secondaryDamageRatio": 0.6
+    },
+    {
+      "id": "ground-mine",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "ground_self",
+      "visualRef": "unit:k_weapon_ammo_boulder",
+      "damage": 36,
+      "cooldownSec": 4,
+      "speedMps": 0,
+      "rangeM": 1.8,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "armingSec": 0.6,
+      "lifetimeSec": 8,
+      "maxArmed": 6,
+      "blastRadiusM": 2
+    },
+    {
+      "id": "spread-stream",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "spread",
+      "visualRef": "source:combat_skill/skills.json#stream",
+      "damage": 8,
+      "cooldownSec": 1.2,
+      "speedMps": 32,
+      "rangeM": 9,
+      "maxLevel": 5,
+      "pelletCount": 5,
+      "burstCount": 1,
+      "pierceCount": 1
+    },
+    {
+      "id": "pet-drone-a",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "drone",
+      "visualRef": "unit:k_enemy_ufo_a",
+      "damage": 8,
+      "cooldownSec": 0.3,
+      "speedMps": 18,
+      "rangeM": 10,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "activeSec": 3,
+      "restSec": 7,
+      "activeCount": 1,
+      "socketOffsetM": [
+        1,
+        1.8,
+        -0.5
+      ]
+    },
+    {
+      "id": "pet-drone-b",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "drone",
+      "visualRef": "unit:k_enemy_ufo_c",
+      "damage": 8,
+      "cooldownSec": 0.3,
+      "speedMps": 18,
+      "rangeM": 10,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "activeSec": 3,
+      "restSec": 7,
+      "activeCount": 1,
+      "socketOffsetM": [
+        -1,
+        1.8,
+        -0.5
+      ]
+    },
+    {
+      "id": "flame-field",
+      "slot": "active",
+      "allowedRulesets": [
+        "horde-survival",
+        "base-defense",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "implementationStage": "M3-expanded",
+      "firePattern": "parabola",
+      "visualRef": "source:combat_skill/skills.json#bomb",
+      "damage": 4,
+      "cooldownSec": 4,
+      "speedMps": 12,
+      "rangeM": 12,
+      "maxLevel": 5,
+      "pelletCount": 1,
+      "burstCount": 1,
+      "pierceCount": 1,
+      "flightSec": 0.9,
+      "blastRadiusM": 2.2,
+      "durationSec": 3,
+      "damageTickSec": 0.5,
+      "damagePerSec": 8
+    },
+    {
+      "id": "fire-pillar",
+      "inheritsSkillId": "fire-rocket",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "evolutionOnly": true,
+      "maxLevel": 1,
+      "firePattern": "direct-plus-field",
+      "visualRef": "source:combat_skill/skills.json#fire-rocket",
+      "damageBasis": "parent-level-5-resolved-once",
+      "levelScalingAppliedAgain": false,
+      "fieldWidthM": 1.4,
+      "fieldLengthM": 8,
+      "durationSec": 4,
+      "damagePerSec": 24,
+      "damageTickSec": 0.5
+    },
+    {
+      "id": "chain-three",
+      "inheritsSkillId": "bolt-home",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "evolutionOnly": true,
+      "maxLevel": 1,
+      "firePattern": "homing-chain",
+      "visualRef": "source:combat_skill/skills.json#bolt-home",
+      "damageBasis": "parent-level-5-resolved-once",
+      "levelScalingAppliedAgain": false,
+      "secondaryTargetCount": 3,
+      "secondaryDamageRatio": 0.6,
+      "chainRadiusM": 3
+    },
+    {
+      "id": "orbit-four",
+      "inheritsSkillId": "ice-rocket",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "evolutionOnly": true,
+      "maxLevel": 1,
+      "firePattern": "orbit",
+      "visualRef": "source:combat_skill/skills.json#ice-rocket",
+      "damageBasis": "absolute",
+      "levelScalingAppliedAgain": false,
+      "damage": 12,
+      "orbitCount": 4,
+      "orbitRadiusM": 2.2,
+      "angularSpeedRadPerSec": 2.4,
+      "targetHitIntervalSec": 0.5,
+      "slowMultiplier": 0.65,
+      "slowSec": 2
+    },
+    {
+      "id": "carpet-three",
+      "inheritsSkillId": "bomb",
+      "slot": "active",
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "evolutionOnly": true,
+      "maxLevel": 1,
+      "firePattern": "parabola",
+      "visualRef": "source:combat_skill/skills.json#bomb",
+      "damageBasis": "parent-level-5-resolved-once",
+      "levelScalingAppliedAgain": false,
+      "targetCount": 3,
+      "damageRatioPerTarget": 0.6,
+      "distinctTargetPositions": true,
+      "flightSec": 0.9
+    }
+  ],
+  "passives": [
+    {
+      "id": "speed",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.1,
+      "operation": "speed-additive-multiplier"
+    },
+    {
+      "id": "cooldown",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.1,
+      "operation": "cooldown-reduction-floor-0.7"
+    },
+    {
+      "id": "area",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.15,
+      "operation": "radius-additive-multiplier"
+    },
+    {
+      "id": "hp",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 20,
+      "operation": "max-hp-and-heal-added"
+    },
+    {
+      "id": "xp",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.15,
+      "operation": "xp-value-multiplier"
+    },
+    {
+      "id": "duration",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.2,
+      "operation": "persistent-duration-multiplier"
+    },
+    {
+      "id": "reload",
+      "slot": "passive",
+      "maxLevel": 3,
+      "allowedRulesets": [
+        "base-defense",
+        "horde-survival",
+        "room-rescue",
+        "escort-rescue",
+        "restoration"
+      ],
+      "valuePerRank": 0.1,
+      "operation": "base-rest-reduction-floor-0.7"
+    }
+  ],
+  "evolutions": [
+    {
+      "weapon": "fire-rocket",
+      "passive": "area",
+      "requiredWeaponLevel": 5,
+      "requiredPassiveLevel": 1,
+      "result": "fire-pillar"
+    },
+    {
+      "weapon": "bolt-home",
+      "passive": "cooldown",
+      "requiredWeaponLevel": 5,
+      "requiredPassiveLevel": 1,
+      "result": "chain-three"
+    },
+    {
+      "weapon": "ice-rocket",
+      "passive": "speed",
+      "requiredWeaponLevel": 5,
+      "requiredPassiveLevel": 1,
+      "result": "orbit-four"
+    },
+    {
+      "weapon": "bomb",
+      "passive": "hp",
+      "requiredWeaponLevel": 5,
+      "requiredPassiveLevel": 1,
+      "result": "carpet-three"
+    }
+  ],
+  "levelDamageMultipliers": [
+    1,
+    1.25,
+    1.6,
+    2,
+    2.5
+  ],
+  "levelCooldownMultipliers": [
+    1,
+    1,
+    0.95,
+    0.9,
+    0.85
+  ],
+  "cardPolicy": {
+    "choices": 3,
+    "maxEvolutionCards": 1,
+    "evolutionFirst": true,
+    "ownedUpgradeWeight": 2,
+    "missingPairWeight": 1.5
+  }
+}

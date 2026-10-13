@@ -1,0 +1,132 @@
+[
+  {
+    "name": "arcade",
+    "ready": true,
+    "body": "소스 아케이드 · 원본\n\n기획툴에서 만든 게임을 본게임 이식 수준으로 따로 여는 목록. 수치는 assets/arcade/config/(코덱스 v2 데이터), 리소스는 수스 복셀·정화숲 공중섬·하늘 마을 실물.\n\n흐름\n로비\n하늘 마을 (VILLAGE03)\n주민·구조한 펫·비행선 · 하단 메뉴 외출/펫/기록/설정\n실행\n카드 미션\n외출 미션 카드\n지역 1~5 · 차례대로 클리어 · 별·구조 펫 저장\n실행\n게임\n게임 1\n정화 코어 방어 (p01)\n준비→전투×3+보스 · 시설 4종 건설/개량/판매 · 성장 카드 · 정화 폭격 · 승패·별\n플레이\n게임 1 · 변형\n정화 코어 방어 · 시설만\n인간 없음 · 시작 240 · 코어 피해×1.4 · 준비마다 보급 3택\n플레이\n게임 2\n정화 코어 방어 · FPS (p02)\np01 규칙 상속 · 1인칭 시점/조준만 추가\n제작 중\n게임 3\np03 (horde-survival)\n이동·XP·3택 성장 생존\n제작 중\n게임 4\np04 (chain-defense)\n가로 드래그·마디 HP·관통\n제작 중\n시험 주소\n\n?seed=숫자 같은 판 재현 · ?char=RUON_35|RIA_35|RUON|RIA · 콘솔 __arcade.fast(초) 화면 없이 판정 진행 · 결과는 콘솔 [arcade] result 와 localStorage soos-arcade.v1.runs",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  },
+  {
+    "name": "arcade-lobby",
+    "ready": true,
+    "body": "하늘 마을\n정화 0/20 · ★ 0\n루온 3.5\n아직 구조한 펫이 없어요 · 외출해서 숲을 정화하세요\n외출\n펫\n기록\n설정",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  },
+  {
+    "name": "arcade-cards",
+    "ready": true,
+    "body": "←\n외출 · 지역 1\n0/4 정화 · 끝까지 깨면 NoFilter 구조\n1\n2\n3\n4\n5\n1\n카드 일러스트 자리 · 정화숲 떼 생존\n게임 3 · Survivor.io / Vampire Survivors\n정화숲 떼 생존\n처음\n제작 중\nNOT_IMPLEMENTED: horde-survival\n2\n카드 일러스트 자리 · 정화 코어 방어\n게임 1 · Duck Survival\n정화 코어 방어\n처음\n출발\n3\n카드 일러스트 자리 · 정화 코어 방어 · FPS\n게임 2 · user-requested-FPS-mode-no-specific-game-supplied\n정화 코어 방어 · FPS\n처음\n제작 중\nNOT_IMPLEMENTED: firstPerson\n4\n카드 일러스트 자리 · 오염 대열 차단\n게임 4 · Cell Survivor supplied video\n오염 대열 차단\n처음 · 구조 NoFilter\n제작 중\nNOT_IMPLEMENTED: chain-defense",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  },
+  {
+    "name": "arcade-game1",
+    "ready": true,
+    "body": "준비 1\n웨이브 1/3\n180\nⅡ\n코어 400/400\nHP 100/100\nLv 1\n빛나는 칸을 눌러 시설을 지으세요 · 열린 칸 2/4\n전투 1 시작",
+    "errors": [],
+    "failed": [],
+    "detail": {
+      "phase": "prep",
+      "hash": "dd4b3823edec8d0a",
+      "mode": "plannerTest",
+      "mission": "r01-p01",
+      "render": {
+        "frame": 8,
+        "calls": 83,
+        "triangles": 355536,
+        "points": 0,
+        "lines": 0
+      },
+      "loaded": [
+        {
+          "url": "/maps/forest150/releases/v3/navigation.json",
+          "kind": "json"
+        },
+        {
+          "url": "/assets/maps/forest_island/forest_island_polluted.glb",
+          "kind": "glb"
+        },
+        {
+          "url": "/maps/forest150/manifest.json",
+          "kind": "json"
+        },
+        {
+          "url": "/maps/forest150/releases/v7/catalog/tower_purified.glb",
+          "kind": "glb"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_green_blob.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_pink_slime.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_cactoro.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_orc_enemy.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_green_spiky_blob.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_wizard.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/q_goleling_evolved.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/tower_catapult.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/tower_crystal.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/tower_gun.dense.bin",
+          "kind": "voxel"
+        },
+        {
+          "url": "/tools/unit_lab/units_free/k_fence_fortified.dense.bin",
+          "kind": "voxel"
+        }
+      ]
+    }
+  },
+  {
+    "name": "arcade-game2",
+    "ready": true,
+    "body": "NOT_IMPLEMENTED\n정화 코어 방어 · FPS · base-defense · firstPerson\nNOT_IMPLEMENTED: firstPerson\n설정 데이터는 assets/arcade/config/ 에 있고, 규칙 코드가 들어오면 이 페이지가 바로 실행됩니다.\n원본 목록",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  },
+  {
+    "name": "arcade-game3",
+    "ready": true,
+    "body": "NOT_IMPLEMENTED\n정화숲 떼 생존 · horde-survival · topDown\nNOT_IMPLEMENTED: horde-survival\n설정 데이터는 assets/arcade/config/ 에 있고, 규칙 코드가 들어오면 이 페이지가 바로 실행됩니다.\n원본 목록",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  },
+  {
+    "name": "arcade-game4",
+    "ready": true,
+    "body": "NOT_IMPLEMENTED\n오염 대열 차단 · chain-defense · chainBoard\nNOT_IMPLEMENTED: chain-defense\n설정 데이터는 assets/arcade/config/ 에 있고, 규칙 코드가 들어오면 이 페이지가 바로 실행됩니다.\n원본 목록",
+    "errors": [],
+    "failed": [],
+    "detail": null
+  }
+]

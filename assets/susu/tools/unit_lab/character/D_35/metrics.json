@@ -1,0 +1,245 @@
+{
+  "variant": "D-35",
+  "head_units": 3.5,
+  "chin_height_m": 1.2843425937780053,
+  "source_glb_sha256": "a1c4dbb4dc97f1a194297c3cdb24ce15c214653b9eeb0d0cd7682bd45415bfe0",
+  "head_scale_from_D": 0.6081167584176161,
+  "body_width_scale": 0.92,
+  "body_depth_scale": 0.9,
+  "body_landmarks_m": [
+    [
+      0,
+      0.0
+    ],
+    [
+      0.103,
+      0.14678201071748634
+    ],
+    [
+      0.238,
+      0.40365052947308744
+    ],
+    [
+      0.46,
+      0.6880406752382172
+    ],
+    [
+      0.568,
+      0.9128006291493681
+    ],
+    [
+      0.69,
+      1.0825173290414616
+    ],
+    [
+      0.735,
+      1.1559083344002048
+    ],
+    [
+      0.86,
+      1.2733339429741939
+    ],
+    [
+      0.8832,
+      1.2843425937780053
+    ]
+  ],
+  "reference_pixels": {
+    "feet_y": 499,
+    "crown_y": 75,
+    "chin_y": 171,
+    "head_width": 122,
+    "body_height_without_sprout": 424,
+    "head_units": 4.416666666666667
+  },
+  "animations": [
+    "idle",
+    "walk",
+    "run",
+    "shoot",
+    "shoot2",
+    "throw",
+    "walk_shoot",
+    "walk_throw",
+    "walk_gun",
+    "draw",
+    "holster",
+    "draw_launcher",
+    "holster_launcher",
+    "blink",
+    "squint",
+    "bow",
+    "wave",
+    "victory"
+  ],
+  "rig": {
+    "bones": 48,
+    "hair_tip_bones": 25,
+    "clips": {
+      "idle": {
+        "duration": 6.0,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.55
+      },
+      "walk": {
+        "duration": 1.0,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "run": {
+        "duration": 0.7333333333333333,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.0,
+          0.01949366217018122
+        ],
+        "hair_peak_degrees": 2.1
+      },
+      "shoot": {
+        "duration": 0.26666666666666666,
+        "arm_solver_error_m": 2.1010637283325195e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.65
+      },
+      "shoot2": {
+        "duration": 0.5,
+        "arm_solver_error_m": 9.143292282010582e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "throw": {
+        "duration": 1.1,
+        "arm_solver_error_m": 7.134217850676813e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.6
+      },
+      "walk_shoot": {
+        "duration": 1.0,
+        "arm_solver_error_m": 1.9928039941459837e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.15
+      },
+      "walk_throw": {
+        "duration": 1.1,
+        "arm_solver_error_m": 3.513799973939377e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.65
+      },
+      "walk_gun": {
+        "duration": 1.0,
+        "arm_solver_error_m": 8.963020588053803e-07,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "draw": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.5639831737759025e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.9
+      },
+      "holster": {
+        "duration": 1.2,
+        "arm_solver_error_m": 1.5639831737759025e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.9
+      },
+      "draw_launcher": {
+        "duration": 1.2,
+        "arm_solver_error_m": 2.31044894923101e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "holster_launcher": {
+        "duration": 1.2,
+        "arm_solver_error_m": 2.2905658623522626e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "blink": {
+        "duration": 1.8,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.35
+      },
+      "squint": {
+        "duration": 2.4,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.4
+      },
+      "bow": {
+        "duration": 2.8,
+        "arm_solver_error_m": 0,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 0.7
+      },
+      "wave": {
+        "duration": 3.2,
+        "arm_solver_error_m": 3.1563740801394733e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.001
+        ],
+        "hair_peak_degrees": 1.1
+      },
+      "victory": {
+        "duration": 3.2,
+        "arm_solver_error_m": 3.053393009684835e-06,
+        "support_foot_height_m": [
+          0.001,
+          0.17585438239644968
+        ],
+        "hair_peak_degrees": 2.2
+      }
+    }
+  },
+  "triangles": 91770,
+  "file_bytes": 10230564
+}

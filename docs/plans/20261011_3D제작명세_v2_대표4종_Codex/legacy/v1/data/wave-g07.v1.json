@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "gameId": "g07",
+  "waves": [
+    {
+      "wave": 1,
+      "regularCount": 18,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_orc",
+          "count": 10,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 3.111,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_green_blob",
+          "count": 8,
+          "routeId": "g07-ground-1",
+          "startSec": 0.7,
+          "intervalSec": 4.0,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 2,
+      "regularCount": 24,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_ninja",
+          "count": 8,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 4.0,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_pink_slime",
+          "count": 8,
+          "routeId": "g07-ground-1",
+          "startSec": 0.7,
+          "intervalSec": 4.0,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_orc",
+          "count": 8,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 4.0,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 3,
+      "regularCount": 30,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_cactoro",
+          "count": 10,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 3.111,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_orc",
+          "count": 10,
+          "routeId": "g07-ground-1",
+          "startSec": 0.7,
+          "intervalSec": 3.111,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_green_spiky_blob",
+          "count": 10,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 3.111,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 4,
+      "regularCount": 36,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_goleling",
+          "count": 12,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 2.545,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_wizard",
+          "count": 12,
+          "routeId": "g07-ground-2",
+          "startSec": 0.7,
+          "intervalSec": 2.545,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_orc",
+          "count": 12,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 2.545,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 5,
+      "regularCount": 42,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_bunny",
+          "count": 14,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 2.154,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_yeti",
+          "count": 14,
+          "routeId": "g07-ground-2",
+          "startSec": 0.7,
+          "intervalSec": 2.154,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_ninja",
+          "count": 14,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 2.154,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 6,
+      "regularCount": 48,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_birb",
+          "count": 16,
+          "routeId": "g07-air-1",
+          "startSec": 0.0,
+          "intervalSec": 1.867,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_orc",
+          "count": 16,
+          "routeId": "g07-ground-2",
+          "startSec": 0.7,
+          "intervalSec": 1.867,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_cactoro",
+          "count": 16,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 1.867,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 7,
+      "regularCount": 54,
+      "bossCount": 0,
+      "groups": [
+        {
+          "enemyId": "q_armabee",
+          "count": 18,
+          "routeId": "g07-air-1",
+          "startSec": 0.0,
+          "intervalSec": 1.647,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_goleling",
+          "count": 18,
+          "routeId": "g07-ground-2",
+          "startSec": 0.7,
+          "intervalSec": 1.647,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_bunny",
+          "count": 18,
+          "routeId": "g07-ground-1",
+          "startSec": 1.4,
+          "intervalSec": 1.647,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    },
+    {
+      "wave": 8,
+      "regularCount": 60,
+      "bossCount": 1,
+      "groups": [
+        {
+          "enemyId": "q_orc",
+          "count": 20,
+          "routeId": "g07-ground-1",
+          "startSec": 0.0,
+          "intervalSec": 1.474,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_wizard",
+          "count": 20,
+          "routeId": "g07-ground-2",
+          "startSec": 0.7,
+          "intervalSec": 1.474,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_armabee",
+          "count": 20,
+          "routeId": "g07-air-1",
+          "startSec": 1.4,
+          "intervalSec": 1.474,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          }
+        },
+        {
+          "enemyId": "q_demon",
+          "count": 1,
+          "routeId": "g07-ground-2",
+          "startSec": 26,
+          "intervalSec": 28.0,
+          "formation": {
+            "lanes": 3,
+            "lateralOffsetM": [
+              -0.65,
+              0,
+              0.65
+            ],
+            "minimumSpacingM": 0.7
+          },
+          "hpOverride": 1800,
+          "bypassGameHpMultiplier": true
+        }
+      ],
+      "finishPolicy": "spawn-ended-and-all-dead-or-leaked"
+    }
+  ],
+  "totalRegularEnemies": 312,
+  "totalBosses": 1
+}

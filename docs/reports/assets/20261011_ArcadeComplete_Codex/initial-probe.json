@@ -1,0 +1,71 @@
+[
+  {
+    "i": 1,
+    "state": {
+      "profile": "p01",
+      "phase": "prep",
+      "params": "defense-forest-south",
+      "loaded": {
+        "frame": 10,
+        "calls": 45,
+        "triangles": 403702,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "i": 2,
+    "state": {
+      "profile": "p02",
+      "phase": "prep",
+      "params": "defense-forest-south",
+      "loaded": {
+        "frame": 51,
+        "calls": 45,
+        "triangles": 403702,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "i": 3,
+    "state": {
+      "profile": "p03",
+      "phase": "prep",
+      "params": "survival-landing",
+      "loaded": {
+        "frame": 55,
+        "calls": 36,
+        "triangles": 396286,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    "errors": []
+  },
+  {
+    "i": 4,
+    "state": {
+      "profile": "p04",
+      "phase": "prep",
+      "params": "chain-board",
+      "cards": [
+        "세 줄 사격",
+        "빠른 사격",
+        "강한 탄환"
+      ],
+      "loaded": {
+        "frame": 43,
+        "calls": 21,
+        "triangles": 166358,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    "errors": []
+  }
+]

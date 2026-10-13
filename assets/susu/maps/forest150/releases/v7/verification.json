@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "mapChecks": {
+    "purified": "geometry, normals, instances and placements unchanged; colours changed",
+    "polluted": "geometry, normals, instances and placements unchanged; colours changed"
+  },
+  "catalogItems": 43,
+  "variantFiles": 86,
+  "allCatalogPivotsBottomCenter": true,
+  "constructionFootprintsWithinExistingCollision": true
+}

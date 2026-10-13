@@ -1,0 +1,1 @@
+src/tools/combatSkill/main.ts(1004,83): error TS7006: Parameter 's' implicitly has an 'any' type.

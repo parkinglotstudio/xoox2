@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>전투 스킬 테스트</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:#12141a;color:#e8eef2;font:14px system-ui,"Malgun Gothic",sans-serif}
+a{color:#9eebf0;text-decoration:none}
+#top{position:fixed;inset:0 0 auto 0;z-index:5;display:flex;align-items:center;gap:10px;padding:8px 12px;background:#16181fd9;border-bottom:1px solid #2c3340}
+#top b{color:#f2e7a4}
+#layout{position:absolute;inset:44px 0 32px 0;display:grid;grid-template-columns:280px 1fr}
+#side{overflow:auto;padding:12px;border-right:1px solid #2c3340;background:#171a22}
+#view{position:relative;min-width:0}
+canvas{display:block;width:100%;height:100%}
+h2{margin:14px 0 6px;font-size:12px;letter-spacing:.04em;color:#9aa4b2}
+h2:first-child{margin-top:0}
+button.skill,button.who{width:100%;text-align:left;margin:0 0 6px;padding:8px 10px;border-radius:8px;border:1px solid #3a4454;background:#222836;color:#e8eef2;cursor:pointer;font:inherit}
+button.skill .k{display:inline-block;width:1.4em;color:#f2e7a4;font-weight:700}
+button.skill .t{display:block;margin-top:2px;font-size:11px;color:#8ecfd4}
+button.skill.on{border-color:#0FBEC7;background:#14343a}
+button.who{text-align:center}
+button.who.on{border-color:#f2e7a4;color:#f2e7a4}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+#read{margin-top:8px;padding:10px;border-radius:8px;background:#12151c;border:1px solid #2c3340;line-height:1.5;color:#c5d0da;font-size:13px}
+#read b{color:#f2e7a4}
+label.tune{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:12px;color:#c5d0da}
+label.tune input{flex:1}
+label.tune output{min-width:2.2em;text-align:right;font-variant-numeric:tabular-nums}
+#bar{position:fixed;inset:auto 0 0 0;height:32px;display:flex;align-items:center;padding:0 12px;background:#12141af0;border-top:1px solid #2c3340;color:#b7c2ce;font-size:12px}
+@media(max-width:800px){#layout{grid-template-columns:1fr;grid-template-rows:46vh 1fr}#side{border-right:0;border-top:1px solid #2c3340}}
+</style>
+</head>
+<body>
+<header id="top">
+  <b>전투 스킬 테스트</b>
+  <a href="/tools.html">툴 허브</a>
+  <span>1~8 쏘기 · Space 다시 · R 초기화</span>
+</header>
+<div id="layout">
+  <aside id="side">
+    <h2>캐릭터</h2>
+    <div class="row">
+      <button type="button" class="who on" data-who="RUON">루온</button>
+      <button type="button" class="who" data-who="RIA">리아</button>
+    </div>
+    <h2>로켓</h2>
+    <div id="rocket"></div>
+    <h2>유도</h2>
+    <div id="homing"></div>
+    <h2>폭탄</h2>
+    <div id="bomb"></div>
+    <h2>쌍권총</h2>
+    <div id="pistol"></div>
+    <label class="tune">속사 초 <input id="fireSec" type="range" min="0.5" max="5" step="0.1" value="3"><output id="fireOut">3.0</output></label>
+    <label class="tune">휴식 초 <input id="restSec" type="range" min="0" max="4" step="0.1" value="2"><output id="restOut">2.0</output></label>
+    <div id="read">스킬을 고르면 종류가 여기 나옵니다.</div>
+  </aside>
+  <div id="view"><canvas id="c"></canvas></div>
+</div>
+<footer id="bar">불러오는 중</footer>
+<script type="module" src="/src/tools/combatSkill/main.ts"></script>
+</body>
+</html>

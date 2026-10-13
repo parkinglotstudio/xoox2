@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": 1,
+  "revision": "forest150x300-v7",
+  "placementEnabled": false,
+  "items": [
+    {
+      "id": "tree1",
+      "name": "흰 줄기 수목",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree1_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree1_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          2.252000093460083,
+          1.8589999675750732,
+          6.065999984741211
+        ],
+        "polluted": [
+          2.5399999618530273,
+          2.299999952316284,
+          3.75
+        ]
+      }
+    },
+    {
+      "id": "tree0",
+      "name": "넓은 활엽수",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree0_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree0_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          4.0320000648498535,
+          2.7135000228881836,
+          5.755000114440918
+        ],
+        "polluted": [
+          2.299999952316284,
+          2.299999952316284,
+          3.5999999046325684
+        ]
+      }
+    },
+    {
+      "id": "tree2",
+      "name": "청록 침엽수",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree2_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree2_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          3.392000198364258,
+          3.2160000801086426,
+          6.515999794006348
+        ],
+        "polluted": [
+          3.059999942779541,
+          2.299999952316284,
+          4.199999809265137
+        ]
+      }
+    },
+    {
+      "id": "tree4",
+      "name": "밝은 연두 수목",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree4_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree4_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          3.2200000286102295,
+          2.61299991607666,
+          5.415999889373779
+        ],
+        "polluted": [
+          2.5399999618530273,
+          2.299999952316284,
+          3.75
+        ]
+      }
+    },
+    {
+      "id": "tree3",
+      "name": "퍼지는 수목",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree3_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree3_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          4.2820000648498535,
+          3.4124999046325684,
+          4.876999855041504
+        ],
+        "polluted": [
+          2.299999952316284,
+          2.299999952316284,
+          3.5999999046325684
+        ]
+      }
+    },
+    {
+      "id": "tree5",
+      "name": "황갈색 수목",
+      "category": "수목",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tree5_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tree5_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          3.5199999809265137,
+          2.310500144958496,
+          5.40500020980835
+        ],
+        "polluted": [
+          3.059999942779541,
+          2.299999952316284,
+          4.199999809265137
+        ]
+      }
+    },
+    {
+      "id": "shrub",
+      "name": "관목",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/shrub_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/shrub_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          1.5499999523162842,
+          1.5499999523162842,
+          0.6899999976158142
+        ],
+        "polluted": [
+          1.5499999523162842,
+          1.5499999523162842,
+          0.6899999976158142
+        ]
+      }
+    },
+    {
+      "id": "rock",
+      "name": "작은 바위",
+      "category": "바위",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          1.6999999284744263,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "polluted": [
+          1.6999999284744263,
+          1.2999999523162842,
+          1.2999999523162842
+        ]
+      }
+    },
+    {
+      "id": "tuft_fern",
+      "name": "양치식물",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tuft_fern_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tuft_fern_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          1.1200000047683716,
+          0.47999998927116394,
+          0.1599999964237213
+        ],
+        "polluted": [
+          1.1200000047683716,
+          0.47999998927116394,
+          0.1599999964237213
+        ]
+      }
+    },
+    {
+      "id": "flower_mushroom",
+      "name": "버섯",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/flower_mushroom_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/flower_mushroom_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.41999998688697815,
+          0.3799999952316284,
+          0.45500001311302185
+        ],
+        "polluted": [
+          0.41999998688697815,
+          0.3799999952316284,
+          0.45500001311302185
+        ]
+      }
+    },
+    {
+      "id": "rock_stump",
+      "name": "그루터기",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_stump_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_stump_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.8500000238418579,
+          0.8999999761581421,
+          1.034999966621399
+        ],
+        "polluted": [
+          0.8500000238418579,
+          0.8999999761581421,
+          1.034999966621399
+        ]
+      }
+    },
+    {
+      "id": "flower0",
+      "name": "흰 꽃",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/flower0_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/flower0_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ],
+        "polluted": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ]
+      }
+    },
+    {
+      "id": "flower1",
+      "name": "분홍 꽃",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/flower1_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/flower1_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ],
+        "polluted": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ]
+      }
+    },
+    {
+      "id": "flower2",
+      "name": "노랑 꽃",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/flower2_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/flower2_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ],
+        "polluted": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.3400000035762787
+        ]
+      }
+    },
+    {
+      "id": "rock_outcrop",
+      "name": "큰 바위군",
+      "category": "바위",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_outcrop_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_outcrop_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          2.8499999046325684,
+          2.3499999046325684,
+          2.4000000953674316
+        ],
+        "polluted": [
+          2.8499999046325684,
+          2.3499999046325684,
+          2.4000000953674316
+        ]
+      }
+    },
+    {
+      "id": "rock_log",
+      "name": "쓰러진 나무",
+      "category": "식생·소품",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_log_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_log_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          0.8500000238418579,
+          4.605000019073486,
+          0.8999999761581421
+        ],
+        "polluted": [
+          0.8500000238418579,
+          4.605000019073486,
+          0.8999999761581421
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_0",
+      "name": "보스존 유물 시설 1",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_0_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_0_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          6.900001525878906,
+          5.75,
+          11.744999885559082
+        ],
+        "polluted": [
+          6.900001525878906,
+          5.75,
+          11.744999885559082
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_1",
+      "name": "보스존 유물 시설 2",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_1_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_1_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          7.8000030517578125,
+          6.5,
+          13.050000190734863
+        ],
+        "polluted": [
+          7.8000030517578125,
+          6.5,
+          13.050000190734863
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_2",
+      "name": "보스존 유물 시설 3",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_2_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_2_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          8.400001525878906,
+          7.0,
+          15.65999984741211
+        ],
+        "polluted": [
+          8.400001525878906,
+          7.0,
+          15.65999984741211
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_3",
+      "name": "보스존 유물 시설 4",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_3_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_3_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          9.0,
+          7.5,
+          17.399999618530273
+        ],
+        "polluted": [
+          9.0,
+          7.5,
+          17.399999618530273
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_4",
+      "name": "보스존 유물 시설 5",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_4_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_4_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          9.599998474121094,
+          8.0,
+          18.270000457763672
+        ],
+        "polluted": [
+          9.599998474121094,
+          8.0,
+          18.270000457763672
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_5",
+      "name": "보스존 유물 시설 6",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_5_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_5_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.199996948242188,
+          8.5,
+          20.010000228881836
+        ],
+        "polluted": [
+          10.199996948242188,
+          8.5,
+          20.010000228881836
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_6",
+      "name": "보스존 유물 시설 7",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_6_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_6_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.799999237060547,
+          9.0,
+          21.75
+        ],
+        "polluted": [
+          10.799999237060547,
+          9.0,
+          21.75
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_7",
+      "name": "보스존 유물 시설 8",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_7_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_7_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          11.400001525878906,
+          9.5,
+          23.489999771118164
+        ],
+        "polluted": [
+          11.400001525878906,
+          9.5,
+          23.489999771118164
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_8",
+      "name": "보스존 유물 시설 9",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_8_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_8_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          12.0,
+          10.0,
+          25.229999542236328
+        ],
+        "polluted": [
+          12.0,
+          10.0,
+          25.229999542236328
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_9",
+      "name": "보스존 유물 시설 10",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_9_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_9_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          12.0,
+          10.0,
+          26.969999313354492
+        ],
+        "polluted": [
+          12.0,
+          10.0,
+          26.969999313354492
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_10",
+      "name": "보스존 유물 시설 11",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_10_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_10_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.80000114440918,
+          9.0,
+          24.360000610351562
+        ],
+        "polluted": [
+          10.80000114440918,
+          9.0,
+          24.360000610351562
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_11",
+      "name": "보스존 유물 시설 12",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_11_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_11_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.800003051757812,
+          9.0,
+          26.969999313354492
+        ],
+        "polluted": [
+          10.800003051757812,
+          9.0,
+          26.969999313354492
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_12",
+      "name": "보스존 유물 시설 13",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_12_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_12_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.800003051757812,
+          9.0,
+          37.40999984741211
+        ],
+        "polluted": [
+          10.800003051757812,
+          9.0,
+          37.40999984741211
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_13",
+      "name": "보스존 유물 시설 14",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_13_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_13_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.800003051757812,
+          9.0,
+          27.84000015258789
+        ],
+        "polluted": [
+          10.800003051757812,
+          9.0,
+          27.84000015258789
+        ]
+      }
+    },
+    {
+      "id": "rock_boss_relic_14",
+      "name": "보스존 유물 시설 15",
+      "category": "유물 시설",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/rock_boss_relic_14_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/rock_boss_relic_14_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          10.799995422363281,
+          9.0,
+          24.360000610351562
+        ],
+        "polluted": [
+          10.799995422363281,
+          9.0,
+          24.360000610351562
+        ]
+      }
+    },
+    {
+      "id": "tower",
+      "name": "유물 방어 포탑",
+      "category": "건설 건물",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/tower_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/tower_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.599999904632568,
+          5.599999904632568,
+          4.150000095367432
+        ],
+        "polluted": [
+          5.599999904632568,
+          5.599999904632568,
+          4.150000095367432
+        ]
+      }
+    },
+    {
+      "id": "unit",
+      "name": "유물 유닛 시설",
+      "category": "건설 건물",
+      "sourceRevision": "v7",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/unit_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/unit_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          7.599999904632568,
+          7.599999904632568,
+          3.799999952316284
+        ],
+        "polluted": [
+          7.599999904632568,
+          7.599999904632568,
+          3.799999952316284
+        ]
+      }
+    },
+    {
+      "id": "legacy_v5_rock_relay_4",
+      "name": "이전 v5 rock_relay_4",
+      "category": "이전 버전",
+      "sourceRevision": "v5",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_4_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_4_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ],
+        "polluted": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ]
+      }
+    },
+    {
+      "id": "legacy_v5_rock_relay_3",
+      "name": "이전 v5 rock_relay_3",
+      "category": "이전 버전",
+      "sourceRevision": "v5",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_3_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_3_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ],
+        "polluted": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ]
+      }
+    },
+    {
+      "id": "legacy_v5_rock_relay_2",
+      "name": "이전 v5 rock_relay_2",
+      "category": "이전 버전",
+      "sourceRevision": "v5",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_2_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_2_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ],
+        "polluted": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ]
+      }
+    },
+    {
+      "id": "legacy_v5_rock_relay_1",
+      "name": "이전 v5 rock_relay_1",
+      "category": "이전 버전",
+      "sourceRevision": "v5",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_1_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_1_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ],
+        "polluted": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ]
+      }
+    },
+    {
+      "id": "legacy_v5_rock_relay_0",
+      "name": "이전 v5 rock_relay_0",
+      "category": "이전 버전",
+      "sourceRevision": "v5",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_0_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v5_rock_relay_0_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ],
+        "polluted": [
+          5.0,
+          4.0,
+          8.699999809265137
+        ]
+      }
+    },
+    {
+      "id": "legacy_v3_tree2",
+      "name": "이전 v3 청록 침엽수",
+      "category": "이전 버전",
+      "sourceRevision": "v3",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v3_tree2_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v3_tree2_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          2.2699999809265137,
+          2.2699999809265137,
+          6.375
+        ],
+        "polluted": [
+          2.7200000286102295,
+          2.5,
+          3.9149999618530273
+        ]
+      }
+    },
+    {
+      "id": "legacy_v3_tree1",
+      "name": "이전 v3 흰 줄기 수목",
+      "category": "이전 버전",
+      "sourceRevision": "v3",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v3_tree1_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v3_tree1_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          3.1700000762939453,
+          3.1700000762939453,
+          5.425000190734863
+        ],
+        "polluted": [
+          2.7200000286102295,
+          2.5,
+          3.9149999618530273
+        ]
+      }
+    },
+    {
+      "id": "legacy_v3_tree0",
+      "name": "이전 v3 넓은 활엽수",
+      "category": "이전 버전",
+      "sourceRevision": "v3",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v3_tree0_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v3_tree0_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          3.1700000762939453,
+          3.1700000762939453,
+          5.375
+        ],
+        "polluted": [
+          2.7200000286102295,
+          2.5,
+          3.9149999618530273
+        ]
+      }
+    },
+    {
+      "id": "legacy_v3_tower",
+      "name": "이전 v3 tower 임시 모델",
+      "category": "이전 버전",
+      "sourceRevision": "v3",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v3_tower_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v3_tower_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          5.599999904632568,
+          5.599999904632568,
+          3.6500000953674316
+        ],
+        "polluted": [
+          5.599999904632568,
+          5.599999904632568,
+          3.6500000953674316
+        ]
+      }
+    },
+    {
+      "id": "legacy_v3_unit",
+      "name": "이전 v3 unit 임시 모델",
+      "category": "이전 버전",
+      "sourceRevision": "v3",
+      "pivot": "bottom-center",
+      "units": "metres",
+      "variants": {
+        "purified": "/maps/forest150/releases/v7/catalog/legacy_v3_unit_purified.glb",
+        "polluted": "/maps/forest150/releases/v7/catalog/legacy_v3_unit_polluted.glb"
+      },
+      "boundsMeters": {
+        "purified": [
+          7.599999904632568,
+          7.599999904632568,
+          2.950000047683716
+        ],
+        "polluted": [
+          7.599999904632568,
+          7.599999904632568,
+          2.950000047683716
+        ]
+      }
+    }
+  ]
+}

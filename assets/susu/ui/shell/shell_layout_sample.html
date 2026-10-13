@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>셸 샘플 · CSS only</title>
+  <style>
+    :root {
+      --ink: #2a2118;
+      --ink-dim: #5c4e40;
+      --cream: #f7f0e4;
+      --cream-2: #efe4d0;
+      --wood: #b87a3a;
+      --wood-deep: #7a4a1e;
+      --wood-edge: #5a3414;
+      --teal: #2a9a8a;
+      --chat-w: 210px;
+      --footer-h: 100px;
+      --btn-h: 68px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #2a241c;
+      font-family: "Pretendard", "Malgun Gothic", sans-serif;
+      color: var(--ink);
+    }
+
+    .note {
+      position: fixed; top: 12px; left: 12px; z-index: 40;
+      max-width: 320px; padding: 10px 12px;
+      background: #1c1814; color: #f3ebe0;
+      border: 1px solid #5a4630; border-radius: 10px;
+      font-size: 12px; line-height: 1.45;
+    }
+    .note strong { color: #ffd27a; }
+    .note code { color: #9fe8d8; }
+
+    .phone {
+      width: min(100vw - 24px, 1100px);
+      aspect-ratio: 16 / 9;
+      max-height: min(100vh - 24px, 620px);
+      min-width: 720px;
+      min-height: 400px;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      background: linear-gradient(180deg, #efe2cb, #d9c4a4);
+      border: 3px solid var(--wood-edge);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.45);
+      resize: both;
+    }
+
+    .shell-header {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 8px 12px;
+      background: linear-gradient(180deg, #f6ead4, #e4d0b2);
+      border-bottom: 2px solid rgba(120, 80, 40, 0.35);
+      z-index: 6;
+    }
+    .brand-block { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .brand, .chip, .area-chip {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 12px;
+      white-space: nowrap;
+      background: linear-gradient(180deg, #fffaf2, #efe2cb);
+      border: 2px solid rgba(42, 154, 138, 0.55);
+      box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(60,40,20,0.15);
+    }
+    .area-chip {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: auto;
+      min-height: 34px;
+      padding: 3px 12px;
+      line-height: 1.1;
+      max-width: 160px;
+    }
+    .area-chip .area-label { font-size: 8px; color: var(--teal); font-weight: 800; }
+    .area-chip .area-name {
+      font-size: 12px; overflow: hidden; text-overflow: ellipsis; max-width: 130px;
+    }
+    .area-chip.arrive { border-color: #e0a030; background: linear-gradient(180deg, #fff6df, #f0d9a0); }
+    .timeline {
+      height: 36px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--ink-dim);
+      background: linear-gradient(180deg, #fffaf2, #ebe0cc);
+      border: 2px solid rgba(120, 80, 40, 0.4);
+      box-shadow: inset 0 1px 0 #fff;
+    }
+    .top-res { display: flex; gap: 6px; }
+
+    .shell-body { position: relative; min-height: 0; overflow: hidden; }
+    .stage {
+      position: absolute; inset: 0;
+      background:
+        linear-gradient(180deg, rgba(20,16,40,0.2), rgba(20,16,40,0.06)),
+        radial-gradient(ellipse at 35% 55%, #5a4a88, #2a2448 72%);
+      padding-right: var(--chat-w);
+    }
+    .stage-hint {
+      position: absolute; left: 52%; top: 55%;
+      transform: translate(-50%, -50%);
+      color: rgba(221,214,255,0.5);
+      font-size: 13px; font-weight: 700; pointer-events: none;
+    }
+
+    .party-hud {
+      position: absolute; left: 10px; top: 10px; bottom: 10px;
+      z-index: 6; width: 160px;
+      display: flex; flex-direction: column; gap: 6px;
+      pointer-events: none;
+    }
+    .party-card {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 7px;
+      align-items: center;
+      padding: 7px 9px;
+      border-radius: 10px;
+      pointer-events: auto;
+      background: rgba(255, 250, 242, 0.82);
+      border: 2px solid rgba(120, 80, 40, 0.45);
+      box-shadow: 0 2px 8px rgba(20,12,8,0.2);
+      backdrop-filter: blur(4px);
+    }
+    .party-card.self {
+      border-color: rgba(42, 154, 138, 0.7);
+      box-shadow: 0 0 0 1px rgba(42,154,138,0.2), 0 2px 8px rgba(20,12,8,0.2);
+    }
+    .party-face {
+      width: 34px; height: 34px; border-radius: 8px;
+      display: grid; place-items: center; font-size: 18px;
+      background: linear-gradient(180deg, #fff8ee, #e8d4b0);
+      border: 1px solid rgba(120,80,40,0.35);
+    }
+    .party-name { font-size: 11px; font-weight: 900; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .party-bar { margin-top: 3px; height: 6px; border-radius: 999px; background: rgba(80,60,40,0.18); overflow: hidden; }
+    .party-bar > i { display: block; height: 100%; background: linear-gradient(90deg, #6fdb8a, #3aa85a); }
+    .party-stats { margin-top: 2px; font-size: 9px; font-weight: 700; color: var(--ink-dim); }
+
+    .activity-toast {
+      position: absolute;
+      left: 50%; top: 12px;
+      transform: translateX(-50%) translateY(-130%);
+      z-index: 8;
+      width: min(440px, calc(100% - var(--chat-w) - 200px));
+      padding: 10px 18px 12px;
+      border-radius: 12px;
+      text-align: center;
+      background: linear-gradient(180deg, #fffaf2, #efe2cb);
+      border: 2px solid rgba(120, 80, 40, 0.45);
+      box-shadow: 0 8px 22px rgba(30,20,10,0.28);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.25, 1), opacity 0.35s ease;
+    }
+    .activity-toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+    .activity-toast .tag { font-size: 10px; font-weight: 900; color: var(--teal); letter-spacing: 0.06em; }
+    .activity-toast .title { margin-top: 2px; font-size: 15px; font-weight: 900; }
+    .activity-toast .sub { margin-top: 2px; font-size: 11px; color: var(--ink-dim); }
+
+    .shell-log {
+      position: absolute; top: 0; right: 0; bottom: 0;
+      width: var(--chat-w); z-index: 5;
+      display: flex; flex-direction: column;
+      background: linear-gradient(90deg, transparent, rgba(247,240,228,0.28) 16%, rgba(247,240,228,0.4));
+      -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px);
+      mask-image: linear-gradient(90deg, transparent 0, #000 14px);
+    }
+    .shell-log-title {
+      text-align: center; padding: 8px 8px 2px;
+      font-size: 12px; font-weight: 900; color: var(--teal); letter-spacing: 0.06em;
+    }
+    .feed {
+      flex: 1; min-height: 0; overflow: auto;
+      padding: 4px 8px 10px;
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .card {
+      padding: 9px 11px;
+      border-radius: 10px;
+      font-size: 11px; line-height: 1.4; font-weight: 650;
+      background: rgba(255, 250, 242, 0.88);
+      border: 1.5px solid rgba(120, 80, 40, 0.4);
+      box-shadow: 0 2px 6px rgba(40,25,10,0.14);
+      backdrop-filter: blur(4px);
+    }
+    .card b { color: #1f7a6c; }
+
+    .shell-footer {
+      min-height: var(--footer-h);
+      padding: 10px 14px 14px;
+      background:
+        linear-gradient(180deg, rgba(255,248,236,0.35), transparent 40%),
+        linear-gradient(180deg, #d2ba94, #b99568);
+      border-top: 2px solid rgba(90, 52, 20, 0.45);
+      box-shadow: inset 0 1px 0 rgba(255,230,180,0.25);
+    }
+    .action-rail {
+      height: calc(var(--footer-h) - 24px);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      align-items: center;
+      padding: 4px;
+      border-radius: 14px;
+      background: rgba(255, 248, 236, 0.28);
+      border: 2px solid rgba(120, 80, 40, 0.28);
+    }
+    .btn-slot { display: flex; height: var(--btn-h); }
+    .shell-btn {
+      flex: 1;
+      width: 100%;
+      border: 2px solid var(--wood-edge);
+      border-radius: 14px;
+      padding: 8px 12px;
+      color: #fff8ee;
+      font-weight: 900;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 0 rgba(40,20,0,0.55);
+      cursor: pointer;
+      background:
+        linear-gradient(180deg, rgba(255,220,140,0.45), transparent 42%),
+        linear-gradient(180deg, #e0a04a 0%, #c07828 55%, #8a5018 100%);
+      box-shadow:
+        0 3px 0 rgba(70, 40, 12, 0.45),
+        inset 0 1px 0 rgba(255, 240, 200, 0.45);
+    }
+    .shell-btn:active { transform: translateY(1px); box-shadow: 0 2px 0 rgba(70,40,12,0.45), inset 0 1px 0 rgba(255,240,200,0.35); }
+    .shell-btn.secondary {
+      background:
+        linear-gradient(180deg, rgba(230,220,200,0.35), transparent 40%),
+        linear-gradient(180deg, #b0a090, #7a6a58);
+      border-color: rgba(70, 50, 30, 0.55);
+    }
+    .shell-btn small {
+      display: block; margin-top: 2px;
+      font-size: 10px; font-weight: 700; opacity: 0.88;
+    }
+    .action-rail[data-count="1"] .btn-slot:nth-child(1),
+    .action-rail[data-count="1"] .btn-slot:nth-child(3) {
+      visibility: hidden; pointer-events: none;
+    }
+    .action-rail[data-count="2"] { grid-template-columns: repeat(2, minmax(0, 1fr)) 0fr; }
+    .action-rail[data-count="2"] .btn-slot:nth-child(3) { display: none; }
+
+    .toolbar {
+      position: fixed; right: 12px; bottom: 12px; z-index: 40;
+      display: flex; flex-wrap: wrap; gap: 8px; max-width: 300px; justify-content: flex-end;
+    }
+    .toolbar button {
+      border: 0; border-radius: 999px; padding: 10px 14px;
+      font-weight: 800; cursor: pointer;
+      background: #ffd27a; color: #2a2118; box-shadow: 0 4px 0 #8a6230;
+    }
+    .toolbar button.active { background: #2a9a8a; color: #fff; }
+    .toolbar button.ghost { background: #efe4d2; }
+  </style>
+</head>
+<body>
+  <div class="note">
+    <strong>샘플 HTML</strong> — 게임 미적용 · CSS only<br />
+    <code>shell_layout_sample.html</code>
+  </div>
+
+  <div class="phone">
+    <header class="shell-header">
+      <div class="brand-block">
+        <div class="brand">🌈 무지개섬</div>
+        <div class="area-chip" id="areaChip">
+          <span class="area-label">현재 지역</span>
+          <span class="area-name" id="areaName">안개 부두</span>
+        </div>
+      </div>
+      <div class="timeline">1일차 아침 · ●─●─●─○─○</div>
+      <div class="top-res">
+        <div class="chip">❤ 100/100</div>
+        <div class="chip">💎 120</div>
+      </div>
+    </header>
+
+    <div class="shell-body">
+      <div class="stage"><div class="stage-hint">연출 / 맵 뷰포트</div></div>
+
+      <aside class="party-hud">
+        <div class="party-card self">
+          <div class="party-face">🦫</div>
+          <div class="party-meta">
+            <div class="party-name">모험가 (나)</div>
+            <div class="party-bar"><i style="width:86%"></i></div>
+            <div class="party-stats">ATK 25 · DEF 15</div>
+          </div>
+        </div>
+        <div class="party-card">
+          <div class="party-face">🐕</div>
+          <div class="party-meta">
+            <div class="party-name">용감한 강아지</div>
+            <div class="party-bar"><i style="width:72%"></i></div>
+            <div class="party-stats">ATK 12 · DEF 8</div>
+          </div>
+        </div>
+        <div class="party-card">
+          <div class="party-face">🦦</div>
+          <div class="party-meta">
+            <div class="party-name">파도 수달</div>
+            <div class="party-bar"><i style="width:94%"></i></div>
+            <div class="party-stats">ATK 10 · DEF 11</div>
+          </div>
+        </div>
+        <div class="party-card">
+          <div class="party-face">🐇</div>
+          <div class="party-meta">
+            <div class="party-name">친절한 토끼</div>
+            <div class="party-bar"><i style="width:60%"></i></div>
+            <div class="party-stats">ATK 8 · DEF 14</div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="activity-toast" id="activityToast">
+        <div class="tag">현재 활동</div>
+        <div class="title" id="activityTitle">탐색 중</div>
+        <div class="sub" id="activitySub">안전한 지역을 탐색하고 있어요.</div>
+      </div>
+
+      <aside class="shell-log">
+        <div class="shell-log-title">구조 로그</div>
+        <div class="feed">
+          <div class="card"><b>섬 가이드</b><br />안개가 걷히기 시작했어.</div>
+          <div class="card"><b>파도수달</b><br />안전한 길부터 보자.</div>
+          <div class="card"><b>용감한 강아지</b><br />내가 앞장설게!</div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="shell-footer">
+      <div class="action-rail" id="actionRail" data-count="1">
+        <div class="btn-slot">
+          <button class="shell-btn secondary" type="button">살펴보기<small>주변 조사</small></button>
+        </div>
+        <div class="btn-slot">
+          <button class="shell-btn" type="button">다음 날로<small>NEXT DAY</small></button>
+        </div>
+        <div class="btn-slot">
+          <button class="shell-btn secondary" type="button">쉬기<small>체력 회복</small></button>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toolbar">
+    <button type="button" data-n="1" class="active">버튼 1</button>
+    <button type="button" data-n="2">버튼 2</button>
+    <button type="button" data-n="3">버튼 3</button>
+    <button type="button" class="ghost" id="toastBtn">공지 보기</button>
+    <button type="button" class="ghost" id="moveBtn">지역 이동</button>
+  </div>
+
+  <script>
+    const rail = document.getElementById("actionRail");
+    const toolbar = document.querySelector(".toolbar");
+    const toast = document.getElementById("activityToast");
+    const areaChip = document.getElementById("areaChip");
+    let toastTimer = 0;
+    const areas = ["안개 부두", "물결 숲", "고개 마을", "별빛 해안"];
+    let areaIdx = 0;
+
+    function setCount(n) {
+      rail.dataset.count = String(n);
+      const slots = [...rail.querySelectorAll(".btn-slot")];
+      const btns = slots.map((s) => s.querySelector("button"));
+      slots.forEach((slot, i) => {
+        slot.style.visibility = i < n ? "visible" : "hidden";
+        slot.style.pointerEvents = i < n ? "auto" : "none";
+      });
+      if (n === 1) {
+        slots[0].style.visibility = "hidden";
+        slots[1].style.visibility = "visible";
+        slots[2].style.visibility = "hidden";
+        btns[1].className = "shell-btn";
+        btns[1].innerHTML = "다음 날로<small>NEXT DAY</small>";
+      }
+      if (n === 2) {
+        slots[0].style.visibility = "visible";
+        slots[1].style.visibility = "visible";
+        slots[2].style.visibility = "hidden";
+        btns[0].className = "shell-btn secondary";
+        btns[0].innerHTML = "거절<small>다른 길</small>";
+        btns[1].className = "shell-btn";
+        btns[1].innerHTML = "수락<small>이 길로</small>";
+      }
+      if (n === 3) {
+        slots.forEach((s) => { s.style.visibility = "visible"; s.style.pointerEvents = "auto"; });
+        btns[0].className = "shell-btn secondary";
+        btns[0].innerHTML = "살펴보기<small>주변 조사</small>";
+        btns[1].className = "shell-btn";
+        btns[1].innerHTML = "전진<small>앞으로</small>";
+        btns[2].className = "shell-btn secondary";
+        btns[2].innerHTML = "쉬기<small>체력 회복</small>";
+      }
+      toolbar.querySelectorAll("button[data-n]").forEach((b) => {
+        b.classList.toggle("active", b.dataset.n === String(n));
+      });
+    }
+
+    function showActivity(title, sub, ms = 2800) {
+      document.getElementById("activityTitle").textContent = title;
+      document.getElementById("activitySub").textContent = sub;
+      toast.classList.add("show");
+      window.clearTimeout(toastTimer);
+      toastTimer = window.setTimeout(() => toast.classList.remove("show"), ms);
+    }
+
+    toolbar.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-n]");
+      if (btn) setCount(Number(btn.dataset.n));
+    });
+    document.getElementById("toastBtn").onclick = () =>
+      showActivity("탐색 중", "안전한 지역을 탐색하고 있어요.");
+    document.getElementById("moveBtn").onclick = () => {
+      areaIdx = (areaIdx + 1) % areas.length;
+      document.getElementById("areaName").textContent = areas[areaIdx];
+      areaChip.classList.remove("arrive");
+      void areaChip.offsetWidth;
+      areaChip.classList.add("arrive");
+      showActivity("지역 도착", `${areas[areaIdx]}(으)로 이동했다.`);
+    };
+
+    setCount(1);
+    showActivity("탐색 중", "안전한 지역을 탐색하고 있어요.", 3000);
+  </script>
+</body>
+</html>

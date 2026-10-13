@@ -1,0 +1,535 @@
+{
+  "games": [
+    {
+      "n": 5,
+      "win": {
+        "t": 25.733333333333153,
+        "result": {
+          "status": "win",
+          "reason": "6개 방을 돌파하고 동물을 구출했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 25.73,
+          "wavesCleared": 6,
+          "kills": 32,
+          "killsBySpecies": {
+            "q_yeti": 4,
+            "q_chicken": 2,
+            "q_ninja": 1,
+            "q_alien": 3,
+            "q_wizard": 4,
+            "q_green_spiky_blob": 5,
+            "q_squidle": 3,
+            "q_ghost_skull": 3,
+            "q_dino": 2,
+            "q_ninja_2": 2,
+            "q_alien_2": 1,
+            "q_blue_demon": 1,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_yeti": 2.72,
+            "q_chicken": 1.02,
+            "q_ninja": 1.72,
+            "q_alien": 2.3,
+            "q_wizard": 1.79,
+            "q_green_spiky_blob": 1.62,
+            "q_squidle": 1.72,
+            "q_ghost_skull": 2.51,
+            "q_dino": 3.1,
+            "q_ninja_2": 2.29,
+            "q_alien_2": 0.9,
+            "q_blue_demon": 0.9,
+            "q_goleling_evolved": 3.67
+          },
+          "damage": {
+            "character": 1038.5999999999995,
+            "skill": 1276.4000000000003,
+            "facility": 0,
+            "pet": 112,
+            "core": 0
+          },
+          "heroLevel": 18,
+          "picked": [
+            "w:slow-aura:1",
+            "w:ice-rocket:1",
+            "w:fire-rocket:1",
+            "p:speed:1",
+            "p:speed:2",
+            "w:pierce-drill:1",
+            "w:bomb:1",
+            "w:fire-rocket:2",
+            "w:fire-rocket:3",
+            "p:speed:3",
+            "w:slow-aura:2",
+            "w:pierce-drill:2",
+            "w:fire-rocket:4",
+            "w:bomb:2",
+            "p:area:1",
+            "w:slow-aura:3",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:slow-aura:4",
+            "p:hp:1",
+            "w:fire-rocket:5",
+            "evo:fire-pillar",
+            "w:ice-rocket:4",
+            "w:slow-aura:5",
+            "p:hp:2",
+            "p:hp:3",
+            "p:area:2",
+            "w:bomb:3",
+            "p:reload:1",
+            "p:duration:1"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 388,
+          "facilities": [],
+          "runId": "p05-mv3uu8et-2z",
+          "seed": 107,
+          "configHash": "95826ed8678da17d",
+          "buildId": "arcade-complete-codex-20261011",
+          "profileId": "p05",
+          "missionId": "r01-p05",
+          "variant": "standard",
+          "ticks": 1544,
+          "mode": "plannerTest",
+          "testOnly": true
+        },
+        "room": 5,
+        "cart": 0,
+        "clean": 0,
+        "sites": 0,
+        "stone": 0,
+        "enemies": 0,
+        "hero": {
+          "x": 0.9931749045631382,
+          "z": -7.737097659784472
+        },
+        "cartPos": {
+          "x": 0,
+          "z": 63
+        },
+        "level": 18,
+        "skills": [
+          [
+            "slow-aura",
+            5
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "pierce-drill",
+            2
+          ],
+          [
+            "bomb",
+            3
+          ],
+          [
+            "fire-pillar",
+            1
+          ]
+        ],
+        "workChecks": 0
+      },
+      "failure": {
+        "status": "lose",
+        "reason": "캐릭터가 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 0.02,
+        "wavesCleared": 0,
+        "kills": 0,
+        "killsBySpecies": {},
+        "avgLifeSecBySpecies": {},
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 1,
+        "picked": [
+          "w:ground-mine:1",
+          "w:orbit-shards:1",
+          "w:lightning-chain:1"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 180,
+        "facilities": [],
+        "runId": "p05-mv3uunw6-byw597",
+        "seed": 723734683,
+        "configHash": "95826ed8678da17d",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p05",
+        "missionId": "r01-p05",
+        "variant": "standard",
+        "ticks": 1,
+        "mode": "plannerTest",
+        "testOnly": true
+      }
+    },
+    {
+      "n": 6,
+      "win": {
+        "t": 51.749999999998344,
+        "result": {
+          "status": "win",
+          "reason": "반려동물과 수레가 탈출 거점에 도착했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 51.75,
+          "wavesCleared": 1,
+          "kills": 15,
+          "killsBySpecies": {
+            "q_chicken": 2,
+            "q_alien": 2,
+            "q_yeti": 2,
+            "q_wizard": 1,
+            "q_green_spiky_blob": 1,
+            "q_ghost_skull": 1,
+            "q_squidle": 1,
+            "q_ninja_2": 1,
+            "q_dino": 1,
+            "q_alien_2": 1,
+            "q_blue_demon": 1,
+            "q_ninja": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_chicken": 0.09,
+            "q_alien": 0.25,
+            "q_yeti": 0.23,
+            "q_wizard": 0.3,
+            "q_green_spiky_blob": 0.38,
+            "q_ghost_skull": 0.22,
+            "q_squidle": 0.33,
+            "q_ninja_2": 0.37,
+            "q_dino": 0.5,
+            "q_alien_2": 0.23,
+            "q_blue_demon": 0.4,
+            "q_ninja": 0.12
+          },
+          "damage": {
+            "character": 241.8499999999999,
+            "skill": 599.1499999999999,
+            "facility": 0,
+            "pet": 60.99999999999999,
+            "core": 0
+          },
+          "heroLevel": 15,
+          "picked": [
+            "w:slow-aura:1",
+            "w:ice-rocket:1",
+            "w:fire-rocket:1",
+            "w:spread-stream:1",
+            "w:lightning-chain:1",
+            "p:speed:1",
+            "w:slow-aura:2",
+            "w:fire-rocket:2",
+            "w:fire-rocket:3",
+            "p:speed:2",
+            "w:spread-stream:2",
+            "w:lightning-chain:2",
+            "p:speed:3",
+            "p:area:1",
+            "w:fire-rocket:4",
+            "w:spread-stream:3",
+            "p:area:2",
+            "p:area:3",
+            "w:spread-stream:4",
+            "w:fire-rocket:5",
+            "evo:fire-pillar"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 256,
+          "facilities": [],
+          "runId": "p06-mv3uuen2-2z",
+          "seed": 107,
+          "configHash": "f1159ce3cc5d9b3b",
+          "buildId": "arcade-complete-codex-20261011",
+          "profileId": "p06",
+          "missionId": "r01-p06",
+          "variant": "standard",
+          "ticks": 3105,
+          "mode": "plannerTest",
+          "testOnly": true
+        },
+        "room": 0,
+        "cart": 5,
+        "clean": 0,
+        "sites": 0,
+        "stone": 0,
+        "enemies": 1,
+        "hero": {
+          "x": 0,
+          "z": -17.36000000000033
+        },
+        "cartPos": {
+          "x": 0,
+          "z": -19.240000000001032
+        },
+        "level": 15,
+        "skills": [
+          [
+            "slow-aura",
+            2
+          ],
+          [
+            "ice-rocket",
+            1
+          ],
+          [
+            "spread-stream",
+            4
+          ],
+          [
+            "lightning-chain",
+            2
+          ],
+          [
+            "fire-pillar",
+            1
+          ]
+        ],
+        "workChecks": 0
+      },
+      "failure": {
+        "status": "lose",
+        "reason": "호위 수레가 파괴됐습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 0.02,
+        "wavesCleared": 0,
+        "kills": 0,
+        "killsBySpecies": {},
+        "avgLifeSecBySpecies": {},
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 1,
+        "picked": [
+          "w:bounce-block:1",
+          "w:pet-drone-b:1",
+          "w:fan-slash:1"
+        ],
+        "coreHpFraction": 0,
+        "heroHpFraction": 1,
+        "pointsLeft": 180,
+        "facilities": [],
+        "runId": "p06-mv3uur6f-byw2d6",
+        "seed": 723730938,
+        "configHash": "f1159ce3cc5d9b3b",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p06",
+        "missionId": "r01-p06",
+        "variant": "standard",
+        "ticks": 1,
+        "mode": "plannerTest",
+        "testOnly": true
+      }
+    },
+    {
+      "n": 7,
+      "win": {
+        "t": 36.76666666666586,
+        "result": {
+          "status": "win",
+          "reason": "오염원을 제거하고 섬과 시설을 복구했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 36.77,
+          "wavesCleared": 1,
+          "kills": 13,
+          "killsBySpecies": {
+            "q_ninja": 2,
+            "q_chicken": 1,
+            "q_alien": 1,
+            "q_yeti": 1,
+            "q_wizard": 1,
+            "q_green_spiky_blob": 1,
+            "q_ghost_skull": 1,
+            "q_squidle": 1,
+            "q_ninja_2": 1,
+            "q_dino": 1,
+            "q_alien_2": 1,
+            "q_blue_demon": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_ninja": 0.12,
+            "q_chicken": 0.2,
+            "q_alien": 0.22,
+            "q_yeti": 0.38,
+            "q_wizard": 0.22,
+            "q_green_spiky_blob": 0.3,
+            "q_ghost_skull": 0.28,
+            "q_squidle": 0.22,
+            "q_ninja_2": 0.28,
+            "q_dino": 0.3,
+            "q_alien_2": 0.23,
+            "q_blue_demon": 0.32
+          },
+          "damage": {
+            "character": 186.39999999999995,
+            "skill": 528.5,
+            "facility": 0,
+            "pet": 55.099999999999994,
+            "core": 0
+          },
+          "heroLevel": 12,
+          "picked": [
+            "w:slow-aura:1",
+            "w:ice-rocket:1",
+            "w:fire-rocket:1",
+            "w:spread-stream:1",
+            "w:lightning-chain:1",
+            "w:lightning-chain:2",
+            "p:speed:1",
+            "w:fire-rocket:2",
+            "w:fire-rocket:3",
+            "w:ice-rocket:2",
+            "p:area:1",
+            "w:lightning-chain:3",
+            "w:fire-rocket:4",
+            "w:slow-aura:2",
+            "w:fire-rocket:5",
+            "evo:fire-pillar",
+            "p:speed:2",
+            "w:ice-rocket:3",
+            "w:lightning-chain:4",
+            "w:spread-stream:2",
+            "w:lightning-chain:5",
+            "w:slow-aura:3",
+            "w:ice-rocket:4",
+            "p:speed:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 244,
+          "facilities": [],
+          "runId": "p07-mv3uujdr-2z",
+          "seed": 107,
+          "configHash": "f9a6bb59bb5b9195",
+          "buildId": "arcade-complete-codex-20261011",
+          "profileId": "p07",
+          "missionId": "r01-p07",
+          "variant": "standard",
+          "ticks": 2206,
+          "mode": "plannerTest",
+          "testOnly": true
+        },
+        "room": 0,
+        "cart": 0,
+        "clean": 0.4506172839506173,
+        "sites": 3,
+        "stone": 2,
+        "enemies": 0,
+        "hero": {
+          "x": -10.754918239404098,
+          "z": -6.859728939536308
+        },
+        "cartPos": {
+          "x": 0,
+          "z": 63
+        },
+        "level": 12,
+        "skills": [
+          [
+            "slow-aura",
+            3
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "spread-stream",
+            2
+          ],
+          [
+            "lightning-chain",
+            5
+          ],
+          [
+            "fire-pillar",
+            1
+          ]
+        ],
+        "workChecks": 831
+      },
+      "failure": {
+        "status": "lose",
+        "reason": "구출·복구 제한시간이 끝났습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 360.02,
+        "wavesCleared": 0,
+        "kills": 0,
+        "killsBySpecies": {},
+        "avgLifeSecBySpecies": {},
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 1,
+        "picked": [
+          "w:bomb:1",
+          "w:pierce-drill:1",
+          "w:pet-drone-a:1"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 180,
+        "facilities": [],
+        "runId": "p07-mv3uutuh-bywbxw",
+        "seed": 723743348,
+        "configHash": "f9a6bb59bb5b9195",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p07",
+        "missionId": "r01-p07",
+        "variant": "standard",
+        "ticks": 1,
+        "mode": "plannerTest",
+        "testOnly": true
+      }
+    }
+  ],
+  "errors": []
+}

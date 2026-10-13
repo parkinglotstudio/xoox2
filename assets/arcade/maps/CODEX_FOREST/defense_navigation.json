@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "bounds": [
+    42,
+    52
+  ],
+  "colliders": [
+    {
+      "x": 17.0,
+      "z": -20.0,
+      "radius": 4.05,
+      "model": "pond"
+    },
+    {
+      "x": -18.0,
+      "z": 8,
+      "radius": 2.65,
+      "model": "pond"
+    }
+  ]
+}

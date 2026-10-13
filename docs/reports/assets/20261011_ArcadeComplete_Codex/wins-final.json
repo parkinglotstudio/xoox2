@@ -1,0 +1,791 @@
+[
+  {
+    "i": 1,
+    "initial": {
+      "profile": "p01",
+      "box": [
+        0.8187863279195303,
+        2.0999999999999996,
+        0.9493039649049995
+      ],
+      "height": 1.5,
+      "camera": [
+        0,
+        49.199999999999996,
+        36.34727065630957
+      ]
+    },
+    "timeline": {
+      "out": [
+        {
+          "time": 20.000000000000146,
+          "wave": 1,
+          "hp": 100,
+          "alive": 2,
+          "level": 1,
+          "kills": 10,
+          "phase": "battle",
+          "pet": 0
+        },
+        {
+          "time": 39.99999999999901,
+          "wave": 1,
+          "hp": 100,
+          "alive": 2,
+          "level": 2,
+          "kills": 22,
+          "phase": "battle",
+          "pet": 8
+        },
+        {
+          "time": 40.93333333333229,
+          "wave": 1,
+          "hp": 100,
+          "alive": 0,
+          "level": 3,
+          "kills": 24,
+          "phase": "prep",
+          "pet": 8
+        },
+        {
+          "time": 60.933333333331156,
+          "wave": 2,
+          "hp": 100,
+          "alive": 3,
+          "level": 3,
+          "kills": 45,
+          "phase": "battle",
+          "pet": 20
+        },
+        {
+          "time": 80.93333333333003,
+          "wave": 2,
+          "hp": 140,
+          "alive": 3,
+          "level": 5,
+          "kills": 69,
+          "phase": "battle",
+          "pet": 32
+        },
+        {
+          "time": 82.96666666666324,
+          "wave": 2,
+          "hp": 140,
+          "alive": 0,
+          "level": 5,
+          "kills": 72,
+          "phase": "prep",
+          "pet": 32
+        },
+        {
+          "time": 102.9666666666621,
+          "wave": 3,
+          "hp": 124,
+          "alive": 10,
+          "level": 6,
+          "kills": 99,
+          "phase": "battle",
+          "pet": 86.6
+        },
+        {
+          "time": 122.96666666666097,
+          "wave": 3,
+          "hp": 124,
+          "alive": 4,
+          "level": 8,
+          "kills": 140,
+          "phase": "battle",
+          "pet": 97.39999999999999
+        },
+        {
+          "time": 142.96666666667258,
+          "wave": 3,
+          "hp": 124,
+          "alive": 1,
+          "level": 9,
+          "kills": 144,
+          "phase": "battle",
+          "pet": 116.6
+        },
+        {
+          "time": 144.5166666666738,
+          "wave": 3,
+          "hp": 124,
+          "alive": 0,
+          "level": 9,
+          "kills": 145,
+          "phase": "win",
+          "pet": 116.6
+        }
+      ],
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 144.52,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_green_blob": 28,
+          "q_pink_slime": 36,
+          "q_orc_enemy": 16,
+          "q_cactoro": 16,
+          "q_wizard": 24,
+          "q_green_spiky_blob": 24,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 2.71,
+          "q_pink_slime": 4.2,
+          "q_orc_enemy": 1.57,
+          "q_cactoro": 3.38,
+          "q_wizard": 1.26,
+          "q_green_spiky_blob": 7.33,
+          "q_goleling_evolved": 21.53
+        },
+        "damage": {
+          "character": 1880.090000000008,
+          "skill": 1210.1599999999992,
+          "facility": 1684.400000000001,
+          "pet": 116.6,
+          "core": 360.75
+        },
+        "heroLevel": 9,
+        "picked": [
+          "p:cooldown:1",
+          "w:bolt-home:1",
+          "p:hp:1",
+          "p:hp:2",
+          "w:bolt-home:2",
+          "p:cooldown:2",
+          "w:bolt-home:3",
+          "p:cooldown:3"
+        ],
+        "coreHpFraction": 0.849,
+        "heroHpFraction": 0.886,
+        "pointsLeft": 452,
+        "facilities": [
+          "fireSeat:Lv3",
+          "iceTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3eqyf3-7",
+        "seed": 7,
+        "configHash": "5030af05d66042fe",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r01-p01",
+        "variant": "standard",
+        "ticks": 11024,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "progress": null
+    },
+    "errors": []
+  },
+  {
+    "i": 2,
+    "initial": {
+      "profile": "p02",
+      "box": [
+        0.8189120162855559,
+        2.0999999999999996,
+        0.9491247674681236
+      ],
+      "height": 1.5,
+      "camera": [
+        0,
+        49.199999999999996,
+        36.67307321344
+      ]
+    },
+    "timeline": {
+      "out": [
+        {
+          "time": 20.000000000000146,
+          "wave": 1,
+          "hp": 100,
+          "alive": 2,
+          "level": 1,
+          "kills": 10,
+          "phase": "battle",
+          "pet": 0
+        },
+        {
+          "time": 39.99999999999901,
+          "wave": 1,
+          "hp": 100,
+          "alive": 2,
+          "level": 2,
+          "kills": 22,
+          "phase": "battle",
+          "pet": 8
+        },
+        {
+          "time": 40.89999999999896,
+          "wave": 1,
+          "hp": 100,
+          "alive": 0,
+          "level": 3,
+          "kills": 24,
+          "phase": "prep",
+          "pet": 8
+        },
+        {
+          "time": 60.899999999997824,
+          "wave": 2,
+          "hp": 100,
+          "alive": 3,
+          "level": 3,
+          "kills": 45,
+          "phase": "battle",
+          "pet": 20
+        },
+        {
+          "time": 80.8999999999967,
+          "wave": 2,
+          "hp": 140,
+          "alive": 3,
+          "level": 5,
+          "kills": 69,
+          "phase": "battle",
+          "pet": 32
+        },
+        {
+          "time": 82.93333333332991,
+          "wave": 2,
+          "hp": 140,
+          "alive": 0,
+          "level": 5,
+          "kills": 72,
+          "phase": "prep",
+          "pet": 32
+        },
+        {
+          "time": 102.93333333332878,
+          "wave": 3,
+          "hp": 124,
+          "alive": 9,
+          "level": 6,
+          "kills": 100,
+          "phase": "battle",
+          "pet": 86.6
+        },
+        {
+          "time": 122.93333333332764,
+          "wave": 3,
+          "hp": 100,
+          "alive": 8,
+          "level": 7,
+          "kills": 136,
+          "phase": "battle",
+          "pet": 128.2
+        },
+        {
+          "time": 137.91666666666856,
+          "wave": 3,
+          "hp": 120,
+          "alive": 0,
+          "level": 10,
+          "kills": 145,
+          "phase": "win",
+          "pet": 166.59999999999997
+        }
+      ],
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 137.92,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_green_blob": 28,
+          "q_pink_slime": 36,
+          "q_orc_enemy": 16,
+          "q_cactoro": 16,
+          "q_wizard": 24,
+          "q_green_spiky_blob": 24,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 2.72,
+          "q_pink_slime": 4.4,
+          "q_orc_enemy": 1.61,
+          "q_cactoro": 3.41,
+          "q_wizard": 0.99,
+          "q_green_spiky_blob": 8.48,
+          "q_goleling_evolved": 14.97
+        },
+        "damage": {
+          "character": 2061.7200000000107,
+          "skill": 1290.2800000000007,
+          "facility": 1554.600000000001,
+          "pet": 166.59999999999997,
+          "core": 178.8
+        },
+        "heroLevel": 10,
+        "picked": [
+          "p:cooldown:1",
+          "w:bolt-home:1",
+          "p:hp:1",
+          "p:hp:2",
+          "w:bolt-home:2",
+          "p:cooldown:2",
+          "w:bolt-home:3",
+          "p:cooldown:3",
+          "p:hp:3"
+        ],
+        "coreHpFraction": 0.908,
+        "heroHpFraction": 0.75,
+        "pointsLeft": 452,
+        "facilities": [
+          "fireSeat:Lv3",
+          "iceTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p02-mv3er1m1-7",
+        "seed": 7,
+        "configHash": "28ba55e71dfbfb73",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r01-p02",
+        "variant": "standard",
+        "ticks": 10626,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "progress": null
+    },
+    "errors": []
+  },
+  {
+    "i": 3,
+    "initial": {
+      "profile": "p03",
+      "box": [
+        0.8187866603815017,
+        2.0999999999999996,
+        0.9493034657938018
+      ],
+      "height": 1.5,
+      "camera": [
+        0,
+        25.425936460033522,
+        20.676476848445265
+      ]
+    },
+    "timeline": {
+      "out": [
+        {
+          "time": 20.000000000000146,
+          "wave": 1,
+          "hp": 92,
+          "alive": 3,
+          "level": 1,
+          "kills": 9,
+          "phase": "battle",
+          "pet": 12
+        },
+        {
+          "time": 39.99999999999901,
+          "wave": 1,
+          "hp": 92,
+          "alive": 8,
+          "level": 2,
+          "kills": 28,
+          "phase": "battle",
+          "pet": 36
+        },
+        {
+          "time": 59.999999999997875,
+          "wave": 1,
+          "hp": 100,
+          "alive": 8,
+          "level": 4,
+          "kills": 60,
+          "phase": "battle",
+          "pet": 56
+        },
+        {
+          "time": 79.99999999999675,
+          "wave": 1,
+          "hp": 100,
+          "alive": 6,
+          "level": 5,
+          "kills": 105,
+          "phase": "battle",
+          "pet": 104
+        },
+        {
+          "time": 99.99999999999561,
+          "wave": 1,
+          "hp": 100,
+          "alive": 7,
+          "level": 8,
+          "kills": 152,
+          "phase": "battle",
+          "pet": 156
+        },
+        {
+          "time": 119.99999999999447,
+          "wave": 1,
+          "hp": 100,
+          "alive": 4,
+          "level": 9,
+          "kills": 205,
+          "phase": "battle",
+          "pet": 156
+        },
+        {
+          "time": 140.00000000000355,
+          "wave": 1,
+          "hp": 100,
+          "alive": 2,
+          "level": 10,
+          "kills": 269,
+          "phase": "battle",
+          "pet": 193.6
+        },
+        {
+          "time": 160.00000000001947,
+          "wave": 1,
+          "hp": 100,
+          "alive": 12,
+          "level": 11,
+          "kills": 317,
+          "phase": "battle",
+          "pet": 245.6
+        },
+        {
+          "time": 180.00000000003539,
+          "wave": 1,
+          "hp": 100,
+          "alive": 22,
+          "level": 13,
+          "kills": 373,
+          "phase": "battle",
+          "pet": 284.6
+        },
+        {
+          "time": 200.0000000000513,
+          "wave": 1,
+          "hp": 100,
+          "alive": 19,
+          "level": 15,
+          "kills": 444,
+          "phase": "battle",
+          "pet": 315
+        },
+        {
+          "time": 220.00000000006722,
+          "wave": 1,
+          "hp": 100,
+          "alive": 29,
+          "level": 16,
+          "kills": 511,
+          "phase": "battle",
+          "pet": 361.8
+        },
+        {
+          "time": 240.00000000008313,
+          "wave": 1,
+          "hp": 100,
+          "alive": 31,
+          "level": 16,
+          "kills": 573,
+          "phase": "battle",
+          "pet": 416.6
+        },
+        {
+          "time": 260.0000000000922,
+          "wave": 1,
+          "hp": 84,
+          "alive": 23,
+          "level": 16,
+          "kills": 665,
+          "phase": "battle",
+          "pet": 488.6
+        },
+        {
+          "time": 280.000000000074,
+          "wave": 1,
+          "hp": 92,
+          "alive": 29,
+          "level": 16,
+          "kills": 749,
+          "phase": "battle",
+          "pet": 508.84000000000003
+        },
+        {
+          "time": 300.0000000000558,
+          "wave": 1,
+          "hp": 100,
+          "alive": 13,
+          "level": 16,
+          "kills": 842,
+          "phase": "battle",
+          "pet": 566.44
+        },
+        {
+          "time": 315.4333333333751,
+          "wave": 1,
+          "hp": 90,
+          "alive": 5,
+          "level": 16,
+          "kills": 850,
+          "phase": "win",
+          "pet": 595.2400000000001
+        }
+      ],
+      "result": {
+        "status": "win",
+        "reason": "최종 보스를 물리쳤습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 315.43,
+        "wavesCleared": 1,
+        "kills": 850,
+        "killsBySpecies": {
+          "q_green_blob": 114,
+          "q_pink_slime": 53,
+          "q_mushnub": 181,
+          "q_cactoro": 55,
+          "q_orc_enemy": 102,
+          "q_ninja": 223,
+          "q_green_spiky_blob": 80,
+          "q_cat": 40,
+          "q_mushnub_evolved": 1,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 2.06,
+          "q_pink_slime": 2.21,
+          "q_mushnub": 3.58,
+          "q_cactoro": 4.79,
+          "q_orc_enemy": 4.72,
+          "q_ninja": 7.53,
+          "q_green_spiky_blob": 8.37,
+          "q_cat": 3.7,
+          "q_mushnub_evolved": 6.55,
+          "q_goleling_evolved": 15.43
+        },
+        "damage": {
+          "character": 14039.260000000068,
+          "skill": 11563.499999999978,
+          "facility": 0,
+          "pet": 595.2400000000001,
+          "core": 0
+        },
+        "heroLevel": 16,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "p:speed:1",
+          "p:speed:2",
+          "w:pierce-drill:2",
+          "w:spread-stream:2",
+          "w:pierce-drill:3",
+          "w:spread-stream:3",
+          "w:flame-field:1",
+          "p:speed:3",
+          "w:flame-field:2",
+          "w:spread-stream:4",
+          "p:reload:1",
+          "w:pierce-drill:4",
+          "w:flame-field:3"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0.9,
+        "pointsLeft": 3940,
+        "facilities": [],
+        "runId": "p03-mv3er45u-7",
+        "seed": 7,
+        "configHash": "9c76306fe45afb4e",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r01-p03",
+        "variant": "standard",
+        "ticks": 18934,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "progress": null
+    },
+    "errors": []
+  },
+  {
+    "i": 4,
+    "initial": {
+      "profile": "p04",
+      "box": [
+        0.8190468457189193,
+        2.0999999999999996,
+        0.948949336714873
+      ],
+      "height": 1.5,
+      "camera": [
+        0,
+        30,
+        12
+      ]
+    },
+    "timeline": {
+      "out": [
+        {
+          "time": 20.000000000000146,
+          "wave": 1,
+          "hp": 100,
+          "alive": 1,
+          "level": 1,
+          "kills": 18,
+          "phase": "battle",
+          "pet": 0
+        },
+        {
+          "time": 20.45000000000012,
+          "wave": 1,
+          "hp": 100,
+          "alive": 0,
+          "level": 2,
+          "kills": 19,
+          "phase": "prep",
+          "pet": 0
+        },
+        {
+          "time": 36.78333333333253,
+          "wave": 2,
+          "hp": 100,
+          "alive": 0,
+          "level": 4,
+          "kills": 44,
+          "phase": "prep",
+          "pet": 0
+        },
+        {
+          "time": 52.31666666666498,
+          "wave": 3,
+          "hp": 100,
+          "alive": 0,
+          "level": 6,
+          "kills": 75,
+          "phase": "prep",
+          "pet": 0
+        },
+        {
+          "time": 66.94999999999749,
+          "wave": 4,
+          "hp": 100,
+          "alive": 0,
+          "level": 8,
+          "kills": 112,
+          "phase": "prep",
+          "pet": 0
+        },
+        {
+          "time": 81.06666666666335,
+          "wave": 5,
+          "hp": 100,
+          "alive": 0,
+          "level": 10,
+          "kills": 155,
+          "phase": "prep",
+          "pet": 0
+        },
+        {
+          "time": 97.29999999999576,
+          "wave": 6,
+          "hp": 100,
+          "alive": 0,
+          "level": 11,
+          "kills": 204,
+          "phase": "win",
+          "pet": 0
+        }
+      ],
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 97.3,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_spiky_blob": 37,
+          "q_green_blob": 67,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_spiky_blob": 3.57,
+          "q_green_blob": 7,
+          "k_chest": 7.41,
+          "q_glub_evolved": 16.21,
+          "q_pink_slime": 7.43,
+          "q_dragon_evolved": 16.23
+        },
+        "damage": {
+          "character": 12372.299999999994,
+          "skill": 661.6999999999999,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3er84e-7",
+        "seed": 7,
+        "configHash": "b3667df95f2800f5",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r01-p04",
+        "variant": "standard",
+        "ticks": 8174,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "progress": null
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "soos-arcade",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:forest": "vite --open /forest-play-tool.html",
+    "planner": "node planner/server.js",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/three": "0.185.3",
+    "typescript": "5.9.3",
+    "vite": "5.4.21"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  }
+}

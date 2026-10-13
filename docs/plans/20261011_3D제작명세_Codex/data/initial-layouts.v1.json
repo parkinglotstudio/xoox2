@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-authoring-layouts-require-ground-collision-navigation-validation",
+  "coordinateSpace": "blender-island-m",
+  "m03": {
+    "sizeM": [
+      40,
+      40
+    ],
+    "signalTowerXY": [
+      0,
+      0
+    ],
+    "entryXY": [
+      0,
+      -17
+    ],
+    "firePartXY": [
+      0,
+      14
+    ],
+    "icePartXY": [
+      14,
+      0
+    ],
+    "boltPartXY": [
+      -14,
+      0
+    ],
+    "minimumCarryPathWidthM": 2.4
+  },
+  "m05": {
+    "originXY": [
+      0,
+      -105
+    ],
+    "sizeM": [
+      40,
+      50
+    ],
+    "coreLocalXY": [
+      0,
+      0
+    ],
+    "auxiliaryLocalXY": [
+      [
+        -9,
+        -4
+      ],
+      [
+        9,
+        -4
+      ],
+      [
+        -8,
+        7
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    "spawnLocalXY": [
+      [
+        -18,
+        20
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        0,
+        -23
+      ]
+    ],
+    "allSlotsRequireHeightSampling": true
+  },
+  "m07": {
+    "originXY": [
+      0,
+      55
+    ],
+    "sizeM": [
+      50,
+      50
+    ],
+    "coreLocalXY": [
+      0,
+      -17
+    ],
+    "buildSlotLocalXY": [
+      [
+        -15,
+        12
+      ],
+      [
+        -7,
+        10
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        -16,
+        -2
+      ],
+      [
+        -6,
+        -3
+      ],
+      [
+        8,
+        -2
+      ],
+      [
+        16,
+        -5
+      ]
+    ],
+    "routes": [
+      {
+        "id": "g07-ground-1",
+        "pointsLocalXY": [
+          [
+            -22,
+            22
+          ],
+          [
+            -12,
+            18
+          ],
+          [
+            -18,
+            6
+          ],
+          [
+            -8,
+            0
+          ],
+          [
+            -12,
+            -10
+          ],
+          [
+            -3,
+            -17
+          ]
+        ]
+      },
+      {
+        "id": "g07-ground-2",
+        "pointsLocalXY": [
+          [
+            22,
+            22
+          ],
+          [
+            12,
+            15
+          ],
+          [
+            18,
+            4
+          ],
+          [
+            7,
+            -3
+          ],
+          [
+            12,
+            -11
+          ],
+          [
+            3,
+            -17
+          ]
+        ]
+      }
+    ],
+    "endPolicy": "core-perimeter-not-single-point"
+  },
+  "m08": {
+    "candidateCenterXY": [
+      4,
+      135.2
+    ],
+    "arenaDiameterM": 16,
+    "reserveClearRadiusM": 10,
+    "requiresFlatDeckOrVerifiedGround": true
+  },
+  "m09": {
+    "candidateCenterXY": [
+      0,
+      0
+    ],
+    "sizeM": [
+      50,
+      50
+    ],
+    "springLocalXY": [
+      [
+        -15,
+        10
+      ],
+      [
+        15,
+        8
+      ],
+      [
+        0,
+        -16
+      ]
+    ],
+    "eligibleAreaPolicy": "walkable-ground-only"
+  },
+  "m10": {
+    "candidateWaypointsXY": [
+      [
+        4,
+        135.2
+      ],
+      [
+        -59,
+        110
+      ],
+      [
+        59,
+        110
+      ],
+      [
+        59,
+        20
+      ],
+      [
+        -59,
+        20
+      ],
+      [
+        -59,
+        -70
+      ],
+      [
+        59,
+        -70
+      ],
+      [
+        59,
+        -130
+      ],
+      [
+        0,
+        -160.5
+      ]
+    ],
+    "targetArcLengthM": 720,
+    "toleranceFraction": 0.01,
+    "pathWidthM": 6,
+    "buildPolicy": "measure-fitted-curve-adjust-bends-or-add-existing-path-modules-never-fake-distance",
+    "note": "Candidate points are not a completed navigation path. Ground-height and reserved corridor must be authored before use."
+  }
+}

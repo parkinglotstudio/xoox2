@@ -1,0 +1,18 @@
+{
+  "display": "7",
+  "runtime": {
+    "hp": 500,
+    "damage": 7,
+    "points": 250,
+    "hero": 120,
+    "slots": 4,
+    "hash": "6d99828cc548edca"
+  },
+  "savedDelta": {
+    "core": {
+      "damage": 7
+    }
+  },
+  "otherMissionsUnchanged": true,
+  "errors": []
+}

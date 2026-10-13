@@ -1,0 +1,167 @@
+{
+  "residents": [
+    {
+      "id": "resident_ruon",
+      "role": "선착장 둘러보기",
+      "state": "rest",
+      "clip": "idle",
+      "node": 2782,
+      "position": [
+        0.84,
+        1.775,
+        18.06
+      ],
+      "walks": 57,
+      "greetings": 10
+    },
+    {
+      "id": "resident_ria",
+      "role": "물길과 마당 둘러보기",
+      "state": "rest",
+      "clip": "idle",
+      "node": 2121,
+      "position": [
+        10.92,
+        6.51,
+        2.94
+      ],
+      "walks": 48,
+      "greetings": 12
+    }
+  ],
+  "residentMaxJump": 0.07024799146834386,
+  "minResidentPetDistance": 0.837699187727573,
+  "nightResidentsReturn": true,
+  "secondsSimulated": 1800,
+  "cpuMilliseconds": 2151.7758999999996,
+  "navNodes": 4021,
+  "navTriangles": 8042,
+  "zones": {
+    "island_pet": 450,
+    "bridge_pet_garden": 46,
+    "island_garden": 132,
+    "house_garden_porch": 71,
+    "bridge_main_pet": 59,
+    "house_pet_porch": 90,
+    "island_main": 1757,
+    "bridge_garden_workshop": 42,
+    "island_workshop": 280,
+    "dock_stair": 30,
+    "house_main_porch": 134,
+    "dock_main": 467,
+    "bridge_main_lookout": 86,
+    "island_lookout": 122,
+    "house_lookout_porch": 76,
+    "bridge_workshop_lookout": 96,
+    "house_workshop_porch": 83
+  },
+  "cycles": [
+    {
+      "id": "pet_nofilter",
+      "trips": 13,
+      "transitions": {
+        "home_rest": 14,
+        "stand_up": 14,
+        "walk_out": 14,
+        "look_rest": 34,
+        "wander": 23,
+        "return_home": 13,
+        "sit_down": 13,
+        "yield_way": 2,
+        "yield_wait": 2
+      },
+      "visited": [
+        "house_pet_porch",
+        "island_pet",
+        "bridge_pet_garden",
+        "island_garden",
+        "bridge_garden_workshop",
+        "island_workshop",
+        "bridge_main_pet",
+        "island_main"
+      ],
+      "state": "walk_out",
+      "stateAge": 17.39999999999996
+    },
+    {
+      "id": "pet_flux",
+      "trips": 13,
+      "transitions": {
+        "home_rest": 14,
+        "stand_up": 14,
+        "walk_out": 14,
+        "look_rest": 37,
+        "wander": 23,
+        "return_home": 13,
+        "sit_down": 13
+      },
+      "visited": [
+        "house_workshop_porch",
+        "island_workshop",
+        "bridge_workshop_lookout",
+        "island_lookout"
+      ],
+      "state": "look_rest",
+      "stateAge": 3.0000000000000027
+    },
+    {
+      "id": "pet_lumos",
+      "trips": 12,
+      "transitions": {
+        "home_rest": 13,
+        "stand_up": 13,
+        "walk_out": 15,
+        "look_rest": 35,
+        "wander": 28,
+        "return_home": 13,
+        "sit_down": 12,
+        "yield_way": 8,
+        "yield_wait": 8
+      },
+      "visited": [
+        "house_main_porch",
+        "island_main",
+        "bridge_main_pet",
+        "island_pet",
+        "bridge_pet_garden",
+        "island_garden",
+        "bridge_main_lookout",
+        "island_lookout",
+        "bridge_workshop_lookout",
+        "island_workshop"
+      ],
+      "state": "wander",
+      "stateAge": 4.866666666666669
+    },
+    {
+      "id": "pet_gizmo",
+      "trips": 14,
+      "transitions": {
+        "home_rest": 15,
+        "stand_up": 15,
+        "walk_out": 15,
+        "look_rest": 42,
+        "wander": 31,
+        "return_home": 15,
+        "sit_down": 14,
+        "yield_way": 5,
+        "yield_wait": 4
+      },
+      "visited": [
+        "house_garden_porch",
+        "island_garden",
+        "bridge_pet_garden",
+        "island_pet",
+        "bridge_main_pet",
+        "island_main"
+      ],
+      "state": "yield_way",
+      "stateAge": 1.7999999999999998
+    }
+  ],
+  "maxJump": 0.1882202069235427,
+  "minSeparation": 0.7435862837707059,
+  "nightStayHome": true,
+  "pauseFreezesMovement": true,
+  "allHomesReachEveryZone": true
+}

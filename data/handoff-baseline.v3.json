@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 3,
+  "author": "Codex",
+  "updatedAt": "2026-10-11 22:56 KST",
+  "root": "C:/soos-arcade",
+  "previousBaseline": "data/handoff-baseline.v2.json",
+  "scope": {
+    "originalProfiles": [
+      "p01",
+      "p02",
+      "p03",
+      "p04"
+    ],
+    "addedProfiles": [
+      "p05",
+      "p06",
+      "p07"
+    ],
+    "addedLobbyEvent": "invasion",
+    "legacyAdditionalIdeas": "six concepts combined into three; pet cooperation is shared"
+  },
+  "plan": "docs/plans/20261011_추가3종_마을침략_풍부한성장_제작계획_Codex.md",
+  "implementation": "docs/implementation/20261011_추가3종_성장_마을침략_구현인수인계_Codex.md",
+  "report": "docs/reports/20261011_작업보고서_추가3종_성장개선_Codex.md",
+  "runtime": "src/arcadeComplete",
+  "config": "assets/arcade/config-codex",
+  "planner": "http://localhost:4174/planner/play.html",
+  "gameServer": "http://localhost:5190",
+  "profiles": [
+    {
+      "id": "p01",
+      "title": "정화 코어 방어",
+      "reference": "Duck Survival",
+      "rulesetId": "base-defense",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p02",
+      "title": "정화 코어 방어 · FPS",
+      "reference": "user-requested-FPS-mode-no-specific-game-supplied",
+      "inheritsProfileId": "p01",
+      "rulesetId": "base-defense",
+      "viewPolicy": "firstPerson",
+      "controlPolicy": "joystick-look-auto",
+      "targetingPolicy": "view-cone-los",
+      "enabled": true,
+      "overrides": {
+        "view": {
+          "verticalFovDeg": 60,
+          "eyeHeightM": 1.6,
+          "nearM": 0.05,
+          "headBobEnabled": false,
+          "visualRecoilDegMax": 1
+        },
+        "input": {
+          "lookDegreesPerCssPx": 0.18,
+          "pitchLimitDeg": [
+            -35,
+            45
+          ],
+          "deadzonePx": 2
+        },
+        "targeting": {
+          "coneHalfAngleDeg": 18
+        }
+      }
+    },
+    {
+      "id": "p03",
+      "title": "정화숲 대생존",
+      "reference": "Survivor.io / Vampire Survivors",
+      "rulesetId": "horde-survival",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p04",
+      "title": "체인 대열 정화",
+      "reference": "Cell Survivor supplied video",
+      "rulesetId": "chain-defense",
+      "viewPolicy": "chainBoard",
+      "controlPolicy": "horizontal-target",
+      "targetingPolicy": "fixed-forward",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p05",
+      "title": "수색 돌파",
+      "rulesetId": "room-rescue",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p06",
+      "title": "구출 호위와 탈출",
+      "rulesetId": "escort-rescue",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    },
+    {
+      "id": "p07",
+      "title": "정화 복구",
+      "rulesetId": "restoration",
+      "viewPolicy": "topDown",
+      "controlPolicy": "joystick-auto",
+      "targetingPolicy": "nearest-los",
+      "enabled": true,
+      "overrides": {}
+    }
+  ],
+  "maps": [
+    {
+      "source": "assets\\maps\\forest_rooms\\room_empty_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_empty_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2344168
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_empty_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_empty_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 24,
+      "bytes": 2336716
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_rock_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_rock_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2358972
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_rock_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_rock_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2350704
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_pillars_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pillars_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2354892
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_pillars_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pillars_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2346624
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_pools_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pools_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2393784
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_pools_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_pools_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2385512
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_spikes_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_spikes_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2398520
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_spikes_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_spikes_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2390252
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_boss_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_boss_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2416212
+    },
+    {
+      "source": "assets\\maps\\forest_rooms\\room_boss_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\room_boss_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -8
+      ],
+      "removedGateFaces": 23,
+      "bytes": 2407944
+    },
+    {
+      "source": "assets\\maps\\sky_route\\sky_route_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\sky_route_polluted.glb",
+      "offsetBlender": [
+        0,
+        -61,
+        -7
+      ],
+      "removedGateFaces": 0,
+      "bytes": 7504316
+    },
+    {
+      "source": "assets\\maps\\sky_route\\sky_route_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\sky_route_purified.glb",
+      "offsetBlender": [
+        0,
+        -61,
+        -7
+      ],
+      "removedGateFaces": 0,
+      "bytes": 7495684
+    },
+    {
+      "source": "assets\\maps\\landing\\landing_polluted.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\landing_polluted.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -6
+      ],
+      "removedGateFaces": 0,
+      "bytes": 15999612
+    },
+    {
+      "source": "assets\\maps\\landing\\landing_purified.glb",
+      "output": "assets\\arcade\\maps\\CODEX_EXPANSION\\landing_purified.glb",
+      "offsetBlender": [
+        0,
+        0,
+        -6
+      ],
+      "removedGateFaces": 0,
+      "bytes": 15991268
+    }
+  ],
+  "growth": {
+    "initialLevel": 1,
+    "maxLevel": 100,
+    "initialRequiredXp": 4,
+    "requiredXpAddedPerLevel": 1.5,
+    "preserveOverflowXp": true,
+    "multipleLevelupsPolicy": "queued-choices",
+    "maxLevelFallback": "heal-or-result-fragment",
+    "combatChoiceIntervalSec": 6,
+    "startingChoices": 3
+  },
+  "missionIds": [
+    "r01-p03",
+    "r01-p01",
+    "r01-p02",
+    "r01-p04",
+    "r02-p03",
+    "r02-p01",
+    "r02-p02",
+    "r02-p04",
+    "r03-p03",
+    "r03-p01",
+    "r03-p02",
+    "r03-p04",
+    "r04-p03",
+    "r04-p01",
+    "r04-p02",
+    "r04-p04",
+    "r05-p03",
+    "r05-p01",
+    "r05-p02",
+    "r05-p04",
+    "r01-p05",
+    "r01-p06",
+    "r01-p07",
+    "r02-p05",
+    "r02-p06",
+    "r02-p07",
+    "r03-p05",
+    "r03-p06",
+    "r03-p07",
+    "r04-p05",
+    "r04-p06",
+    "r04-p07",
+    "r05-p05",
+    "r05-p06",
+    "r05-p07"
+  ],
+  "verification": {
+    "files": [
+      "docs/reports/assets/20261011_Expansion_Codex/final-qa.json",
+      "docs/reports/assets/20261011_Expansion_Codex/objective-qa.json",
+      "docs/reports/assets/20261011_Expansion_Codex/planner-scope-qa.json"
+    ],
+    "normalGoalsCompleted": 3,
+    "snapshotCount": 35,
+    "isolatedEvolutionEffectsVerified": 4,
+    "soundRequested": false,
+    "deploymentBuildRequested": false,
+    "phonePerformanceMeasured": false
+  }
+}

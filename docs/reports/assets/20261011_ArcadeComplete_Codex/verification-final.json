@@ -1,0 +1,759 @@
+{
+  "ui": [
+    {
+      "i": 1,
+      "tutorial": true,
+      "before": {
+        "x": 0,
+        "z": 3.2
+      },
+      "after": {
+        "x": 2.325,
+        "z": 3.2
+      },
+      "moved": true,
+      "paused": true,
+      "camera": null,
+      "state": {
+        "profile": "p01",
+        "mode": "plannerTest",
+        "phase": "battle",
+        "t": 14.000000000000275,
+        "hero": {
+          "x": 2.325,
+          "z": 3.2
+        },
+        "hp": 100,
+        "active": 5,
+        "render": {
+          "frame": 187,
+          "calls": 87,
+          "triangles": 461848,
+          "points": 210,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 68,
+          "textures": 8
+        },
+        "pet": 0,
+        "hash": "4e6ecd366c752ef7"
+      },
+      "errors": [],
+      "missing": []
+    },
+    {
+      "i": 2,
+      "tutorial": true,
+      "before": {
+        "x": 0,
+        "z": 3.2
+      },
+      "after": {
+        "x": 1.6912206632832685,
+        "z": 4.567624827240166
+      },
+      "moved": true,
+      "paused": true,
+      "camera": {
+        "yaw": 2.241681167838507,
+        "pitch": 0.0942477796076938,
+        "position": [
+          1.6912206632832685,
+          1.6,
+          4.567624827240166
+        ],
+        "gun": true
+      },
+      "state": {
+        "profile": "p02",
+        "mode": "plannerTest",
+        "phase": "battle",
+        "t": 13.416666666666913,
+        "hero": {
+          "x": 1.6912206632832685,
+          "z": 4.567624827240166
+        },
+        "hp": 100,
+        "active": 4,
+        "render": {
+          "frame": 195,
+          "calls": 55,
+          "triangles": 242526,
+          "points": 210,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 72,
+          "textures": 8
+        },
+        "pet": 0,
+        "hash": "92fe24059a8954ab"
+      },
+      "errors": [],
+      "missing": []
+    },
+    {
+      "i": 3,
+      "tutorial": true,
+      "before": {
+        "x": 0,
+        "z": 3.2
+      },
+      "after": {
+        "x": 2.325,
+        "z": 3.2
+      },
+      "moved": true,
+      "paused": true,
+      "camera": null,
+      "state": {
+        "profile": "p03",
+        "mode": "plannerTest",
+        "phase": "battle",
+        "t": 51.94999999999833,
+        "hero": {
+          "x": 2.325,
+          "z": 3.2
+        },
+        "hp": 100,
+        "active": 9,
+        "render": {
+          "frame": 180,
+          "calls": 77,
+          "triangles": 510120,
+          "points": 210,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 76,
+          "textures": 8
+        },
+        "pet": 40,
+        "hash": "f13f09fe7001d756"
+      },
+      "errors": [],
+      "missing": []
+    },
+    {
+      "i": 4,
+      "tutorial": true,
+      "before": {
+        "x": 0,
+        "z": 10.5
+      },
+      "after": {
+        "x": 3.0000000000000013,
+        "z": 10.5
+      },
+      "moved": true,
+      "paused": true,
+      "camera": null,
+      "state": {
+        "profile": "p04",
+        "mode": "plannerTest",
+        "phase": "battle",
+        "t": 13.96666666666694,
+        "hero": {
+          "x": 3.0000000000000013,
+          "z": 10.5
+        },
+        "hp": 100,
+        "active": 1,
+        "render": {
+          "frame": 184,
+          "calls": 56,
+          "triangles": 324150,
+          "points": 210,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 49,
+          "textures": 8
+        },
+        "pet": 0,
+        "hash": "978c0aaa98aab402"
+      },
+      "errors": [],
+      "missing": []
+    }
+  ],
+  "losses": [
+    {
+      "i": 1,
+      "result": {
+        "status": "lose",
+        "reason": "정화 코어 파괴",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 81.37,
+        "wavesCleared": 1,
+        "kills": 43,
+        "killsBySpecies": {
+          "q_green_blob": 16,
+          "q_pink_slime": 12,
+          "q_orc_enemy": 7,
+          "q_cactoro": 8
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 11.97,
+          "q_pink_slime": 9.15,
+          "q_orc_enemy": 10.59,
+          "q_cactoro": 10.8
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 752
+        },
+        "heroLevel": 3,
+        "picked": [
+          "p:duration:1",
+          "p:area:1"
+        ],
+        "coreHpFraction": 0,
+        "heroHpFraction": 1,
+        "pointsLeft": 412,
+        "facilities": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gpjxy-v",
+        "seed": 31,
+        "configHash": "4e6ecd366c752ef7",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r01-p01",
+        "variant": "standard",
+        "ticks": 5596,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "time": 81.36666666666333,
+      "hero": 100,
+      "core": 0,
+      "restart": true
+    },
+    {
+      "i": 2,
+      "result": {
+        "status": "lose",
+        "reason": "정화 코어 파괴",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 81.37,
+        "wavesCleared": 1,
+        "kills": 43,
+        "killsBySpecies": {
+          "q_green_blob": 16,
+          "q_pink_slime": 12,
+          "q_orc_enemy": 7,
+          "q_cactoro": 8
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 11.97,
+          "q_pink_slime": 9.15,
+          "q_orc_enemy": 10.59,
+          "q_cactoro": 10.8
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 752
+        },
+        "heroLevel": 3,
+        "picked": [
+          "p:duration:1",
+          "p:area:1"
+        ],
+        "coreHpFraction": 0,
+        "heroHpFraction": 1,
+        "pointsLeft": 412,
+        "facilities": [
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p02-mv3gpngk-v",
+        "seed": 31,
+        "configHash": "92fe24059a8954ab",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r01-p02",
+        "variant": "standard",
+        "ticks": 5596,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "time": 81.36666666666333,
+      "hero": 100,
+      "core": 0,
+      "restart": true
+    },
+    {
+      "i": 3,
+      "result": {
+        "status": "lose",
+        "reason": "정화숲에서 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 152.5,
+        "wavesCleared": 0,
+        "kills": 295,
+        "killsBySpecies": {
+          "q_green_blob": 107,
+          "q_mushnub": 18,
+          "q_cactoro": 8,
+          "q_pink_slime": 41,
+          "q_orc_enemy": 79,
+          "q_green_spiky_blob": 10,
+          "q_ninja": 20,
+          "q_cat": 12
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 2.98,
+          "q_mushnub": 2.41,
+          "q_cactoro": 2.65,
+          "q_pink_slime": 2.25,
+          "q_orc_enemy": 5.57,
+          "q_green_spiky_blob": 7.85,
+          "q_ninja": 7.9,
+          "q_cat": 4.9
+        },
+        "damage": {
+          "character": 6075.9999999999945,
+          "skill": 1078,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 4,
+        "picked": [
+          "p:xp:1",
+          "w:pet-drone-a:1",
+          "w:lightning-chain:1",
+          "w:pet-drone-a:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 1400,
+        "facilities": [],
+        "runId": "p03-mv3gpquq-v",
+        "seed": 31,
+        "configHash": "f13f09fe7001d756",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r01-p03",
+        "variant": "standard",
+        "ticks": 9150,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "time": 152.5000000000135,
+      "hero": 0,
+      "core": 400,
+      "restart": true
+    },
+    {
+      "i": 4,
+      "result": {
+        "status": "lose",
+        "reason": "체인이 방어선을 넘어왔습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 33.95,
+        "wavesCleared": 0,
+        "kills": 18,
+        "killsBySpecies": {
+          "q_green_blob": 13,
+          "k_chest": 2,
+          "q_green_spiky_blob": 3
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 14.41,
+          "k_chest": 18.36,
+          "q_green_spiky_blob": 24.25
+        },
+        "damage": {
+          "character": 552,
+          "skill": 0,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 1,
+        "picked": [
+          "chain:rate"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 264,
+        "facilities": [],
+        "runId": "p04-mv3gpuxk-v",
+        "seed": 31,
+        "configHash": "978c0aaa98aab402",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r01-p04",
+        "variant": "standard",
+        "ticks": 2037,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "time": 33.949999999999356,
+      "hero": 100,
+      "core": 400,
+      "restart": true
+    }
+  ],
+  "tables": [
+    {
+      "id": "r01-p03",
+      "profile": "p03",
+      "rules": "horde-survival",
+      "roster": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_mushnub",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_ninja",
+        "q_green_spiky_blob",
+        "q_cat"
+      ],
+      "hash": "f13f09fe7001d756"
+    },
+    {
+      "id": "r01-p01",
+      "profile": "p01",
+      "rules": "base-defense",
+      "roster": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_green_spiky_blob",
+        "q_wizard",
+        "q_goleling_evolved"
+      ],
+      "hash": "4e6ecd366c752ef7"
+    },
+    {
+      "id": "r01-p02",
+      "profile": "p02",
+      "rules": "base-defense",
+      "roster": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_green_spiky_blob",
+        "q_wizard",
+        "q_goleling_evolved"
+      ],
+      "hash": "92fe24059a8954ab"
+    },
+    {
+      "id": "r01-p04",
+      "profile": "p04",
+      "rules": "chain-defense",
+      "roster": [
+        "q_glub_evolved",
+        "q_green_spiky_blob",
+        "q_green_blob",
+        "k_chest",
+        "q_pink_slime",
+        "q_dragon_evolved"
+      ],
+      "hash": "978c0aaa98aab402"
+    },
+    {
+      "id": "r02-p03",
+      "profile": "p03",
+      "rules": "horde-survival",
+      "roster": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_fish",
+        "q_birb",
+        "q_glub",
+        "q_armabee"
+      ],
+      "hash": "9eb8492e43914041"
+    },
+    {
+      "id": "r02-p01",
+      "profile": "p01",
+      "rules": "base-defense",
+      "roster": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_birb",
+        "q_glub",
+        "q_glub_evolved"
+      ],
+      "hash": "2a345d9046fd7428"
+    },
+    {
+      "id": "r02-p02",
+      "profile": "p02",
+      "rules": "base-defense",
+      "roster": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_birb",
+        "q_glub",
+        "q_glub_evolved"
+      ],
+      "hash": "f2b0e5a0a047a012"
+    },
+    {
+      "id": "r02-p04",
+      "profile": "p04",
+      "rules": "chain-defense",
+      "roster": [
+        "q_glub_evolved",
+        "q_green_spiky_blob",
+        "q_green_blob",
+        "k_chest",
+        "q_pink_slime",
+        "q_dragon_evolved"
+      ],
+      "hash": "0b0ed15ce957ff78"
+    },
+    {
+      "id": "r03-p03",
+      "profile": "p03",
+      "rules": "horde-survival",
+      "roster": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_demon"
+      ],
+      "hash": "843533b0de731b3e"
+    },
+    {
+      "id": "r03-p01",
+      "profile": "p01",
+      "rules": "base-defense",
+      "roster": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_alpaking_evolved"
+      ],
+      "hash": "a2a14f22e966695c"
+    },
+    {
+      "id": "r03-p02",
+      "profile": "p02",
+      "rules": "base-defense",
+      "roster": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_alpaking_evolved"
+      ],
+      "hash": "f38aa5561383df5a"
+    },
+    {
+      "id": "r03-p04",
+      "profile": "p04",
+      "rules": "chain-defense",
+      "roster": [
+        "q_glub_evolved",
+        "q_green_spiky_blob",
+        "q_green_blob",
+        "k_chest",
+        "q_pink_slime",
+        "q_dragon_evolved"
+      ],
+      "hash": "3789341389323178"
+    },
+    {
+      "id": "r04-p03",
+      "profile": "p03",
+      "rules": "horde-survival",
+      "roster": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_fish_2"
+      ],
+      "hash": "fdb3f66a2d7b3818"
+    },
+    {
+      "id": "r04-p01",
+      "profile": "p01",
+      "rules": "base-defense",
+      "roster": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_dragon_evolved"
+      ],
+      "hash": "a68e074705346bb2"
+    },
+    {
+      "id": "r04-p02",
+      "profile": "p02",
+      "rules": "base-defense",
+      "roster": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_dragon_evolved"
+      ],
+      "hash": "c352c659aeb1d050"
+    },
+    {
+      "id": "r04-p04",
+      "profile": "p04",
+      "rules": "chain-defense",
+      "roster": [
+        "q_glub_evolved",
+        "q_green_spiky_blob",
+        "q_green_blob",
+        "k_chest",
+        "q_pink_slime",
+        "q_dragon_evolved"
+      ],
+      "hash": "6e2fb7525ad4da23"
+    },
+    {
+      "id": "r05-p03",
+      "profile": "p03",
+      "rules": "horde-survival",
+      "roster": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d"
+      ],
+      "hash": "9556765402c4f5c5"
+    },
+    {
+      "id": "r05-p01",
+      "profile": "p01",
+      "rules": "base-defense",
+      "roster": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d",
+        "q_mushroom_king"
+      ],
+      "hash": "fa336b41c890538e"
+    },
+    {
+      "id": "r05-p02",
+      "profile": "p02",
+      "rules": "base-defense",
+      "roster": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d",
+        "q_mushroom_king"
+      ],
+      "hash": "385420d5c813e09c"
+    },
+    {
+      "id": "r05-p04",
+      "profile": "p04",
+      "rules": "chain-defense",
+      "roster": [
+        "q_glub_evolved",
+        "q_green_spiky_blob",
+        "q_green_blob",
+        "k_chest",
+        "q_pink_slime",
+        "q_dragon_evolved"
+      ],
+      "hash": "e30928e420d429d7"
+    }
+  ],
+  "planner": {
+    "resolved": {
+      "seconds": 90,
+      "mode": "plannerTest",
+      "pet": null
+    },
+    "invalidSave": 400,
+    "invalidMessage": {
+      "error": "hero.hp: 0보다 커야 합니다."
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "reviewOnly": true,
+  "userProgressUnchanged": "All activity used an isolated Playwright browser context; no real browser storage was accessed.",
+  "initial": {
+    "orderedMissions": [
+      {
+        "id": "s02",
+        "title": "숲길",
+        "game": "g02"
+      },
+      {
+        "id": "s03",
+        "title": "폐허",
+        "game": "g03"
+      },
+      {
+        "id": "s01",
+        "title": "해변 상륙",
+        "game": "g01"
+      },
+      {
+        "id": "s04",
+        "title": "바닷길",
+        "game": "g04"
+      },
+      {
+        "id": "s05",
+        "title": "입구",
+        "game": "g05"
+      },
+      {
+        "id": "s06",
+        "title": "지하",
+        "game": "g06"
+      },
+      {
+        "id": "s07",
+        "title": "오염원 둘레",
+        "game": "g07"
+      },
+      {
+        "id": "s08",
+        "title": "오염원",
+        "game": "g08"
+      },
+      {
+        "id": "s09",
+        "title": "오염된 땅",
+        "game": "g09"
+      },
+      {
+        "id": "s10",
+        "title": "귀환길",
+        "game": "g10"
+      }
+    ],
+    "active": "cards",
+    "unlockedButtons": true,
+    "lockedCards": 9,
+    "canvasContext": true,
+    "webGL": false
+  },
+  "states": [
+    {
+      "gameId": "g01",
+      "name": "해변 상륙 — 떼 버티기",
+      "skeleton": "A 전투 생존",
+      "playable": true,
+      "mode": "버티기",
+      "canvasVisible": true,
+      "stubVisible": false,
+      "flowText": "",
+      "mapConfigured": "m01",
+      "time": 0.16079999990463262
+    },
+    {
+      "gameId": "g02",
+      "name": "숲길 — 방 하나씩 돌파",
+      "skeleton": "A 전투 생존",
+      "playable": true,
+      "mode": "방 돌파",
+      "canvasVisible": true,
+      "stubVisible": false,
+      "flowText": "",
+      "mapConfigured": "m02",
+      "time": 0.16663400000000003
+    },
+    {
+      "gameId": "g03",
+      "name": "폐허 수색 — 작은 동물 무리 지휘",
+      "skeleton": "C 무리 지휘",
+      "playable": false,
+      "mode": null,
+      "canvasVisible": false,
+      "stubVisible": true,
+      "flowText": "폐허 — C 무리 지휘\n이 뼈대의 시뮬레이션은 다음 단계에서 만든다. 지금은 흐름만 이어 본다.\n[한 판 흐름]\n0:00 폐허 입구. 흩어진 작은 동물 5마리를 불러 모은다.\n탐색: 덩굴은 불 동물, 물웅덩이는 얼음 동물(얼려서 건넘), 멈춘 기계는 번개 동물.\n찌꺼기 적에게 던지면 달라붙어 공격. 쌍권총도 같이 쏜다.\n조각을 찾으면 동물들이 신호탑으로 나른다. 나르는 동안 적이 달려든다.\n3개 모으면 신호탑이 켜지고 지도에 원인 위치가 뜬다.\n\n[이기는 조건] 신호기 조각 3개를 신호탑에 날라 오기.\n[지는 조건] 5분 초과 또는 무리 0마리.\n성공으로 처리\n실패로 처리",
+      "mapConfigured": "m03",
+      "time": 0
+    },
+    {
+      "gameId": "g04",
+      "name": "바닷길 — 정화기 호위",
+      "skeleton": "A 전투 생존",
+      "playable": true,
+      "mode": "호위",
+      "canvasVisible": true,
+      "stubVisible": false,
+      "flowText": "",
+      "mapConfigured": "m04",
+      "time": 0.16659999999999994
+    },
+    {
+      "gameId": "g05",
+      "name": "문 앞 — 짓고 버티기",
+      "skeleton": "B 건설 방어",
+      "playable": false,
+      "mode": null,
+      "canvasVisible": false,
+      "stubVisible": true,
+      "flowText": "입구 — B 건설 방어\n이 뼈대의 시뮬레이션은 다음 단계에서 만든다. 지금은 흐름만 이어 본다.\n[한 판 흐름]\n준비 1: 바닥 초상 \"저 칸을 누르면 세울 수 있다.\" → 등대 자리 → 세우기.\n악마 표식(자리·마리 수·붉은 길). \"적이 설 자리다. 전투를 눌러라.\"\n전투 1: 떼가 붉은 길로 온다. 거리 원 안에서 속사, 등대도 따로 쏜다.\n준비 2: 두 번째 자리(로켓 좌) 열림. 정화 조각으로 등대 업그레이드.\n전투 2·3: 표식이 두세 곳. 3번째 전투 끝에 큰 놈.\n성공: 찌꺼기가 문에서 물러나고 문이 열린다.\n\n[이기는 조건] 3번째 전투까지 버티고 등대가 서 있음.\n[지는 조건] 체력 0 또는 등대 파괴.\n성공으로 처리\n실패로 처리",
+      "mapConfigured": "m05",
+      "time": 0
+    },
+    {
+      "gameId": "g06",
+      "name": "지하 — 블록 파고 쌓기",
+      "skeleton": "D 지형 파기",
+      "playable": false,
+      "mode": null,
+      "canvasVisible": false,
+      "stubVisible": true,
+      "flowText": "지하 — D 지형 파기\n이 뼈대의 시뮬레이션은 다음 단계에서 만든다. 지금은 흐름만 이어 본다.\n[한 판 흐름]\n1층: 파기만 배운다. 바닥 초상 \"앞을 밀면 깨진다.\"\n2층: 구멍(오염 웅덩이). 블록을 쌓아 메우고 건넌다.\n3층: 오염 블록을 깨면 찌꺼기가 튀어나온다. 블록을 쌓아 길을 막을 수 있다.\n4층: 위에서 오염액이 차오르기 시작. 빨리 내려가야 한다.\n5층: 단단한 블록 — 바주카 폭탄으로만 깨진다. 깨면 입구.\n\n[이기는 조건] 5층 아래 오염원 입구 도착.\n[지는 조건] 오염액에 잠기거나 체력 0.\n성공으로 처리\n실패로 처리",
+      "mapConfigured": "m06",
+      "time": 0
+    },
+    {
+      "gameId": "g07",
+      "name": "오염원 둘레 — 길목 지키기",
+      "skeleton": "B 건설 방어",
+      "playable": false,
+      "mode": null,
+      "canvasVisible": false,
+      "stubVisible": true,
+      "flowText": "오염원 둘레 — B 건설 방어\n이 뼈대의 시뮬레이션은 다음 단계에서 만든다. 지금은 흐름만 이어 본다.\n[한 판 흐름]\n준비: 건설 칸 8개. 정화 포인트로 포탑을 세운다.\n웨이브 1~3: 한 길. 악마 표식이 다음 웨이브 입구를 미리 보여 준다.\n웨이브 4~7: 두 길. 막사 펫이 길을 막는다.\n웨이브 8~10: 하늘 적(birb 등) — 속사 포탑만 맞힌다.\n일찍 부르기: 남은 시간만큼 정화 포인트 보너스.\n\n[이기는 조건] 8웨이브 동안 수레 체력이 남음.\n[지는 조건] 정화기 체력 0.\n성공으로 처리\n실패로 처리",
+      "mapConfigured": "m07",
+      "time": 0
+    },
+    {
+      "gameId": "g08",
+      "name": "오염원 — 큰 놈과 맞서기",
+      "skeleton": "A 전투 생존",
+      "playable": true,
+      "mode": "보스",
+      "canvasVisible": true,
+      "stubVisible": false,
+      "flowText": "",
+      "mapConfigured": "m08",
+      "time": 0.15399999985694876
+    },
+    {
+      "gameId": "g09",
+      "name": "오염 땅 — 정화 색으로 덮기",
+      "skeleton": "A 전투 생존",
+      "playable": true,
+      "mode": "칠하기",
+      "canvasVisible": true,
+      "stubVisible": false,
+      "flowText": "",
+      "mapConfigured": "m09",
+      "time": 0.15869999999999984
+    },
+    {
+      "gameId": "g10",
+      "name": "귀환길 — 무너지는 길 탈출",
+      "skeleton": "E 추격 러너",
+      "playable": false,
+      "mode": null,
+      "canvasVisible": false,
+      "stubVisible": true,
+      "flowText": "귀환길 — E 추격 러너\n이 뼈대의 시뮬레이션은 다음 단계에서 만든다. 지금은 흐름만 이어 본다.\n[한 판 흐름]\n0:00 오염원이 무너진다. 바닥 초상 \"뒤가 닫힌다. 달려!\"\n구간 1: 좌우 피하기만. 빛 조각 줄이 안전한 길.\n구간 2: 구멍 → 점프.\n구간 3: 길 위에 이번 바퀴 동물의 빛. 안으면 동물이 옆에서 같이 달린다.\n구간 4: 부두. 배에 오르면 성공.\n로비: 구한 동물이 로비에 남는다.\n\n[이기는 조건] 부두 도착 + 동물 빛을 안고 있음.\n[지는 조건] 무너짐에 따라잡힘(그 구간 처음부터).\n성공으로 처리\n실패로 처리",
+      "mapConfigured": "m10",
+      "time": 0
+    }
+  ],
+  "movement": {
+    "before": {
+      "x": 0,
+      "y": 7.5
+    },
+    "after": {
+      "x": 1.1201399999999992,
+      "y": 7.5
+    }
+  },
+  "roomsMovementShooting": {
+    "stopToShoot": true,
+    "moving": true,
+    "regularShots": 0,
+    "rocketShots": 1
+  },
+  "stubClear": {
+    "cleared": true,
+    "stars": 3,
+    "finished": true,
+    "playerExists": false,
+    "result": "성공\n★★★\n루온: \"물러간다. 문이 열렸다.\"\n알게 된 것 — 문이 열렸다.\n다음"
+  },
+  "errors": []
+}

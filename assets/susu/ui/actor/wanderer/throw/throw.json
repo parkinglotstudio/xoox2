@@ -1,0 +1,283 @@
+{
+  "id": "throw",
+  "cell": 512,
+  "pivot": "bottom-center",
+  "fill_ratio": 0.88,
+  "cols": 14,
+  "rows": 1,
+  "frame_count": 14,
+  "sheet": "throw_sheet.png",
+  "bg": {
+    "mode": "none",
+    "tolerance": 42,
+    "soft": 18,
+    "key": "auto-corners"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "throw_00.png",
+      "src": "00.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\00.png",
+      "duration_ms": 60,
+      "file": "frames/throw_00.png",
+      "char_size": [
+        184,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 1,
+      "name": "throw_01.png",
+      "src": "01.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\01.png",
+      "duration_ms": 60,
+      "file": "frames/throw_01.png",
+      "char_size": [
+        192,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 2,
+      "name": "throw_02.png",
+      "src": "02.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\02.png",
+      "duration_ms": 90,
+      "file": "frames/throw_02.png",
+      "char_size": [
+        222,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 3,
+      "name": "throw_03.png",
+      "src": "03.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\03.png",
+      "duration_ms": 90,
+      "file": "frames/throw_03.png",
+      "char_size": [
+        232,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 4,
+      "name": "throw_04.png",
+      "src": "04.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\04.png",
+      "duration_ms": 90,
+      "file": "frames/throw_04.png",
+      "char_size": [
+        289,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 5,
+      "name": "throw_05.png",
+      "src": "05.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\05.png",
+      "duration_ms": 90,
+      "file": "frames/throw_05.png",
+      "char_size": [
+        310,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 6,
+      "name": "throw_06.png",
+      "src": "06.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\06.png",
+      "duration_ms": 90,
+      "file": "frames/throw_06.png",
+      "char_size": [
+        219,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 7,
+      "name": "throw_07.png",
+      "src": "07.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\07.png",
+      "duration_ms": 90,
+      "file": "frames/throw_07.png",
+      "char_size": [
+        205,
+        444
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 8,
+      "name": "throw_08.png",
+      "src": "08.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\08.png",
+      "duration_ms": 90,
+      "file": "frames/throw_08.png",
+      "char_size": [
+        307,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 9,
+      "name": "throw_09.png",
+      "src": "09.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\09.png",
+      "duration_ms": 90,
+      "file": "frames/throw_09.png",
+      "char_size": [
+        305,
+        446
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 10,
+      "name": "throw_10.png",
+      "src": "10.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\10.png",
+      "duration_ms": 90,
+      "file": "frames/throw_10.png",
+      "char_size": [
+        242,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 11,
+      "name": "throw_11.png",
+      "src": "11.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\11.png",
+      "duration_ms": 90,
+      "file": "frames/throw_11.png",
+      "char_size": [
+        242,
+        445
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 12,
+      "name": "throw_12.png",
+      "src": "12.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\12.png",
+      "duration_ms": 60,
+      "file": "frames/throw_12.png",
+      "char_size": [
+        199,
+        444
+      ],
+      "applied_scale": 1.0
+    },
+    {
+      "index": 13,
+      "name": "throw_13.png",
+      "src": "13.png",
+      "src_path": "C:\\xoox\\docs\\art\\sprites\\wanderer\\ingame\\throw\\gif_clean\\13.png",
+      "duration_ms": 60,
+      "file": "frames/throw_13.png",
+      "char_size": [
+        212,
+        444
+      ],
+      "applied_scale": 1.0
+    }
+  ],
+  "loop": true,
+  "source_gif": "0824 던지기 기본 제자리.gif",
+  "source_frame_count": 14,
+  "pad_bottom": 12,
+  "applied_frame_scales": {
+    "anim_id": "throw",
+    "cell": 512,
+    "pivot": "bottom-center",
+    "pad_bottom": 12,
+    "type": "frame_scales",
+    "baseline": "_pre_scale_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "scales": {}
+  },
+  "applied_body_offsets": {
+    "anim_id": "throw",
+    "cell": 512,
+    "pivot": {
+      "x": 256,
+      "y": 500
+    },
+    "type": "body_offsets",
+    "baseline": "_pre_offset_backup",
+    "note": "Applied from editor Save → engine pack (absolute).",
+    "offsets": {
+      "0": {
+        "dx": 0,
+        "dy": 0
+      },
+      "1": {
+        "dx": 0,
+        "dy": 0
+      },
+      "2": {
+        "dx": 26,
+        "dy": 0
+      },
+      "3": {
+        "dx": 30,
+        "dy": 0
+      },
+      "4": {
+        "dx": 12,
+        "dy": 0
+      },
+      "5": {
+        "dx": 7,
+        "dy": 0
+      },
+      "6": {
+        "dx": -33,
+        "dy": 0
+      },
+      "7": {
+        "dx": -23,
+        "dy": 0
+      },
+      "8": {
+        "dx": -78,
+        "dy": 0
+      },
+      "9": {
+        "dx": -74,
+        "dy": 0
+      },
+      "10": {
+        "dx": -49,
+        "dy": 0
+      },
+      "11": {
+        "dx": -49,
+        "dy": 0
+      },
+      "12": {
+        "dx": -29,
+        "dy": 0
+      },
+      "13": {
+        "dx": -21,
+        "dy": 0
+      }
+    }
+  }
+}

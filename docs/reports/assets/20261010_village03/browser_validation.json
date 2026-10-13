@@ -1,0 +1,370 @@
+{
+  "errors": [],
+  "diagnostics": {
+    "ready": true,
+    "hour": 9,
+    "seconds": 90.11688533328326,
+    "fps": 29.998064640990968,
+    "render": {
+      "frame": 314,
+      "calls": 271,
+      "triangles": 755214,
+      "points": 210,
+      "lines": 92
+    },
+    "waterDraws": 2,
+    "waterTriangles": 16512,
+    "revision": "VILLAGE03",
+    "airship": {
+      "state": "항로 잠시 멈춤",
+      "flying": false,
+      "progress": 0,
+      "position": [
+        -10.4,
+        0.92,
+        18
+      ],
+      "rotors": 2,
+      "flightSeconds": 135,
+      "auto": false
+    },
+    "birds": 12,
+    "residents": [
+      {
+        "id": "resident_ruon",
+        "role": "선착장 둘러보기",
+        "state": "rest",
+        "clip": "idle",
+        "node": 2859,
+        "position": [
+          5.46,
+          1.775,
+          18.06
+        ],
+        "walks": 11,
+        "greetings": 1
+      },
+      {
+        "id": "resident_ria",
+        "role": "물길과 마당 둘러보기",
+        "state": "walk",
+        "clip": "idle",
+        "node": 2671,
+        "position": [
+          15.54,
+          6.51,
+          3.78
+        ],
+        "walks": 3,
+        "greetings": 0
+      }
+    ],
+    "waterfalls": 4,
+    "levitationCores": 5,
+    "navNodes": 4021,
+    "navTriangles": 8042,
+    "pets": [
+      {
+        "id": "pet_nofilter",
+        "state": "return_home",
+        "clip": "walk",
+        "position": [
+          -14.534750566202135,
+          12.96,
+          -22.42524943379786
+        ],
+        "node": 567,
+        "home": 742,
+        "trips": 1,
+        "zone": "island_garden"
+      },
+      {
+        "id": "pet_flux",
+        "state": "look_rest",
+        "clip": "idle_look",
+        "position": [
+          5.04,
+          13.56,
+          -23.94
+        ],
+        "node": 3842,
+        "home": 3951,
+        "trips": 2,
+        "zone": "island_workshop"
+      },
+      {
+        "id": "pet_lumos",
+        "state": "wander",
+        "clip": "idle_stand",
+        "position": [
+          15.014935214205778,
+          6.51,
+          4.410129571588423
+        ],
+        "node": 2657,
+        "home": 2187,
+        "trips": 1,
+        "zone": "island_main"
+      },
+      {
+        "id": "pet_gizmo",
+        "state": "yield_way",
+        "clip": "walk",
+        "position": [
+          -15.120876815637793,
+          12.96,
+          -21.84
+        ],
+        "node": 535,
+        "home": 465,
+        "trips": 1,
+        "zone": "island_garden"
+      }
+    ],
+    "transitions": [
+      {
+        "id": "pet_nofilter",
+        "transitions": {
+          "home_rest": 2,
+          "stand_up": 2,
+          "walk_out": 2,
+          "look_rest": 5,
+          "wander": 3,
+          "return_home": 2,
+          "sit_down": 1
+        },
+        "visited": [
+          "house_pet_porch",
+          "island_pet",
+          "bridge_pet_garden",
+          "island_garden",
+          "bridge_garden_workshop",
+          "island_workshop"
+        ],
+        "history": [
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home",
+          "sit_down",
+          "home_rest",
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home"
+        ]
+      },
+      {
+        "id": "pet_flux",
+        "transitions": {
+          "home_rest": 3,
+          "stand_up": 3,
+          "walk_out": 3,
+          "look_rest": 6,
+          "wander": 3,
+          "return_home": 2,
+          "sit_down": 2
+        },
+        "visited": [
+          "house_workshop_porch",
+          "island_workshop",
+          "bridge_workshop_lookout",
+          "island_lookout"
+        ],
+        "history": [
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home",
+          "sit_down",
+          "home_rest",
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home",
+          "sit_down",
+          "home_rest",
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest"
+        ]
+      },
+      {
+        "id": "pet_lumos",
+        "transitions": {
+          "home_rest": 2,
+          "stand_up": 2,
+          "walk_out": 2,
+          "look_rest": 3,
+          "wander": 2,
+          "return_home": 1,
+          "sit_down": 1
+        },
+        "visited": [
+          "house_main_porch",
+          "island_main"
+        ],
+        "history": [
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home",
+          "sit_down",
+          "home_rest",
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander"
+        ]
+      },
+      {
+        "id": "pet_gizmo",
+        "transitions": {
+          "home_rest": 2,
+          "stand_up": 2,
+          "walk_out": 2,
+          "look_rest": 3,
+          "wander": 2,
+          "return_home": 1,
+          "sit_down": 1,
+          "yield_way": 1
+        },
+        "visited": [
+          "house_garden_porch",
+          "island_garden"
+        ],
+        "history": [
+          "stand_up",
+          "walk_out",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "wander",
+          "look_rest",
+          "return_home",
+          "sit_down",
+          "home_rest",
+          "stand_up",
+          "walk_out",
+          "yield_way"
+        ]
+      }
+    ]
+  },
+  "flight": {
+    "start": [
+      -10.4,
+      0.92,
+      18
+    ],
+    "returned": true,
+    "dockError": 0.02113392952020754,
+    "maxHeight": 26.215473564484725,
+    "maxStep": 0.08576455423589656,
+    "rotors": 2,
+    "samples": [
+      {
+        "state": "이륙 중",
+        "flying": true,
+        "progress": 0.0002469135802469136,
+        "position": [
+          -10.454330894971891,
+          0.9736612210183588,
+          18.039040824448957
+        ],
+        "rotors": 2,
+        "flightSeconds": 135,
+        "auto": false
+      },
+      {
+        "state": "공중 항로 비행",
+        "flying": true,
+        "progress": 0.22246913580247396,
+        "position": [
+          -43.1680072250682,
+          21.503385104627938,
+          -13.897615326981523
+        ],
+        "rotors": 2,
+        "flightSeconds": 135,
+        "auto": false
+      },
+      {
+        "state": "공중 항로 비행",
+        "flying": true,
+        "progress": 0.44469135802468507,
+        "position": [
+          6.341038309611357,
+          26.198462786449877,
+          -48.591119266541064
+        ],
+        "rotors": 2,
+        "flightSeconds": 135,
+        "auto": false
+      },
+      {
+        "state": "공중 항로 비행",
+        "flying": true,
+        "progress": 0.6669135802468947,
+        "position": [
+          49.56466979962282,
+          22.306833443186203,
+          -16.875406649677053
+        ],
+        "rotors": 2,
+        "flightSeconds": 135,
+        "auto": false
+      },
+      {
+        "state": "공중 항로 비행",
+        "flying": true,
+        "progress": 0.8891358024691043,
+        "position": [
+          16.73689072116744,
+          10.543729662495075,
+          29.88274739581563
+        ],
+        "rotors": 2,
+        "flightSeconds": 135,
+        "auto": false
+      }
+    ]
+  },
+  "performance": {
+    "withEffects": {
+      "effectsEnabled": true,
+      "drawCalls": 142,
+      "triangles": 391292,
+      "cpuMedianMs": 3.799999952316284,
+      "gpuMedianMs": 14.071943
+    },
+    "withoutEffects": {
+      "effectsEnabled": false,
+      "drawCalls": 135,
+      "triangles": 380226,
+      "cpuMedianMs": 2.8000001907348633,
+      "gpuMedianMs": 13.410446
+    },
+    "gpuRenderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pixelRatio": 1,
+    "viewport": [
+      1335,
+      900
+    ],
+    "headless": true
+  }
+}

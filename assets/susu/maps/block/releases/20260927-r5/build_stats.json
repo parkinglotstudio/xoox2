@@ -1,0 +1,22 @@
+{
+  "i21_purified": {
+    "triangles": 301326,
+    "drawNodes": 197,
+    "bytes": 8577364
+  },
+  "i21_polluted": {
+    "triangles": 77226,
+    "drawNodes": 19,
+    "bytes": 7691720
+  },
+  "i11_purified": {
+    "triangles": 164532,
+    "drawNodes": 159,
+    "bytes": 3852528
+  },
+  "i11_polluted": {
+    "triangles": 35004,
+    "drawNodes": 17,
+    "bytes": 3029436
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "geometryAndPlacementUnchanged": {
+    "purified": true,
+    "polluted": true
+  },
+  "catalogItems": 43,
+  "stats": {
+    "purified": {
+      "triangles": 822184,
+      "drawNodes": 526,
+      "bytes": 6350580
+    },
+    "polluted": {
+      "triangles": 837772,
+      "drawNodes": 526,
+      "bytes": 6360644
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "resourceId": "m_lobby",
+  "before": {
+    "id": "m_lobby",
+    "kind": "맵",
+    "name": "로비 섬 해안 (코덱스)",
+    "desc": "정화된 섬 해안 복셀 맵. 로비 3D 배경. 해안을 오염판으로 바꿔 01·04에도.",
+    "path": "assets/susu/maps/island_coast/island_purified.glb",
+    "thumb": "/assets/susu/maps/island_coast/overview.png",
+    "status": "있음"
+  },
+  "after": {
+    "id": "m_lobby",
+    "kind": "맵",
+    "name": "정화숲 공중마을 · 로비 (VILLAGE03)",
+    "desc": "바다 위 공중섬 5곳과 서로 다른 집 5채, 연결 다리·선착장·비행선. 정화숲 조경, 루온·리아와 펫 4마리의 휴식·산책, 복셀 파도·폭포·부유 효과·바닷새·24시간 표현을 툴에서 확인. 로비 생활 미리보기이며 건축 상세·게임 메뉴 연결은 후속. Blender 원본: art-source/village/VILLAGE03/.",
+    "path": "assets/village/releases/VILLAGE03/village_environment.glb",
+    "thumb": "/docs/reports/assets/20261010_village03/village03_day.png",
+    "status": "있음",
+    "tool": "http://127.0.0.1:5180/village-lobby-tool.html?revision=VILLAGE03-final"
+  },
+  "resourceCount": 42,
+  "copiedFiles": 44,
+  "copiedBytes": 63272733,
+  "unrelatedPlannerDataUnchanged": true
+}

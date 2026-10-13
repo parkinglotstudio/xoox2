@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 2,
+  "status": "candidate-authoring-layouts-require-height-nav-collision-verification",
+  "maps": [
+    {
+      "id": "defense-forest-south",
+      "source": "assets/maps/forest_island/forest_island_polluted.glb",
+      "coordinateSpace": "blender-island-m",
+      "origin": [
+        0,
+        -105,
+        32
+      ],
+      "heightPolicy": "sample-ground",
+      "playBoundsM": [
+        40,
+        50
+      ],
+      "authoringLayout": {
+        "originXY": [
+          0,
+          -105
+        ],
+        "sizeM": [
+          40,
+          50
+        ],
+        "coreLocalXY": [
+          0,
+          0
+        ],
+        "auxiliaryLocalXY": [
+          [
+            -9,
+            -4
+          ],
+          [
+            9,
+            -4
+          ],
+          [
+            -8,
+            7
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "spawnLocalXY": [
+          [
+            -18,
+            20
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            0,
+            -23
+          ]
+        ],
+        "allSlotsRequireHeightSampling": true
+      },
+      "requiredQueries": [
+        "height",
+        "walkable",
+        "lineOfSight",
+        "sweepCapsule"
+      ],
+      "candidatePaths": [
+        {
+          "id": "base-route-1",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              -12,
+              0,
+              -16
+            ],
+            [
+              -8,
+              0,
+              -8
+            ],
+            [
+              -3,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-2",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              12,
+              0,
+              -16
+            ],
+            [
+              8,
+              0,
+              -8
+            ],
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-3",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              15,
+              0,
+              5
+            ],
+            [
+              8,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-boss",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              0,
+              0,
+              -20
+            ],
+            [
+              0,
+              0,
+              -10
+            ],
+            [
+              0,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival-landing",
+      "source": "assets/maps/landing/landing_polluted.glb",
+      "coordinateSpace": "blender-map-m",
+      "playBoundsM": [
+        60,
+        60
+      ],
+      "heightPolicy": "sample-ground",
+      "requiresPoolForWaterSpecies": true
+    },
+    {
+      "id": "chain-board",
+      "source": "assets/arcade/preparation/CHAIN01/chain_board.glb",
+      "sourceStatus": "Blender-preparation-generated-not-playable-runtime",
+      "coordinateSpace": "mission-local-three-m",
+      "playBoundsM": [
+        12,
+        24
+      ],
+      "playerZM": 10.5,
+      "failBoundaryZM": 9.5,
+      "groundHeightM": 0,
+      "heightPolicy": "authored-flat",
+      "pathIds": [
+        "chain-serpentine-v1"
+      ]
+    }
+  ]
+}

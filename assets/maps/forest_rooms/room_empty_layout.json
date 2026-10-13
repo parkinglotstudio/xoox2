@@ -1,0 +1,82 @@
+{
+  "map": "forest_rooms",
+  "file": "room_empty",
+  "title": "빈 방",
+  "note": "첫 방. 적만 있다.",
+  "playArea": {
+    "w": 12,
+    "h": 18,
+    "top": 8.0
+  },
+  "origin": "놀이 바닥 가운데, 높이 top",
+  "entry": {
+    "x": 0,
+    "y": -8.0
+  },
+  "door": {
+    "x": 0,
+    "y": 9.0,
+    "w": 3,
+    "glowMaterial": "Arcade_Glow"
+  },
+  "bridges": {
+    "in": [
+      0,
+      -19.1
+    ],
+    "out": [
+      0,
+      19.1
+    ]
+  },
+  "spawns": [
+    {
+      "x": 2.1,
+      "y": 3.8
+    },
+    {
+      "x": 1.0,
+      "y": 5.9
+    },
+    {
+      "x": -4.4,
+      "y": 4.6
+    },
+    {
+      "x": 2.1,
+      "y": -0.3
+    },
+    {
+      "x": -1.6,
+      "y": 5.2
+    },
+    {
+      "x": -0.9,
+      "y": 2.8
+    },
+    {
+      "x": -2.0,
+      "y": 0.2
+    },
+    {
+      "x": 3.5,
+      "y": 1.7
+    }
+  ],
+  "blockers": [],
+  "hazards": [],
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_rooms/room_empty_purified.glb",
+    "polluted": "/assets/maps/forest_rooms/room_empty_polluted.glb"
+  },
+  "previews": [
+    "room_empty_overview_purified.png",
+    "room_empty_float_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 2315
+}

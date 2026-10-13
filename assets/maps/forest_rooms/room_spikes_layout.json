@@ -1,0 +1,90 @@
+{
+  "map": "forest_rooms",
+  "file": "room_spikes",
+  "title": "가시 줄",
+  "note": "가로지른 가시. 동쪽 3m 로만 지나간다.",
+  "playArea": {
+    "w": 12,
+    "h": 18,
+    "top": 8.0
+  },
+  "origin": "놀이 바닥 가운데, 높이 top",
+  "entry": {
+    "x": 0,
+    "y": -8.0
+  },
+  "door": {
+    "x": 0,
+    "y": 9.0,
+    "w": 3,
+    "glowMaterial": "Arcade_Glow"
+  },
+  "bridges": {
+    "in": [
+      0,
+      -19.1
+    ],
+    "out": [
+      0,
+      19.1
+    ]
+  },
+  "spawns": [
+    {
+      "x": 0.7,
+      "y": 2.8
+    },
+    {
+      "x": -3.3,
+      "y": 2.6
+    },
+    {
+      "x": 1.4,
+      "y": 5.8
+    },
+    {
+      "x": -0.7,
+      "y": 5.0
+    },
+    {
+      "x": 4.2,
+      "y": 0.2
+    },
+    {
+      "x": -3.1,
+      "y": 5.4
+    },
+    {
+      "x": 3.2,
+      "y": 2.5
+    },
+    {
+      "x": 3.7,
+      "y": 5.9
+    }
+  ],
+  "blockers": [],
+  "hazards": [
+    {
+      "type": "spikes",
+      "x": -1.5,
+      "y": 0.25,
+      "w": 9,
+      "h": 1
+    }
+  ],
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_rooms/room_spikes_purified.glb",
+    "polluted": "/assets/maps/forest_rooms/room_spikes_polluted.glb"
+  },
+  "previews": [
+    "room_spikes_overview_purified.png",
+    "room_spikes_float_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 2373
+}

@@ -1,0 +1,26 @@
+{
+  "author": "Codex",
+  "date": "2026-10-11",
+  "sourceUnits": [
+    "k_signpost",
+    "k_detail_crystal",
+    "k_detail_tree",
+    "k_detail_rocks",
+    "k_tent",
+    "k_campfire_stand",
+    "k_chest",
+    "k_barrel",
+    "k_fence_fortified",
+    "k_crane"
+  ],
+  "maps": [
+    "defense",
+    "survival",
+    "chain"
+  ],
+  "states": [
+    "polluted",
+    "purified"
+  ],
+  "navigation": "authored flat ground with actual prop obstacle circles"
+}

@@ -1,0 +1,105 @@
+{
+  "screens": [
+    {
+      "profile": "p01",
+      "errors": [],
+      "state": {
+        "phase": "battle",
+        "t": 14.000000000000275,
+        "render": {
+          "frame": 37,
+          "calls": 83,
+          "triangles": 439562,
+          "points": 210,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "profile": "p02",
+      "errors": [],
+      "state": {
+        "phase": "battle",
+        "t": 14.000000000000275,
+        "render": {
+          "frame": 43,
+          "calls": 50,
+          "triangles": 248346,
+          "points": 210,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "profile": "p03",
+      "errors": [],
+      "state": {
+        "phase": "battle",
+        "t": 22.000000000000032,
+        "render": {
+          "frame": 47,
+          "calls": 98,
+          "triangles": 393990,
+          "points": 210,
+          "lines": 0
+        }
+      }
+    },
+    {
+      "profile": "p04",
+      "errors": [],
+      "state": {
+        "phase": "battle",
+        "t": 14.000000000000275,
+        "render": {
+          "frame": 46,
+          "calls": 110,
+          "triangles": 203840,
+          "points": 210,
+          "lines": 0
+        }
+      }
+    }
+  ],
+  "flow": {
+    "before": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "campaign": {
+      "status": "win",
+      "mode": "campaign",
+      "seed": 696048613,
+      "time": 352.8333333333411
+    },
+    "after": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "progress": {
+      "missions": {
+        "r01-p03": {
+          "cleared": true,
+          "bestStars": 1,
+          "plays": 1,
+          "lastRunId": "p03-mv3ed53c-bieqjp"
+        }
+      },
+      "rescuedPets": [],
+      "selectedCharacter": "RUON_35"
+    },
+    "trialReturn": {
+      "url": "http://localhost:5190/arcade-cards.html?region=3&planner=1",
+      "allUnlocked": true
+    }
+  },
+  "petChain": {
+    "actualDamage": 30.599999999999998,
+    "remaining": 943.8999999999999
+  },
+  "cardImages": 20
+}

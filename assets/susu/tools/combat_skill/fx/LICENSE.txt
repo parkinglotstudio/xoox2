@@ -1,0 +1,8 @@
+﻿Kenney Particle Pack
+https://www.kenney.nl/assets/particle-pack
+https://opengameart.org/content/particle-pack-80-sprites
+License: CC0
+Credit appreciated: Kenney (www.kenney.nl)
+Used for the combat skill test tool hit flashes.
+The copies in this folder had their black plates turned into alpha on 2026-10-09.
+Original opaque files: _backups/20261009_combat_skill_fx_opaque/

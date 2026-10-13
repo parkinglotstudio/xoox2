@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "character_height_m": 1,
+  "island_world_m": 1000,
+  "island_usable_land_m": 700,
+  "sector_grid": "3x3",
+  "sector_count": 9,
+  "sector_world_h_m": 333,
+  "sector_world_w_m": 333,
+  "viewport_world_h_m": 67,
+  "viewport_world_w_m": 119,
+  "world_h_pct": 497,
+  "viewport_design_w_px": 1280,
+  "viewport_design_h_px": 720,
+  "px_per_m": 10.75,
+  "map_actor_h_px": 72,
+  "fog_vision_m": 10,
+  "fog_trail_m": 16,
+  "fog_base_opacity": 0.08,
+  "art_w_px": 2048,
+  "art_h_px": 2048,
+  "background_size": "100% 100%",
+  "island_overview_map": "/ui/journey/island_overview_1km.png",
+  "note": "섬≈1km · v4 9칸 after + 물빛베일 before · fog_vision_m=10",
+  "legacy_note": "코너4=미니맵용 아트 포함",
+  "sectors": {
+    "area_i21": {
+      "label": "들판·스폰",
+      "map": "/ui/journey/sector_i21_after.png",
+      "map_before": "/ui/journey/sector_i21_before.png",
+      "world_h_pct": 497
+    },
+    "area_i11": {
+      "label": "중앙 허브",
+      "map": "/ui/journey/sector_i11_after.png",
+      "map_before": "/ui/journey/sector_i11_before.png",
+      "world_h_pct": 497
+    },
+    "area_i10": {
+      "label": "서부",
+      "map": "/ui/journey/sector_i10_after.png",
+      "map_before": "/ui/journey/sector_i10_before.png",
+      "world_h_pct": 497
+    },
+    "area_i12": {
+      "label": "동부",
+      "map": "/ui/journey/sector_i12_after.png",
+      "map_before": "/ui/journey/sector_i12_before.png",
+      "world_h_pct": 497
+    },
+    "area_i01": {
+      "label": "북부 큰숲",
+      "map": "/ui/journey/sector_i01_after.png",
+      "map_before": "/ui/journey/sector_i01_before.png",
+      "world_h_pct": 497
+    },
+    "area_i00": {
+      "label": "북서·미니맵",
+      "map": "/ui/journey/sector_i00_after.png",
+      "map_before": "/ui/journey/sector_i00_before.png",
+      "world_h_pct": 100
+    },
+    "area_i02": {
+      "label": "북동·미니맵",
+      "map": "/ui/journey/sector_i02_after.png",
+      "map_before": "/ui/journey/sector_i02_before.png",
+      "world_h_pct": 100
+    },
+    "area_i20": {
+      "label": "남서·미니맵",
+      "map": "/ui/journey/sector_i20_after.png",
+      "map_before": "/ui/journey/sector_i20_before.png",
+      "world_h_pct": 100
+    },
+    "area_i22": {
+      "label": "남동·미니맵",
+      "map": "/ui/journey/sector_i22_after.png",
+      "map_before": "/ui/journey/sector_i22_before.png",
+      "world_h_pct": 100
+    }
+  }
+}

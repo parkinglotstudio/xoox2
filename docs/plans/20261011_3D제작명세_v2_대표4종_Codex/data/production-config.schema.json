@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Arcade production document bundle structural schema",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "profiles",
+    "rulesets",
+    "campaign"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "rulesetId",
+          "viewPolicy",
+          "controlPolicy",
+          "targetingPolicy"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "p01",
+              "p02",
+              "p03",
+              "p04"
+            ]
+          },
+          "rulesetId": {
+            "enum": [
+              "base-defense",
+              "horde-survival",
+              "chain-defense"
+            ]
+          },
+          "viewPolicy": {
+            "enum": [
+              "topDown",
+              "firstPerson",
+              "chainBoard"
+            ]
+          }
+        }
+      }
+    },
+    "rulesets": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "campaign": {
+      "type": "object",
+      "required": [
+        "regionCount",
+        "missions"
+      ],
+      "properties": {
+        "regionCount": {
+          "const": 5
+        },
+        "missions": {
+          "type": "array",
+          "minItems": 20,
+          "maxItems": 20
+        }
+      }
+    }
+  }
+}

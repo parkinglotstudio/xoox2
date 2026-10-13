@@ -1,0 +1,61 @@
+{
+  "root": "C:\\xoox-arcade",
+  "baselineFiles": 90,
+  "missingFiles": [],
+  "changedFiles": [
+    {
+      "path": "src/arcadeComplete/lobby/LobbyApp.ts",
+      "expected": "9a1680bcc389e349bdc4acd1be85112870d06c7ddb5e62f0795bcc8c107021cc",
+      "actual": "7ee5307f3e6eb9a94cc73f08163913997ef9224dc370e6a44781855670da9aff"
+    },
+    {
+      "path": "src/arcadeComplete/lobby/LobbyRaid.ts",
+      "expected": "2bec4ffdecec4d17aa9be85b38382614e46fb4286d82eb3ba5812c1a6b369101",
+      "actual": "ed83be02f2f7b78ea7f788e60c2cd048524b0758d998b15de8c56480bb1947d7"
+    },
+    {
+      "path": "src/arcadeComplete/ui/arcade.css",
+      "expected": "1f3ff4601d5ecbffff4a01fb543a9a8a33eea9976aa8ae1ce340d9d587896b90",
+      "actual": "b9508c58cbe8c6aaf5e376dcd3cba31ec14292b6fbc55d872b762e260b003597"
+    },
+    {
+      "path": "src/arcadeComplete/ui/complete.css",
+      "expected": "852f5e47f9b34ce03bc5cecbcaa96b31049e3ca1b25eaadbdc6c20e2b24fd036",
+      "actual": "23aff7439c564a6eac3a05d5ada13a3ac1ac47484f5889f31f740139669ddd1a"
+    },
+    {
+      "path": "src/arcadeComplete/ui/lobby.css",
+      "expected": "227a6d90804bbbeb914147a26c68f997c90851b9c044d07440d770b63aed5312",
+      "actual": "b64b11594ad5e546ff8e672faec788f54b9778145698c40ec87837ebcc53651b"
+    }
+  ],
+  "unitCount": 99,
+  "missingDense": [],
+  "enemyCount": 49,
+  "enemyWithoutUnit": [],
+  "missions": 35,
+  "skills": 27,
+  "passives": 7,
+  "evolutions": 4,
+  "profiles": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05",
+    "p06",
+    "p07"
+  ],
+  "html": [
+    "arcade-cards.html",
+    "arcade-game1.html",
+    "arcade-game2.html",
+    "arcade-game3.html",
+    "arcade-game4.html",
+    "arcade-game5.html",
+    "arcade-game6.html",
+    "arcade-game7.html",
+    "arcade-lobby.html",
+    "arcade.html"
+  ]
+}

@@ -1,0 +1,1688 @@
+{
+ "version": 2,
+ "units": [
+  {
+   "id": "k_weapon_turret",
+   "name": "터렛",
+   "group": "building",
+   "count": 2200,
+   "height_m": 1.031,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4954,
+    0.0,
+    -0.6
+   ],
+   "dense_q": 3.7500001781154424e-05,
+   "span": 1.2
+  },
+  {
+   "id": "k_weapon_cannon",
+   "name": "대포",
+   "group": "building",
+   "count": 2200,
+   "height_m": 1.065,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5998,
+    0.0,
+    -0.5999
+   ],
+   "dense_q": 3.749375173356384e-05,
+   "span": 1.1998
+  },
+  {
+   "id": "k_weapon_catapult",
+   "name": "투석기",
+   "group": "building",
+   "count": 2400,
+   "height_m": 0.719,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.466,
+    0.0,
+    -0.6497
+   ],
+   "dense_q": 4.061562503920868e-05,
+   "span": 1.2997
+  },
+  {
+   "id": "k_weapon_ballista",
+   "name": "발리스타",
+   "group": "building",
+   "count": 2400,
+   "height_m": 0.836,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5538,
+    0.0,
+    -0.65
+   ],
+   "dense_q": 4.0625000110594556e-05,
+   "span": 1.3
+  },
+  {
+   "id": "k_enemy_ufo_a",
+   "name": "UFO A",
+   "group": "enemy_ufo",
+   "count": 1400,
+   "height_m": 0.67,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5,
+    0.0,
+    -0.4997
+   ],
+   "dense_q": 3.124374779872596e-05,
+   "span": 0.9998
+  },
+  {
+   "id": "k_enemy_ufo_b",
+   "name": "UFO B",
+   "group": "enemy_ufo",
+   "count": 1400,
+   "height_m": 0.571,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4962,
+    0.0,
+    -0.4975
+   ],
+   "dense_q": 3.112187550868839e-05,
+   "span": 0.9959
+  },
+  {
+   "id": "k_enemy_ufo_c",
+   "name": "UFO C",
+   "group": "enemy_ufo",
+   "count": 1400,
+   "height_m": 0.523,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4999,
+    0.0,
+    -0.4972
+   ],
+   "dense_q": 3.1237501389114186e-05,
+   "span": 0.9996
+  },
+  {
+   "id": "k_enemy_ufo_d",
+   "name": "UFO D",
+   "group": "enemy_ufo",
+   "count": 1400,
+   "height_m": 0.568,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4979,
+    0.0,
+    -0.4989
+   ],
+   "dense_q": 3.11531221086625e-05,
+   "span": 0.9969
+  },
+  {
+   "id": "k_tile",
+   "name": "바닥 타일",
+   "group": "tile",
+   "count": 2000,
+   "height_m": 0.48,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_tile_spawn",
+   "name": "스폰 타일",
+   "group": "tile",
+   "count": 2200,
+   "height_m": 0.48,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_tile_straight",
+   "name": "길 타일",
+   "group": "tile",
+   "count": 2200,
+   "height_m": 0.48,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_tile_crossing",
+   "name": "교차 타일",
+   "group": "tile",
+   "count": 2200,
+   "height_m": 0.48,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_tile_tree",
+   "name": "나무 타일",
+   "group": "tile",
+   "count": 2600,
+   "height_m": 2.304,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_tile_crystal",
+   "name": "크리스탈 타일",
+   "group": "tile",
+   "count": 2600,
+   "height_m": 1.776,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_selection_a",
+   "name": "선택 표식 A",
+   "group": "marker",
+   "count": 900,
+   "height_m": 0.12,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_selection_b",
+   "name": "선택 표식 B",
+   "group": "marker",
+   "count": 900,
+   "height_m": 0.48,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.2,
+    0.0,
+    -1.2
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "k_detail_tree",
+   "name": "나무",
+   "group": "detail",
+   "count": 1400,
+   "height_m": 1.59,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.524,
+    0.0,
+    -0.521
+   ],
+   "dense_q": 5.0000002374872565e-05,
+   "span": 1.6
+  },
+  {
+   "id": "k_detail_rocks",
+   "name": "바위",
+   "group": "detail",
+   "count": 1000,
+   "height_m": 0.305,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4923,
+    0.0,
+    -0.4985
+   ],
+   "dense_q": 3.102812479482964e-05,
+   "span": 0.9929
+  },
+  {
+   "id": "k_detail_crystal",
+   "name": "크리스탈",
+   "group": "detail",
+   "count": 1000,
+   "height_m": 0.98,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.2955,
+    0.0,
+    -0.3392
+   ],
+   "dense_q": 3.092499900958501e-05,
+   "span": 0.9896
+  },
+  {
+   "id": "k_weapon_ammo_bullet",
+   "name": "총알",
+   "group": "missile",
+   "count": 120,
+   "height_m": 0.155,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.0833,
+    0.0,
+    -0.125
+   ],
+   "dense_q": 7.812500371073838e-06,
+   "span": 0.25
+  },
+  {
+   "id": "k_weapon_ammo_cannonball",
+   "name": "대포알",
+   "group": "missile",
+   "count": 160,
+   "height_m": 0.292,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.1491,
+    0.0007,
+    -0.1492
+   ],
+   "dense_q": 9.343750207335688e-06,
+   "span": 0.299
+  },
+  {
+   "id": "k_weapon_ammo_boulder",
+   "name": "돌덩이",
+   "group": "missile",
+   "count": 200,
+   "height_m": 0.263,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.175,
+    0.0,
+    -0.1516
+   ],
+   "dense_q": 1.0937499610008672e-05,
+   "span": 0.35
+  },
+  {
+   "id": "tower_gun",
+   "name": "총 탑 (조립)",
+   "group": "building",
+   "count": 3600,
+   "height_m": 2.2,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5961,
+    0.0,
+    -0.5961
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "tower_throw",
+   "name": "던지기 탑 (조립)",
+   "group": "building",
+   "count": 3600,
+   "height_m": 2.2,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5585,
+    0.0,
+    -0.5601
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "q_mushnub",
+   "name": "Mushnub",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.994,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4135,
+    0.0008,
+    -0.4137
+   ],
+   "dense_q": 3.118749737041071e-05,
+   "span": 0.998
+  },
+  {
+   "id": "q_pink_slime",
+   "name": "Pink Slime",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.99,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4505,
+    0.001,
+    -0.4255
+   ],
+   "dense_q": 3.1203126127365977e-05,
+   "span": 0.9985
+  },
+  {
+   "id": "q_green_blob",
+   "name": "Green Blob",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.982,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5992,
+    0.0008,
+    -0.5906
+   ],
+   "dense_q": 3.7537502066697925e-05,
+   "span": 1.2012
+  },
+  {
+   "id": "q_orc_enemy",
+   "name": "Orc Enemy",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.997,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5525,
+    0.0002,
+    -0.3484
+   ],
+   "dense_q": 3.444687172304839e-05,
+   "span": 1.1023
+  },
+  {
+   "id": "q_ninja",
+   "name": "Ninja",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.98,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4113,
+    0.0089,
+    -0.4371
+   ],
+   "dense_q": 3.08906237478368e-05,
+   "span": 0.9885
+  },
+  {
+   "id": "q_cat",
+   "name": "Cat",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.986,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5241,
+    0.0004,
+    -0.4339
+   ],
+   "dense_q": 3.280312739661895e-05,
+   "span": 1.0497
+  },
+  {
+   "id": "q_pigeon",
+   "name": "Pigeon",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.996,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6493,
+    0.0006,
+    -0.553
+   ],
+   "dense_q": 4.052499571116641e-05,
+   "span": 1.2968
+  },
+  {
+   "id": "q_chicken",
+   "name": "Chicken",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.989,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4947,
+    0.0005,
+    -0.4414
+   ],
+   "dense_q": 3.1203126127365977e-05,
+   "span": 0.9985
+  },
+  {
+   "id": "q_cactoro",
+   "name": "Cactoro",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.992,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5559,
+    0.0003,
+    -0.5121
+   ],
+   "dense_q": 3.5053126339334995e-05,
+   "span": 1.1217
+  },
+  {
+   "id": "q_alien",
+   "name": "Alien",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.996,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5899,
+    0.0003,
+    -0.2956
+   ],
+   "dense_q": 3.6890625779051334e-05,
+   "span": 1.1805
+  },
+  {
+   "id": "q_mushnub_evolved",
+   "name": "Mushnub Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.979,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.3821,
+    0.0024,
+    -0.3894
+   ],
+   "dense_q": 3.112500053248368e-05,
+   "span": 0.996
+  },
+  {
+   "id": "q_yeti",
+   "name": "Yeti",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.977,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5187,
+    0.0014,
+    -0.5218
+   ],
+   "dense_q": 3.2565621950197965e-05,
+   "span": 1.0421
+  },
+  {
+   "id": "q_wizard",
+   "name": "Wizard",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.992,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.445,
+    0.0005,
+    -0.4429
+   ],
+   "dense_q": 3.1196872441796586e-05,
+   "span": 0.9983
+  },
+  {
+   "id": "q_fish",
+   "name": "Fish",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.997,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5124,
+    0.0,
+    -0.5309
+   ],
+   "dense_q": 3.311250111437403e-05,
+   "span": 1.0596
+  },
+  {
+   "id": "q_birb",
+   "name": "Birb",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.991,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5415,
+    0.0002,
+    -0.5527
+   ],
+   "dense_q": 3.452187229413539e-05,
+   "span": 1.1047
+  },
+  {
+   "id": "q_green_spiky_blob",
+   "name": "Green Spiky Blob",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.971,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4179,
+    0.0003,
+    -0.5006
+   ],
+   "dense_q": 3.1315623346017674e-05,
+   "span": 1.0021
+  },
+  {
+   "id": "q_glub",
+   "name": "Glub",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.991,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.9974,
+    0.0003,
+    -0.4735
+   ],
+   "dense_q": 6.245000258786604e-05,
+   "span": 1.9984
+  },
+  {
+   "id": "q_armabee",
+   "name": "Armabee",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.991,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.1691,
+    0.0012,
+    -0.5564
+   ],
+   "dense_q": 7.313124660868198e-05,
+   "span": 2.3402
+  },
+  {
+   "id": "q_alpaking",
+   "name": "Alpaking",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.995,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.0328,
+    0.0001,
+    -0.5257
+   ],
+   "dense_q": 6.477499846369028e-05,
+   "span": 2.0728
+  },
+  {
+   "id": "q_armabee_evolved",
+   "name": "Armabee Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.984,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.0496,
+    0.0007,
+    -0.5063
+   ],
+   "dense_q": 6.556874723173678e-05,
+   "span": 2.0982
+  },
+  {
+   "id": "q_goleling_evolved",
+   "name": "Goleling Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.992,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.9262,
+    0.001,
+    -0.426
+   ],
+   "dense_q": 5.78500003030058e-05,
+   "span": 1.8512
+  },
+  {
+   "id": "q_dragon",
+   "name": "Dragon",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.976,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.3449,
+    0.0015,
+    -0.7114
+   ],
+   "dense_q": 8.392499876208603e-05,
+   "span": 2.6856
+  },
+  {
+   "id": "q_goleling",
+   "name": "Goleling",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.981,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.3554,
+    0.0047,
+    -0.5796
+   ],
+   "dense_q": 8.481874829158187e-05,
+   "span": 2.7142
+  },
+  {
+   "id": "q_glub_evolved",
+   "name": "Glub Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.993,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6153,
+    0.0006,
+    -0.2822
+   ],
+   "dense_q": 3.8396872696466744e-05,
+   "span": 1.2287
+  },
+  {
+   "id": "q_alpaking_evolved",
+   "name": "Alpaking Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.988,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.7062,
+    0.0008,
+    -0.4604
+   ],
+   "dense_q": 4.401875412440859e-05,
+   "span": 1.4086
+  },
+  {
+   "id": "q_ghost",
+   "name": "Ghost",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.99,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4869,
+    0.0011,
+    -0.3384
+   ],
+   "dense_q": 3.110625038971193e-05,
+   "span": 0.9954
+  },
+  {
+   "id": "q_ghost_skull",
+   "name": "Ghost Skull",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.972,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4975,
+    0.0004,
+    -0.3827
+   ],
+   "dense_q": 3.120937617495656e-05,
+   "span": 0.9987
+  },
+  {
+   "id": "q_hywirl",
+   "name": "Hywirl",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.978,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5337,
+    0.0005,
+    -0.4466
+   ],
+   "dense_q": 3.336249938001856e-05,
+   "span": 1.0676
+  },
+  {
+   "id": "q_tribal",
+   "name": "Tribal",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.954,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.3831,
+    0.0006,
+    -0.2829
+   ],
+   "dense_q": 3.113437560386956e-05,
+   "span": 0.9963
+  },
+  {
+   "id": "q_demon",
+   "name": "Demon",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.982,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.0636,
+    0.0007,
+    -0.6708
+   ],
+   "dense_q": 6.647499685641378e-05,
+   "span": 2.1272
+  },
+  {
+   "id": "q_squidle",
+   "name": "Squidle",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.957,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.9984,
+    0.0013,
+    -0.6323
+   ],
+   "dense_q": 6.251250306377187e-05,
+   "span": 2.0004
+  },
+  {
+   "id": "q_dragon_evolved",
+   "name": "Dragon Evolved",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.96,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.7938,
+    0.0006,
+    -0.5021
+   ],
+   "dense_q": 4.9593749281484634e-05,
+   "span": 1.587
+  },
+  {
+   "id": "q_frog",
+   "name": "Frog",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.999,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.7083,
+    0.0001,
+    -0.3893
+   ],
+   "dense_q": 4.4318749132798985e-05,
+   "span": 1.4182
+  },
+  {
+   "id": "q_cactoro_2",
+   "name": "Cactoro",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.995,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.451,
+    0.0001,
+    -0.3476
+   ],
+   "dense_q": 3.1212497560773045e-05,
+   "span": 0.9988
+  },
+  {
+   "id": "q_ninja_2",
+   "name": "Ninja",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.995,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5394,
+    0.0002,
+    -0.4609
+   ],
+   "dense_q": 3.3703126973705366e-05,
+   "span": 1.0785
+  },
+  {
+   "id": "q_monkroose",
+   "name": "Monkroose",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.998,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6051,
+    0.0,
+    -0.3462
+   ],
+   "dense_q": 3.781874693231657e-05,
+   "span": 1.2102
+  },
+  {
+   "id": "q_dino",
+   "name": "Dino",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.997,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5716,
+    0.0001,
+    -0.357
+   ],
+   "dense_q": 3.570625267457217e-05,
+   "span": 1.1426
+  },
+  {
+   "id": "q_mushroom_king",
+   "name": "Mushroom King",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.994,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5064,
+    0.0003,
+    -0.3516
+   ],
+   "dense_q": 3.163749715895392e-05,
+   "span": 1.0124
+  },
+  {
+   "id": "q_alien_2",
+   "name": "Alien",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.996,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5314,
+    0.0001,
+    -0.3293
+   ],
+   "dense_q": 3.31968731188681e-05,
+   "span": 1.0623
+  },
+  {
+   "id": "q_blue_demon",
+   "name": "Blue Demon",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.995,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6277,
+    0.0004,
+    -0.3559
+   ],
+   "dense_q": 3.922187534044497e-05,
+   "span": 1.2551
+  },
+  {
+   "id": "q_fish_2",
+   "name": "Fish",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.988,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.457,
+    0.0,
+    -0.3258
+   ],
+   "dense_q": 3.114062565146014e-05,
+   "span": 0.9965
+  },
+  {
+   "id": "q_yeti_2",
+   "name": "Yeti",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.994,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6656,
+    0.0001,
+    -0.3395
+   ],
+   "dense_q": 4.154999987804331e-05,
+   "span": 1.3296
+  },
+  {
+   "id": "q_demon_2",
+   "name": "Demon",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.994,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6655,
+    0.0006,
+    -0.4396
+   ],
+   "dense_q": 4.1615625377744436e-05,
+   "span": 1.3317
+  },
+  {
+   "id": "q_orc",
+   "name": "Orc",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.96,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5514,
+    0.0072,
+    -0.3243
+   ],
+   "dense_q": 3.44843756465707e-05,
+   "span": 1.1035
+  },
+  {
+   "id": "q_bunny",
+   "name": "Bunny",
+   "group": "enemy_monster",
+   "count": 1600,
+   "height_m": 0.959,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5006,
+    0.0009,
+    -0.327
+   ],
+   "dense_q": 3.129374817945063e-05,
+   "span": 1.0014
+  },
+  {
+   "id": "tower_cannon",
+   "name": "대포 탑",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 2.196,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5952,
+    0.0,
+    -0.5952
+   ],
+   "dense_q": 6.868124910397455e-05,
+   "span": 2.1978
+  },
+  {
+   "id": "tower_ballista",
+   "name": "발리스타 탑",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 2.2,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.55,
+    0.0,
+    -0.55
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "tower_crystal",
+   "name": "크리스탈 탑",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 2.2,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6153,
+    0.0,
+    -0.6776
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "tower_roof",
+   "name": "지붕 망루",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 2.4,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4763,
+    0.0,
+    -0.4749
+   ],
+   "dense_q": 7.500000356230885e-05,
+   "span": 2.4
+  },
+  {
+   "id": "tower_wood",
+   "name": "목조 망루",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 2.0,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6536,
+    0.0,
+    -0.6536
+   ],
+   "dense_q": 6.25000029685907e-05,
+   "span": 2.0
+  },
+  {
+   "id": "tower_catapult",
+   "name": "투석기 탑",
+   "group": "building_tower",
+   "count": 3600,
+   "height_m": 1.9,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6496,
+    0.0,
+    -0.6496
+   ],
+   "dense_q": 5.937500100117177e-05,
+   "span": 1.9
+  },
+  {
+   "id": "k_campfire_stand",
+   "name": "모닥불 (거치대)",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 0.822,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6,
+    0.0,
+    -0.1819
+   ],
+   "dense_q": 3.7500001781154424e-05,
+   "span": 1.2
+  },
+  {
+   "id": "k_campfire_pit",
+   "name": "모닥불 (구덩이)",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 0.431,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5465,
+    0.0,
+    -0.5299
+   ],
+   "dense_q": 3.407812982914038e-05,
+   "span": 1.0905
+  },
+  {
+   "id": "k_tent",
+   "name": "텐트",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.574,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.8995,
+    0.0,
+    -0.9
+   ],
+   "dense_q": 5.624999903375283e-05,
+   "span": 1.8
+  },
+  {
+   "id": "k_tent_canvas",
+   "name": "천막",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.576,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.8995,
+    0.0005,
+    -0.9
+   ],
+   "dense_q": 5.624999903375283e-05,
+   "span": 1.8
+  },
+  {
+   "id": "k_workbench",
+   "name": "작업대",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.127,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.65,
+    0.0,
+    -0.5901
+   ],
+   "dense_q": 4.0343747969018295e-05,
+   "span": 1.291
+  },
+  {
+   "id": "k_workbench_anvil",
+   "name": "모루 작업대",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.353,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.65,
+    0.0,
+    -0.5956
+   ],
+   "dense_q": 4.2271873098798096e-05,
+   "span": 1.3527
+  },
+  {
+   "id": "k_workbench_grind",
+   "name": "숫돌 작업대",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.107,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.5144,
+    0.0,
+    -0.65
+   ],
+   "dense_q": 4.0625000110594556e-05,
+   "span": 1.3
+  },
+  {
+   "id": "k_fence_fortified",
+   "name": "방책",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.656,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.8,
+    0.0,
+    -0.0848
+   ],
+   "dense_q": 5.174687612452544e-05,
+   "span": 1.6559
+  },
+  {
+   "id": "k_chest",
+   "name": "보물 상자",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.016,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.4308,
+    0.0,
+    -0.45
+   ],
+   "dense_q": 3.173749792040326e-05,
+   "span": 1.0156
+  },
+  {
+   "id": "k_barrel",
+   "name": "통",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 0.9,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.3094,
+    0.0,
+    -0.3094
+   ],
+   "dense_q": 2.8124999516876414e-05,
+   "span": 0.9
+  },
+  {
+   "id": "k_signpost",
+   "name": "표지판",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 1.5,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.3481,
+    0.0,
+    -0.0701
+   ],
+   "dense_q": 4.6875000407453626e-05,
+   "span": 1.5
+  },
+  {
+   "id": "k_structure",
+   "name": "오두막 뼈대",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 2.2,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.1,
+    0.0,
+    -1.0999
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "k_structure_metal",
+   "name": "철제 창고",
+   "group": "building_camp",
+   "count": 2600,
+   "height_m": 2.054,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -1.1,
+    0.0,
+    -1.1
+   ],
+   "dense_q": 6.874999962747097e-05,
+   "span": 2.2
+  },
+  {
+   "id": "k_machine",
+   "name": "기계",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.206,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.56,
+    0.0,
+    -0.7
+   ],
+   "dense_q": 4.374375203042291e-05,
+   "span": 1.3998
+  },
+  {
+   "id": "k_machine_fortified",
+   "name": "강화 기계",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.181,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.525,
+    0.0,
+    -0.7
+   ],
+   "dense_q": 4.374999844003469e-05,
+   "span": 1.4
+  },
+  {
+   "id": "k_machine_window",
+   "name": "창 달린 기계",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.198,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.56,
+    0.0,
+    -0.7
+   ],
+   "dense_q": 4.374999844003469e-05,
+   "span": 1.4
+  },
+  {
+   "id": "k_hopper_high_round",
+   "name": "원형 호퍼",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 2.0,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.7453,
+    0.0,
+    -0.7453
+   ],
+   "dense_q": 6.25000029685907e-05,
+   "span": 2.0
+  },
+  {
+   "id": "k_robot_arm_a",
+   "name": "로봇팔 A",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.8,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.2791,
+    0.0,
+    -0.2787
+   ],
+   "dense_q": 5.624999903375283e-05,
+   "span": 1.8
+  },
+  {
+   "id": "k_robot_arm_b",
+   "name": "로봇팔 B",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.8,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.2994,
+    0.0,
+    -0.296
+   ],
+   "dense_q": 5.624999903375283e-05,
+   "span": 1.8
+  },
+  {
+   "id": "k_scanner_high",
+   "name": "스캐너",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 2.0,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.3801,
+    0.0,
+    -1.3963
+   ],
+   "dense_q": 8.727186650503427e-05,
+   "span": 2.7927
+  },
+  {
+   "id": "k_crane",
+   "name": "크레인",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 2.4,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6504,
+    0.0,
+    -1.2429
+   ],
+   "dense_q": 7.768125215079635e-05,
+   "span": 2.4858
+  },
+  {
+   "id": "k_piston_round",
+   "name": "피스톤",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.4,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6795,
+    0.0,
+    -0.6799
+   ],
+   "dense_q": 4.374999844003469e-05,
+   "span": 1.4
+  },
+  {
+   "id": "k_pipe_glass_large_valve",
+   "name": "유리관 밸브",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.375,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.6892,
+    0.0002,
+    -0.7
+   ],
+   "dense_q": 4.373124829726294e-05,
+   "span": 1.3994
+  },
+  {
+   "id": "k_screen_wide",
+   "name": "대형 화면",
+   "group": "building_machine",
+   "count": 2600,
+   "height_m": 1.321,
+   "color": true,
+   "base": "units_free",
+   "dense": 30000,
+   "dense_lo": [
+    -0.8,
+    0.0,
+    -0.325
+   ],
+   "dense_q": 5.0000002374872565e-05,
+   "span": 1.6
+  }
+ ]
+}

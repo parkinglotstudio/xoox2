@@ -1,0 +1,44 @@
+{
+  "id": "lobby_actor_idle",
+  "sheet": "lobby_actor_idle_sheet.png",
+  "cell": 512,
+  "cols": 8,
+  "rows": 1,
+  "frame_count": 8,
+  "loop": true,
+  "pivot": "bottom-center",
+  "frames": [
+    {
+      "index": 0,
+      "duration_ms": 320
+    },
+    {
+      "index": 1,
+      "duration_ms": 300
+    },
+    {
+      "index": 2,
+      "duration_ms": 340
+    },
+    {
+      "index": 3,
+      "duration_ms": 300
+    },
+    {
+      "index": 4,
+      "duration_ms": 90
+    },
+    {
+      "index": 5,
+      "duration_ms": 280
+    },
+    {
+      "index": 6,
+      "duration_ms": 320
+    },
+    {
+      "index": 7,
+      "duration_ms": 320
+    }
+  ]
+}

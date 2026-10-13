@@ -1,0 +1,62 @@
+{
+  "errors": [],
+  "at": "2026-10-13T14:06:55.694Z",
+  "card": {
+    "banner": "none",
+    "stick": "none",
+    "images": [
+      {
+        "src": "http://localhost:5190/assets/arcade/art/icons/bolt-home.png",
+        "complete": true,
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "http://localhost:5190/assets/arcade/art/icons/orbit-shards.png",
+        "complete": true,
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "http://localhost:5190/assets/arcade/art/icons/ice-rocket.png",
+        "complete": true,
+        "w": 256,
+        "h": 256
+      }
+    ]
+  },
+  "purification": {
+    "cleaned": 218,
+    "tiles": [
+      4920,
+      48
+    ],
+    "clock": true,
+    "bars": {
+      "x": 14.4375,
+      "y": 65,
+      "width": 401.109375,
+      "height": 21,
+      "top": 65,
+      "right": 415.546875,
+      "bottom": 86,
+      "left": 14.4375
+    }
+  },
+  "equipment": {
+    "x": 14.4375,
+    "y": 689,
+    "width": 176,
+    "height": 51,
+    "top": 689,
+    "right": 190.4375,
+    "bottom": 740,
+    "left": 14.4375
+  },
+  "docs": 8,
+  "playtool": {
+    "profile": "p03",
+    "brief": "숲이 깨어나는 시간"
+  },
+  "finished": "2026-10-13T14:07:26.826Z"
+}

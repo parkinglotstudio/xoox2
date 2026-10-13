@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "units": [
+    {
+      "id": "enemy_orb",
+      "name": "적 구름",
+      "group": "enemy",
+      "count": 1200,
+      "height_m": 0.863
+    },
+    {
+      "id": "block_gun",
+      "name": "총 블록",
+      "group": "building",
+      "count": 2600,
+      "height_m": 1.16
+    },
+    {
+      "id": "block_throw",
+      "name": "던지기 블록",
+      "group": "building",
+      "count": 2600,
+      "height_m": 1.23
+    },
+    {
+      "id": "floor_tile",
+      "name": "설치 칸",
+      "group": "marker",
+      "count": 1400,
+      "height_m": 0.06
+    },
+    {
+      "id": "rescue_mark",
+      "name": "구출 표식",
+      "group": "marker",
+      "count": 700,
+      "height_m": 0.04
+    },
+    {
+      "id": "wanderer_ref",
+      "name": "방랑자 기준",
+      "group": "ally",
+      "count": 1800,
+      "height_m": 1.62
+    },
+    {
+      "id": "shot_gun",
+      "name": "기관총 탄",
+      "group": "missile",
+      "count": 60,
+      "height_m": 0.07
+    },
+    {
+      "id": "bomb",
+      "name": "기본 폭탄",
+      "group": "missile",
+      "count": 160,
+      "height_m": 0.3
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Existing 3D resource viewer load only; gameplay and mobile performance not tested",
+  "isolatedBrowser": true,
+  "targets": [
+    {
+      "id": "forest_island",
+      "src": "/assets/maps/forest_island/forest_island_purified.glb",
+      "info": "forest_island_purified.glb · 10515KB · 삼각형 146,592 · 크기 158.30×69.41×319.65m · 동작 0",
+      "anims": [],
+      "errors": [],
+      "failed": []
+    },
+    {
+      "id": "ruon_35",
+      "src": "/tools/unit_lab/character/Ruon_35/ruon_35.glb",
+      "info": "ruon_35.glb · 9685KB · 삼각형 88,618 · 크기 0.77×1.90×1.32m · 동작 18",
+      "anims": [
+        "idle",
+        "walk",
+        "run",
+        "shoot",
+        "shoot2",
+        "throw",
+        "walk_shoot",
+        "walk_throw",
+        "walk_gun",
+        "draw",
+        "holster",
+        "draw_launcher",
+        "holster_launcher",
+        "blink",
+        "squint",
+        "bow",
+        "wave",
+        "victory"
+      ],
+      "errors": [],
+      "failed": []
+    }
+  ]
+}

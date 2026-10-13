@@ -1,0 +1,88 @@
+{
+  "id": "purify_skill_balance_v1",
+  "note": "들판 i21 본편 이식 SSoT. A+B 원흉 확정. 모은다→캐스팅→멈춤→벌레→다시 모은다→원흉→최종 캐스팅.",
+  "scenario": {
+    "area_id": "area_i21",
+    "combat_loop": true,
+    "purify_casts": 4,
+    "bug_waves": 3,
+    "cast_always_required": true,
+    "culprit_kill_does_not_auto_purify": true,
+    "bugs_only_after_band_stopped": true,
+    "directions": ["E", "W", "S", "N"],
+    "flow": [
+      "gather_ammo",
+      "cast_1_purple",
+      "band_shrink_stop_E",
+      "bugs_1",
+      "gather_ammo",
+      "cast_2_blue",
+      "band_shrink_stop_W",
+      "bugs_2",
+      "gather_ammo",
+      "cast_3_green",
+      "band_shrink_stop_S",
+      "bugs_3",
+      "gather_ammo",
+      "cast_4_prep_or_culprit_gate",
+      "culprit_AB",
+      "need_final_cast",
+      "cast_final_clear"
+    ]
+  },
+  "timing": {
+    "cast_sec": 3.6,
+    "shrink_sec": 180,
+    "urgency_at_pollution": [0.5, 0.75]
+  },
+  "hp": {
+    "stop_hits": 6,
+    "bug_count": 12,
+    "bug_hp": 3,
+    "culprit_hp": 6,
+    "soft_blight_visual_only": false
+  },
+  "ammo": {
+    "pool": "throwAdsorb",
+    "start": 14,
+    "pickup_grant": 8,
+    "pickup_count": 5,
+    "cost_basic": 1,
+    "cost_multi": 3,
+    "cost_boom": 2,
+    "cost_chain": 2,
+    "min_before_next_cast_hint": 10,
+    "note": "시작 14로는 멈춤6+벌레24에 부족. 줍지 않고 다음 캐스팅하면 막힘."
+  },
+  "culprit_visual": {
+    "form": "culprit",
+    "scale": 28,
+    "particle_size": 0.2,
+    "count": 4200,
+    "presence": "square_culprit_pulse_teleport_15m",
+    "core_scale_mul": 0.48
+  },
+  "circle_r_m": 12,
+  "dialogues": {
+    "arrive": "dlg_i21_arrive",
+    "ammo_need": "dlg_i21_ammo_need",
+    "ammo_got": "dlg_i21_ammo_got",
+    "ammo_low_rush": "dlg_i21_ammo_low_rush",
+    "cast1_start": "dlg_i21_cast1",
+    "cast1_done": "dlg_i21_tint1",
+    "band_warn": "dlg_i21_band_warn",
+    "band_stop": "dlg_i21_band_stop",
+    "bugs_in": "dlg_i21_invade",
+    "bugs_clear": "dlg_i21_bugs_clear",
+    "gather_again": "dlg_i21_gather_again",
+    "cast2_start": "dlg_i21_cast2",
+    "cast2_done": "dlg_i21_tint2",
+    "cast3_start": "dlg_i21_cast3",
+    "cast3_done": "dlg_i21_tint3",
+    "culprit_in": "dlg_i21_king",
+    "culprit_down": "dlg_i21_culprit_down",
+    "need_final_cast": "dlg_i21_need_final",
+    "done": "dlg_i21_done",
+    "fail_pollute": "dlg_i21_fail_pollute"
+  }
+}

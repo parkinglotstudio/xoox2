@@ -1,0 +1,35 @@
+{
+  "id": "pet_block_cat",
+  "revision": "BCAT02",
+  "reference": "03_block_poses.png",
+  "triangles": 6452,
+  "bones": 29,
+  "materials": 2,
+  "bytes": 1100944,
+  "animations": {
+    "walk": 1.0,
+    "idle_sit": 4.0,
+    "idle_look": 5.0,
+    "attack_laser": 0.7,
+    "stand_up": 1.0,
+    "sit_down": 1.0
+  },
+  "eye_sockets_head_local": {
+    "L": [
+      0.10300000011920929,
+      -0.011999964714050293,
+      0.16200000047683716
+    ],
+    "R": [
+      -0.10300000011920929,
+      -0.011999964714050293,
+      0.16200000047683716
+    ]
+  },
+  "laser": {
+    "start": 0.18,
+    "end": 0.3,
+    "range": 2.2,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "roles": {
+    "healing": {
+      "heals": 3,
+      "fraction": 0.6499999999999999,
+      "bossUntouched": true
+    },
+    "support": {
+      "multiplier": 1.1,
+      "expires": 2
+    },
+    "burrow": {
+      "warned": true,
+      "phased": true,
+      "damageBlocked": true,
+      "returned": true
+    },
+    "air": {
+      "height": 2.552558927897503,
+      "bounded": true
+    },
+    "water": {
+      "insidePool": true,
+      "position": {
+        "x": -13.619270304643356,
+        "z": 7.404817576160839
+      }
+    },
+    "binding": {
+      "started": true,
+      "releasedOnDeath": true
+    },
+    "shield": {
+      "front": 0.9749999999999943,
+      "rear": 6.5
+    },
+    "fan": {
+      "projectiles": 3,
+      "speed": 3.5
+    }
+  },
+  "touch": {
+    "before": {
+      "pos": {
+        "x": 0,
+        "z": 3.2
+      },
+      "yaw": 2.461592653589793
+    },
+    "after": {
+      "pos": {
+        "x": 2.2385971794468857,
+        "z": 3.8279392233110285
+      },
+      "yaw": 2.2573891311064562
+    },
+    "moved": true,
+    "looked": true
+  },
+  "chainDrag": {
+    "x": 3.7171050355571382
+  },
+  "plannerFollowsFlow": "p03"
+}

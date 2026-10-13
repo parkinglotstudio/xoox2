@@ -1,0 +1,680 @@
+{
+  "startedAt": "2026-10-13T11:25:31.063Z",
+  "errors": [],
+  "net": [],
+  "parts": [
+    {
+      "profile": "p01",
+      "mode": "plannerTest",
+      "hero": {
+        "x": 0,
+        "z": 3.2
+      },
+      "phase": "battle",
+      "clockPaused": true,
+      "world": "DefenseWorld",
+      "rules": "BaseDefense",
+      "weaponSlots": 20,
+      "initialPicks": 3,
+      "afterInput": {
+        "x": 0,
+        "z": 1.9500000000000002
+      },
+      "ticks": 95,
+      "seconds": 1.5833333333333326,
+      "paused": false,
+      "render": {
+        "frame": 50,
+        "calls": 68,
+        "triangles": 411956,
+        "points": 210,
+        "lines": 0
+      },
+      "sceneMeshes": 20,
+      "canvas": {
+        "width": 425,
+        "height": 920
+      }
+    },
+    {
+      "profile": "p02",
+      "mode": "plannerTest",
+      "hero": {
+        "x": 0,
+        "z": 3.2
+      },
+      "phase": "battle",
+      "clockPaused": true,
+      "world": "DefenseWorld",
+      "rules": "BaseDefense",
+      "weaponSlots": 20,
+      "initialPicks": 3,
+      "afterInput": {
+        "x": 1.7920601184526364,
+        "z": 0.9839177515598575
+      },
+      "ticks": 63,
+      "seconds": 1.0500000000000012,
+      "paused": false,
+      "render": {
+        "frame": 48,
+        "calls": 46,
+        "triangles": 211376,
+        "points": 210,
+        "lines": 0
+      },
+      "sceneMeshes": 21,
+      "canvas": {
+        "width": 425,
+        "height": 920
+      }
+    },
+    {
+      "profile": "p03",
+      "mode": "plannerTest",
+      "hero": {
+        "x": 0,
+        "z": 3.2
+      },
+      "phase": "battle",
+      "clockPaused": true,
+      "world": "DefenseWorld",
+      "rules": "HordeSurvival",
+      "weaponSlots": 20,
+      "initialPicks": 3,
+      "afterInput": {
+        "x": 0,
+        "z": -0.4000000000000017
+      },
+      "ticks": 79,
+      "seconds": 1.3166666666666669,
+      "paused": false,
+      "render": {
+        "frame": 43,
+        "calls": 63,
+        "triangles": 408072,
+        "points": 210,
+        "lines": 0
+      },
+      "sceneMeshes": 44,
+      "canvas": {
+        "width": 425,
+        "height": 920
+      }
+    },
+    {
+      "profile": "p04",
+      "mode": "plannerTest",
+      "hero": {
+        "x": 0,
+        "z": 10.5
+      },
+      "phase": "battle",
+      "clockPaused": true,
+      "world": "DefenseWorld",
+      "rules": "ChainDefense",
+      "weaponSlots": 20,
+      "initialPicks": 1,
+      "afterInput": {
+        "x": 4.313737668708315,
+        "z": 10.5
+      },
+      "ticks": 73,
+      "seconds": 1.2166666666666672,
+      "paused": false,
+      "render": {
+        "frame": 60,
+        "calls": 81,
+        "triangles": 533020,
+        "points": 210,
+        "lines": 0
+      },
+      "sceneMeshes": 34,
+      "canvas": {
+        "width": 425,
+        "height": 920
+      }
+    },
+    {
+      "profile": "p05",
+      "mode": "plannerTest",
+      "hero": {
+        "x": 0,
+        "z": 7
+      },
+      "phase": "battle",
+      "clockPaused": true,
+      "world": "AdventureWorld",
+      "rules": "AdventureRules",
+      "weaponSlots": 20,
+      "initialPicks": 3,
+      "afterInput": {
+        "x": 0,
+        "z": 5.500000000000005
+      },
+      "ticks": 56,
+      "seconds": 0.9333333333333346,
+      "paused": true,
+      "render": {
+        "frame": 36,
+        "calls": 107,
+        "triangles": 294761,
+        "points": 210,
+        "lines": 0
+      },
+      "sceneMeshes": 22,
+      "canvas": {
+        "width": 425,
+        "height": 920
+      }
+    }
+  ],
+  "growth": [
+    {
+      "profile": "p01",
+      "seconds": 46.98333333333195,
+      "level": 15,
+      "choices": 17,
+      "skills": [
+        [
+          "bolt-home",
+          1
+        ],
+        [
+          "ice-rocket",
+          1
+        ],
+        [
+          "return-crystal",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ],
+        [
+          "fire-rocket",
+          1
+        ],
+        [
+          "bomb",
+          1
+        ],
+        [
+          "fan-slash",
+          1
+        ],
+        [
+          "slow-aura",
+          1
+        ],
+        [
+          "spread-stream",
+          1
+        ],
+        [
+          "ice-home",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "ground-mine",
+          1
+        ],
+        [
+          "flame-field",
+          1
+        ],
+        [
+          "bolt-rocket",
+          1
+        ],
+        [
+          "pet-drone-b",
+          1
+        ],
+        [
+          "orbit-shards",
+          1
+        ],
+        [
+          "pet-drone-a",
+          1
+        ]
+      ],
+      "result": null,
+      "damage": {
+        "character": 0,
+        "skill": 43,
+        "facility": 0,
+        "pet": 0,
+        "core": 149
+      },
+      "enemies": 0
+    },
+    {
+      "profile": "p02",
+      "seconds": 46.98333333333195,
+      "level": 15,
+      "choices": 17,
+      "skills": [
+        [
+          "bolt-home",
+          1
+        ],
+        [
+          "ice-rocket",
+          1
+        ],
+        [
+          "return-crystal",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ],
+        [
+          "fire-rocket",
+          1
+        ],
+        [
+          "bomb",
+          1
+        ],
+        [
+          "fan-slash",
+          1
+        ],
+        [
+          "slow-aura",
+          1
+        ],
+        [
+          "spread-stream",
+          1
+        ],
+        [
+          "ice-home",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "ground-mine",
+          1
+        ],
+        [
+          "flame-field",
+          1
+        ],
+        [
+          "bolt-rocket",
+          1
+        ],
+        [
+          "pet-drone-b",
+          1
+        ],
+        [
+          "orbit-shards",
+          1
+        ],
+        [
+          "pet-drone-a",
+          1
+        ]
+      ],
+      "result": null,
+      "damage": {
+        "character": 0,
+        "skill": 43,
+        "facility": 0,
+        "pet": 0,
+        "core": 149
+      },
+      "enemies": 0
+    },
+    {
+      "profile": "p03",
+      "seconds": 61.833333333331105,
+      "level": 27,
+      "choices": 29,
+      "skills": [
+        [
+          "bolt-home",
+          1
+        ],
+        [
+          "ice-rocket",
+          2
+        ],
+        [
+          "return-crystal",
+          2
+        ],
+        [
+          "pierce-drill",
+          1
+        ],
+        [
+          "fire-rocket",
+          2
+        ],
+        [
+          "bomb",
+          1
+        ],
+        [
+          "fan-slash",
+          1
+        ],
+        [
+          "slow-aura",
+          1
+        ],
+        [
+          "spread-stream",
+          2
+        ],
+        [
+          "ice-home",
+          1
+        ],
+        [
+          "bounce-block",
+          2
+        ],
+        [
+          "ground-mine",
+          1
+        ],
+        [
+          "flame-field",
+          1
+        ],
+        [
+          "bolt-rocket",
+          2
+        ],
+        [
+          "pet-drone-b",
+          1
+        ],
+        [
+          "orbit-shards",
+          2
+        ],
+        [
+          "pet-drone-a",
+          1
+        ],
+        [
+          "lightning-chain",
+          3
+        ],
+        [
+          "fire-home",
+          2
+        ]
+      ],
+      "result": null,
+      "damage": {
+        "character": 894.8,
+        "skill": 1797.2,
+        "facility": 0,
+        "pet": 0,
+        "core": 0
+      },
+      "enemies": 8
+    },
+    {
+      "profile": "p04",
+      "seconds": 16.31666666666702,
+      "level": 5,
+      "choices": 5,
+      "skills": [
+        [
+          "chain-needle",
+          2
+        ],
+        [
+          "chain-bomb",
+          1
+        ]
+      ],
+      "result": null,
+      "damage": {
+        "character": 511.4,
+        "skill": 62.6,
+        "facility": 0,
+        "pet": 0,
+        "core": 0
+      },
+      "enemies": 0
+    },
+    {
+      "profile": "p05",
+      "seconds": 50.88333333333173,
+      "level": 12,
+      "choices": 14,
+      "skills": [
+        [
+          "bolt-home",
+          1
+        ],
+        [
+          "ice-rocket",
+          1
+        ],
+        [
+          "return-crystal",
+          1
+        ],
+        [
+          "pierce-drill",
+          1
+        ],
+        [
+          "fire-rocket",
+          1
+        ],
+        [
+          "bomb",
+          1
+        ],
+        [
+          "fan-slash",
+          1
+        ],
+        [
+          "slow-aura",
+          1
+        ],
+        [
+          "spread-stream",
+          1
+        ],
+        [
+          "ice-home",
+          1
+        ],
+        [
+          "bounce-block",
+          1
+        ],
+        [
+          "ground-mine",
+          1
+        ],
+        [
+          "flame-field",
+          1
+        ],
+        [
+          "bolt-rocket",
+          1
+        ]
+      ],
+      "result": null,
+      "damage": {
+        "character": 73.19999999999997,
+        "skill": 97.2,
+        "facility": 0,
+        "pet": 9.600000000000001,
+        "core": 0
+      },
+      "enemies": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "all",
+      "weapons": [
+        [
+          "fire-rocket",
+          5
+        ],
+        [
+          "ice-rocket",
+          5
+        ],
+        [
+          "bolt-rocket",
+          5
+        ],
+        [
+          "fire-home",
+          5
+        ],
+        [
+          "ice-home",
+          5
+        ],
+        [
+          "bolt-home",
+          5
+        ],
+        [
+          "bomb",
+          5
+        ],
+        [
+          "return-crystal",
+          5
+        ],
+        [
+          "orbit-shards",
+          5
+        ],
+        [
+          "bounce-block",
+          5
+        ],
+        [
+          "pierce-drill",
+          5
+        ],
+        [
+          "fan-slash",
+          5
+        ],
+        [
+          "slow-aura",
+          5
+        ],
+        [
+          "lightning-chain",
+          5
+        ],
+        [
+          "ground-mine",
+          5
+        ],
+        [
+          "spread-stream",
+          5
+        ],
+        [
+          "pet-drone-a",
+          5
+        ],
+        [
+          "pet-drone-b",
+          5
+        ],
+        [
+          "flame-field",
+          5
+        ]
+      ],
+      "evolved": [],
+      "damage": 915.9999999999998,
+      "objects": 6
+    },
+    {
+      "id": "fire-pillar",
+      "weapons": [
+        [
+          "fire-pillar",
+          1
+        ]
+      ],
+      "evolved": [
+        "fire-pillar"
+      ],
+      "damage": 136,
+      "objects": 0
+    },
+    {
+      "id": "chain-three",
+      "weapons": [
+        [
+          "chain-three",
+          1
+        ]
+      ],
+      "evolved": [
+        "chain-three"
+      ],
+      "damage": 466,
+      "objects": 0
+    },
+    {
+      "id": "orbit-four",
+      "weapons": [
+        [
+          "orbit-four",
+          1
+        ]
+      ],
+      "evolved": [
+        "orbit-four"
+      ],
+      "damage": 32,
+      "objects": 0
+    },
+    {
+      "id": "carpet-three",
+      "weapons": [
+        [
+          "carpet-three",
+          1
+        ]
+      ],
+      "evolved": [
+        "carpet-three"
+      ],
+      "damage": 100,
+      "objects": 0
+    }
+  ],
+  "campaign": [],
+  "notes": [],
+  "fatal": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('canvas')\u001b[22m\n\u001b[2m    - locator resolved to <canvas width=\"425\" height=\"920\" class=\"arc-canvas\" data-engine=\"three.js r185\"></canvas>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"arc-modal on\">…</div> from <div class=\"arc-hud\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"arc-modal on\">…</div> from <div class=\"arc-hud\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    51 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"arc-modal on\">…</div> from <div class=\"arc-hud\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Users\\dmaxd\\Documents\\Codex\\2026-10-10\\in-app-browser-context-source-ambient\\audit_current_browser.cjs:17:29"
+}

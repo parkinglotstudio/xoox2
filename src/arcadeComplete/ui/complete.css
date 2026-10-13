@@ -1,0 +1,22 @@
+.arc-tutorial{display:none;position:absolute;inset:0;background:#111b25b8;z-index:60;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px)}
+.arc-tutorial.on{display:flex}.arc-tutorial article{width:100%;max-width:340px;background:linear-gradient(150deg,#244c49,#142a32);border:1px solid #89d9b5;border-radius:20px;padding:24px;box-shadow:0 18px 60px #0007}.arc-tutorial h2{font-size:22px}.arc-tutorial p{line-height:1.7;color:#e0ece4;font-size:15px}.arc-tutorial small{color:#bffad9}.arc-tutorial button{width:100%;margin-top:14px;font-size:14px}
+.arc-card-art{display:flex!important;background:radial-gradient(circle,#a8e7c633,#1b2729)!important;overflow:hidden}.arc-card-art img{width:100%;height:100%;object-fit:contain}.arc-opt-icon{width:52px!important;height:52px!important;background:none!important}.arc-opt-icon img{width:100%;height:100%;object-fit:contain}.mcard-art{position:relative;overflow:hidden}.mcard-art img{width:100%;height:100%;object-fit:cover}.mcard-no{z-index:2}.arc-loadout{position:absolute;left:12px;top:113px;display:flex;gap:5px;pointer-events:none}.arc-loadout img{width:32px;height:32px;object-fit:contain;background:#172d32c9;border:1px solid #a6d5bf55;border-radius:8px}.arc-loadout small{position:absolute;margin-left:-10px;margin-top:22px;font-size:10px;color:#ffe2a4}.arc-crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:18px;height:18px;border:2px solid #e6fff2ab;border-radius:50%;pointer-events:none}.arc-crosshair:after{content:'';position:absolute;left:6px;top:6px;width:3px;height:3px;background:#fff}.arc-chain-label{position:absolute;pointer-events:none;font-size:11px;font-weight:900;color:#fff;transform:translate(-50%,-50%);text-shadow:0 1px 3px #000,1px 0 2px #000}.arc-chain-label.reward{color:#ffd676}.arc-wave{max-width:68%}.arc-bars{gap:4px}.arc-start{font-size:16px}.arc-card-art:after{display:none!important}.arc-card{overflow:hidden}.arc-hash{display:none}.arc-card-box{max-height:85dvh;overflow:auto}.arc-banner{position:absolute;top:27%;left:4%;right:4%;pointer-events:none;text-align:center;font-weight:900;font-size:23px;color:#ffe6a9;text-shadow:0 3px 12px #000;transition:opacity .4s}
+@media(max-width:440px){.arc-card-art{height:92px!important}.arc-card b{font-size:13px}.arc-card small{font-size:11px}.arc-card-kind{font-size:10px}.arc-cards{gap:6px}.arc-card-box{padding:16px}}
+
+.lb-portrait{width:58px;height:64px;object-fit:contain;flex-shrink:0}.lb-row{align-items:center}.lb-pick .lb-portrait{width:70px;height:80px}
+
+.arc-rear-warning{display:none;position:absolute;left:50%;top:150px;transform:translateX(-50%);padding:7px 13px;border-radius:14px;color:#fff3ee;background:#982f3fc9;border:1px solid #ffad96;font-size:12px;font-weight:800;pointer-events:none}.arc-rear-warning.on{display:block}
+
+:root{--bg:#030D18;--panel:#071726;--mint:#0FBEC7;--gold:#D1C51D;--dim:#8FB4C4}.cards-page{background:radial-gradient(circle at 50% 0%, #0D2336, #030D18 72%)}.mcard{background:#071726}.cards-regions button{background:#0D2336;color:#9FF0FF}
+
+.arc-sheet{pointer-events:none}.arc-sheet.on{pointer-events:auto}:root{--arc-bg:#030D18;--arc-panel:#071726eb;--arc-dim:#8FB4C4;--arc-mint:#0FBEC7;--arc-gold:#D1C51D}
+.arc-card-art img,.arc-opt-icon img,.arc-loadout img{mix-blend-mode:normal;object-fit:contain}
+.lb-portrait,.lb-char img{mix-blend-mode:screen}
+
+/* Keep titles readable above bright grass and sky. */
+.arc-top:before{content:"";position:absolute;z-index:-1;inset:-12px -12px -56px;background:linear-gradient(#102d3dc7,#102d3d70,transparent);pointer-events:none}.arc-wave span{color:#e1efe6}.arc-wave b{text-shadow:0 2px 4px #10252b}.arc-loading{background:radial-gradient(circle at 50% 40%,#27504c,#10252b)}
+
+.arc-forecast{position:absolute;left:12px;right:12px;top:132px;padding:10px 12px;border:1px solid #a5e3c155;border-radius:12px;background:#163536de;display:flex;gap:6px;flex-wrap:wrap;font-size:11px;pointer-events:none}.arc-forecast b{width:100%;color:#f6dc94}.arc-forecast span{border-radius:6px;background:#ffffff0b;padding:3px 5px;color:#e2ede4}
+
+/* Expanded inventory remains readable on portrait screens. */
+.arc-loadout{right:12px;flex-wrap:wrap;gap:3px;max-height:54px;overflow:auto;pointer-events:auto}.arc-loadout span{position:relative;height:24px}.arc-loadout img{width:24px;height:24px}.arc-loadout small{right:1px;bottom:-1px;margin:0;line-height:12px;background:#0d2429cc;border-radius:3px}

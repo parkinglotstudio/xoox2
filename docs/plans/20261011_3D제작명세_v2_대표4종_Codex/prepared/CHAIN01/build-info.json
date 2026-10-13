@@ -1,0 +1,29 @@
+{
+  "status": "Blender-exported-preparation-not-playable",
+  "meshObjects": 55,
+  "triangles": 24264,
+  "glbBytes": 713880,
+  "floorSourceBoundsBlender": [
+    -1.2000000476837158,
+    -1.2000000476837158,
+    0.0,
+    1.2000000476837158,
+    1.2000000476837158,
+    0.48000001907348633
+  ],
+  "resourceIds": [
+    "k_tile",
+    "k_detail_tree",
+    "k_detail_crystal",
+    "k_chest",
+    "q_green_blob"
+  ],
+  "previewSegmentsAreStatic": true,
+  "requiredNext": [
+    "validate-runtime-bounds-and-floor",
+    "chain-path-and-HP-runtime",
+    "player-and-muzzle-sockets",
+    "mobile-draw-call-optimization",
+    "height-and-capsule-sweep-tests"
+  ]
+}

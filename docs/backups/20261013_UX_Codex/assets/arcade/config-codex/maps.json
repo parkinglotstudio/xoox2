@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 2,
+  "status": "Blender-authored-playable-voxel-maps",
+  "maps": [
+    {
+      "id": "defense-forest-south",
+      "source": "assets/arcade/maps/CODEX_FOREST/defense_polluted.glb",
+      "coordinateSpace": "blender-island-m",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "heightPolicy": "authored-flat",
+      "playBoundsM": [
+        42,
+        52
+      ],
+      "authoringLayout": {
+        "originXY": [
+          0,
+          -105
+        ],
+        "sizeM": [
+          42,
+          52
+        ],
+        "coreLocalXY": [
+          0,
+          0
+        ],
+        "auxiliaryLocalXY": [
+          [
+            -9,
+            -4
+          ],
+          [
+            9,
+            -4
+          ],
+          [
+            -8,
+            7
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "spawnLocalXY": [
+          [
+            -18,
+            20
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            0,
+            -23
+          ]
+        ],
+        "allSlotsRequireHeightSampling": false
+      },
+      "requiredQueries": [
+        "height",
+        "walkable",
+        "lineOfSight",
+        "sweepCapsule"
+      ],
+      "candidatePaths": [
+        {
+          "id": "base-route-1",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              -12,
+              0,
+              -16
+            ],
+            [
+              -8,
+              0,
+              -8
+            ],
+            [
+              -3,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-2",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              12,
+              0,
+              -16
+            ],
+            [
+              8,
+              0,
+              -8
+            ],
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-3",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              15,
+              0,
+              5
+            ],
+            [
+              8,
+              0,
+              3
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "base-route-boss",
+          "coordinateSpace": "mission-local-three-m",
+          "points": [
+            [
+              0,
+              0,
+              -20
+            ],
+            [
+              0,
+              0,
+              -10
+            ],
+            [
+              0,
+              0,
+              -3
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "navigation": "assets/arcade/maps/CODEX_FOREST/defense_navigation.json",
+      "sourceStatus": "implemented"
+    },
+    {
+      "id": "survival-landing",
+      "source": "assets/arcade/maps/CODEX_FOREST/survival_polluted.glb",
+      "coordinateSpace": "blender-map-m",
+      "playBoundsM": [
+        38,
+        44
+      ],
+      "heightPolicy": "authored-flat",
+      "requiresPoolForWaterSpecies": true,
+      "navigation": "assets/arcade/maps/CODEX_FOREST/survival_navigation.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "sourceStatus": "implemented"
+    },
+    {
+      "id": "chain-board",
+      "source": "assets/arcade/maps/CODEX_FOREST/chain_polluted.glb",
+      "sourceStatus": "implemented",
+      "coordinateSpace": "mission-local-three-m",
+      "playBoundsM": [
+        12,
+        24
+      ],
+      "playerZM": 10.5,
+      "failBoundaryZM": 9.5,
+      "groundHeightM": 0,
+      "heightPolicy": "authored-flat",
+      "pathIds": [
+        "chain-serpentine-v1"
+      ],
+      "navigation": "assets/arcade/maps/CODEX_FOREST/chain_navigation.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "expansion-rooms",
+      "title": "수색 돌파 · 기존 수스 맵 재사용",
+      "source": "assets/arcade/maps/CODEX_EXPANSION/room_empty_polluted.glb",
+      "adventure": "rooms",
+      "navigation": "authored-layout-runtime",
+      "candidatePaths": [],
+      "authoringLayout": {
+        "auxiliaryLocalXY": []
+      }
+    },
+    {
+      "id": "expansion-escort",
+      "title": "구출 호위와 탈출 · 기존 수스 맵 재사용",
+      "source": "assets/arcade/maps/CODEX_EXPANSION/sky_route_polluted.glb",
+      "adventure": "escort",
+      "navigation": "authored-layout-runtime",
+      "candidatePaths": [],
+      "authoringLayout": {
+        "auxiliaryLocalXY": []
+      }
+    },
+    {
+      "id": "expansion-restore",
+      "title": "정화 복구 · 기존 수스 맵 재사용",
+      "source": "assets/arcade/maps/CODEX_EXPANSION/landing_polluted.glb",
+      "adventure": "restore",
+      "navigation": "authored-layout-runtime",
+      "candidatePaths": [],
+      "authoringLayout": {
+        "auxiliaryLocalXY": []
+      }
+    }
+  ]
+}

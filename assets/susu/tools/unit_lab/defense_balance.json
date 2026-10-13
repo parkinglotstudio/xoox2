@@ -1,0 +1,27 @@
+{
+  "revision": "DEF15-03",
+  "stageSeconds": 180,
+  "waveGapSeconds": 10,
+  "maxEnemies": 72,
+  "bodySpacing": 3.0,
+  "facilityHp": { "tower": 2500, "obstacle": 3000, "base": 10000 },
+  "weapons": {
+    "tower_gun": { "attack": "direct", "damage": 600, "interval": 0.45, "burst": 3, "spacing": 0.08, "range": 40, "velocity": 120, "splash": 0, "pierce": 0, "windup": 0, "falloff": 1 },
+    "tower_throw": { "attack": "area", "damage": 600, "interval": 2.6, "burst": 1, "spacing": 0.2, "range": 60, "velocity": 36, "splash": 6, "pierce": 0, "windup": 0.22, "falloff": 0.55 },
+    "tower_cannon": { "attack": "area", "damage": 650, "interval": 3.0, "burst": 1, "spacing": 0.2, "range": 75, "velocity": 48, "splash": 7, "pierce": 0, "windup": 0.18, "falloff": 0.55 },
+    "tower_ballista": { "attack": "direct", "damage": 760, "interval": 0.5, "burst": 1, "spacing": 0.1, "range": 32, "velocity": 140, "splash": 0, "pierce": 2, "windup": 0, "falloff": 1 },
+    "tower_catapult": { "attack": "area", "damage": 720, "interval": 4.2, "burst": 1, "spacing": 0.2, "range": 80, "velocity": 48, "splash": 9, "pierce": 0, "windup": 0.55, "falloff": 0.55 }
+  },
+  "stages": [
+    { "name": "소형 무리 · 포탑 우세", "hp": 30, "speed": 3.2, "damage": 2, "attackInterval": 1.8, "spawnInterval": 1.5,
+      "monsters": ["q_pink_slime", "q_green_blob", "q_mushnub", "q_pigeon", "q_chicken", "q_cat", "q_fish", "q_bunny", "q_birb"] },
+    { "name": "가시·유령 · 연속 타격", "hp": 65, "speed": 3.5, "damage": 3, "attackInterval": 1.65, "spawnInterval": 1.1,
+      "monsters": ["q_cactoro", "q_green_spiky_blob", "q_ghost", "q_alien", "q_fish_2", "q_cactoro_2", "q_glub", "q_frog", "q_armabee"] },
+    { "name": "전사·장갑 · 관통 방어", "hp": 110, "speed": 3.8, "damage": 5, "attackInterval": 1.55, "spawnInterval": 0.85,
+      "monsters": ["q_orc_enemy", "q_ninja", "q_wizard", "q_tribal", "q_squidle", "q_hywirl", "q_monkroose", "q_ninja_2", "q_orc"] },
+    { "name": "대형 무리 · 전선 압박", "hp": 165, "speed": 4.0, "damage": 7, "attackInterval": 1.5, "spawnInterval": 0.7,
+      "monsters": ["q_dino", "q_goleling", "q_ghost_skull", "q_blue_demon", "q_alien_2", "q_yeti", "q_alpaking", "q_armabee_evolved", "q_glub_evolved"] },
+    { "name": "최종 진화종 · 본진 방어", "hp": 230, "speed": 4.2, "damage": 9, "attackInterval": 1.45, "spawnInterval": 0.6,
+      "monsters": ["q_mushnub_evolved", "q_goleling_evolved", "q_dragon", "q_alpaking_evolved", "q_dragon_evolved", "q_mushroom_king", "q_yeti_2", "q_demon_2", "q_demon"] }
+  ]
+}

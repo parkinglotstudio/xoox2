@@ -1,0 +1,28 @@
+{
+  "revision": "OUT-WAVE-01",
+  "scale": 0.26,
+  "speed": 3,
+  "spawnAhead": 38,
+  "spawnSpread": 12,
+  "aliveCap": 16,
+  "spawnGap": 0.8,
+  "spawnGroup": 2,
+  "bossAfter": 8,
+  "midEvery": 5,
+  "quota": { "normal": 32, "mid": 8, "boss": 1 },
+  "pool": { "normal": 14, "mid": 6, "boss": 2 },
+  "tiers": {
+    "normal": { "hp": 2, "scale": 1, "speed": 1, "bite": 1 },
+    "mid": { "hp": 8, "scale": 1.55, "speed": 0.82, "bite": 2 },
+    "boss": { "hp": 22, "scale": 2.4, "speed": 0.62, "bite": 4 }
+  },
+  "kinds": [
+    { "id": "pink_slime", "url": "/tools/unit_lab/monsters_anim/pink_slime.glb", "tier": "normal", "hpMul": 0.85, "speedMul": 0.9 },
+    { "id": "green_blob", "url": "/tools/unit_lab/monsters_anim/green_blob.glb", "tier": "normal", "hpMul": 1.1, "speedMul": 0.95 },
+    { "id": "mushnub", "url": "/tools/unit_lab/monsters_anim/mushnub.glb", "tier": "normal", "hpMul": 1, "speedMul": 0.85 },
+    { "id": "cactoro", "url": "/tools/unit_lab/monsters_anim/cactoro.glb", "tier": "mid", "hpMul": 1.16, "speedMul": 0.86 },
+    { "id": "green_spiky_blob", "url": "/tools/unit_lab/monsters_anim/green_spiky_blob.glb", "tier": "mid", "hpMul": 1.24, "speedMul": 0.8 },
+    { "id": "boss_cactoro", "url": "/tools/unit_lab/monsters_anim/cactoro.glb", "tier": "boss", "hpMul": 1, "speedMul": 0.7 }
+  ],
+  "marker": { "url": "/tools/unit_lab/units_free/k_tile_crystal.glb", "scale": 0.45, "emissive": "7EF0FF" }
+}

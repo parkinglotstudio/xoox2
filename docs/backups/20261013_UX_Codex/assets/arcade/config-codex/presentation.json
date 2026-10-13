@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 2,
+  "status": "runtime-HUD-and-VFX-implemented-audio-excluded",
+  "clockDomains": {
+    "combat": "fixed-sim",
+    "selection": "ui",
+    "result": "ui-after-committed-result"
+  },
+  "vfx": {
+    "muzzleSec": 0.06,
+    "hitFlashSec": 0.08,
+    "lightningSec": 0.12,
+    "damageNumberLifeSec": 0.55,
+    "damageNumberCap": 48,
+    "segmentHpLabelCap": 96,
+    "debrisCap": 256,
+    "deathDebrisPerEvent": [
+      8,
+      12
+    ],
+    "deathDebrisLifeSec": [
+      0.35,
+      0.55
+    ],
+    "pooledMuzzleLights": 1,
+    "muzzleLightCastsShadow": false,
+    "cameraShakeM": 0.08,
+    "cameraShakeSec": 0.12,
+    "fpsCameraShakeM": 0,
+    "fpsVisualRecoilDegMax": 1,
+    "criticalTelegraphsSurviveLowQuality": true
+  },
+  "audio": {
+    "voiceCap": 16,
+    "gunMinIntervalSec": 0.08,
+    "explosionMinIntervalSec": 0.12,
+    "uiMinIntervalSec": 0.05,
+    "actualAudioAssetStatus": "must-audit-missing-slots-before-claiming-done"
+  },
+  "selection": {
+    "confirmSec": 0.25,
+    "inputBlockAfterSec": 0.1,
+    "chestRollMaxSec": 1.2,
+    "skipEnabled": true
+  },
+  "tutorial": {
+    "repeatSkip": true,
+    "stepsByProfile": {
+      "p01": [
+        "move",
+        "build-on-valid-slot",
+        "cost-confirm",
+        "start-wave",
+        "upgrade-card",
+        "core-warning"
+      ],
+      "p02": [
+        "move",
+        "look",
+        "view-cone-target",
+        "muzzle-wall",
+        "rear-warning"
+      ],
+      "p03": [
+        "move-and-auto-fire",
+        "xp-collect",
+        "three-choice",
+        "orbit-and-drone",
+        "boss-warning"
+      ],
+      "p04": [
+        "horizontal-drag",
+        "three-choice",
+        "segment-hp",
+        "pierce",
+        "boundary-warning"
+      ]
+    }
+  },
+  "damageLedger": {
+    "categories": [
+      "character",
+      "skill",
+      "facility",
+      "pet"
+    ],
+    "value": "applied-hp-damage-clamped-at-remaining-hp",
+    "dotOwner": "original-owner",
+    "summonedDroneCategory": "skill",
+    "preventDoubleCategoryCredit": true
+  }
+}

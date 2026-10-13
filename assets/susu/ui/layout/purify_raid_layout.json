@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "weapon_type": "missile",
+  "gun_range_m": 9,
+  "gun_spread_deg": 8,
+  "gun_ammo_per_sec": 2.4,
+  "gun_ammo_max": 24,
+  "gun_regen_on_teal": 6,
+  "missile_arc_m": 2.3,
+  "missile_speed_mps": 11,
+  "paint_radius_m": 1.15,
+  "paint_overwrite": 0.85,
+  "wave_count": 3,
+  "wave_size": 6,
+  "blight_speed_mps": 2.4,
+  "blight_hits": 3,
+  "core_eat_per_sec": 0.12,
+  "win_teal_pct": 55,
+  "warn_sec": 3,
+  "note": "정화 습격 튜닝. 편집: /purify-raid-tool.html"
+}

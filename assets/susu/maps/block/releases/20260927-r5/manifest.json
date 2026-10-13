@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "revision": "20260927-r5",
+  "defaultSector": "i21",
+  "defaultState": "purified",
+  "sectorMeters": 110,
+  "personMeters": 1.5,
+  "terrainBlockMeters": 0.3,
+  "grassFarMeters": 36,
+  "backdrop": { "radius": 420, "height": 360, "footY": 255 },
+  "actors": {
+    "person": "/tools/unit_lab/character/D/wanderer_D.glb",
+    "monster": "/tools/unit_lab/monsters_anim/mushnub.glb"
+  },
+  "states": {
+    "purified": {"label": "정화 후", "backdrop": "/art/sky/horizon_purified_map_v1.png?v=1", "sky": "#AEDDE6", "fog": "#C0DED2", "fogNear": 95, "fogFar": 340, "hemi": 1.4, "sun": 2.0},
+    "polluted": {"label": "정화 전", "backdrop": "/art/sky/horizon_polluted_map_v1.png?v=1", "sky": "#363047", "fog": "#494052", "fogNear": 95, "fogFar": 340, "hemi": 0.8, "sun": 0.8}
+  },
+  "sectors": {
+    "i21": {"label": "들판 · 선착장", "purified": "/maps/block/releases/20260927-r5/i21_purified.glb", "polluted": "/maps/block/releases/20260927-r5/i21_polluted.glb",
+      "stand": {"x": 55, "y": 55, "z": 0, "yaw": 2.827433388230814},
+      "cameras": {"field": {"label":"들판", "pos":[38,40,6], "target":[59,70,0.5]}, "dock":{"label":"선착장", "pos":[47,26,3.2],"target":[57,14,0.6]}, "overview":{"label":"섹터 전경", "pos":[55,-80,90],"target":[55,50,0]}}},
+    "i11": {"label": "중앙 · 교차로", "purified": "/maps/block/releases/20260927-r5/i11_purified.glb", "polluted": "/maps/block/releases/20260927-r5/i11_polluted.glb",
+      "stand": {"x": 55, "y": 55, "z": 0, "yaw": 2.827433388230814},
+      "cameras": {"field":{"label":"교차로", "pos":[46,25,8],"target":[57,61,0]}, "dock":{"label":"마을", "pos":[60,50,5.5],"target":[78,67,1]}, "overview":{"label":"섹터 전경", "pos":[55,-70,100],"target":[55,55,0]}}}
+  }
+}
+

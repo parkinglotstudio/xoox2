@@ -1,0 +1,1833 @@
+{
+  "errors": [],
+  "http": [],
+  "games": [
+    {
+      "n": 1,
+      "brief": "마지막 등불",
+      "input": {
+        "ticks": 52,
+        "pos": {
+          "x": 0,
+          "z": 1.9500000000000002
+        },
+        "paused": false,
+        "facilities": 2
+      },
+      "at60": {
+        "seconds": 60.583333333331176,
+        "phase": "battle",
+        "level": 6,
+        "choices": 6,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            3
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 41,
+        "position": {
+          "x": 3.414785233471488,
+          "z": 2.9999999999999996
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 145.06666666667425,
+        "phase": "win",
+        "level": 13,
+        "choices": 13,
+        "weapons": [
+          [
+            "bomb",
+            2
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "orbit-four",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [
+          "orbit-four"
+        ],
+        "hp": 140,
+        "core": 460,
+        "kills": 145,
+        "position": {
+          "x": -0.0877147665285179,
+          "z": 3
+        },
+        "result": {
+          "status": "win",
+          "reason": "모든 웨이브 정화",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 145.07,
+          "wavesCleared": 3,
+          "kills": 145,
+          "killsBySpecies": {
+            "q_pink_slime": 36,
+            "q_green_blob": 28,
+            "q_orc_enemy": 16,
+            "q_cactoro": 16,
+            "q_wizard": 24,
+            "q_green_spiky_blob": 24,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_pink_slime": 2.02,
+            "q_green_blob": 2.41,
+            "q_orc_enemy": 1.46,
+            "q_cactoro": 3.63,
+            "q_wizard": 1.05,
+            "q_green_spiky_blob": 6.2,
+            "q_goleling_evolved": 17.2
+          },
+          "damage": {
+            "character": 0,
+            "skill": 2331.1000000000013,
+            "facility": 2533.499999999991,
+            "pet": 0,
+            "core": 387.3999999999996
+          },
+          "heroLevel": 13,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:ice-rocket:4",
+            "p:speed:1",
+            "p:speed:2",
+            "p:speed:3",
+            "w:ice-rocket:5",
+            "evo:orbit-four",
+            "w:bomb:2"
+          ],
+          "coreHpFraction": 0.885,
+          "heroHpFraction": 1,
+          "pointsLeft": 472,
+          "facilities": [
+            "iceTower:Lv3",
+            "fireSeat:Lv3",
+            "iceTower:Lv2",
+            "fireSeat:Lv1"
+          ],
+          "runId": "p01-mv6pgh8h-20",
+          "seed": 72,
+          "configHash": "ddaed11a1aa98d8e",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p01",
+          "missionId": "r01-p01",
+          "variant": "standard",
+          "ticks": 8849,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 2,
+      "brief": "숲의 파수꾼",
+      "input": {
+        "ticks": 52,
+        "pos": {
+          "x": 1.3204653504387842,
+          "z": 1.567097290623054
+        },
+        "paused": false,
+        "facilities": 2
+      },
+      "at60": {
+        "seconds": 60.64999999999784,
+        "phase": "battle",
+        "level": 6,
+        "choices": 6,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            3
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 42,
+        "position": {
+          "x": 3.3991716784144437,
+          "z": 2.9999999999999996
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 144.48333333334045,
+        "phase": "win",
+        "level": 13,
+        "choices": 13,
+        "weapons": [
+          [
+            "bomb",
+            2
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "orbit-four",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [
+          "orbit-four"
+        ],
+        "hp": 140,
+        "core": 460,
+        "kills": 145,
+        "position": {
+          "x": -0.31332832158556245,
+          "z": 3
+        },
+        "result": {
+          "status": "win",
+          "reason": "모든 웨이브 정화",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 144.48,
+          "wavesCleared": 3,
+          "kills": 145,
+          "killsBySpecies": {
+            "q_pink_slime": 36,
+            "q_green_blob": 28,
+            "q_orc_enemy": 16,
+            "q_cactoro": 16,
+            "q_wizard": 24,
+            "q_green_spiky_blob": 24,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_pink_slime": 2.02,
+            "q_green_blob": 2.41,
+            "q_orc_enemy": 1.47,
+            "q_cactoro": 3.64,
+            "q_wizard": 1.05,
+            "q_green_spiky_blob": 4.56,
+            "q_goleling_evolved": 16.65
+          },
+          "damage": {
+            "character": 0,
+            "skill": 2284.7000000000016,
+            "facility": 2601.49999999999,
+            "pet": 0,
+            "core": 365.7999999999996
+          },
+          "heroLevel": 13,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:ice-rocket:4",
+            "p:speed:1",
+            "p:speed:2",
+            "p:speed:3",
+            "w:ice-rocket:5",
+            "evo:orbit-four",
+            "w:bomb:2"
+          ],
+          "coreHpFraction": 0.885,
+          "heroHpFraction": 1,
+          "pointsLeft": 472,
+          "facilities": [
+            "iceTower:Lv3",
+            "fireSeat:Lv3",
+            "iceTower:Lv2",
+            "fireSeat:Lv1"
+          ],
+          "runId": "p02-mv6pgv7q-20",
+          "seed": 72,
+          "configHash": "b9786734735243cc",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p02",
+          "missionId": "r01-p02",
+          "variant": "standard",
+          "ticks": 8808,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 3,
+      "brief": "숲이 깨어나는 시간",
+      "input": {
+        "ticks": 40,
+        "pos": {
+          "x": 0,
+          "z": 0.8749999999999982
+        },
+        "paused": false,
+        "facilities": 0
+      },
+      "at60": {
+        "seconds": 60.7166666666645,
+        "phase": "battle",
+        "level": 11,
+        "choices": 9,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            2
+          ]
+        ],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 137,
+        "position": {
+          "x": 4.483618717539924,
+          "z": 1.7110091049511977
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 189.96666666670998,
+        "phase": "win",
+        "level": 14,
+        "choices": 16,
+        "weapons": [
+          [
+            "bomb",
+            4
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "orbit-four",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ],
+          [
+            "hp",
+            1
+          ]
+        ],
+        "evolved": [
+          "orbit-four"
+        ],
+        "hp": 132.83833333333075,
+        "core": 520,
+        "kills": 845,
+        "position": {
+          "x": -2.0906988589632154,
+          "z": 4.315007664375054
+        },
+        "result": {
+          "status": "win",
+          "reason": "최종 보스를 물리쳤습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 189.97,
+          "wavesCleared": 1,
+          "kills": 845,
+          "killsBySpecies": {
+            "q_green_blob": 114,
+            "q_mushnub": 180,
+            "q_pink_slime": 53,
+            "q_cactoro": 54,
+            "q_orc_enemy": 101,
+            "q_green_spiky_blob": 79,
+            "q_ninja": 223,
+            "q_cat": 39,
+            "q_mushnub_evolved": 1,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_green_blob": 4.32,
+            "q_mushnub": 2.56,
+            "q_pink_slime": 3.58,
+            "q_cactoro": 4.66,
+            "q_orc_enemy": 4.31,
+            "q_green_spiky_blob": 9.94,
+            "q_ninja": 8.91,
+            "q_cat": 3.94,
+            "q_mushnub_evolved": 5.92,
+            "q_goleling_evolved": 9.97
+          },
+          "damage": {
+            "character": 12313.799999999997,
+            "skill": 12276.399999999992,
+            "facility": 0,
+            "pet": 959.8000000000001,
+            "core": 0
+          },
+          "heroLevel": 14,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:ice-rocket:4",
+            "p:speed:1",
+            "p:speed:2",
+            "p:speed:3",
+            "w:ice-rocket:5",
+            "evo:orbit-four",
+            "w:bomb:2",
+            "w:bomb:3",
+            "w:bomb:4",
+            "p:hp:1"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 0.83,
+          "pointsLeft": 3956,
+          "facilities": [],
+          "runId": "p03-mv6ph60u-20",
+          "seed": 72,
+          "configHash": "dc1efbc7832bbd4c",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p03",
+          "missionId": "r01-p03",
+          "variant": "standard",
+          "ticks": 11407,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 4,
+      "brief": "수정의 행렬",
+      "input": {
+        "ticks": 39,
+        "pos": {
+          "x": 3.0000000000000013,
+          "z": 10.5
+        },
+        "paused": false,
+        "facilities": 0
+      },
+      "at60": {
+        "seconds": 60.68333333333117,
+        "phase": "battle",
+        "level": 6,
+        "choices": 6,
+        "weapons": [
+          [
+            "chain-needle",
+            2
+          ],
+          [
+            "chain-bomb",
+            1
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 107,
+        "position": {
+          "x": 4.500000000000002,
+          "z": 10.5
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 108.88333333332844,
+        "phase": "win",
+        "level": 11,
+        "choices": 11,
+        "weapons": [
+          [
+            "chain-needle",
+            3
+          ],
+          [
+            "chain-bomb",
+            1
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 204,
+        "position": {
+          "x": 4.3000000000000025,
+          "z": 10.5
+        },
+        "result": {
+          "status": "win",
+          "reason": "모든 체인 대열을 정화했습니다",
+          "stars": 2,
+          "starDetail": [
+            true,
+            true,
+            false
+          ],
+          "battleSec": 108.88,
+          "wavesCleared": 6,
+          "kills": 204,
+          "killsBySpecies": {
+            "q_green_spiky_blob": 37,
+            "q_glub_evolved": 5,
+            "q_green_blob": 67,
+            "k_chest": 12,
+            "q_pink_slime": 82,
+            "q_dragon_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_green_spiky_blob": 6.1,
+            "q_glub_evolved": 5.07,
+            "q_green_blob": 12.94,
+            "k_chest": 11.54,
+            "q_pink_slime": 14.91,
+            "q_dragon_evolved": 6.03
+          },
+          "damage": {
+            "character": 9341.100000000019,
+            "skill": 3692.9,
+            "facility": 0,
+            "pet": 0,
+            "core": 0
+          },
+          "heroLevel": 11,
+          "picked": [
+            "chain:pellets",
+            "w:chain-needle:1",
+            "w:chain-bomb:1",
+            "chain:pierce:1",
+            "w:chain-needle:2",
+            "chain:damage:2",
+            "chain:burst:1",
+            "chain:burst:2",
+            "chain:pierce:2",
+            "chain:damage:3",
+            "w:chain-needle:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 1208,
+          "facilities": [],
+          "runId": "p04-mv6phnf2-20",
+          "seed": 72,
+          "configHash": "632aa7fa5601fb1f",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p04",
+          "missionId": "r01-p04",
+          "variant": "standard",
+          "ticks": 6542,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 5,
+      "brief": "잃어버린 발자국",
+      "input": {
+        "ticks": 47,
+        "pos": {
+          "x": 0,
+          "z": 3.9000000000000106
+        },
+        "paused": false,
+        "facilities": 0
+      },
+      "at60": {
+        "seconds": 58.78333333333128,
+        "phase": "battle",
+        "level": 8,
+        "choices": 10,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [],
+        "hp": 152,
+        "core": 480,
+        "kills": 55,
+        "room": 4,
+        "cart": 0,
+        "rescueProgress": 0,
+        "clean": 0,
+        "sites": 0,
+        "position": {
+          "x": 4.998388004203056,
+          "z": -5.869025341498283
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 73.36666666666379,
+        "phase": "win",
+        "level": 10,
+        "choices": 12,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ],
+          [
+            "orbit-four",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [
+          "orbit-four"
+        ],
+        "hp": 132,
+        "core": 480,
+        "kills": 61,
+        "room": 5,
+        "cart": 0,
+        "rescueProgress": 0,
+        "clean": 0,
+        "sites": 0,
+        "position": {
+          "x": 1.1404825377135843,
+          "z": -7.731770688011676
+        },
+        "result": {
+          "status": "win",
+          "reason": "6개 방을 돌파하고 동물을 구출했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 73.37,
+          "wavesCleared": 6,
+          "kills": 61,
+          "killsBySpecies": {
+            "q_chicken": 3,
+            "q_ninja": 1,
+            "q_alien": 6,
+            "q_yeti": 8,
+            "q_wizard": 9,
+            "q_green_spiky_blob": 10,
+            "q_ghost_skull": 9,
+            "q_squidle": 7,
+            "q_ninja_2": 4,
+            "q_dino": 2,
+            "q_alien_2": 1,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_chicken": 0.41,
+            "q_ninja": 0.92,
+            "q_alien": 1.57,
+            "q_yeti": 1.99,
+            "q_wizard": 2.51,
+            "q_green_spiky_blob": 1.41,
+            "q_ghost_skull": 0.89,
+            "q_squidle": 1.09,
+            "q_ninja_2": 1.87,
+            "q_dino": 2.02,
+            "q_alien_2": 0.78,
+            "q_goleling_evolved": 3.62
+          },
+          "damage": {
+            "character": 2536.5,
+            "skill": 1439.6999999999998,
+            "facility": 0,
+            "pet": 163.8,
+            "core": 0
+          },
+          "heroLevel": 10,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:ice-rocket:4",
+            "p:speed:1",
+            "p:speed:2",
+            "p:speed:3",
+            "w:ice-rocket:5",
+            "evo:orbit-four"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 0.825,
+          "pointsLeft": 580,
+          "facilities": [],
+          "runId": "p05-mv6phylk-20",
+          "seed": 72,
+          "configHash": "bc2c85d70713230c",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p05",
+          "missionId": "r01-p05",
+          "variant": "standard",
+          "ticks": 4411,
+          "mode": "plannerTest",
+          "testOnly": true,
+          "objective": {
+            "kind": "rooms",
+            "completed": 6,
+            "total": 6
+          }
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 6,
+      "brief": "함께 돌아가는 길",
+      "input": {
+        "ticks": 43,
+        "pos": {
+          "x": 0,
+          "z": 59.799999999999955
+        },
+        "paused": false,
+        "facilities": 0
+      },
+      "at60": {
+        "seconds": 60.7166666666645,
+        "phase": "battle",
+        "level": 6,
+        "choices": 10,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [],
+        "hp": 160,
+        "core": 560,
+        "kills": 26,
+        "room": 0,
+        "cart": 4,
+        "rescueProgress": 2.5166666666666626,
+        "clean": 0,
+        "sites": 0,
+        "position": {
+          "x": 0,
+          "z": -19.860000000001694
+        },
+        "result": null
+      },
+      "outcome": {
+        "seconds": 61.633333333331116,
+        "phase": "win",
+        "level": 6,
+        "choices": 10,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            4
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [
+          [
+            "speed",
+            3
+          ]
+        ],
+        "evolved": [],
+        "hp": 160,
+        "core": 560,
+        "kills": 27,
+        "room": 0,
+        "cart": 5,
+        "rescueProgress": 2.5166666666666626,
+        "clean": 0,
+        "sites": 0,
+        "position": {
+          "x": 0,
+          "z": -17.260000000001714
+        },
+        "result": {
+          "status": "win",
+          "reason": "반려동물과 수레가 탈출 거점에 도착했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 61.63,
+          "wavesCleared": 1,
+          "kills": 27,
+          "killsBySpecies": {
+            "q_ninja": 3,
+            "q_chicken": 3,
+            "q_alien": 3,
+            "q_yeti": 2,
+            "q_wizard": 2,
+            "q_green_spiky_blob": 2,
+            "q_ghost_skull": 2,
+            "q_squidle": 2,
+            "q_ninja_2": 2,
+            "q_dino": 2,
+            "q_alien_2": 2,
+            "q_blue_demon": 2
+          },
+          "avgLifeSecBySpecies": {
+            "q_ninja": 0.45,
+            "q_chicken": 0.19,
+            "q_alien": 0.34,
+            "q_yeti": 0.53,
+            "q_wizard": 0.57,
+            "q_green_spiky_blob": 0.44,
+            "q_ghost_skull": 0.3,
+            "q_squidle": 0.89,
+            "q_ninja_2": 0.57,
+            "q_dino": 0.65,
+            "q_alien_2": 1.16,
+            "q_blue_demon": 0.38
+          },
+          "damage": {
+            "character": 893.7999999999998,
+            "skill": 656.1200000000001,
+            "facility": 0,
+            "pet": 16.08,
+            "core": 0
+          },
+          "heroLevel": 6,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3",
+            "w:ice-rocket:4",
+            "p:speed:1",
+            "p:speed:2",
+            "p:speed:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 352,
+          "facilities": [],
+          "runId": "p06-mv6pi9m1-20",
+          "seed": 72,
+          "configHash": "7d27d2a0a1adde97",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p06",
+          "missionId": "r01-p06",
+          "variant": "standard",
+          "ticks": 3708,
+          "mode": "plannerTest",
+          "testOnly": true,
+          "objective": {
+            "kind": "escort",
+            "completed": 5,
+            "total": 5,
+            "rescued": true
+          }
+        }
+      },
+      "retry": true
+    },
+    {
+      "n": 7,
+      "brief": "다시 피어나는 섬",
+      "input": {
+        "ticks": 40,
+        "pos": {
+          "x": 0,
+          "z": 16.899999999999956
+        },
+        "paused": false,
+        "facilities": 0
+      },
+      "outcome": {
+        "seconds": 34.66666666666598,
+        "phase": "win",
+        "level": 3,
+        "choices": 6,
+        "weapons": [
+          [
+            "bomb",
+            1
+          ],
+          [
+            "ice-rocket",
+            3
+          ],
+          [
+            "return-crystal",
+            1
+          ],
+          [
+            "pierce-drill",
+            1
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 160,
+        "core": 480,
+        "kills": 11,
+        "room": 0,
+        "cart": 0,
+        "rescueProgress": 0,
+        "clean": 0.4506172839506173,
+        "sites": 3,
+        "position": {
+          "x": 1.5068667715698325,
+          "z": 9.214751457758936
+        },
+        "result": {
+          "status": "win",
+          "reason": "오염원을 제거하고 섬과 시설을 복구했습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 34.67,
+          "wavesCleared": 1,
+          "kills": 11,
+          "killsBySpecies": {
+            "q_ninja": 1,
+            "q_chicken": 1,
+            "q_alien": 1,
+            "q_yeti": 1,
+            "q_wizard": 1,
+            "q_green_spiky_blob": 1,
+            "q_ghost_skull": 1,
+            "q_squidle": 1,
+            "q_ninja_2": 1,
+            "q_dino": 1,
+            "q_alien_2": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_ninja": 0.58,
+            "q_chicken": 0.22,
+            "q_alien": 0.28,
+            "q_yeti": 0.6,
+            "q_wizard": 0.4,
+            "q_green_spiky_blob": 0.42,
+            "q_ghost_skull": 0.33,
+            "q_squidle": 0.38,
+            "q_ninja_2": 0.38,
+            "q_dino": 0.52,
+            "q_alien_2": 0.33
+          },
+          "damage": {
+            "character": 394.84,
+            "skill": 270.15999999999997,
+            "facility": 0,
+            "pet": 0,
+            "core": 0
+          },
+          "heroLevel": 3,
+          "picked": [
+            "w:bomb:1",
+            "w:ice-rocket:1",
+            "w:return-crystal:1",
+            "w:pierce-drill:1",
+            "w:ice-rocket:2",
+            "w:ice-rocket:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 276,
+          "facilities": [],
+          "runId": "p07-mv6piidm-20",
+          "seed": 72,
+          "configHash": "0b9939b74cf1d019",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p07",
+          "missionId": "r01-p07",
+          "variant": "standard",
+          "ticks": 2089,
+          "mode": "plannerTest",
+          "testOnly": true,
+          "objective": {
+            "kind": "restore",
+            "completed": 3,
+            "total": 3,
+            "cleanFraction": 0.4506172839506173
+          }
+        }
+      },
+      "retry": true
+    }
+  ],
+  "extraSeeds": [
+    {
+      "n": 3,
+      "seed": 39,
+      "outcome": {
+        "seconds": 191.60000000004462,
+        "phase": "win",
+        "level": 14,
+        "choices": 14,
+        "weapons": [
+          [
+            "orbit-shards",
+            5
+          ],
+          [
+            "ground-mine",
+            1
+          ],
+          [
+            "pet-drone-b",
+            3
+          ],
+          [
+            "fan-slash",
+            5
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 126.4950000000006,
+        "core": 520,
+        "kills": 844,
+        "position": {
+          "x": -2.8323910879670815,
+          "z": 3.873672597995038
+        },
+        "result": {
+          "status": "win",
+          "reason": "최종 보스를 물리쳤습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 191.6,
+          "wavesCleared": 1,
+          "kills": 844,
+          "killsBySpecies": {
+            "q_green_blob": 114,
+            "q_pink_slime": 53,
+            "q_cactoro": 53,
+            "q_mushnub": 179,
+            "q_ninja": 221,
+            "q_orc_enemy": 102,
+            "q_green_spiky_blob": 80,
+            "q_cat": 40,
+            "q_mushnub_evolved": 1,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_green_blob": 4.27,
+            "q_pink_slime": 3.65,
+            "q_cactoro": 3.88,
+            "q_mushnub": 2.72,
+            "q_ninja": 9.05,
+            "q_orc_enemy": 5.71,
+            "q_green_spiky_blob": 11.75,
+            "q_cat": 3.92,
+            "q_mushnub_evolved": 13.1,
+            "q_goleling_evolved": 11.6
+          },
+          "damage": {
+            "character": 12707.860000000002,
+            "skill": 11722.139999999992,
+            "facility": 0,
+            "pet": 1136.0000000000002,
+            "core": 0
+          },
+          "heroLevel": 14,
+          "picked": [
+            "w:orbit-shards:1",
+            "w:ground-mine:1",
+            "w:pet-drone-b:1",
+            "w:fan-slash:1",
+            "w:fan-slash:2",
+            "w:fan-slash:3",
+            "w:fan-slash:4",
+            "w:fan-slash:5",
+            "w:orbit-shards:2",
+            "w:orbit-shards:3",
+            "w:orbit-shards:4",
+            "w:orbit-shards:5",
+            "w:pet-drone-b:2",
+            "w:pet-drone-b:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 0.904,
+          "pointsLeft": 3956,
+          "facilities": [],
+          "runId": "p03-mv6pird8-13",
+          "seed": 39,
+          "configHash": "dc1efbc7832bbd4c",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p03",
+          "missionId": "r01-p03",
+          "variant": "standard",
+          "ticks": 11496,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      }
+    },
+    {
+      "n": 3,
+      "seed": 107,
+      "outcome": {
+        "seconds": 187.83333333337495,
+        "phase": "win",
+        "level": 14,
+        "choices": 14,
+        "weapons": [
+          [
+            "orbit-shards",
+            5
+          ],
+          [
+            "ice-rocket",
+            1
+          ],
+          [
+            "fire-rocket",
+            3
+          ],
+          [
+            "spread-stream",
+            5
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 125.76916666666698,
+        "core": 520,
+        "kills": 850,
+        "position": {
+          "x": -0.9996190304864592,
+          "z": 4.697697170164128
+        },
+        "result": {
+          "status": "win",
+          "reason": "최종 보스를 물리쳤습니다",
+          "stars": 3,
+          "starDetail": [
+            true,
+            true,
+            true
+          ],
+          "battleSec": 187.83,
+          "wavesCleared": 1,
+          "kills": 850,
+          "killsBySpecies": {
+            "q_pink_slime": 53,
+            "q_cactoro": 55,
+            "q_green_blob": 114,
+            "q_mushnub": 181,
+            "q_orc_enemy": 101,
+            "q_ninja": 224,
+            "q_green_spiky_blob": 80,
+            "q_cat": 40,
+            "q_mushnub_evolved": 1,
+            "q_goleling_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_pink_slime": 3.47,
+            "q_cactoro": 3.46,
+            "q_green_blob": 3.59,
+            "q_mushnub": 2.64,
+            "q_orc_enemy": 5.24,
+            "q_ninja": 8.78,
+            "q_green_spiky_blob": 10.78,
+            "q_cat": 4.02,
+            "q_mushnub_evolved": 39.43,
+            "q_goleling_evolved": 7.83
+          },
+          "damage": {
+            "character": 12022.119999999997,
+            "skill": 12692.080000000004,
+            "facility": 0,
+            "pet": 1007.8000000000002,
+            "core": 0
+          },
+          "heroLevel": 14,
+          "picked": [
+            "w:orbit-shards:1",
+            "w:ice-rocket:1",
+            "w:fire-rocket:1",
+            "w:spread-stream:1",
+            "w:orbit-shards:2",
+            "w:orbit-shards:3",
+            "w:orbit-shards:4",
+            "w:orbit-shards:5",
+            "w:spread-stream:2",
+            "w:spread-stream:3",
+            "w:spread-stream:4",
+            "w:spread-stream:5",
+            "w:fire-rocket:2",
+            "w:fire-rocket:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 0.898,
+          "pointsLeft": 3980,
+          "facilities": [],
+          "runId": "p03-mv6pj3xs-2z",
+          "seed": 107,
+          "configHash": "dc1efbc7832bbd4c",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p03",
+          "missionId": "r01-p03",
+          "variant": "standard",
+          "ticks": 11270,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      }
+    },
+    {
+      "n": 4,
+      "seed": 39,
+      "outcome": {
+        "seconds": 98.83333333332901,
+        "phase": "win",
+        "level": 11,
+        "choices": 11,
+        "weapons": [
+          [
+            "chain-needle",
+            2
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 204,
+        "position": {
+          "x": -1.4999999999999996,
+          "z": 10.5
+        },
+        "result": {
+          "status": "win",
+          "reason": "모든 체인 대열을 정화했습니다",
+          "stars": 2,
+          "starDetail": [
+            true,
+            true,
+            false
+          ],
+          "battleSec": 98.83,
+          "wavesCleared": 6,
+          "kills": 204,
+          "killsBySpecies": {
+            "q_green_spiky_blob": 37,
+            "q_glub_evolved": 5,
+            "q_green_blob": 67,
+            "k_chest": 12,
+            "q_pink_slime": 82,
+            "q_dragon_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_green_spiky_blob": 4.29,
+            "q_glub_evolved": 2.98,
+            "q_green_blob": 11.7,
+            "k_chest": 10,
+            "q_pink_slime": 12.28,
+            "q_dragon_evolved": 3.38
+          },
+          "damage": {
+            "character": 12796.599999999999,
+            "skill": 237.4,
+            "facility": 0,
+            "pet": 0,
+            "core": 0
+          },
+          "heroLevel": 11,
+          "picked": [
+            "chain:pellets",
+            "chain:pellets:4",
+            "chain:pierce:1",
+            "chain:rate:1",
+            "chain:burst:1",
+            "chain:rate:2",
+            "chain:burst:2",
+            "w:chain-needle:1",
+            "chain:damage:2",
+            "chain:rate:3",
+            "w:chain-needle:2"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 1208,
+          "facilities": [],
+          "runId": "p04-mv6pjfok-13",
+          "seed": 39,
+          "configHash": "632aa7fa5601fb1f",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p04",
+          "missionId": "r01-p04",
+          "variant": "standard",
+          "ticks": 5930,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      }
+    },
+    {
+      "n": 4,
+      "seed": 107,
+      "outcome": {
+        "seconds": 100.88333333332889,
+        "phase": "win",
+        "level": 10,
+        "choices": 10,
+        "weapons": [
+          [
+            "chain-needle",
+            1
+          ],
+          [
+            "chain-bomb",
+            3
+          ]
+        ],
+        "passives": [],
+        "evolved": [],
+        "hp": 140,
+        "core": 520,
+        "kills": 204,
+        "position": {
+          "x": 1.299999999999999,
+          "z": 10.5
+        },
+        "result": {
+          "status": "win",
+          "reason": "모든 체인 대열을 정화했습니다",
+          "stars": 2,
+          "starDetail": [
+            true,
+            true,
+            false
+          ],
+          "battleSec": 100.88,
+          "wavesCleared": 6,
+          "kills": 204,
+          "killsBySpecies": {
+            "q_green_spiky_blob": 37,
+            "q_glub_evolved": 5,
+            "q_green_blob": 67,
+            "k_chest": 12,
+            "q_pink_slime": 82,
+            "q_dragon_evolved": 1
+          },
+          "avgLifeSecBySpecies": {
+            "q_green_spiky_blob": 4.63,
+            "q_glub_evolved": 3.33,
+            "q_green_blob": 11.34,
+            "k_chest": 10.25,
+            "q_pink_slime": 13.4,
+            "q_dragon_evolved": 3.93
+          },
+          "damage": {
+            "character": 10325.600000000002,
+            "skill": 2708.4,
+            "facility": 0,
+            "pet": 0,
+            "core": 0
+          },
+          "heroLevel": 10,
+          "picked": [
+            "chain:pellets",
+            "w:chain-needle:1",
+            "chain:burst:1",
+            "chain:damage:2",
+            "w:chain-bomb:1",
+            "chain:burst:2",
+            "chain:pellets:4",
+            "chain:damage:3",
+            "w:chain-bomb:2",
+            "w:chain-bomb:3"
+          ],
+          "coreHpFraction": 1,
+          "heroHpFraction": 1,
+          "pointsLeft": 1208,
+          "facilities": [],
+          "runId": "p04-mv6pjmh8-2z",
+          "seed": 107,
+          "configHash": "632aa7fa5601fb1f",
+          "buildId": "arcade-UX03-codex-20261013",
+          "profileId": "p04",
+          "missionId": "r01-p04",
+          "variant": "standard",
+          "ticks": 6053,
+          "mode": "plannerTest",
+          "testOnly": true
+        }
+      }
+    }
+  ],
+  "ui": {
+    "hub": {
+      "cards": 8,
+      "docs": 7
+    },
+    "cards": {
+      "flipped": true,
+      "story": "오염된 숲에서 정화 에너지를 모읍니다. 작은 무리를 이겨 힘을 키우고 숲의 수호자를 되찾으세요.",
+      "next": "마지막 등불",
+      "keyboard": "숲의 파수꾼"
+    },
+    "playtool": {
+      "tabs": [
+        "공중섬 로비",
+        "카드 미션",
+        "① 코어 방어",
+        "② FPS 방어",
+        "③ 대생존",
+        "④ 체인 디펜스",
+        "⑤ 수색 돌파",
+        "⑥ 구출 호위와 탈출",
+        "⑦ 정화 복구",
+        "마을 침략"
+      ],
+      "effect": {
+        "evolved": [
+          "chain-three"
+        ],
+        "brief": false,
+        "paused": false,
+        "ticks": 28
+      }
+    }
+  },
+  "startedAt": "2026-10-13T12:41:12.311Z",
+  "effects": [
+    {
+      "id": "all",
+      "skills": 19,
+      "evolved": [],
+      "damage": 116
+    },
+    {
+      "id": "fire-pillar",
+      "skills": 1,
+      "evolved": [
+        "fire-pillar"
+      ],
+      "damage": 60
+    },
+    {
+      "id": "chain-three",
+      "skills": 1,
+      "evolved": [
+        "chain-three"
+      ],
+      "damage": 52
+    },
+    {
+      "id": "orbit-four",
+      "skills": 1,
+      "evolved": [
+        "orbit-four"
+      ],
+      "damage": 28
+    },
+    {
+      "id": "carpet-three",
+      "skills": 1,
+      "evolved": [
+        "carpet-three"
+      ],
+      "damage": 72
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "r01-p03",
+      "map": "survival-landing",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p01",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p02",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p04",
+      "map": "chain-board",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p03",
+      "map": "survival-landing",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p01",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p02",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p04",
+      "map": "chain-board",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p03",
+      "map": "survival-landing",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p01",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p02",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p04",
+      "map": "chain-board",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p03",
+      "map": "survival-landing",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p01",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p02",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p04",
+      "map": "chain-board",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p03",
+      "map": "survival-landing",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p01",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p02",
+      "map": "defense-forest-south",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p04",
+      "map": "chain-board",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p05",
+      "map": "expansion-rooms",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p06",
+      "map": "expansion-escort",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r01-p07",
+      "map": "expansion-restore",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p05",
+      "map": "expansion-rooms",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p06",
+      "map": "expansion-escort",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r02-p07",
+      "map": "expansion-restore",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p05",
+      "map": "expansion-rooms",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p06",
+      "map": "expansion-escort",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r03-p07",
+      "map": "expansion-restore",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p05",
+      "map": "expansion-rooms",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p06",
+      "map": "expansion-escort",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r04-p07",
+      "map": "expansion-restore",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p05",
+      "map": "expansion-rooms",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p06",
+      "map": "expansion-escort",
+      "slots": 6,
+      "maxLevel": 14
+    },
+    {
+      "id": "r05-p07",
+      "map": "expansion-restore",
+      "slots": 6,
+      "maxLevel": 14
+    }
+  ],
+  "recheckAt": "2026-10-13T13:16:49.400Z",
+  "raid": {
+    "phase": "win",
+    "result": {
+      "status": "win",
+      "kills": 24,
+      "hp": 241,
+      "seconds": 40.59999999999895,
+      "pets": 0,
+      "shots": 123,
+      "testOnly": true
+    }
+  },
+  "finishedAt": "2026-10-13T13:20:11.102Z"
+}

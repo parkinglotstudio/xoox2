@@ -1,0 +1,410 @@
+{
+  "revision": "DEF15-02",
+  "monsters": {
+    "q_pink_slime": {
+      "role": "소형",
+      "hpMultiplier": 0.85,
+      "speedMultiplier": 0.82,
+      "damageMultiplier": 0.7,
+      "attackIntervalMultiplier": 1.12,
+      "armor": 0,
+      "sector": 1
+    },
+    "q_green_blob": {
+      "role": "소형",
+      "hpMultiplier": 1.1,
+      "speedMultiplier": 0.9,
+      "damageMultiplier": 0.86,
+      "attackIntervalMultiplier": 1.08,
+      "armor": 0.04,
+      "sector": 0
+    },
+    "q_mushnub": {
+      "role": "소형",
+      "hpMultiplier": 0.96,
+      "speedMultiplier": 0.83,
+      "damageMultiplier": 0.8,
+      "attackIntervalMultiplier": 1.16,
+      "armor": 0.03,
+      "sector": 2
+    },
+    "q_pigeon": {
+      "role": "기동",
+      "hpMultiplier": 0.8,
+      "speedMultiplier": 1.28,
+      "damageMultiplier": 0.72,
+      "attackIntervalMultiplier": 0.9,
+      "armor": 0,
+      "sector": 0
+    },
+    "q_chicken": {
+      "role": "기동",
+      "hpMultiplier": 0.88,
+      "speedMultiplier": 1.16,
+      "damageMultiplier": 0.78,
+      "attackIntervalMultiplier": 0.96,
+      "armor": 0.02,
+      "sector": 2
+    },
+    "q_cat": {
+      "role": "기동",
+      "hpMultiplier": 1.02,
+      "speedMultiplier": 1.2,
+      "damageMultiplier": 0.9,
+      "attackIntervalMultiplier": 0.92,
+      "armor": 0.03,
+      "sector": 1
+    },
+    "q_fish": {
+      "role": "소형",
+      "hpMultiplier": 0.92,
+      "speedMultiplier": 1.08,
+      "damageMultiplier": 0.84,
+      "attackIntervalMultiplier": 1.02,
+      "armor": 0.01,
+      "sector": 0
+    },
+    "q_bunny": {
+      "role": "기동",
+      "hpMultiplier": 1,
+      "speedMultiplier": 1.34,
+      "damageMultiplier": 0.82,
+      "attackIntervalMultiplier": 0.94,
+      "armor": 0,
+      "sector": 2
+    },
+    "q_birb": {
+      "role": "비행",
+      "hpMultiplier": 0.84,
+      "speedMultiplier": 1.24,
+      "damageMultiplier": 0.76,
+      "attackIntervalMultiplier": 0.88,
+      "armor": 0.02,
+      "sector": 1
+    },
+    "q_cactoro": {
+      "role": "가시",
+      "hpMultiplier": 1.16,
+      "speedMultiplier": 0.86,
+      "damageMultiplier": 1.02,
+      "attackIntervalMultiplier": 1.1,
+      "armor": 0.12,
+      "sector": 0
+    },
+    "q_green_spiky_blob": {
+      "role": "가시",
+      "hpMultiplier": 1.24,
+      "speedMultiplier": 0.8,
+      "damageMultiplier": 1.16,
+      "attackIntervalMultiplier": 1.12,
+      "armor": 0.16,
+      "sector": 2
+    },
+    "q_ghost": {
+      "role": "기동",
+      "hpMultiplier": 0.86,
+      "speedMultiplier": 1.13,
+      "damageMultiplier": 0.92,
+      "attackIntervalMultiplier": 0.95,
+      "armor": 0.04,
+      "sector": 1
+    },
+    "q_alien": {
+      "role": "전사",
+      "hpMultiplier": 1.04,
+      "speedMultiplier": 1.09,
+      "damageMultiplier": 1.05,
+      "attackIntervalMultiplier": 0.96,
+      "armor": 0.07,
+      "sector": 2
+    },
+    "q_fish_2": {
+      "role": "기동",
+      "hpMultiplier": 1.1,
+      "speedMultiplier": 1.18,
+      "damageMultiplier": 0.94,
+      "attackIntervalMultiplier": 0.93,
+      "armor": 0.05,
+      "sector": 0
+    },
+    "q_cactoro_2": {
+      "role": "가시",
+      "hpMultiplier": 1.3,
+      "speedMultiplier": 0.78,
+      "damageMultiplier": 1.22,
+      "attackIntervalMultiplier": 1.14,
+      "armor": 0.18,
+      "sector": 1
+    },
+    "q_glub": {
+      "role": "비행",
+      "hpMultiplier": 0.9,
+      "speedMultiplier": 1.27,
+      "damageMultiplier": 0.86,
+      "attackIntervalMultiplier": 0.9,
+      "armor": 0.03,
+      "sector": 0
+    },
+    "q_frog": {
+      "role": "기동",
+      "hpMultiplier": 1.08,
+      "speedMultiplier": 1.22,
+      "damageMultiplier": 1.08,
+      "attackIntervalMultiplier": 0.98,
+      "armor": 0.06,
+      "sector": 2
+    },
+    "q_armabee": {
+      "role": "비행",
+      "hpMultiplier": 1,
+      "speedMultiplier": 1.31,
+      "damageMultiplier": 0.98,
+      "attackIntervalMultiplier": 0.86,
+      "armor": 0.08,
+      "sector": 1
+    },
+    "q_orc_enemy": {
+      "role": "전사",
+      "hpMultiplier": 1.2,
+      "speedMultiplier": 0.96,
+      "damageMultiplier": 1.18,
+      "attackIntervalMultiplier": 1.05,
+      "armor": 0.14,
+      "sector": 0
+    },
+    "q_ninja": {
+      "role": "기동",
+      "hpMultiplier": 0.88,
+      "speedMultiplier": 1.38,
+      "damageMultiplier": 0.96,
+      "attackIntervalMultiplier": 0.82,
+      "armor": 0.04,
+      "sector": 2
+    },
+    "q_wizard": {
+      "role": "전사",
+      "hpMultiplier": 0.98,
+      "speedMultiplier": 1.03,
+      "damageMultiplier": 1.24,
+      "attackIntervalMultiplier": 1.13,
+      "armor": 0.06,
+      "sector": 1
+    },
+    "q_tribal": {
+      "role": "전사",
+      "hpMultiplier": 1.14,
+      "speedMultiplier": 1.07,
+      "damageMultiplier": 1.12,
+      "attackIntervalMultiplier": 0.94,
+      "armor": 0.11,
+      "sector": 0
+    },
+    "q_squidle": {
+      "role": "비행",
+      "hpMultiplier": 1.03,
+      "speedMultiplier": 1.16,
+      "damageMultiplier": 1.04,
+      "attackIntervalMultiplier": 0.97,
+      "armor": 0.09,
+      "sector": 2
+    },
+    "q_hywirl": {
+      "role": "비행",
+      "hpMultiplier": 0.94,
+      "speedMultiplier": 1.29,
+      "damageMultiplier": 1.1,
+      "attackIntervalMultiplier": 0.88,
+      "armor": 0.05,
+      "sector": 1
+    },
+    "q_monkroose": {
+      "role": "전사",
+      "hpMultiplier": 1.12,
+      "speedMultiplier": 1.1,
+      "damageMultiplier": 1.15,
+      "attackIntervalMultiplier": 0.92,
+      "armor": 0.1,
+      "sector": 0
+    },
+    "q_ninja_2": {
+      "role": "기동",
+      "hpMultiplier": 1.02,
+      "speedMultiplier": 1.42,
+      "damageMultiplier": 1.08,
+      "attackIntervalMultiplier": 0.8,
+      "armor": 0.08,
+      "sector": 2
+    },
+    "q_orc": {
+      "role": "장갑",
+      "hpMultiplier": 1.32,
+      "speedMultiplier": 0.91,
+      "damageMultiplier": 1.28,
+      "attackIntervalMultiplier": 1.08,
+      "armor": 0.2,
+      "sector": 1
+    },
+    "q_dino": {
+      "role": "대형",
+      "hpMultiplier": 1.28,
+      "speedMultiplier": 0.94,
+      "damageMultiplier": 1.2,
+      "attackIntervalMultiplier": 1.1,
+      "armor": 0.17,
+      "sector": 0
+    },
+    "q_goleling": {
+      "role": "장갑",
+      "hpMultiplier": 1.4,
+      "speedMultiplier": 0.73,
+      "damageMultiplier": 1.26,
+      "attackIntervalMultiplier": 1.18,
+      "armor": 0.26,
+      "sector": 2
+    },
+    "q_ghost_skull": {
+      "role": "전사",
+      "hpMultiplier": 1.08,
+      "speedMultiplier": 1.12,
+      "damageMultiplier": 1.14,
+      "attackIntervalMultiplier": 0.98,
+      "armor": 0.13,
+      "sector": 1
+    },
+    "q_blue_demon": {
+      "role": "대형",
+      "hpMultiplier": 1.24,
+      "speedMultiplier": 1.05,
+      "damageMultiplier": 1.3,
+      "attackIntervalMultiplier": 0.93,
+      "armor": 0.16,
+      "sector": 0
+    },
+    "q_alien_2": {
+      "role": "전사",
+      "hpMultiplier": 1.18,
+      "speedMultiplier": 1.15,
+      "damageMultiplier": 1.22,
+      "attackIntervalMultiplier": 0.9,
+      "armor": 0.12,
+      "sector": 2
+    },
+    "q_yeti": {
+      "role": "대형",
+      "hpMultiplier": 1.44,
+      "speedMultiplier": 0.82,
+      "damageMultiplier": 1.34,
+      "attackIntervalMultiplier": 1.16,
+      "armor": 0.22,
+      "sector": 1
+    },
+    "q_alpaking": {
+      "role": "비행",
+      "hpMultiplier": 1.06,
+      "speedMultiplier": 1.26,
+      "damageMultiplier": 1.1,
+      "attackIntervalMultiplier": 0.91,
+      "armor": 0.1,
+      "sector": 0
+    },
+    "q_armabee_evolved": {
+      "role": "비행",
+      "hpMultiplier": 1.22,
+      "speedMultiplier": 1.36,
+      "damageMultiplier": 1.24,
+      "attackIntervalMultiplier": 0.84,
+      "armor": 0.16,
+      "sector": 2
+    },
+    "q_glub_evolved": {
+      "role": "비행",
+      "hpMultiplier": 1.16,
+      "speedMultiplier": 1.33,
+      "damageMultiplier": 1.16,
+      "attackIntervalMultiplier": 0.87,
+      "armor": 0.12,
+      "sector": 1
+    },
+    "q_mushnub_evolved": {
+      "role": "최종",
+      "hpMultiplier": 1.5,
+      "speedMultiplier": 0.78,
+      "damageMultiplier": 1.34,
+      "attackIntervalMultiplier": 1.14,
+      "armor": 0.24,
+      "sector": 0
+    },
+    "q_goleling_evolved": {
+      "role": "최종",
+      "hpMultiplier": 1.65,
+      "speedMultiplier": 0.69,
+      "damageMultiplier": 1.42,
+      "attackIntervalMultiplier": 1.22,
+      "armor": 0.32,
+      "sector": 2
+    },
+    "q_dragon": {
+      "role": "최종",
+      "hpMultiplier": 1.36,
+      "speedMultiplier": 1.04,
+      "damageMultiplier": 1.32,
+      "attackIntervalMultiplier": 1,
+      "armor": 0.2,
+      "sector": 1
+    },
+    "q_alpaking_evolved": {
+      "role": "최종",
+      "hpMultiplier": 1.28,
+      "speedMultiplier": 1.3,
+      "damageMultiplier": 1.2,
+      "attackIntervalMultiplier": 0.89,
+      "armor": 0.18,
+      "sector": 0
+    },
+    "q_dragon_evolved": {
+      "role": "최종",
+      "hpMultiplier": 1.56,
+      "speedMultiplier": 0.98,
+      "damageMultiplier": 1.46,
+      "attackIntervalMultiplier": 1.06,
+      "armor": 0.28,
+      "sector": 2
+    },
+    "q_mushroom_king": {
+      "role": "최종",
+      "hpMultiplier": 1.7,
+      "speedMultiplier": 0.71,
+      "damageMultiplier": 1.4,
+      "attackIntervalMultiplier": 1.2,
+      "armor": 0.3,
+      "sector": 1
+    },
+    "q_yeti_2": {
+      "role": "최종",
+      "hpMultiplier": 1.58,
+      "speedMultiplier": 0.8,
+      "damageMultiplier": 1.38,
+      "attackIntervalMultiplier": 1.17,
+      "armor": 0.27,
+      "sector": 0
+    },
+    "q_demon_2": {
+      "role": "최종",
+      "hpMultiplier": 1.46,
+      "speedMultiplier": 1.11,
+      "damageMultiplier": 1.48,
+      "attackIntervalMultiplier": 0.88,
+      "armor": 0.23,
+      "sector": 2
+    },
+    "q_demon": {
+      "role": "최종",
+      "hpMultiplier": 1.3,
+      "speedMultiplier": 1.08,
+      "damageMultiplier": 1.26,
+      "attackIntervalMultiplier": 0.95,
+      "armor": 0.19,
+      "sector": 1
+    }
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XOOX 유닛 랩</title>
+    <style>
+      :root {
+        --bg: #12141a; --panel: #1c212b; --line: #3a4454; --text: #e8eef8;
+        --muted: #9aa8bc; --accent: #5ec8ff; --cyan: #0fbec7; --mag: #d158bc;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; height: 100%; background: var(--bg); color: var(--text);
+        font-family: "Pretendard", "Malgun Gothic", sans-serif;
+      }
+      body { display: grid; grid-template-rows: auto 1fr; }
+      .bar {
+        display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+        padding: 10px 14px; background: var(--panel); border-bottom: 1px solid var(--line);
+      }
+      .bar h1 { margin: 0; font-size: 15px; font-weight: 800; }
+      .bar .hint { color: var(--muted); font-size: 12px; }
+      .bar a { color: var(--accent); text-decoration: none; font-weight: 800; font-size: 12px; }
+      #status { font-size: 12px; color: var(--muted); margin-left: auto; }
+      .workspace { display: grid; grid-template-columns: 190px 1fr 260px; min-height: 0; }
+      .side { background: var(--panel); padding: 10px; overflow: auto; border-right: 1px solid var(--line); }
+      .side.right { border-right: 0; border-left: 1px solid var(--line); }
+      .unit-search { width: 100%; padding: 6px 8px; margin-bottom: 4px; background: #252c38; color: var(--text); border: 1px solid var(--line); border-radius: 6px; font: inherit; font-size: 12px; }
+      .grp { font-size: 11px; color: var(--muted); margin: 10px 0 4px; font-weight: 800; }
+      .unit-btn, .fx-btn {
+        display: block; width: 100%; margin: 3px 0; padding: 7px 9px; text-align: left;
+        background: #252c38; color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+        font: inherit; font-size: 13px; cursor: pointer;
+      }
+      .unit-btn.on, .fx-btn.on { border-color: var(--cyan); background: #123038; }
+      .fx-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+      .preset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+      .fx-btn { text-align: center; margin: 0; }
+      .fx-btn.wide { grid-column: span 2; border-color: var(--mag); }
+      .stage { position: relative; min-width: 0; min-height: 0; background: #030d18; }
+      #labCanvas { width: 100%; height: 100%; display: block; }
+      #stats {
+        position: absolute; left: 10px; top: 8px; font-size: 12px; color: #9fd8ff;
+        background: rgba(3, 13, 24, 0.7); padding: 4px 8px; border-radius: 4px;
+      }
+      #unitInfo {
+        position: absolute; left: 10px; bottom: 8px; right: 10px; font-size: 13px; font-weight: 700;
+        background: rgba(3, 13, 24, 0.7); padding: 4px 8px; border-radius: 4px;
+      }
+      #sideLabels {
+        position: absolute; left: 0; right: 0; top: 34px; display: flex; justify-content: space-around;
+        pointer-events: none; font-size: 13px; font-weight: 800; color: #ffd27a;
+      }
+      #spriteBox {
+        position: absolute; right: 10px; bottom: 40px; background: rgba(3, 13, 24, 0.85);
+        border: 1px solid var(--line); border-radius: 6px; padding: 4px; text-align: center;
+      }
+      #spriteBox span { display: block; font-size: 11px; color: #ffd27a; font-weight: 800; }
+      #spriteCanvas { display: block; width: 150px; height: 150px; }
+      #sideLabels span { background: rgba(3, 13, 24, 0.7); padding: 3px 10px; border-radius: 4px; }
+      h3 { font-size: 12px; margin: 14px 0 6px; color: var(--muted); }
+      label { font-size: 12px; display: flex; align-items: center; gap: 6px; margin: 4px 0; }
+      input[type=range] { flex: 1; }
+      .note { font-size: 11px; color: var(--muted); line-height: 1.5; margin: 4px 0; }
+    
+.bar nav{display:flex;gap:4px;margin-right:10px}.bar nav button,.transport button{border:1px solid #3a525c;border-radius:7px;background:#223039;color:#c5d7d8;padding:8px 13px;cursor:pointer}.bar nav button.on{background:#255346;border-color:#6bad99;color:white}.bar .hint{display:none}.workspace{grid-template-columns:220px minmax(0,1fr) 270px}.side{padding:16px}.side h2{font-size:16px;margin:5px 0 12px}.character-card{padding:14px 10px;margin:20px 0;border:1px solid #35434b;border-radius:12px;background:#202c35}.character-heading{display:flex;align-items:center;gap:10px;margin-bottom:12px}.character-heading img{width:60px;height:62px;object-fit:contain}.character-heading strong{display:block;font-size:20px;color:#f3e3c0}.character-heading small{display:block;color:#a6b8bd;margin-top:5px}.character-card .fx-btn{font-size:12px;padding:8px 4px}.compare-link{display:block;color:#87d4ba;text-decoration:none;font-size:12px;margin-top:18px}.control-group{margin:12px 0;padding:12px 0;border-top:1px solid #33454d}.control-group summary,.asset-group summary{cursor:pointer;list-style-position:inside;color:#c9d8d4;font-weight:700;font-size:13px}.control-group[open] summary{margin-bottom:12px}.control-group .fx-grid{gap:6px}.control-group .fx-btn{font-size:12px;min-height:35px}.transport{display:flex;gap:5px;margin:12px 0}.transport button{padding:7px 9px;font-size:12px}.left select{width:100%;padding:8px;margin-bottom:12px;background:#24343e;color:#d5e5e5;border:1px solid #3a505b;border-radius:6px}.asset-group{margin:10px 0}.asset-group .unit-btn{font-size:12px}body[data-mode="character"] #assetBrowser,body[data-mode="units"] #characterList{display:none}body[data-mode="character"] .asset-setting{display:none}body[data-mode="character"] #stats{display:none}body[data-mode="character"][data-stats="on"] #stats{display:block}#nativeBlockNote{display:none!important}#unitInfo{font-size:12px;color:#bfd1cc}#status{max-width:380px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#spriteCanvas{width:125px;height:125px}@media(max-width:1050px){.workspace{grid-template-columns:170px minmax(0,1fr) 235px}.side{padding:10px}.character-heading img{width:42px;height:52px}.character-heading strong{font-size:17px}.bar a{font-size:11px}#status{display:none}}
+.character-card .fx-btn{white-space:nowrap}.side.right label{white-space:nowrap}.side.right input[type=range]{min-width:0}@media(max-width:1050px){.character-card .fx-btn{font-size:11px;padding:8px 2px}}
+</style>
+  </head>
+  <body data-mode="units">
+    <div class="bar"><h1>유닛 랩</h1><nav><button data-section="units" class="on">유닛·전투</button></nav><a href="/pet-pack-tool.html">펫 5종 ↗</a><a href="/tools.html">툴 허브</a><span id="status">불러오는 중…</span></div><div class="workspace">
+      <div class="side left"><div id="characterList" hidden><h2>함께할 방랑자</h2><p class="note">캐릭터와 체형을 선택하세요.</p><section class="character-card"><div class="character-heading"><img src="/tools/unit_lab/character/A/reference_face.png" alt=""><div><strong>루온</strong><small>남자 캐릭터</small></div></div><div class="preset-grid"><button class="fx-btn" data-cvar="RUON">기존 비율</button><button class="fx-btn" data-cvar="RUON_35">3.5등신</button></div></section><section class="character-card"><div class="character-heading"><img src="/tools/unit_lab/character/D/reference_face.png" alt=""><div><strong>리아</strong><small>여자 캐릭터</small></div></div><div class="preset-grid"><button class="fx-btn" data-cvar="RIA">기존 비율</button><button class="fx-btn" data-cvar="RIA_35">3.5등신</button></div></section></div><div id="assetBrowser"><h2>유닛 보관함</h2><select id="assetGroup"><option value="all">전체</option><option value="enemy">적</option><option value="building">건물</option><option value="other">소품·타일</option></select><div id="unitList"></div></div></div>
+      <div class="stage">
+        <canvas id="labCanvas"></canvas>
+        <div id="stats"></div>
+        <div id="sideLabels"><span>원본</span><span>블록</span></div>
+        <div id="unitInfo"></div>
+        <div id="spriteBox" style="display: none">
+          <span>원본 스프라이트</span>
+          <canvas id="spriteCanvas" width="180" height="180"></canvas>
+        </div>
+      </div>
+      <div class="side right">
+        <div id="mapPanel" style="display: none">
+          <h3>블록 맵 i21 · 정화 후</h3><p><a href="/forest-map-tool.html" style="color:#a8dfb8">새 150×300m 정화 숲 · 이동 마스크 확인</a></p>
+            <label>맵 <select id="blockMapSector"><option value="i21">i21 들판 · 선착장</option><option value="i11">i11 중앙 · 교차로</option></select></label>
+            <label>상태 <select id="blockMapState"><option value="purified">정화 후</option><option value="polluted">정화 전</option></select></label>
+            <label><input id="blockMapActors" type="checkbox"> 몬스터 12마리 함께 보기</label>
+            <button class="fx-btn" id="blockMapReload">최신 맵 다시 불러오기</button>
+          <div class="preset-grid">
+            <button class="fx-btn" data-mapcam="field">들판</button>
+            <button class="fx-btn" data-mapcam="dock">선착장 (사람 1.5m)</button>
+            <button class="fx-btn wide" data-mapcam="overview">섹터 전경</button>
+          </div>
+          <p class="hint">마우스로 회전 · 휠 확대. 정화 전·후는 같은 시점에서 비교합니다. 제작 업데이트는 자동 반영됩니다.</p>
+        </div>
+        <div id="combatPanel" style="display: none">
+          <h3>포탑 (조준 · 발사)</h3>
+          <div class="fx-grid">
+            <button class="fx-btn on" data-turret="gun">기관총 탑</button>
+            <button class="fx-btn" data-turret="cannon">대포 탑</button>
+            <button class="fx-btn" data-turret="ballista">발리스타 탑</button>
+            <button class="fx-btn" data-turret="catapult">투석기 탑</button>
+          </div>
+          <h3>적 (걷기 → 물기 → 피격 → 사망)</h3>
+          <div class="fx-grid">
+            <button class="fx-btn on" data-enemy="green_blob">초록 블롭</button>
+            <button class="fx-btn" data-enemy="pink_slime">핑크 슬라임</button>
+            <button class="fx-btn" data-enemy="green_spiky_blob">가시 블롭</button>
+            <button class="fx-btn" data-enemy="mushnub">버섯</button>
+            <button class="fx-btn" data-enemy="cactoro">선인장</button>
+          </div>
+          <label>적 수 <input type="range" id="enemyCountRng" min="1" max="16" value="6" /> <span id="enemyCountVal">6</span></label>
+          <label><input type="radio" name="cmode" value="block" checked /> 블록</label>
+          <label><input type="radio" name="cmode" value="mesh" /> 원본 모델</label>
+          <p class="note" id="combatInfo">-</p>
+          <p class="note">포탑은 가장 가까운 적을 향해 회전 속도 제한으로 돌고, 각도가 맞아야 쏜다. 적은 복셀 몬스터다.</p>
+        </div>
+        <div id="charPanel" style="display:none"><h2 id="characterTitle">방랑자</h2><div class="transport"><button id="charPause">일시정지</button><button data-face="front">정면</button><button data-face="back">후면</button></div><label>재생 속도 <input type="range" id="speedRng" min="10" max="200" value="100"><span id="speedVal">100%</span></label><details class="control-group" open><summary>이동</summary><div class="fx-grid"><button class="fx-btn" data-anim="idle">대기</button><button class="fx-btn" data-anim="walk">걷기</button><button class="fx-btn" data-anim="run">뛰기</button></div></details><details class="control-group" ><summary>전투</summary><div class="fx-grid"><button class="fx-btn" data-anim="shoot">쌍권총 연사</button><button class="fx-btn" data-anim="shoot2">바주카 단발</button><button class="fx-btn" data-anim="throw">던지기</button><button class="fx-btn" data-anim="walk_shoot">쏘며 걷기</button><button class="fx-btn" data-anim="walk_throw">던지며 걷기</button><button class="fx-btn" data-anim="walk_gun">무기 들고 걷기</button></div></details><details class="control-group" ><summary>무기 꺼내기·넣기</summary><div class="fx-grid"><button class="fx-btn" data-anim="draw">쌍권총 꺼내기</button><button class="fx-btn" data-anim="holster">쌍권총 넣기</button><button class="fx-btn" data-anim="draw_launcher">바주카 꺼내기</button><button class="fx-btn" data-anim="holster_launcher">바주카 거치</button></div></details><details class="control-group" ><summary>표정·인사</summary><div class="fx-grid"><button class="fx-btn" data-anim="blink">눈 깜박임</button><button class="fx-btn" data-anim="squint">눈 찡그리기</button><button class="fx-btn" data-anim="bow">인사</button><button class="fx-btn" data-anim="wave">손 흔들기</button><button class="fx-btn" data-anim="victory">승리 · 두 번 폴짝</button></div></details><details class="control-group"><summary>보기·조명</summary><label><input id="hairMotionChk" type="checkbox" checked>끝머리 움직임</label><label><input id="referenceChk" type="checkbox">원본 스프라이트 보기</label><label><input id="statsChk" type="checkbox">성능 수치 보기</label><label><input id="detailLightChk" type="checkbox" checked>머리 디테일 조명</label><label>빛 세기 <input id="detailLightRng" type="range" min="0" max="200" value="100"><span id="detailLightVal">100%</span></label></details><div id="exprRow" style="display:none"><button data-expr="default">기본</button><button data-expr="smile">웃음</button><button data-expr="determined">결의</button><button data-expr="surprised">놀람</button></div><p class="note">휠로 확대 · 드래그로 회전</p></div><p id="nativeBlockNote" hidden></p><details class="control-group asset-setting"><summary>블록 표현</summary>
+        <div class="preset-grid" id="presetRow"></div>
+        <label>칸 수 <input type="range" id="cellsRng" min="6" max="100" value="22" /> <span id="sizeVal">-</span></label>
+        <p class="note">유닛 크기를 몇 칸으로 나눌지. 많을수록 블록이 작고 원본에 가깝다.</p>
+        <label><input type="checkbox" id="premChk" checked /> 고급 조명 (그림자 · 환경광 · 림 라이트 · 블록 AO · 테두리)</label>
+        <label><input type="checkbox" id="optChk" checked /> 최적화 (안 보이는 면 지우기 · 같은 색 면 합치기)</label>
+        <p class="note">가만히 있을 땐 합친 메시, 솟기·모이기·흩어지기 동안만 낱개 블록. 끄면 늘 낱개 블록(비교용). 합친 메시는 블록 틈(채움)이 없다.</p>
+        <label>채움 <input type="range" id="fillRng" min="60" max="100" value="94" /> <span id="fillVal">94%</span></label>
+
+        </details><details class="control-group "><summary>연출</summary>
+        <div class="fx-grid">
+          <button class="fx-btn" data-fx="rise">솟기</button>
+          <button class="fx-btn" data-fx="gather">모이기</button>
+          <button class="fx-btn" data-fx="scatter">흩어지기·소멸</button>
+          <button class="fx-btn" data-fx="hit">피격</button>
+          <button class="fx-btn" data-fx="purify">정화</button>
+          <button class="fx-btn" data-fx="blight">되돌리기</button>
+          <button class="fx-btn wide" data-fx="build">설치 (모여서 켜짐)</button>
+          <button class="fx-btn wide" data-fx="sequence">한 바퀴 재생</button>
+        </div>
+
+        </details><details class="control-group asset-setting"><summary>원본·블록 비교</summary>
+        <label><input type="radio" name="view" value="side" /> 나란히 (왼쪽 원본 · 오른쪽 블록)</label>
+        <label><input type="radio" name="view" value="block" checked /> 블록만</label>
+        <label><input type="radio" name="view" value="mesh" /> 원본만</label>
+
+        </details><details class="control-group asset-setting"><summary>부하 테스트</summary>
+        <label>적 <input type="range" id="crowdRng" min="0" max="400" step="10" value="0" /> <span id="crowdVal">0</span></label>
+        <label>무리 칸 수 <input type="range" id="crowdCellsRng" min="4" max="30" value="10" /></label>
+        <p class="note" id="crowdInfo">고른 적으로 떼를 만든다. 멀리 있는 무리는 큰 블록으로.</p>
+      </details></div>
+    </div>
+    <script>
+      // 파일로 직접 열면(file://) 코드·데이터를 못 불러온다 → 서버 주소 안내
+      if (location.protocol === "file:") {
+        document.getElementById("status").textContent =
+          "파일로 열려 있음 — C:\\xoox 에서 npm run dev 후 http://localhost:5173/unit-lab-tool.html 로 여세요";
+        document.getElementById("status").style.color = "#ffd27a";
+      }
+    </script>
+    <script type="module" src="/src/tools/unitLabTool/main.ts"></script>
+  </body>
+</html>

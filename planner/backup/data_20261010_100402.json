@@ -1,0 +1,105 @@
+{
+  "meta": { "title": "Soos Arcade", "version": 1, "updated": "2026-10-10" },
+  "overview": {
+    "oneLine": "수스 리소스로 만드는, 시나리오를 따라 이어지는 액션 아케이드 묶음. 모든 판을 깨면 동물 한 마리를 구한다.",
+    "why": "수스는 진행하다 접었다. 만들어 둔 캐릭터, 동물, 무기, 맵은 살려서 새 게임으로 한다.",
+    "susu": "수스 리소스를 가져다 쓴다. 수스 폴더(C:\\xoox)와 섞지 않는다. 쓸 파일이 정해지면 그 파일만 복사한다.",
+    "genre": "액션 아케이드. 푸더덕과 같은 구조(원판 하나 이동, 거리 원 자동 공격 등)를 함께 쓸 수 있는 게임들.",
+    "platform": "",
+    "coreLoop": "시나리오의 장 하나 = 게임 한 판. 한 판을 깨면 다음 장이 열린다. 마지막 장까지 깨면 동물 한 마리를 구한다.",
+    "stageCount": "6~10. 시나리오가 정한다.",
+    "reward": "모든 장을 깨면 동물 1마리 구출.",
+    "notes": ""
+  },
+  "scenario": {
+    "premise": "",
+    "ending": "구한 동물 한 마리를 데리고 돌아온다.",
+    "stages": [
+      { "id": "s1", "title": "원인", "beat": "반려동물들이 오염된 원인을 파악한다.", "learn": "", "gameId": "", "status": "초안" },
+      { "id": "s2", "title": "위치", "beat": "그 원인이 있는 위치를 파악한다.", "learn": "", "gameId": "", "status": "초안" },
+      { "id": "s3", "title": "진입", "beat": "그 지역으로 들어간다. 푸더덕 유사 게임이 들어갈 수 있는 자리(확정 아님).", "learn": "", "gameId": "g1", "status": "초안" },
+      { "id": "s4", "title": "접근", "beat": "지역 안에서 원인 쪽으로 간다.", "learn": "", "gameId": "", "status": "초안" },
+      { "id": "s5", "title": "되돌리기", "beat": "원인 앞에서 되돌린다.", "learn": "", "gameId": "", "status": "초안" },
+      { "id": "s6", "title": "귀환", "beat": "구한 동물 한 마리를 데리고 돌아온다.", "learn": "", "gameId": "", "status": "초안" }
+    ]
+  },
+  "games": [
+    {
+      "id": "g1", "name": "푸더덕 유사 버티기", "status": "확정", "genre": "버티기",
+      "oneLine": "원판 하나로 움직이며, 거리 원 안의 적을 자동으로 쏘고, 건물을 세워 제한 시간을 버틴다.",
+      "structure": ["원판 이동", "거리 원 자동 공격", "전투 버튼", "악마 표식(스폰 예고)", "건물 칸 → 세우기", "레벨업 스킬 3택", "바닥 초상 메시지"],
+      "twist": "",
+      "camera": "위에서 비스듬히 내려다봄. 인간을 따라감.",
+      "hands": "아래 원판 하나로 걷기. 공격은 자동. 전투 버튼, 건물 칸, 세우기 버튼만 누름.",
+      "win": "제한 시간이 끝났을 때 건물(등대)이 서 있고 체력 1 이상.",
+      "lose": "체력 0.",
+      "time": "챕터1 3분 / 챕터2 5분 / 챕터3 8분 (이전 문서 초안)",
+      "uses": ["h_ruon", "h_ria", "p_stream", "p_fire-rocket", "p_ice-rocket", "p_bolt-rocket", "p_fire-home", "p_ice-home", "p_bolt-home", "p_bomb"],
+      "refs": ["_preview/story/f_011.png", "_preview/loop/a_10.png"],
+      "notes": "상세 조작 초안: docs/20261010_카드01_푸더덕_기획.md\n기본 공격 = 쌍권총 속사(stream, 3초 쏘고 2초 쉼). 바주카 7종은 레벨업 스킬로 얻고 숨이 끝나면 자동 발사.\n전투 버튼을 눌러야 악마 표식에서 적이 나온다. 건물 칸을 누르면 세우기 버튼이 뜬다."
+    },
+    { "id": "g2", "name": "", "status": "미정", "genre": "", "oneLine": "", "structure": [], "twist": "", "camera": "", "hands": "", "win": "", "lose": "", "time": "", "uses": [], "refs": [], "notes": "" },
+    { "id": "g3", "name": "", "status": "미정", "genre": "", "oneLine": "", "structure": [], "twist": "", "camera": "", "hands": "", "win": "", "lose": "", "time": "", "uses": [], "refs": [], "notes": "" },
+    { "id": "g4", "name": "", "status": "미정", "genre": "", "oneLine": "", "structure": [], "twist": "", "camera": "", "hands": "", "win": "", "lose": "", "time": "", "uses": [], "refs": [], "notes": "" },
+    { "id": "g5", "name": "", "status": "미정", "genre": "", "oneLine": "", "structure": [], "twist": "", "camera": "", "hands": "", "win": "", "lose": "", "time": "", "uses": [], "refs": [], "notes": "" },
+    { "id": "g6", "name": "", "status": "미정", "genre": "", "oneLine": "", "structure": [], "twist": "", "camera": "", "hands": "", "win": "", "lose": "", "time": "", "uses": [], "refs": [], "notes": "" }
+  ],
+  "resources": [
+    { "id": "h_ruon", "kind": "인간", "name": "루온", "desc": "주인공 후보. 쌍권총, 스킬로 바주카.", "path": "C:\\xoox\\data\\tools\\unit_lab\\character\\Ruon_35\\ruon_35.glb", "thumb": "", "status": "있음" },
+    { "id": "h_ria", "kind": "인간", "name": "리아", "desc": "주인공 후보. 쌍권총, 스킬로 바주카.", "path": "", "thumb": "", "status": "확인 필요" },
+    { "id": "h_wanderer", "kind": "인간", "name": "방랑자 변형들", "desc": "wanderer, A·B·C, 석궁(Kay) 등 수스 캐릭터 시안.", "path": "C:\\xoox\\data\\tools\\unit_lab\\character\\", "thumb": "", "status": "있음" },
+    { "id": "a_nofilter", "kind": "동물", "name": "뭉치 (3NOFILTER)", "desc": "노란 몸, 민트 코어의 로봇 개.", "path": "C:\\xoox\\data\\tools\\unit_lab\\pets\\nofilter\\nofilter.glb", "thumb": "/xoox/data/tools/unit_lab/pets/nofilter/reference.png", "status": "있음" },
+    { "id": "a_hackercat", "kind": "동물", "name": "해커캣", "desc": "헤드폰과 플러그 꼬리 고양이. block_cat 모델이 이 애인지 확인 필요(레이저 공격 동작 있음).", "path": "C:\\xoox\\data\\tools\\unit_lab\\pets\\block_cat\\block_cat.glb", "thumb": "/xoox/data/tools/unit_lab/pets/block_cat/reference.png", "status": "확인 필요" },
+    { "id": "a_flux", "kind": "동물", "name": "Flux", "desc": "핑크 갑옷 소몰이개.", "path": "C:\\xoox\\data\\tools\\unit_lab\\pets\\flux\\flux.glb", "thumb": "/xoox/data/tools/unit_lab/pets/flux/reference.png", "status": "있음" },
+    { "id": "a_lumos", "kind": "동물", "name": "Lumos", "desc": "빨간 스캐너 눈 소몰이개.", "path": "C:\\xoox\\data\\tools\\unit_lab\\pets\\lumos\\lumos.glb", "thumb": "/xoox/data/tools/unit_lab/pets/lumos/reference.png", "status": "있음" },
+    { "id": "a_gizmo", "kind": "동물", "name": "Gizmo", "desc": "청록 긴 털 고양이. 기계 팔과 고글.", "path": "C:\\xoox\\data\\tools\\unit_lab\\pets\\gizmo\\gizmo.glb", "thumb": "/xoox/data/tools/unit_lab/pets/gizmo/reference.png", "status": "있음" },
+    { "id": "p_stream", "kind": "발사체", "name": "속사 (쌍권총)", "desc": "기본 공격. 3초 쏘고 2초 쉼.", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_fire-rocket", "kind": "발사체", "name": "불 로켓", "desc": "직선으로 나가 불꽃으로 터진다. 속도18 거리20 폭발2.2", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_ice-rocket", "kind": "발사체", "name": "얼음 로켓", "desc": "직선으로 나가 서리로 터진다. 속도20 거리20 폭발2.0", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_bolt-rocket", "kind": "발사체", "name": "번개 로켓", "desc": "직선으로 나가 번개로 터진다. 속도26 거리22 폭발1.8", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_fire-home", "kind": "발사체", "name": "불 유도", "desc": "과녁을 따라가 불꽃으로 터진다.", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_ice-home", "kind": "발사체", "name": "얼음 유도", "desc": "과녁을 따라가 서리로 터진다.", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_bolt-home", "kind": "발사체", "name": "번개 유도", "desc": "과녁을 따라가 번개로 터진다.", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "p_bomb", "kind": "발사체", "name": "일반 폭탄", "desc": "호를 그리며 나가 크게 한 번 터진다. 폭발3.2", "path": "C:\\xoox\\data\\tools\\combat_skill\\skills.json", "thumb": "", "status": "있음" },
+    { "id": "fx_hits", "kind": "이펙트", "name": "피격 이펙트 5종 + 탄", "desc": "hit-bolt, hit-bomb, hit-bullet, hit-fire, hit-ice, bullet", "path": "C:\\xoox\\data\\tools\\combat_skill\\blender\\", "thumb": "", "status": "있음" },
+    { "id": "e_anim", "kind": "적", "name": "애니메이션 몬스터 5종", "desc": "cactoro, green_blob, green_spiky_blob, mushnub, pink_slime", "path": "C:\\xoox\\data\\tools\\unit_lab\\monsters_anim\\", "thumb": "", "status": "있음" },
+    { "id": "e_pack", "kind": "적", "name": "몬스터 팩 45종", "desc": "demon, ghost, slime, orc, yeti, dragon 등. 무료 팩.", "path": "C:\\xoox\\data\\tools\\unit_lab\\installed\\monsters\\", "thumb": "", "status": "있음" },
+    { "id": "e_orb", "kind": "적", "name": "enemy_orb", "desc": "수스 유닛 랩의 적 구체.", "path": "C:\\xoox\\data\\tools\\unit_lab\\units\\enemy_orb.glb", "thumb": "", "status": "있음" },
+    { "id": "b_tower", "kind": "건물", "name": "타워·무기 부품", "desc": "원형·사각 타워 위/중/아래, turret, cannon, ballista, catapult", "path": "C:\\xoox\\data\\tools\\unit_lab\\kenney_parts\\", "thumb": "", "status": "있음" },
+    { "id": "b_packs", "kind": "건물", "name": "소품 팩 (TD·생존·공장)", "desc": "td 160, survival 80, factory 143개. 무료 팩.", "path": "C:\\xoox\\data\\tools\\unit_lab\\installed\\", "thumb": "", "status": "있음" },
+    { "id": "m_block", "kind": "맵", "name": "블록 맵 i11·i21 (오염/정화)", "desc": "정화 전후 한 쌍씩.", "path": "C:\\xoox\\data\\maps\\block\\releases\\20260927-r5\\", "thumb": "", "status": "있음" },
+    { "id": "m_forest", "kind": "맵", "name": "숲 150m v7 (오염/정화)", "desc": "카탈로그에 나무, 바위, 꽃, 타워 조각 포함.", "path": "C:\\xoox\\data\\maps\\forest150\\releases\\v7\\", "thumb": "", "status": "있음" }
+  ],
+  "references": [
+    { "id": "r_pudeodeok", "kind": "영상", "title": "푸더덕 플레이 영상 (약 3분 24초)", "path": "C:\\Users\\dmaxd\\Downloads\\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\\6217330572482585663.mp4", "note": "푸더덕 유사 게임의 정본 영상.", "status": "참고" },
+    { "id": "r_intro", "kind": "영상", "title": "인트로 구도 영상 (약 10초)", "path": "C:\\Users\\dmaxd\\Downloads\\이_구도를_그대로_유지해서_뛰는_모습을_그려주고__뒤에.mp4", "note": "들판을 달리다 돌아서 겨눔.", "status": "참고" },
+    { "id": "r_d1", "kind": "이전 문서", "title": "로비까지 시나리오", "path": "docs/20261010_로비까지_시나리오.md", "note": "이전 세션 작성. 참고만.", "status": "참고" },
+    { "id": "r_d2", "kind": "이전 문서", "title": "일행과 로비 세부기획", "path": "docs/20261010_일행과로비_세부기획.md", "note": "이전 세션 작성. 참고만.", "status": "참고" },
+    { "id": "r_d3", "kind": "이전 문서", "title": "이야기 흐름 (대사 붙는 자리)", "path": "docs/20261010_이야기흐름.md", "note": "이전 세션 작성. 참고만.", "status": "참고" },
+    { "id": "r_d4", "kind": "이전 문서", "title": "외출 카드 기본기획", "path": "docs/20261010_외출카드_기본기획.md", "note": "이전 세션 작성. 참고만.", "status": "참고" },
+    { "id": "r_d5", "kind": "이전 문서", "title": "카드 시나리오", "path": "docs/20261010_카드시나리오.md", "note": "이전 세션 작성. 참고만.", "status": "참고" },
+    { "id": "r_d6", "kind": "이전 문서", "title": "푸더덕 조작 기획 (파일명 카드01)", "path": "docs/20261010_카드01_푸더덕_기획.md", "note": "푸더덕 유사 게임 조작 초안. 가장 쓸모 있음.", "status": "반영" },
+    { "id": "r_d7", "kind": "이전 문서", "title": "다른 AI 아이디어 프롬프트", "path": "docs/20261010_다른AI_아이디어프롬프트.md", "note": "이전 세션 작성. 참고만.", "status": "참고" }
+  ],
+  "galleries": [
+    { "dir": "_preview/story", "title": "푸더덕 화면 — 대사·건물·HUD" },
+    { "dir": "_preview/loop", "title": "푸더덕 화면 — 플레이 루프" },
+    { "dir": "_preview/intro", "title": "인트로 구도" }
+  ],
+  "decisions": [
+    { "id": "d1", "date": "2026-10-10", "text": "수스를 접고 새로 하는 프로젝트다. 위치는 C:\\soos-arcade.", "status": "확정" },
+    { "id": "d2", "date": "2026-10-10", "text": "수스의 리소스(캐릭터, 동물, 무기, 맵)를 활용한다.", "status": "확정" },
+    { "id": "d3", "date": "2026-10-10", "text": "시나리오에 맞게 다양한 게임을 이어서 즐긴다.", "status": "확정" },
+    { "id": "d4", "date": "2026-10-10", "text": "게임은 푸더덕과 같은 구조를 쓸 수 있는 액션 아케이드다.", "status": "확정" },
+    { "id": "d5", "date": "2026-10-10", "text": "게임 하나는 푸더덕 유사 게임이다.", "status": "확정" },
+    { "id": "d6", "date": "2026-10-10", "text": "판 수는 6이든 10이든 시나리오에 맞춘다.", "status": "확정" },
+    { "id": "d7", "date": "2026-10-10", "text": "모든 게임을 다 깨면 동물 한 마리를 구한다.", "status": "확정" }
+  ],
+  "questions": [
+    { "id": "q1", "text": "동물들을 오염시킨 원인은 무엇인가?", "answer": "", "status": "열림" },
+    { "id": "q2", "text": "장은 몇 개인가? (6~10)", "answer": "", "status": "열림" },
+    { "id": "q3", "text": "푸더덕 유사 게임은 몇 번째 장에 두는가?", "answer": "", "status": "열림" },
+    { "id": "q4", "text": "나머지 게임들은 각각 무엇인가?", "answer": "", "status": "열림" },
+    { "id": "q5", "text": "플랫폼과 화면 방향은? (예: 모바일 세로)", "answer": "", "status": "열림" }
+  ]
+}

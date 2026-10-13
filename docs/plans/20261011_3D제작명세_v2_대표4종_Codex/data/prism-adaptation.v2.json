@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "source": "PRISM skill_config.csv",
+  "sourceSkillCount": 25,
+  "mappings": [
+    {
+      "sourceSkillId": "kunai",
+      "sourceType": "ACTIVE",
+      "targetId": "fire-home",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "boomerang",
+      "sourceType": "ACTIVE",
+      "targetId": "return-crystal",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "molotov",
+      "sourceType": "ACTIVE",
+      "targetId": "flame-field",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "guardian",
+      "sourceType": "ACTIVE",
+      "targetId": "orbit-shards",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "rocket",
+      "sourceType": "ACTIVE",
+      "targetId": "fire-rocket",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "drone",
+      "sourceType": "ACTIVE",
+      "targetId": "pet-drone-a",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "drone_b",
+      "sourceType": "ACTIVE",
+      "targetId": "pet-drone-b",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "ninjaScroll",
+      "sourceType": "PASSIVE",
+      "targetId": "xp",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "elasticShoes",
+      "sourceType": "PASSIVE",
+      "targetId": "speed",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "highFuel",
+      "sourceType": "PASSIVE",
+      "targetId": "area",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "exoskeleton",
+      "sourceType": "PASSIVE",
+      "targetId": "duration",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "soccer_ball",
+      "sourceType": "ACTIVE",
+      "targetId": "bounce-block",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "drill_shot",
+      "sourceType": "ACTIVE",
+      "targetId": "pierce-drill",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "dimensional_blade",
+      "sourceType": "ACTIVE",
+      "targetId": "fan-slash",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "debuff_aura",
+      "sourceType": "ACTIVE",
+      "targetId": "slow-aura",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "lightning",
+      "sourceType": "ACTIVE",
+      "targetId": "lightning-chain",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "mine",
+      "sourceType": "ACTIVE",
+      "targetId": "ground-mine",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "shotgun",
+      "sourceType": "ACTIVE",
+      "targetId": "spread-stream",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "energyCube",
+      "sourceType": "PASSIVE",
+      "targetId": "cooldown",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "fitnessGuide",
+      "sourceType": "PASSIVE",
+      "targetId": "hp",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "ammoBooster",
+      "sourceType": "PASSIVE",
+      "targetId": "reload",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "auto_basic",
+      "sourceType": "AUTO",
+      "targetId": "dual-stream",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "auto_revolver",
+      "sourceType": "AUTO",
+      "targetId": "presentation-only",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "auto_shotgun",
+      "sourceType": "AUTO",
+      "targetId": "spread-stream",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    },
+    {
+      "sourceSkillId": "auto_drill",
+      "sourceType": "AUTO",
+      "targetId": "pierce-drill",
+      "status": "reference-pattern-or-presentation-not-source-art"
+    }
+  ],
+  "sourceEvolutionCount": 8,
+  "initialSusuEvolutionCount": 4,
+  "sourceDamageScale": [
+    1,
+    1.2,
+    1.5,
+    1.8,
+    2.2
+  ],
+  "susuDamageScale": [
+    1,
+    1.25,
+    1.6,
+    2,
+    2.5
+  ],
+  "sourcePassiveMaxLevel": 5,
+  "susuPassiveMaxLevel": 3
+}

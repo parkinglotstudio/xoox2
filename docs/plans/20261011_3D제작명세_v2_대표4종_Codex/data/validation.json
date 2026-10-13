@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-10-11T10:10:50+09:00",
+  "stage": "documents-data-custom-semantic-validation-only",
+  "gameplayTested": false,
+  "formalFullSchemaValidatorAvailable": false,
+  "checks": [
+    {
+      "id": "four-profiles-three-rulesets",
+      "passed": true,
+      "detail": "대표4개 등록, 규칙계열3개"
+    },
+    {
+      "id": "fps-shares-ruleset",
+      "passed": true,
+      "detail": "FPS only view/input/targeting overrides"
+    },
+    {
+      "id": "base-wave-counts",
+      "passed": true,
+      "detail": "24/48/72 regular + final boss1"
+    },
+    {
+      "id": "base-final-species",
+      "passed": true,
+      "detail": "docs and data use same boss/HP"
+    },
+    {
+      "id": "horde-budget",
+      "passed": true,
+      "detail": "rush/formation replace base quota"
+    },
+    {
+      "id": "horde-time-blocks",
+      "passed": true,
+      "detail": "no exact-boundary events in prior block"
+    },
+    {
+      "id": "chain-count-index-budget",
+      "passed": true,
+      "detail": "head+body including reward, unique IDs and exact HP"
+    },
+    {
+      "id": "chain-role-exclusion",
+      "passed": true,
+      "detail": "reward and armor do not double multiply"
+    },
+    {
+      "id": "chain-caps",
+      "passed": true,
+      "detail": "max49 authored members within96, boundary failure"
+    },
+    {
+      "id": "campaign-count",
+      "passed": true,
+      "detail": "5 regions x4"
+    },
+    {
+      "id": "campaign-rescue-once",
+      "passed": true,
+      "detail": "one rescue per region"
+    },
+    {
+      "id": "enemy-count-assets",
+      "passed": true,
+      "detail": "49 actual unique monster/UFO IDs"
+    },
+    {
+      "id": "spawn-enemy-refs",
+      "passed": true,
+      "detail": "all referenced enemies exist"
+    },
+    {
+      "id": "chain-model-refs",
+      "passed": true,
+      "detail": "all body/head/reward models are existing3D assets"
+    },
+    {
+      "id": "skill-unit-visuals",
+      "passed": true,
+      "detail": "reused unit model refs"
+    },
+    {
+      "id": "skill-source-visual-anchors",
+      "passed": true,
+      "detail": "all8 original source skill anchors exist"
+    },
+    {
+      "id": "skill-evolution-refs",
+      "passed": true,
+      "detail": "all4 recipes resolve and share same slot"
+    },
+    {
+      "id": "skill-inheritance-refs",
+      "passed": true,
+      "detail": "no missing skill parent"
+    },
+    {
+      "id": "prism-25-mapping",
+      "passed": true,
+      "detail": "14ACTIVE+7PASSIVE+4AUTO mapped"
+    },
+    {
+      "id": "p03-quality-independent-simulation",
+      "passed": true,
+      "detail": "quality can lower render motion but not gameplay cap; XPcap160 both"
+    },
+    {
+      "id": "prepared-asset",
+      "passed": true,
+      "detail": "prepared GLB/blend/script/layout/renders exist and under50k triangle preparation budget"
+    },
+    {
+      "id": "skills-unique",
+      "passed": true,
+      "detail": "no duplicate skills"
+    },
+    {
+      "id": "seven-passives-four-slots",
+      "passed": true,
+      "detail": "7 candidates, 4 owned kinds"
+    },
+    {
+      "id": "encounters-v2",
+      "passed": true,
+      "detail": "legacy references replaced in active authoring plan"
+    },
+    {
+      "id": "prism-index",
+      "passed": true,
+      "detail": "all47CSV read and fingerprinted"
+    },
+    {
+      "id": "protected-files",
+      "passed": true,
+      "detail": "planner/package/vite/Claude analysis unchanged"
+    },
+    {
+      "id": "json-basic",
+      "passed": true,
+      "detail": "parse/version checks; schemas use $schema; formal jsonschema validation is future M0 gate"
+    },
+    {
+      "id": "source-model-paths",
+      "passed": true,
+      "detail": "9 actors/24 map GLBs still exist"
+    },
+    {
+      "id": "markdown-local-links",
+      "passed": true,
+      "detail": {
+        "checked": 67,
+        "broken": []
+      }
+    },
+    {
+      "id": "prepared-glb-container",
+      "passed": true,
+      "detail": "GLB2 JSON/BIN chunk lengths and header"
+    },
+    {
+      "id": "prepared-glb-buffers",
+      "passed": true,
+      "detail": "embedded buffer offsets within BIN, no external dependencies"
+    },
+    {
+      "id": "prepared-glb-preview-excluded",
+      "passed": true,
+      "detail": "static preview monsters are excluded from environment GLB"
+    },
+    {
+      "id": "prepared-floor-world-bounds",
+      "passed": true,
+      "detail": {
+        "worldMin": [
+          -6.000000238418579,
+          -0.48000001907348633,
+          -12.000000238418579
+        ],
+        "worldMax": [
+          6.0,
+          0.0,
+          12.000000953674316
+        ],
+        "expectedXZ": "[-6,6]x[-12,12]",
+        "floorTopY": 0
+      }
+    },
+    {
+      "id": "candidate-chain-hp-budgets",
+      "passed": true,
+      "detail": "first body18 includes reward2+armor3, then later5 formation budgets"
+    },
+    {
+      "id": "chain-primary-theory-dps",
+      "passed": true,
+      "detail": "baseline40, pellet-count3 gives120 before hit rate"
+    },
+    {
+      "id": "meaningful-chain-star",
+      "passed": true,
+      "detail": "not inevitable100% on every cleared run"
+    },
+    {
+      "id": "parameter-default-ranges",
+      "passed": true,
+      "detail": {
+        "fields": 640,
+        "invalid": []
+      }
+    },
+    {
+      "id": "presentation-simulation-independent",
+      "passed": true,
+      "detail": "FPSshake0, critical warnings retained, damage categories exclusive"
+    },
+    {
+      "id": "document-stage-contracts",
+      "passed": true,
+      "detail": "handoff M0-M6 matches stage plan"
+    }
+  ],
+  "allPassed": true,
+  "preparedGlbInspected": true
+}

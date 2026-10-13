@@ -1,0 +1,55 @@
+{
+  "map": "forest_rooms",
+  "file": "room_boss",
+  "title": "보스방",
+  "note": "10·20번째 방. 가운데 표식에 보스.",
+  "playArea": {
+    "w": 12,
+    "h": 18,
+    "top": 8.0
+  },
+  "origin": "놀이 바닥 가운데, 높이 top",
+  "entry": {
+    "x": 0,
+    "y": -8.0
+  },
+  "door": {
+    "x": 0,
+    "y": 9.0,
+    "w": 3,
+    "glowMaterial": "Arcade_Glow"
+  },
+  "bridges": {
+    "in": [
+      0,
+      -19.1
+    ],
+    "out": [
+      0,
+      19.1
+    ]
+  },
+  "spawns": [
+    {
+      "x": 0,
+      "y": 4,
+      "boss": true
+    }
+  ],
+  "blockers": [],
+  "hazards": [],
+  "axes": "블렌더 X=동, Y=북, Z=위(m). three.js 에서는 x=X, y=Z, z=-Y",
+  "files": {
+    "purified": "/assets/maps/forest_rooms/room_boss_purified.glb",
+    "polluted": "/assets/maps/forest_rooms/room_boss_polluted.glb"
+  },
+  "previews": [
+    "room_boss_overview_purified.png",
+    "room_boss_float_purified.png"
+  ],
+  "sea": {
+    "z": 0.0,
+    "note": "바다는 glb 에 없다. 툴이 그린다(공중마을과 같음)"
+  },
+  "boxes": 2358
+}

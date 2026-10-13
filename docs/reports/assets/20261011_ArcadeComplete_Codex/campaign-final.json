@@ -1,0 +1,2157 @@
+{
+  "tests": [
+    {
+      "region": 1,
+      "profile": "p01",
+      "petId": "nofilter",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 136.57,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_green_blob": 28,
+          "q_pink_slime": 36,
+          "q_cactoro": 16,
+          "q_orc_enemy": 16,
+          "q_wizard": 24,
+          "q_green_spiky_blob": 24,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 3.45,
+          "q_pink_slime": 2.66,
+          "q_cactoro": 2.08,
+          "q_orc_enemy": 1.23,
+          "q_wizard": 1.55,
+          "q_green_spiky_blob": 5.54,
+          "q_goleling_evolved": 15.12
+        },
+        "damage": {
+          "character": 1409.6400000000078,
+          "skill": 1924.7399999999966,
+          "facility": 1703.999999999997,
+          "pet": 87.19999999999999,
+          "core": 126.42
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0.908,
+        "heroHpFraction": 0.933,
+        "pointsLeft": 432,
+        "facilities": [
+          "fireSeat:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gcvjv-7",
+        "seed": 7,
+        "configHash": "4e6ecd366c752ef7",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r01-p01",
+        "variant": "standard",
+        "ticks": 8314,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 10,
+      "cardCount": 8,
+      "spawned": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_green_spiky_blob",
+        "q_wizard",
+        "q_goleling_evolved"
+      ],
+      "bosses": [
+        "q_goleling_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 1,
+      "profile": "p02",
+      "petId": "nofilter",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 133.52,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_green_blob": 28,
+          "q_pink_slime": 36,
+          "q_cactoro": 16,
+          "q_orc_enemy": 16,
+          "q_wizard": 24,
+          "q_green_spiky_blob": 24,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 3.46,
+          "q_pink_slime": 2.67,
+          "q_cactoro": 2.09,
+          "q_orc_enemy": 1.24,
+          "q_wizard": 1.57,
+          "q_green_spiky_blob": 6.52,
+          "q_goleling_evolved": 12.07
+        },
+        "damage": {
+          "character": 1604.8800000000094,
+          "skill": 1769.4199999999971,
+          "facility": 1733.599999999997,
+          "pet": 110,
+          "core": 34.100000000000534
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0.867,
+        "pointsLeft": 432,
+        "facilities": [
+          "fireSeat:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p02-mv3gcvvo-7",
+        "seed": 7,
+        "configHash": "92fe24059a8954ab",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r01-p02",
+        "variant": "standard",
+        "ticks": 8131,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 11,
+      "cardCount": 8,
+      "spawned": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_green_spiky_blob",
+        "q_wizard",
+        "q_goleling_evolved"
+      ],
+      "bosses": [
+        "q_goleling_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 1,
+      "profile": "p03",
+      "petId": "nofilter",
+      "result": {
+        "status": "win",
+        "reason": "최종 보스를 물리쳤습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 309.38,
+        "wavesCleared": 1,
+        "kills": 853,
+        "killsBySpecies": {
+          "q_green_blob": 114,
+          "q_pink_slime": 53,
+          "q_mushnub": 181,
+          "q_cactoro": 54,
+          "q_ninja": 227,
+          "q_orc_enemy": 102,
+          "q_green_spiky_blob": 80,
+          "q_cat": 40,
+          "q_mushnub_evolved": 1,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 2.79,
+          "q_pink_slime": 3.27,
+          "q_mushnub": 2.48,
+          "q_cactoro": 2.32,
+          "q_ninja": 6.43,
+          "q_orc_enemy": 4.69,
+          "q_green_spiky_blob": 7.09,
+          "q_cat": 3.04,
+          "q_mushnub_evolved": 25.22,
+          "q_goleling_evolved": 9.38
+        },
+        "damage": {
+          "character": 12694.479999999985,
+          "skill": 13065.520000000017,
+          "facility": 0,
+          "pet": 550.0000000000001,
+          "core": 0
+        },
+        "heroLevel": 16,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "w:spread-stream:2",
+          "w:flame-field:1",
+          "w:flame-field:2",
+          "w:pierce-drill:2",
+          "w:flame-field:3",
+          "w:spread-stream:3",
+          "w:flame-field:4",
+          "w:flame-field:5",
+          "p:speed:1",
+          "w:spread-stream:4",
+          "w:spread-stream:5",
+          "w:pierce-drill:3",
+          "p:cooldown:1",
+          "w:pierce-drill:4",
+          "w:pierce-drill:5",
+          "p:reload:1"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0.72,
+        "pointsLeft": 3952,
+        "facilities": [],
+        "runId": "p03-mv3gcw4k-7",
+        "seed": 7,
+        "configHash": "f13f09fe7001d756",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r01-p03",
+        "variant": "standard",
+        "ticks": 18563,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 33,
+      "cardCount": 17,
+      "spawned": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_mushnub",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_ninja",
+        "q_green_spiky_blob",
+        "q_cat",
+        "q_mushnub_evolved",
+        "q_goleling_evolved"
+      ],
+      "bosses": [
+        "q_mushnub_evolved",
+        "q_goleling_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 1,
+      "profile": "p04",
+      "petId": "nofilter",
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 94.75,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_spiky_blob": 37,
+          "q_green_blob": 67,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_spiky_blob": 3.68,
+          "q_green_blob": 7.03,
+          "k_chest": 7.66,
+          "q_glub_evolved": 15.7,
+          "q_pink_slime": 7.55,
+          "q_dragon_evolved": 16.27
+        },
+        "damage": {
+          "character": 12643.200000000004,
+          "skill": 390.8,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3gcxjy-7",
+        "seed": 7,
+        "configHash": "978c0aaa98aab402",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r01-p04",
+        "variant": "standard",
+        "ticks": 5685,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 49,
+      "cardCount": 10,
+      "spawned": [],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 1,
+      "profile": "facilityOnly",
+      "petId": null,
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 166.3,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_green_blob": 28,
+          "q_pink_slime": 36,
+          "q_orc_enemy": 16,
+          "q_cactoro": 16,
+          "q_wizard": 24,
+          "q_green_spiky_blob": 24,
+          "q_goleling_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 4.27,
+          "q_pink_slime": 4.26,
+          "q_orc_enemy": 1.6,
+          "q_cactoro": 6.22,
+          "q_wizard": 0.87,
+          "q_green_spiky_blob": 13.26,
+          "q_goleling_evolved": 24.17
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 3579.1199999999963,
+          "pet": 0,
+          "core": 1672.880000000008
+        },
+        "heroLevel": 1,
+        "picked": [],
+        "coreHpFraction": 0.849,
+        "heroHpFraction": null,
+        "pointsLeft": 472,
+        "facilities": [
+          "fireSeat:Lv3",
+          "boltTower:Lv3",
+          "fireSeat:Lv1",
+          "-"
+        ],
+        "runId": "p01-mv3gcxuy-7",
+        "seed": 7,
+        "configHash": "4e6ecd366c752ef7",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r01-p01",
+        "variant": "facilityOnly",
+        "ticks": 10098,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 11,
+      "cardCount": 2,
+      "spawned": [
+        "q_green_blob",
+        "q_pink_slime",
+        "q_cactoro",
+        "q_orc_enemy",
+        "q_green_spiky_blob",
+        "q_wizard",
+        "q_goleling_evolved"
+      ],
+      "bosses": [
+        "q_goleling_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 2,
+      "profile": "p01",
+      "petId": "block_cat",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 142,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_chicken": 12,
+          "q_pigeon": 12,
+          "q_wizard": 16,
+          "q_yeti": 16,
+          "q_alien": 40,
+          "q_glub": 24,
+          "q_birb": 24,
+          "q_glub_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_chicken": 2.36,
+          "q_pigeon": 3.27,
+          "q_wizard": 1.59,
+          "q_yeti": 5.51,
+          "q_alien": 4.82,
+          "q_glub": 0.88,
+          "q_birb": 3.81,
+          "q_glub_evolved": 18
+        },
+        "damage": {
+          "character": 3142.2719999999936,
+          "skill": 1810.4275000000007,
+          "facility": 2107.224,
+          "pet": 106.2,
+          "core": 704.476500000001
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0.877,
+        "heroHpFraction": 0.801,
+        "pointsLeft": 395,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gcxz2-7",
+        "seed": 7,
+        "configHash": "2a345d9046fd7428",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r02-p01",
+        "variant": "standard",
+        "ticks": 8640,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 9,
+      "cardCount": 8,
+      "spawned": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_birb",
+        "q_glub",
+        "q_glub_evolved"
+      ],
+      "bosses": [
+        "q_glub_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 2,
+      "profile": "p02",
+      "petId": "block_cat",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 139.52,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_chicken": 12,
+          "q_pigeon": 12,
+          "q_wizard": 16,
+          "q_yeti": 16,
+          "q_alien": 40,
+          "q_glub": 24,
+          "q_birb": 24,
+          "q_glub_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_chicken": 2.36,
+          "q_pigeon": 3.28,
+          "q_wizard": 1.59,
+          "q_yeti": 5.37,
+          "q_alien": 5.3,
+          "q_glub": 0.76,
+          "q_birb": 3.82,
+          "q_glub_evolved": 15.43
+        },
+        "damage": {
+          "character": 3055.2759999999926,
+          "skill": 1951.2570000000012,
+          "facility": 2152.978000000001,
+          "pet": 101.21199999999996,
+          "core": 609.8770000000004
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0.969,
+        "heroHpFraction": 0.801,
+        "pointsLeft": 395,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p02-mv3gcy4j-7",
+        "seed": 7,
+        "configHash": "f2b0e5a0a047a012",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r02-p02",
+        "variant": "standard",
+        "ticks": 8491,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 9,
+      "cardCount": 8,
+      "spawned": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_birb",
+        "q_glub",
+        "q_glub_evolved"
+      ],
+      "bosses": [
+        "q_glub_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 2,
+      "profile": "p03",
+      "petId": "block_cat",
+      "result": {
+        "status": "lose",
+        "reason": "정화숲에서 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 72.53,
+        "wavesCleared": 0,
+        "kills": 74,
+        "killsBySpecies": {
+          "q_pigeon": 3,
+          "q_chicken": 11,
+          "q_alien": 3,
+          "q_yeti": 2,
+          "q_birb": 6,
+          "q_wizard": 37,
+          "q_glub": 12
+        },
+        "avgLifeSecBySpecies": {
+          "q_pigeon": 1.71,
+          "q_chicken": 1.8,
+          "q_alien": 1.69,
+          "q_yeti": 2.18,
+          "q_birb": 3.24,
+          "q_wizard": 7.39,
+          "q_glub": 5.07
+        },
+        "damage": {
+          "character": 2177.1000000000054,
+          "skill": 1233.48,
+          "facility": 0,
+          "pet": 74.75999999999999,
+          "core": 0
+        },
+        "heroLevel": 5,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "w:spread-stream:2",
+          "w:flame-field:1",
+          "w:flame-field:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 484,
+        "facilities": [],
+        "runId": "p03-mv3gcy8b-7",
+        "seed": 7,
+        "configHash": "9eb8492e43914041",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r02-p03",
+        "variant": "standard",
+        "ticks": 4352,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 36,
+      "cardCount": 4,
+      "spawned": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_fish",
+        "q_birb",
+        "q_glub"
+      ],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 2,
+      "profile": "p04",
+      "petId": "block_cat",
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 107.4,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_spiky_blob": 37,
+          "q_green_blob": 67,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_spiky_blob": 3.6,
+          "q_green_blob": 8.01,
+          "k_chest": 8.55,
+          "q_glub_evolved": 18.3,
+          "q_pink_slime": 7.69,
+          "q_dragon_evolved": 15.92
+        },
+        "damage": {
+          "character": 14446.749999999984,
+          "skill": 542.3500000000004,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3gcyet-7",
+        "seed": 7,
+        "configHash": "0b0ed15ce957ff78",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r02-p04",
+        "variant": "standard",
+        "ticks": 6444,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 49,
+      "cardCount": 10,
+      "spawned": [],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 2,
+      "profile": "facilityOnly",
+      "petId": null,
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 174.77,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_chicken": 12,
+          "q_pigeon": 12,
+          "q_wizard": 16,
+          "q_alien": 40,
+          "q_yeti": 16,
+          "q_glub": 24,
+          "q_birb": 24,
+          "q_glub_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_chicken": 3.86,
+          "q_pigeon": 4.9,
+          "q_wizard": 2.56,
+          "q_alien": 5.54,
+          "q_yeti": 10.94,
+          "q_glub": 0.8,
+          "q_birb": 6.5,
+          "q_glub_evolved": 31.67
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 5095.066000000011,
+          "pet": 0,
+          "core": 2775.5340000000137
+        },
+        "heroLevel": 1,
+        "picked": [],
+        "coreHpFraction": 0.639,
+        "heroHpFraction": null,
+        "pointsLeft": 375,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv3",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gcynn-7",
+        "seed": 7,
+        "configHash": "2a345d9046fd7428",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r02-p01",
+        "variant": "facilityOnly",
+        "ticks": 10606,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 11,
+      "cardCount": 2,
+      "spawned": [
+        "q_pigeon",
+        "q_chicken",
+        "q_alien",
+        "q_yeti",
+        "q_wizard",
+        "q_birb",
+        "q_glub",
+        "q_glub_evolved"
+      ],
+      "bosses": [
+        "q_glub_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 3,
+      "profile": "p01",
+      "petId": "flux",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 143.03,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_armabee_evolved": 12,
+          "q_alpaking": 12,
+          "q_ghost": 16,
+          "q_goleling": 16,
+          "q_dragon": 16,
+          "q_tribal": 24,
+          "q_ghost_skull": 24,
+          "q_hywirl": 24,
+          "q_alpaking_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_armabee_evolved": 3.32,
+          "q_alpaking": 4.75,
+          "q_ghost": 2.69,
+          "q_goleling": 7.4,
+          "q_dragon": 9.22,
+          "q_tribal": 1.6,
+          "q_ghost_skull": 5.43,
+          "q_hywirl": 6.29,
+          "q_alpaking_evolved": 13.7
+        },
+        "damage": {
+          "character": 4953.149800000013,
+          "skill": 2541.968799999998,
+          "facility": 5403.041600000004,
+          "pet": 198.07999999999996,
+          "core": 1146.5598000000011
+        },
+        "heroLevel": 10,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5",
+          "p:hp:2"
+        ],
+        "coreHpFraction": 0.969,
+        "heroHpFraction": 1,
+        "pointsLeft": 338,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gcyqf-7",
+        "seed": 7,
+        "configHash": "a2a14f22e966695c",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r03-p01",
+        "variant": "standard",
+        "ticks": 8702,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 11,
+      "cardCount": 7,
+      "spawned": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_alpaking_evolved"
+      ],
+      "bosses": [
+        "q_alpaking_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 3,
+      "profile": "p02",
+      "petId": "flux",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 141.07,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_armabee_evolved": 12,
+          "q_alpaking": 12,
+          "q_dragon": 16,
+          "q_ghost": 16,
+          "q_goleling": 16,
+          "q_tribal": 24,
+          "q_ghost_skull": 24,
+          "q_hywirl": 24,
+          "q_alpaking_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_armabee_evolved": 3.11,
+          "q_alpaking": 5.07,
+          "q_dragon": 5.34,
+          "q_ghost": 3.18,
+          "q_goleling": 9.41,
+          "q_tribal": 1.52,
+          "q_ghost_skull": 4.67,
+          "q_hywirl": 7.42,
+          "q_alpaking_evolved": 12.58
+        },
+        "damage": {
+          "character": 6142.379999999986,
+          "skill": 2812.030399999999,
+          "facility": 4251.944200000001,
+          "pet": 224.39999999999998,
+          "core": 812.0453999999984
+        },
+        "heroLevel": 10,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5",
+          "p:hp:2"
+        ],
+        "coreHpFraction": 0.907,
+        "heroHpFraction": 0.826,
+        "pointsLeft": 338,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv2",
+          "-",
+          "-"
+        ],
+        "runId": "p02-mv3gcywo-7",
+        "seed": 7,
+        "configHash": "f38aa5561383df5a",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r03-p02",
+        "variant": "standard",
+        "ticks": 8584,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 11,
+      "cardCount": 9,
+      "spawned": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_alpaking_evolved"
+      ],
+      "bosses": [
+        "q_alpaking_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 3,
+      "profile": "p03",
+      "petId": "flux",
+      "result": {
+        "status": "lose",
+        "reason": "정화숲에서 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 86.85,
+        "wavesCleared": 0,
+        "kills": 112,
+        "killsBySpecies": {
+          "q_alpaking": 3,
+          "q_armabee_evolved": 11,
+          "q_dragon": 3,
+          "q_goleling": 2,
+          "q_ghost": 59,
+          "q_ghost_skull": 14,
+          "q_hywirl": 8,
+          "q_tribal": 12
+        },
+        "avgLifeSecBySpecies": {
+          "q_alpaking": 3.48,
+          "q_armabee_evolved": 2.2,
+          "q_dragon": 8.27,
+          "q_goleling": 11.04,
+          "q_ghost": 4.28,
+          "q_ghost_skull": 8.9,
+          "q_hywirl": 12.35,
+          "q_tribal": 7.23
+        },
+        "damage": {
+          "character": 5326.364000000035,
+          "skill": 2822.6760000000004,
+          "facility": 0,
+          "pet": 214.83999999999997,
+          "core": 0
+        },
+        "heroLevel": 5,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "w:spread-stream:2",
+          "w:flame-field:1",
+          "w:flame-field:2",
+          "w:pierce-drill:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 652,
+        "facilities": [],
+        "runId": "p03-mv3gcz34-7",
+        "seed": 7,
+        "configHash": "843533b0de731b3e",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r03-p03",
+        "variant": "standard",
+        "ticks": 5211,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 23,
+      "cardCount": 4,
+      "spawned": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal"
+      ],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 3,
+      "profile": "p04",
+      "petId": "flux",
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 121.1,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_blob": 67,
+          "q_green_spiky_blob": 37,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 9.18,
+          "q_green_spiky_blob": 3.87,
+          "k_chest": 10.72,
+          "q_glub_evolved": 20.16,
+          "q_pink_slime": 8.26,
+          "q_dragon_evolved": 18.07
+        },
+        "damage": {
+          "character": 16320.299999999956,
+          "skill": 613.7,
+          "facility": 0,
+          "pet": 10.2,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3gczbs-7",
+        "seed": 7,
+        "configHash": "3789341389323178",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r03-p04",
+        "variant": "standard",
+        "ticks": 7266,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 49,
+      "cardCount": 10,
+      "spawned": [],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 3,
+      "profile": "facilityOnly",
+      "petId": null,
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 178.63,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_armabee_evolved": 12,
+          "q_alpaking": 12,
+          "q_ghost": 16,
+          "q_goleling": 16,
+          "q_dragon": 16,
+          "q_tribal": 24,
+          "q_ghost_skull": 24,
+          "q_hywirl": 24,
+          "q_alpaking_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_armabee_evolved": 6,
+          "q_alpaking": 11.67,
+          "q_ghost": 2.86,
+          "q_goleling": 10.28,
+          "q_dragon": 9.77,
+          "q_tribal": 1.63,
+          "q_ghost_skull": 9.59,
+          "q_hywirl": 9.58,
+          "q_alpaking_evolved": 31.57
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 10009.298000000013,
+          "pet": 0,
+          "core": 4233.5019999999995
+        },
+        "heroLevel": 1,
+        "picked": [],
+        "coreHpFraction": 0.709,
+        "heroHpFraction": null,
+        "pointsLeft": 378,
+        "facilities": [
+          "boltTower:Lv3",
+          "boltTower:Lv3",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gczku-7",
+        "seed": 7,
+        "configHash": "a2a14f22e966695c",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r03-p01",
+        "variant": "facilityOnly",
+        "ticks": 10838,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 14,
+      "cardCount": 2,
+      "spawned": [
+        "q_alpaking",
+        "q_armabee_evolved",
+        "q_dragon",
+        "q_goleling",
+        "q_ghost",
+        "q_ghost_skull",
+        "q_hywirl",
+        "q_tribal",
+        "q_alpaking_evolved"
+      ],
+      "bosses": [
+        "q_alpaking_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 4,
+      "profile": "p01",
+      "petId": "lumos",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 139.47,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_squidle": 12,
+          "q_frog": 12,
+          "q_ninja_2": 16,
+          "q_monkroose": 16,
+          "q_cactoro_2": 16,
+          "q_blue_demon": 24,
+          "q_alien_2": 24,
+          "q_dino": 24,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_squidle": 2.51,
+          "q_frog": 5.38,
+          "q_ninja_2": 3.29,
+          "q_monkroose": 2.39,
+          "q_cactoro_2": 4.77,
+          "q_blue_demon": 3.55,
+          "q_alien_2": 7.09,
+          "q_dino": 11.41,
+          "q_dragon_evolved": 11.95
+        },
+        "damage": {
+          "character": 6429.3759499999705,
+          "skill": 2065.7725,
+          "facility": 6294.681799999967,
+          "pet": 243.24900000000005,
+          "core": 1434.860750000001
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0.882,
+        "heroHpFraction": 0.537,
+        "pointsLeft": 467,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gczo9-7",
+        "seed": 7,
+        "configHash": "a68e074705346bb2",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r04-p01",
+        "variant": "standard",
+        "ticks": 8488,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 17,
+      "cardCount": 8,
+      "spawned": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_dragon_evolved"
+      ],
+      "bosses": [
+        "q_dragon_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 4,
+      "profile": "p02",
+      "petId": "lumos",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 2,
+        "starDetail": [
+          true,
+          false,
+          true
+        ],
+        "battleSec": 141.65,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_squidle": 12,
+          "q_frog": 12,
+          "q_cactoro_2": 16,
+          "q_monkroose": 16,
+          "q_ninja_2": 16,
+          "q_dino": 24,
+          "q_blue_demon": 24,
+          "q_alien_2": 24,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_squidle": 2.52,
+          "q_frog": 5.45,
+          "q_cactoro_2": 3.24,
+          "q_monkroose": 2.56,
+          "q_ninja_2": 4.6,
+          "q_dino": 4.22,
+          "q_blue_demon": 6.02,
+          "q_alien_2": 10.35,
+          "q_dragon_evolved": 11.95
+        },
+        "damage": {
+          "character": 6388.253799999945,
+          "skill": 1728.1316500000028,
+          "facility": 6466.452049999985,
+          "pet": 228.16400000000002,
+          "core": 1656.938500000004
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0.123,
+        "heroHpFraction": 0.769,
+        "pointsLeft": 467,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "fireSeat:Lv1",
+          "-"
+        ],
+        "runId": "p02-mv3gcztf-7",
+        "seed": 7,
+        "configHash": "c352c659aeb1d050",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r04-p02",
+        "variant": "standard",
+        "ticks": 8619,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 16,
+      "cardCount": 8,
+      "spawned": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_dragon_evolved"
+      ],
+      "bosses": [
+        "q_dragon_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 4,
+      "profile": "p03",
+      "petId": "lumos",
+      "result": {
+        "status": "lose",
+        "reason": "정화숲에서 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 79.8,
+        "wavesCleared": 0,
+        "kills": 70,
+        "killsBySpecies": {
+          "q_squidle": 3,
+          "q_cactoro_2": 3,
+          "q_frog": 11,
+          "q_ninja_2": 2,
+          "q_dino": 8,
+          "q_alien_2": 3,
+          "q_monkroose": 39,
+          "q_blue_demon": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_squidle": 2.66,
+          "q_cactoro_2": 3.09,
+          "q_frog": 3.76,
+          "q_ninja_2": 8.44,
+          "q_dino": 7.13,
+          "q_alien_2": 9.11,
+          "q_monkroose": 10.39,
+          "q_blue_demon": 16.12
+        },
+        "damage": {
+          "character": 5384.897500000025,
+          "skill": 3062.9819999999954,
+          "facility": 0,
+          "pet": 204.06,
+          "core": 0
+        },
+        "heroLevel": 3,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "w:spread-stream:2",
+          "w:flame-field:1"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 492,
+        "facilities": [],
+        "runId": "p03-mv3gczyt-7",
+        "seed": 7,
+        "configHash": "fdb3f66a2d7b3818",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r04-p03",
+        "variant": "standard",
+        "ticks": 4788,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 43,
+      "cardCount": 2,
+      "spawned": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon"
+      ],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 4,
+      "profile": "p04",
+      "petId": "lumos",
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 121.58,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_blob": 67,
+          "q_green_spiky_blob": 37,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 8.18,
+          "q_green_spiky_blob": 4.32,
+          "k_chest": 12.01,
+          "q_glub_evolved": 20.36,
+          "q_pink_slime": 8.46,
+          "q_dragon_evolved": 19.78
+        },
+        "damage": {
+          "character": 18254.90000000002,
+          "skill": 634.1999999999999,
+          "facility": 0,
+          "pet": 10.2,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3gd0ai-7",
+        "seed": 7,
+        "configHash": "6e2fb7525ad4da23",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r04-p04",
+        "variant": "standard",
+        "ticks": 7295,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 49,
+      "cardCount": 10,
+      "spawned": [],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 4,
+      "profile": "facilityOnly",
+      "petId": null,
+      "result": {
+        "status": "lose",
+        "reason": "정화 코어 파괴",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 159.88,
+        "wavesCleared": 2,
+        "kills": 136,
+        "killsBySpecies": {
+          "q_frog": 12,
+          "q_squidle": 12,
+          "q_ninja_2": 16,
+          "q_monkroose": 16,
+          "q_cactoro_2": 16,
+          "q_blue_demon": 23,
+          "q_alien_2": 19,
+          "q_dino": 22
+        },
+        "avgLifeSecBySpecies": {
+          "q_frog": 2.44,
+          "q_squidle": 7.19,
+          "q_ninja_2": 3.81,
+          "q_monkroose": 2.87,
+          "q_cactoro_2": 5.36,
+          "q_blue_demon": 5.32,
+          "q_alien_2": 8.65,
+          "q_dino": 12.95
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 12851.596499999963,
+          "pet": 0,
+          "core": 2091.7527
+        },
+        "heroLevel": 1,
+        "picked": [],
+        "coreHpFraction": 0,
+        "heroHpFraction": null,
+        "pointsLeft": 367,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gd0im-7",
+        "seed": 7,
+        "configHash": "a68e074705346bb2",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r04-p01",
+        "variant": "facilityOnly",
+        "ticks": 9593,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 22,
+      "cardCount": 2,
+      "spawned": [
+        "q_squidle",
+        "q_frog",
+        "q_cactoro_2",
+        "q_ninja_2",
+        "q_monkroose",
+        "q_dino",
+        "q_alien_2",
+        "q_blue_demon",
+        "q_dragon_evolved"
+      ],
+      "bosses": [
+        "q_dragon_evolved"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 5,
+      "profile": "p01",
+      "petId": "gizmo",
+      "result": {
+        "status": "win",
+        "reason": "모든 웨이브 정화",
+        "stars": 2,
+        "starDetail": [
+          true,
+          false,
+          true
+        ],
+        "battleSec": 137.28,
+        "wavesCleared": 3,
+        "kills": 145,
+        "killsBySpecies": {
+          "q_orc": 12,
+          "q_demon_2": 36,
+          "q_bunny": 16,
+          "k_enemy_ufo_a": 16,
+          "k_enemy_ufo_b": 16,
+          "k_enemy_ufo_d": 24,
+          "k_enemy_ufo_c": 24,
+          "q_mushroom_king": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_orc": 0.59,
+          "q_demon_2": 4.44,
+          "q_bunny": 1.96,
+          "k_enemy_ufo_a": 1.2,
+          "k_enemy_ufo_b": 2.8,
+          "k_enemy_ufo_d": 4.55,
+          "k_enemy_ufo_c": 10.63,
+          "q_mushroom_king": 15.1
+        },
+        "damage": {
+          "character": 6021.636000000021,
+          "skill": 2754.749600000005,
+          "facility": 6327.567999999983,
+          "pet": 226.91600000000003,
+          "core": 1609.9304000000022
+        },
+        "heroLevel": 10,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5",
+          "p:hp:2"
+        ],
+        "coreHpFraction": 0.251,
+        "heroHpFraction": 1,
+        "pointsLeft": 470,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gd0kt-7",
+        "seed": 7,
+        "configHash": "fa336b41c890538e",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r05-p01",
+        "variant": "standard",
+        "ticks": 8357,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 16,
+      "cardCount": 9,
+      "spawned": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d",
+        "q_mushroom_king"
+      ],
+      "bosses": [
+        "q_mushroom_king"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 5,
+      "profile": "p02",
+      "petId": "gizmo",
+      "result": {
+        "status": "lose",
+        "reason": "정화 코어 파괴",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 125.08,
+        "wavesCleared": 2,
+        "kills": 135,
+        "killsBySpecies": {
+          "q_orc": 12,
+          "q_demon_2": 36,
+          "q_bunny": 16,
+          "k_enemy_ufo_a": 16,
+          "k_enemy_ufo_b": 16,
+          "k_enemy_ufo_d": 20,
+          "k_enemy_ufo_c": 19
+        },
+        "avgLifeSecBySpecies": {
+          "q_orc": 0.6,
+          "q_demon_2": 4.12,
+          "q_bunny": 1.84,
+          "k_enemy_ufo_a": 1.2,
+          "k_enemy_ufo_b": 2.86,
+          "k_enemy_ufo_d": 3.96,
+          "k_enemy_ufo_c": 13.06
+        },
+        "damage": {
+          "character": 5204.523999999987,
+          "skill": 1915.5160000000024,
+          "facility": 6246.514399999991,
+          "pet": 208.31999999999994,
+          "core": 1322.3296
+        },
+        "heroLevel": 9,
+        "picked": [
+          "w:bolt-home:1",
+          "w:bolt-home:2",
+          "p:hp:1",
+          "w:ice-rocket:1",
+          "w:bolt-home:3",
+          "w:fire-rocket:1",
+          "w:bolt-home:4",
+          "w:bolt-home:5"
+        ],
+        "coreHpFraction": 0,
+        "heroHpFraction": 1,
+        "pointsLeft": 394,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "-",
+          "boltTower:Lv1"
+        ],
+        "runId": "p02-mv3gd0pn-7",
+        "seed": 7,
+        "configHash": "385420d5c813e09c",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p02",
+        "missionId": "r05-p02",
+        "variant": "standard",
+        "ticks": 7505,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 17,
+      "cardCount": 8,
+      "spawned": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d",
+        "q_mushroom_king"
+      ],
+      "bosses": [
+        "q_mushroom_king"
+      ],
+      "stuck": null
+    },
+    {
+      "region": 5,
+      "profile": "p03",
+      "petId": "gizmo",
+      "result": {
+        "status": "lose",
+        "reason": "정화숲에서 쓰러졌습니다",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 60.32,
+        "wavesCleared": 0,
+        "kills": 52,
+        "killsBySpecies": {
+          "q_demon_2": 3,
+          "q_bunny": 3,
+          "k_enemy_ufo_a": 2,
+          "q_orc": 11,
+          "k_enemy_ufo_c": 5,
+          "k_enemy_ufo_d": 4,
+          "k_enemy_ufo_b": 24
+        },
+        "avgLifeSecBySpecies": {
+          "q_demon_2": 1.87,
+          "q_bunny": 1.79,
+          "k_enemy_ufo_a": 4.32,
+          "q_orc": 2.21,
+          "k_enemy_ufo_c": 3.85,
+          "k_enemy_ufo_d": 8.17,
+          "k_enemy_ufo_b": 7.57
+        },
+        "damage": {
+          "character": 3652.235999999992,
+          "skill": 1533.2319999999972,
+          "facility": 0,
+          "pet": 93.208,
+          "core": 0
+        },
+        "heroLevel": 4,
+        "picked": [
+          "w:spread-stream:1",
+          "w:pierce-drill:1",
+          "w:spread-stream:2",
+          "w:flame-field:1",
+          "w:flame-field:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 0,
+        "pointsLeft": 400,
+        "facilities": [],
+        "runId": "p03-mv3gd0tr-7",
+        "seed": 7,
+        "configHash": "9556765402c4f5c5",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p03",
+        "missionId": "r05-p03",
+        "variant": "standard",
+        "ticks": 3619,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 19,
+      "cardCount": 3,
+      "spawned": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d"
+      ],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 5,
+      "profile": "p04",
+      "petId": "gizmo",
+      "result": {
+        "status": "win",
+        "reason": "모든 체인 대열을 정화했습니다",
+        "stars": 3,
+        "starDetail": [
+          true,
+          true,
+          true
+        ],
+        "battleSec": 130.65,
+        "wavesCleared": 6,
+        "kills": 204,
+        "killsBySpecies": {
+          "q_green_blob": 67,
+          "q_green_spiky_blob": 37,
+          "k_chest": 12,
+          "q_glub_evolved": 5,
+          "q_pink_slime": 82,
+          "q_dragon_evolved": 1
+        },
+        "avgLifeSecBySpecies": {
+          "q_green_blob": 9.16,
+          "q_green_spiky_blob": 4.14,
+          "k_chest": 10.3,
+          "q_glub_evolved": 22.2,
+          "q_pink_slime": 9.3,
+          "q_dragon_evolved": 19.03
+        },
+        "damage": {
+          "character": 20049.000000000015,
+          "skill": 805.4000000000001,
+          "facility": 0,
+          "pet": 0,
+          "core": 0
+        },
+        "heroLevel": 11,
+        "picked": [
+          "chain:pellets",
+          "chain:pellets:3",
+          "chain:burst:1",
+          "chain:pierce:1",
+          "chain:burst:2",
+          "chain:damage:1",
+          "w:chain-needle:1",
+          "chain:rate:1",
+          "w:chain-bomb:1",
+          "w:chain-bomb:2",
+          "w:chain-needle:2"
+        ],
+        "coreHpFraction": 1,
+        "heroHpFraction": 1,
+        "pointsLeft": 1168,
+        "facilities": [],
+        "runId": "p04-mv3gd0x7-7",
+        "seed": 7,
+        "configHash": "e30928e420d429d7",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p04",
+        "missionId": "r05-p04",
+        "variant": "standard",
+        "ticks": 7839,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 49,
+      "cardCount": 10,
+      "spawned": [],
+      "bosses": [],
+      "stuck": null
+    },
+    {
+      "region": 5,
+      "profile": "facilityOnly",
+      "petId": null,
+      "result": {
+        "status": "lose",
+        "reason": "정화 코어 파괴",
+        "stars": 0,
+        "starDetail": [
+          false,
+          false,
+          false
+        ],
+        "battleSec": 137.72,
+        "wavesCleared": 2,
+        "kills": 106,
+        "killsBySpecies": {
+          "q_orc": 12,
+          "q_demon_2": 28,
+          "k_enemy_ufo_a": 16,
+          "q_bunny": 16,
+          "k_enemy_ufo_b": 16,
+          "k_enemy_ufo_d": 7,
+          "k_enemy_ufo_c": 11
+        },
+        "avgLifeSecBySpecies": {
+          "q_orc": 0.81,
+          "q_demon_2": 6.73,
+          "k_enemy_ufo_a": 1.47,
+          "q_bunny": 2.66,
+          "k_enemy_ufo_b": 2.59,
+          "k_enemy_ufo_d": 15.15,
+          "k_enemy_ufo_c": 10.68
+        },
+        "damage": {
+          "character": 0,
+          "skill": 0,
+          "facility": 8553.458400000043,
+          "pet": 0,
+          "core": 2350.1636000000058
+        },
+        "heroLevel": 1,
+        "picked": [],
+        "coreHpFraction": 0,
+        "heroHpFraction": null,
+        "pointsLeft": 246,
+        "facilities": [
+          "fireSeat:Lv3",
+          "-",
+          "-",
+          "-"
+        ],
+        "runId": "p01-mv3gd15t-7",
+        "seed": 7,
+        "configHash": "fa336b41c890538e",
+        "buildId": "arcade-complete-codex-20261011",
+        "profileId": "p01",
+        "missionId": "r05-p01",
+        "variant": "facilityOnly",
+        "ticks": 8263,
+        "mode": "plannerTest",
+        "testOnly": true
+      },
+      "finite": true,
+      "maxAlive": 29,
+      "cardCount": 2,
+      "spawned": [
+        "q_demon_2",
+        "q_orc",
+        "q_bunny",
+        "k_enemy_ufo_a",
+        "k_enemy_ufo_b",
+        "k_enemy_ufo_c",
+        "k_enemy_ufo_d"
+      ],
+      "bosses": [],
+      "stuck": null
+    }
+  ],
+  "bossSpawn": {
+    "blocked": {
+      "spawned": false,
+      "result": null
+    },
+    "alive": {
+      "spawned": true,
+      "boss": 4543,
+      "result": null
+    },
+    "afterActualDamage": "win"
+  },
+  "errors": []
+}

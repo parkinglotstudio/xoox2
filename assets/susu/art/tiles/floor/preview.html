@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>XOOX 바닥 타일 미리보기</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font: 14px/1.4 system-ui, sans-serif; background: #1a1410; color: #f2e9d8; }
+    h1 { font-size: 18px; font-weight: 600; margin: 0; }
+    p { margin: 4px 0 16px; color: #c4b8a4; }
+    header { padding: 16px 20px 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; padding: 0 20px 24px; }
+    figure { margin: 0; background: #2a221c; border: 1px solid #3d332b; border-radius: 10px; overflow: hidden; }
+    .tile { height: 220px; background-repeat: repeat; background-size: 128px 128px; image-rendering: auto; }
+    figcaption { padding: 8px 10px 10px; font-size: 12px; }
+    code { font-size: 11px; color: #9fd6c2; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>바닥 타일 (오브젝트 없음)</h1>
+    <p>게임 미연동 · 128px 반복으로만 봄 · 로비 톤 PNG</p>
+  </header>
+  <div class="grid" id="grid"></div>
+  <script>
+    const files = [
+      ["floor_grass.png", "풀"],
+      ["floor_grass_flower.png", "꽃풀"],
+      ["floor_dirt.png", "흙길"],
+      ["floor_cobble.png", "판석"],
+      ["floor_wood_plank.png", "나무 덱"],
+      ["floor_water_deep.png", "물"],
+      ["floor_trans_grass_dirt.png", "풀↔흙"],
+      ["floor_trans_grass_cobble.png", "풀↔판석"],
+      ["floor_trans_wood_grass.png", "덱↔풀"],
+      ["floor_trans_grass_water.png", "풀↔물"],
+    ];
+    const grid = document.getElementById("grid");
+    for (const [file, label] of files) {
+      const fig = document.createElement("figure");
+      fig.innerHTML = `<div class="tile" style="background-image:url('./${file}')"></div>
+        <figcaption>${label}<br><code>${file}</code></figcaption>`;
+      grid.appendChild(fig);
+    }
+  </script>
+</body>
+</html>

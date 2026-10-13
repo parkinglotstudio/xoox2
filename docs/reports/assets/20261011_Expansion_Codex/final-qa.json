@@ -1,0 +1,473 @@
+{
+  "errors": [],
+  "httpErrors": [],
+  "profiles": [
+    {
+      "profile": "p05",
+      "mode": "rooms",
+      "route": "short",
+      "walkInside": true,
+      "height": 0,
+      "picks": 5,
+      "retry": true,
+      "failReason": "캐릭터가 쓰러졌습니다"
+    },
+    {
+      "profile": "p06",
+      "mode": "escort",
+      "route": "detour",
+      "walkInside": true,
+      "height": 0,
+      "picks": 4,
+      "retry": true,
+      "failReason": "캐릭터가 쓰러졌습니다"
+    },
+    {
+      "profile": "p07",
+      "mode": "restore",
+      "route": "short",
+      "walkInside": true,
+      "height": 0,
+      "picks": 6,
+      "retry": true,
+      "failReason": "캐릭터가 쓰러졌습니다"
+    }
+  ],
+  "effects": [
+    {
+      "id": "all",
+      "applied": [
+        [
+          "fire-rocket",
+          5
+        ],
+        [
+          "ice-rocket",
+          5
+        ],
+        [
+          "bolt-rocket",
+          5
+        ],
+        [
+          "fire-home",
+          5
+        ],
+        [
+          "ice-home",
+          5
+        ],
+        [
+          "bolt-home",
+          5
+        ],
+        [
+          "bomb",
+          5
+        ],
+        [
+          "return-crystal",
+          5
+        ],
+        [
+          "orbit-shards",
+          5
+        ],
+        [
+          "bounce-block",
+          5
+        ],
+        [
+          "pierce-drill",
+          5
+        ],
+        [
+          "fan-slash",
+          5
+        ],
+        [
+          "slow-aura",
+          5
+        ],
+        [
+          "lightning-chain",
+          5
+        ],
+        [
+          "ground-mine",
+          5
+        ],
+        [
+          "spread-stream",
+          5
+        ],
+        [
+          "pet-drone-a",
+          5
+        ],
+        [
+          "pet-drone-b",
+          5
+        ],
+        [
+          "flame-field",
+          5
+        ]
+      ],
+      "evolved": [],
+      "damage": 1032.8000000000004,
+      "objects": 3,
+      "projectiles": 3
+    },
+    {
+      "id": "fire-pillar",
+      "applied": [
+        [
+          "fire-pillar",
+          1
+        ]
+      ],
+      "evolved": [
+        "fire-pillar"
+      ],
+      "damage": 148,
+      "objects": 0,
+      "projectiles": 0
+    },
+    {
+      "id": "chain-three",
+      "applied": [
+        [
+          "chain-three",
+          1
+        ]
+      ],
+      "evolved": [
+        "chain-three"
+      ],
+      "damage": 276,
+      "objects": 0,
+      "projectiles": 0
+    },
+    {
+      "id": "orbit-four",
+      "applied": [
+        [
+          "orbit-four",
+          1
+        ]
+      ],
+      "evolved": [
+        "orbit-four"
+      ],
+      "damage": 36,
+      "objects": 0,
+      "projectiles": 0
+    },
+    {
+      "id": "carpet-three",
+      "applied": [
+        [
+          "carpet-three",
+          1
+        ]
+      ],
+      "evolved": [
+        "carpet-three"
+      ],
+      "damage": 108,
+      "objects": 0,
+      "projectiles": 3
+    }
+  ],
+  "growth": {
+    "seconds": 59.999999999997875,
+    "level": 25,
+    "picks": 27,
+    "skills": [
+      [
+        "bolt-home",
+        1
+      ],
+      [
+        "ice-rocket",
+        2
+      ],
+      [
+        "return-crystal",
+        2
+      ],
+      [
+        "pierce-drill",
+        1
+      ],
+      [
+        "fire-rocket",
+        2
+      ],
+      [
+        "bomb",
+        1
+      ],
+      [
+        "fan-slash",
+        1
+      ],
+      [
+        "slow-aura",
+        1
+      ],
+      [
+        "spread-stream",
+        2
+      ],
+      [
+        "ice-home",
+        1
+      ],
+      [
+        "bounce-block",
+        2
+      ],
+      [
+        "ground-mine",
+        1
+      ],
+      [
+        "flame-field",
+        1
+      ],
+      [
+        "bolt-rocket",
+        1
+      ],
+      [
+        "pet-drone-b",
+        1
+      ],
+      [
+        "orbit-shards",
+        1
+      ],
+      [
+        "pet-drone-a",
+        1
+      ],
+      [
+        "lightning-chain",
+        3
+      ],
+      [
+        "fire-home",
+        2
+      ]
+    ],
+    "maxLevel": 100,
+    "interval": 6
+  },
+  "snapshots": [
+    {
+      "id": "r01-p03",
+      "profile": "p03",
+      "map": "survival-landing"
+    },
+    {
+      "id": "r01-p01",
+      "profile": "p01",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r01-p02",
+      "profile": "p02",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r01-p04",
+      "profile": "p04",
+      "map": "chain-board"
+    },
+    {
+      "id": "r02-p03",
+      "profile": "p03",
+      "map": "survival-landing"
+    },
+    {
+      "id": "r02-p01",
+      "profile": "p01",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r02-p02",
+      "profile": "p02",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r02-p04",
+      "profile": "p04",
+      "map": "chain-board"
+    },
+    {
+      "id": "r03-p03",
+      "profile": "p03",
+      "map": "survival-landing"
+    },
+    {
+      "id": "r03-p01",
+      "profile": "p01",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r03-p02",
+      "profile": "p02",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r03-p04",
+      "profile": "p04",
+      "map": "chain-board"
+    },
+    {
+      "id": "r04-p03",
+      "profile": "p03",
+      "map": "survival-landing"
+    },
+    {
+      "id": "r04-p01",
+      "profile": "p01",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r04-p02",
+      "profile": "p02",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r04-p04",
+      "profile": "p04",
+      "map": "chain-board"
+    },
+    {
+      "id": "r05-p03",
+      "profile": "p03",
+      "map": "survival-landing"
+    },
+    {
+      "id": "r05-p01",
+      "profile": "p01",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r05-p02",
+      "profile": "p02",
+      "map": "defense-forest-south"
+    },
+    {
+      "id": "r05-p04",
+      "profile": "p04",
+      "map": "chain-board"
+    },
+    {
+      "id": "r01-p05",
+      "profile": "p05",
+      "map": "expansion-rooms"
+    },
+    {
+      "id": "r01-p06",
+      "profile": "p06",
+      "map": "expansion-escort"
+    },
+    {
+      "id": "r01-p07",
+      "profile": "p07",
+      "map": "expansion-restore"
+    },
+    {
+      "id": "r02-p05",
+      "profile": "p05",
+      "map": "expansion-rooms"
+    },
+    {
+      "id": "r02-p06",
+      "profile": "p06",
+      "map": "expansion-escort"
+    },
+    {
+      "id": "r02-p07",
+      "profile": "p07",
+      "map": "expansion-restore"
+    },
+    {
+      "id": "r03-p05",
+      "profile": "p05",
+      "map": "expansion-rooms"
+    },
+    {
+      "id": "r03-p06",
+      "profile": "p06",
+      "map": "expansion-escort"
+    },
+    {
+      "id": "r03-p07",
+      "profile": "p07",
+      "map": "expansion-restore"
+    },
+    {
+      "id": "r04-p05",
+      "profile": "p05",
+      "map": "expansion-rooms"
+    },
+    {
+      "id": "r04-p06",
+      "profile": "p06",
+      "map": "expansion-escort"
+    },
+    {
+      "id": "r04-p07",
+      "profile": "p07",
+      "map": "expansion-restore"
+    },
+    {
+      "id": "r05-p05",
+      "profile": "p05",
+      "map": "expansion-rooms"
+    },
+    {
+      "id": "r05-p06",
+      "profile": "p06",
+      "map": "expansion-escort"
+    },
+    {
+      "id": "r05-p07",
+      "profile": "p07",
+      "map": "expansion-restore"
+    }
+  ],
+  "keyboardWork": {
+    "before": 0,
+    "after": 2,
+    "deposit": 0
+  },
+  "plannerEffect": [
+    "chain-three"
+  ],
+  "raid": {
+    "victory": {
+      "status": "win",
+      "kills": 24,
+      "hp": 400,
+      "seconds": 44.366733333332064,
+      "pets": 0,
+      "shots": 201,
+      "testOnly": true
+    },
+    "failure": {
+      "status": "lose",
+      "kills": 0,
+      "hp": 0,
+      "seconds": 0.016,
+      "pets": 0,
+      "shots": 3,
+      "testOnly": true
+    }
+  }
+}
